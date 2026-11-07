@@ -1,0 +1,117 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS_OFFICIAL_SOURCE_DETAIL_PARTIAL",
+  "volume": 14,
+  "part": "下",
+  "comment": "时间线:第十四卷（下）·罗斯凯利法新章（正式3.3主线重返天空的旅程）",
+  "body_file": "worldbook/timeline/TIMELINE-014-下_罗斯凯利法新章.md",
+  "source_chapters": [
+    {
+      "title": "重返天空的旅程",
+      "kind": "官方已上线主线",
+      "official_version": "3.3",
+      "official_story_released": "2026-10-21",
+      "source_full_id": null,
+      "source_lite_id": null,
+      "original_card_story": false,
+      "official_named_chapters": [
+        "天际的回程票",
+        "旗帜永不坠落",
+        "名为求索的阶梯",
+        "还有梦境与黎明"
+      ]
+    }
+  ],
+  "date_basis": "2082-04-26 to 2082-04-27; all dates are in-world card chronology and not official in-game stated calendar dates",
+  "sandbox_start": "2082-04-28",
+  "previous_part": "worldbook/timeline/TIMELINE-014-上_罗斯凯利法新章.md",
+  "next_part": null,
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 482,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Separate manual worldbook entry. Only first-volume upper initially enabled. Disable upper before enabling lower when continuing on the same 2082-04-26. No dynamic MVU or scene script.",
+  "stage_gates": [
+    {
+      "part": "下",
+      "event": "A",
+      "subject": "菲欧妮",
+      "fact": "从主岛带回Fairy运算载体，确认主岛封锁及高志占据宁息屿",
+      "boundary": "此刻艾尔妲是否主动合作不明"
+    },
+    {
+      "part": "下",
+      "event": "B",
+      "subject": "林德薇恩",
+      "fact": "源质重构制造敌式机甲以供限时伪装与作战",
+      "boundary": "机甲不是铃/伊埃斯的个人永久装备"
+    },
+    {
+      "part": "下",
+      "event": "C",
+      "subject": "塞维里安",
+      "fact": "受梅弗劳尔市长委托以截获空艇前来援助",
+      "boundary": "与菲欧妮过去冲突不等于现阶段共同叛变"
+    },
+    {
+      "part": "下",
+      "event": "D",
+      "subject": "希格莉德／洛克茜",
+      "fact": "从泄露奇点获救，证实卡利内斯是政理局内鬼",
+      "boundary": "不在上册或下C此前令兄妹先知"
+    },
+    {
+      "part": "下",
+      "event": "F",
+      "subject": "特里薇亚／Youkai",
+      "fact": "特里薇亚与Youkai合作，利用奇点与旧友关系攻击救援队",
+      "boundary": "第十三卷被重伤并在医院昏迷不是已确认死亡，幕后主使身分此时才向主角团揭露"
+    },
+    {
+      "part": "下",
+      "event": "G",
+      "subject": "艾尔妲",
+      "fact": "最初挽昼分割力量创生三位挽昼、构造罗塞塔数据，自己原打算自我牺牲稳定巢主空洞",
+      "boundary": "仅在塔顶密室知情，不代表大众已知"
+    },
+    {
+      "part": "下",
+      "event": "H",
+      "subject": "最初挽昼／梦游布",
+      "fact": "初代挽昼曾是巢主空洞结使幼体，与亚契/赫利俄斯机关相识，梦现权能与逐日计划悲剧在梦中说明",
+      "boundary": "她告别后巢主空洞未来危机仍未完全解决，不能提前推出世界终极本质"
+    }
+  ],
+  "source_manifest": "worldbook/timeline/000_第十四卷_官方3_2与3_3剧情来源事件映射_v1.0.json",
+  "source_verification": "OFFICIAL_VERSION_AND_AREAS_VERIFIED__STORY_EVENT_DETAILS_NEED_FULL_IN_GAME_COMPARISON",
+  "continuity_warnings": [
+    {
+      "id": "REM-11-14",
+      "status": "OPEN"
+    },
+    {
+      "id": "TRI-13-14",
+      "status": "PARTIAL_CLARIFIED_NOT_FREELY_RETCONNED"
+    },
+    {
+      "id": "SER-13-14",
+      "status": "CLARIFIED"
+    },
+    {
+      "id": "TOU-13",
+      "status": "OPEN"
+    }
+  ],
+  "static_qa": "qa/050_第十四卷上下册_官方版本核验与全栈时间线静态QA_v1.0.md",
+  "script_deps": [],
+  "android_sillytavern_real_device": "NOT_RUN"
+}
