@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS_WITH_OPEN_CONTINUITY",
+  "volume": 13,
+  "part": "中",
+  "comment": "时间线:第十三卷（中）·漫长的告别",
+  "body_file": "worldbook/timeline/TIMELINE-013-中_漫长的告别.md",
+  "source_chapters": [
+    {
+      "title": "漫长的告别（中）",
+      "kind": "主线",
+      "full_id": 485072,
+      "lite_id": 366049,
+      "source_event_slots": 7,
+      "event_range": "A-G"
+    }
+  ],
+  "date_basis": "2082-04-08 through 2082-04-10; card-internal dates, not official",
+  "sandbox_start": "2082-04-11",
+  "previous_part": "worldbook/timeline/TIMELINE-013-上_漫长的告别.md",
+  "next_part": "worldbook/timeline/TIMELINE-013-下_漫长的告别.md",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 479,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Each part independent. Only volume 1 upper is enabled on initial card. Manually close former part before enabling following, even across a continuous emergency/same day. No scripts, no MVU.",
+  "stage_gates": [
+    {
+      "part": "中",
+      "event": "B",
+      "date": "2082-04-08",
+      "subject": "铃",
+      "knowledge": "托比案机甲病毒证物与酷似塞尔皮科的照片",
+      "limit": "照片未证实塞尔皮科存活"
+    },
+    {
+      "part": "中",
+      "event": "E",
+      "date": "2082-04-10",
+      "subject": "特里薇亚",
+      "knowledge": "遭伪装德蕾琪娜贯穿，现场铃误认为已死",
+      "limit": "下册D在病房仍重伤昏迷，二者需明确区别目击误判和医学判断"
+    },
+    {
+      "part": "中",
+      "event": "G",
+      "date": "2082-04-10",
+      "subject": "铃、希格莉德",
+      "knowledge": "女子讲逐日计划、贝莉与业核，以及假德蕾琪娜被基塔布鲁侵入的推理",
+      "limit": "业核三分仍是线索，百年前时间封印不解释二卷前日落消散"
+    }
+  ],
+  "continuity_warnings": [
+    {
+      "id": "REM-11-13",
+      "status": "OPEN_UNRESOLVED"
+    },
+    {
+      "id": "TRI-13",
+      "status": "SOURCE_INCONSISTENCY_ADAPTED_OPEN"
+    },
+    {
+      "id": "TOU-13",
+      "status": "SOURCE_RETROACTIVE_CLAIM_UNVERIFIED"
+    }
+  ],
+  "static_qa": "qa/049_第十三卷上中下_原卡来源人物知情与跨卷连续性静态QA_v1.0.md",
+  "script_deps": [],
+  "android_sillytavern_real_device": "NOT_RUN"
+}
