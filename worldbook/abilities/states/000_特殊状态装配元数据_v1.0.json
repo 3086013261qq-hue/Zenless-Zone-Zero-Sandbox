@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "states": [
+    {
+      "id": "STATE-015",
+      "comment": "核心设定:凯撒·代理霸主状态",
+      "character": "凯撒·金",
+      "parent_character_id": "CHAR-015",
+      "source_ids": [
+        417274
+      ],
+      "status": "STAGE_SPECIFIC_KEYWORD_GREEN",
+      "body_file": "worldbook/abilities/states/STATE-015_凯撒·代理霸主.md",
+      "keys": [
+        "/<story_scene>(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:凯撒|Caesar King))(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:火狱骑行后|旧油井区代理霸主))(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "secondary_keys": [],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "insertion_order": 353,
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "runtime_caveat": "No MVU. Mere date passage does not activate status. Only the explicitly staged scene wording activates this green; stage placement is authored manually in timeline."
+    }
+  ],
+  "qa": {
+    "sample_matches": [
+      {
+        "expected": false,
+        "pass": true
+      },
+      {
+        "expected": true,
+        "pass": true
+      },
+      {
+        "expected": true,
+        "pass": true
+      },
+      {
+        "expected": false,
+        "pass": true
+      }
+    ],
+    "no_auto_unlock": true
+  }
+}
