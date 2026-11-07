@@ -1,0 +1,129 @@
+{
+  "version": "1.0",
+  "arc_number": 2,
+  "arc_title": "新艾利都的暗流",
+  "current_plan": "docs/038_时间线14卷29分册_支线日常完整归卷目录_v1.1.md",
+  "parts": [
+    {
+      "name": "上",
+      "body": "worldbook/timeline/TIMELINE-002-上_新艾利都的暗流.md",
+      "metadata": "worldbook/timeline/000_第二卷上_装配元数据_v1.0.json",
+      "sources": [
+        {
+          "name": "间章：非常任务",
+          "kind": "主线",
+          "full_id": 722399,
+          "lite_id": 864497,
+          "source_scenes": 5,
+          "event_range": "A-E"
+        },
+        {
+          "name": "代理人秘闻「贼猫御鼠」",
+          "kind": "支线",
+          "full_id": 208918,
+          "lite_id": 628718,
+          "source_scenes": 4,
+          "event_range": "F-I, I1"
+        },
+        {
+          "name": "代理人秘闻：钢铁的女巫",
+          "kind": "支线",
+          "full_id": 652857,
+          "lite_id": 762453,
+          "source_scenes": 3,
+          "event_range": "J-L"
+        },
+        {
+          "name": "代理人秘闻：满级小学生",
+          "kind": "支线",
+          "full_id": 905895,
+          "lite_id": 840526,
+          "source_scenes": 4,
+          "event_range": "M-P, P1"
+        },
+        {
+          "name": "代理人秘闻「洞中谍」",
+          "kind": "支线",
+          "full_id": 78403,
+          "lite_id": 937453,
+          "source_scenes": 12,
+          "event_range": "Q-U"
+        },
+        {
+          "name": "资质考核",
+          "kind": "主线",
+          "full_id": 311826,
+          "lite_id": 405101,
+          "source_scenes": 4,
+          "event_range": "V-Y"
+        }
+      ]
+    },
+    {
+      "name": "下",
+      "body": "worldbook/timeline/TIMELINE-002-下_新艾利都的暗流.md",
+      "metadata": "worldbook/timeline/000_第二卷下_装配元数据_v1.0.json",
+      "sources": [
+        {
+          "name": "危楼夜寻踪",
+          "kind": "主线",
+          "full_id": 328246,
+          "lite_id": 162567,
+          "source_scenes": 6,
+          "event_range": "A-F"
+        },
+        {
+          "name": "代理人秘闻：直到您彻底遗忘",
+          "kind": "支线",
+          "full_id": 552655,
+          "lite_id": 36679,
+          "source_scenes": 4,
+          "event_range": "G-I, I1"
+        },
+        {
+          "name": "代理人秘闻「失踪邦口」",
+          "kind": "支线",
+          "full_id": 716710,
+          "lite_id": 527919,
+          "source_scenes": 6,
+          "event_range": "J-M, M1"
+        },
+        {
+          "name": "代理人秘闻「而英雄总是归于幕后」",
+          "kind": "支线",
+          "full_id": 551508,
+          "lite_id": 674986,
+          "source_scenes": 5,
+          "event_range": "N-P, P1"
+        },
+        {
+          "name": "沙罗黄金周：从淘金美梦到假日保卫战",
+          "kind": "支线",
+          "full_id": 3758,
+          "lite_id": 744905,
+          "source_scenes": 8,
+          "event_range": "Q-T, R1"
+        },
+        {
+          "name": "第一幕，第一镜！",
+          "kind": "日常",
+          "full_id": 802065,
+          "lite_id": 488771,
+          "source_scenes": 4,
+          "event_range": "U-W, W1"
+        }
+      ]
+    }
+  ],
+  "source_counts": {
+    "main": 3,
+    "side": 8,
+    "daily": 1,
+    "all": 12
+  },
+  "original_detail_scenes_total": 65,
+  "single_host": "铃",
+  "non_host": "哲",
+  "official_dates": false,
+  "unresolved": "Source branch choice prompts are staticized into a single chronological synopsis; optional chapter events are not presumed played unless actually reached."
+}
