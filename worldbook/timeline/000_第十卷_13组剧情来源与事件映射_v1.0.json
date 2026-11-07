@@ -1,0 +1,248 @@
+{
+  "version": "1.0",
+  "major_volume": 10,
+  "major_title": "深渊中的微光",
+  "planning_source": "docs/038_时间线14卷29分册_支线日常完整归卷目录_v1.1.md",
+  "parts": [
+    {
+      "part": "上",
+      "body_file": "worldbook/timeline/TIMELINE-010-上_深渊中的微光.md",
+      "metadata_file": "worldbook/timeline/000_第十卷上_装配元数据_v1.0.json",
+      "sources": [
+        {
+          "title": "将临未抵的深渊",
+          "kind": "主线",
+          "full_id": 866152,
+          "lite_id": 875565,
+          "named_events": 5,
+          "detail_blocks": 5,
+          "range": "A-E",
+          "note": "莎拉融合始主、叶释渊短暂被夺舍，叶瞬光在D首次全力解放青溟剑白发独角形态，E确认记忆损耗；始主未确认彻底消灭"
+        },
+        {
+          "title": "新黄金魔神战士",
+          "kind": "日常",
+          "full_id": 405936,
+          "lite_id": 21500,
+          "named_events": 5,
+          "detail_blocks": 5,
+          "range": "F-J",
+          "note": "伊埃斯扮演伊卡洛的电影，四位大师的模组是剧中设定，赫拉克勒斯为已经登场的旧识；无现实装备解锁"
+        },
+        {
+          "title": "「嗯呢」棋侠传",
+          "kind": "日常",
+          "full_id": 637574,
+          "lite_id": 347221,
+          "named_events": 4,
+          "detail_blocks": 4,
+          "range": "K-N",
+          "note": "加班侠被奴役作弊，叶瞬光与博利昂共同取证，真相到N才确证"
+        },
+        {
+          "title": "流光札记",
+          "kind": "日常",
+          "full_id": 720478,
+          "lite_id": 514776,
+          "named_events": 4,
+          "detail_blocks": 4,
+          "range": "O-R",
+          "note": "因上册D释放剑力出现记忆流失后才书写日记，虚狩称号仍未授予"
+        },
+        {
+          "title": "兔子小姐百分百",
+          "kind": "日常",
+          "full_id": 328265,
+          "lite_id": 604952,
+          "named_events": 4,
+          "detail_blocks": 4,
+          "range": "S-V",
+          "note": "照尚有TOPS相关业务与职业联系，伙伴合作深化；不能写成下册F之后再次效忠TOPS"
+        },
+        {
+          "title": "拟境序列对决",
+          "kind": "日常",
+          "full_id": 799132,
+          "lite_id": 843814,
+          "named_events": 3,
+          "detail_blocks": 3,
+          "range": "W-Y",
+          "note": "原详版事件块没有独立「事件标题」字段，但章节列表有三件原名；照尚未发生下册阵营抉择"
+        }
+      ],
+      "first_event": "A",
+      "last_story_event": "Y",
+      "sandbox_event": "Z",
+      "first_day": "2081-02-03",
+      "last_story_day": "2081-04-11",
+      "sandbox_day": "2081-04-12",
+      "event_count": 26,
+      "source_scene_count": 25
+    },
+    {
+      "part": "下",
+      "body_file": "worldbook/timeline/TIMELINE-010-下_深渊中的微光.md",
+      "metadata_file": "worldbook/timeline/000_第十卷下_装配元数据_v1.0.json",
+      "sources": [
+        {
+          "title": "微光引灯时",
+          "kind": "主线",
+          "full_id": 557368,
+          "lite_id": 673516,
+          "named_events": 6,
+          "detail_blocks": 6,
+          "range": "A-F",
+          "note": "下册D叶瞬光失去五感，E以意识幻境恢复；F击退TOPS夺剑者后才由市长封为虚狩；照与TOPS的决裂在F"
+        },
+        {
+          "title": "空明寻剑录",
+          "kind": "支线",
+          "full_id": 190010,
+          "lite_id": 152043,
+          "named_events": 6,
+          "detail_blocks": 6,
+          "range": "G-L",
+          "note": "主线F后且叶瞬光完成首次虚狩任务才进入剑境；仪绛为记忆体，青溟诅咒只能缓解，非完全根治"
+        },
+        {
+          "title": "潜影暗流交锋",
+          "kind": "日常",
+          "full_id": 133722,
+          "lite_id": 114,
+          "named_events": 3,
+          "detail_blocks": 3,
+          "range": "M-O",
+          "note": "主线F照拒绝TOPS夺剑后，这只是自行承接的黑枝/客户交易；不能恢复为TOPS忠诚成员，VR不产生真实武力"
+        },
+        {
+          "title": "连携调查：神之迷宫",
+          "kind": "日常",
+          "full_id": 308211,
+          "lite_id": 19086,
+          "named_events": 4,
+          "detail_blocks": 4,
+          "range": "P-S",
+          "note": "先因月城柳等人的记忆幻象确认迷宫规则，后追踪能量流与乔伊影像；影像不等于已证实全部旧都真相"
+        },
+        {
+          "title": "妄想天使训练中",
+          "kind": "日常",
+          "full_id": 492521,
+          "lite_id": 120875,
+          "named_events": 5,
+          "detail_blocks": 5,
+          "range": "T-X",
+          "note": "南宫羽/爱芮/千夏为期五周远程训练，训练系统运行在爱芮本地处理器、第五周才揭晓根因；首次404 Live演出机会只是机会"
+        },
+        {
+          "title": "天使与缪斯妄想",
+          "kind": "日常",
+          "full_id": 471705,
+          "lite_id": 173794,
+          "named_events": 5,
+          "detail_blocks": 5,
+          "range": "Y-AC",
+          "note": "在训练委托与演出机会之后继续采风，《白色网格》《吧台特调》《逆境新生》《此刻心绪》《胜负已分》五曲创作不变成兄妹替她们演出"
+        },
+        {
+          "title": "心愿代投站",
+          "kind": "日常",
+          "full_id": 743182,
+          "lite_id": 466322,
+          "named_events": 5,
+          "detail_blocks": 5,
+          "range": "AD-AH",
+          "note": "妮可与艾米莉安的许愿瓶代投营销，千夏团体心愿与前期成团训练衔接，传说不能保证愿望真实实现"
+        }
+      ],
+      "first_event": "A",
+      "last_story_event": "AH",
+      "sandbox_event": "AI",
+      "first_day": "2081-04-20",
+      "last_story_day": "2081-08-11",
+      "sandbox_day": "2081-08-12",
+      "event_count": 35,
+      "source_scene_count": 34
+    }
+  ],
+  "source_counts": {
+    "main": 2,
+    "side": 1,
+    "daily": 10,
+    "total": 13
+  },
+  "original_named_event_slots": 59,
+  "original_explicit_detailed_event_blocks": 59,
+  "complete_timeline_events": 61,
+  "dates_are_official": false,
+  "stage_gates": [
+    {
+      "part": "上",
+      "event": "D",
+      "date": "2081-02-06",
+      "character": "叶瞬光",
+      "unlock": "青溟剑白发独角第二形态首次全面解放，用于驱逐始主",
+      "constraint": "此后承受记忆与生命反噬，不得将第二形态无代价常驻"
+    },
+    {
+      "part": "上",
+      "event": "E",
+      "date": "2081-02-10",
+      "character": "叶瞬光",
+      "unlock": "正式表现青溟剑记忆损耗，开启写日记留存记忆",
+      "constraint": "尚未成为正式虚狩"
+    },
+    {
+      "part": "下",
+      "event": "D",
+      "date": "2081-04-24",
+      "character": "叶瞬光",
+      "unlock": "救铃过程中白发人格耗尽力量并融合，五感全失",
+      "constraint": "必须立刻救援，不能跳过伤势"
+    },
+    {
+      "part": "下",
+      "event": "E",
+      "date": "2081-04-24",
+      "character": "叶瞬光",
+      "unlock": "叶释渊与铃在意识幻境中恢复五感",
+      "constraint": "不意味着青溟剑长远诅咒已治愈"
+    },
+    {
+      "part": "下",
+      "event": "F",
+      "date": "2081-04-27",
+      "character": "叶瞬光",
+      "unlock": "TOPS夺剑冲突结束后被市长正式册封虚狩",
+      "constraint": "加封之前不得使用正式虚狩职称"
+    },
+    {
+      "part": "下",
+      "event": "F",
+      "date": "2081-04-27",
+      "character": "照",
+      "unlock": "拒绝TOPS夺剑命令，决定与伙伴共同抵抗",
+      "constraint": "此后其独立调查不等于重新效忠旧组织"
+    },
+    {
+      "part": "下",
+      "event": "K",
+      "date": "2081-05-14",
+      "character": "叶瞬光",
+      "unlock": "青溟剑记忆体提示遍访剑士承载记忆可延缓剑咒",
+      "constraint": "只为延缓，不得消除代价或把仪绛记忆体写成复活本体"
+    }
+  ],
+  "source_notes": [
+    "上册主线D解放青溟剑时始主遭驱逐，但上册E并非永久消灭；叶释渊离去，叶瞬光开始记忆损耗",
+    "《流光札记》必须在记忆反噬开始之后写；《兔子小姐百分百》照尚与TOPS有业务联系，故安排在下册F叛离旧组织前",
+    "《微光引灯时》有6个原事件但原文省略单幕「事件标题」字段，逐幕标题来自原卡「章节事件列表」",
+    "《空明寻剑录》在叶瞬光主线F获虚狩称号且完成首次虚狩任务后才展开",
+    "《潜影暗流交锋》在照主线F已经拒绝TOPS夺剑命令后，仅能写作独立黑枝调查，不能让她无说明地又恢复TOPS服从",
+    "『仪绛』是已经故去的仪玄姐姐留在青溟剑的记忆体，不能当作真人肉身复活；剑咒只可延缓",
+    "《妄想天使训练中》确实为五周训练，在《天使与缪斯妄想》创作和《心愿代投站》团体许愿之前；爱芮本地处理器受到训练参数影响，不能略去风险",
+    "铃是唯一佩洛伊斯寄宿者，哲为非寄宿法厄同搭档；角色本人作出行动、玩家可选委托不视作无条件完成；未加入任何MVU脚本"
+  ],
+  "qa_file": "qa/046_第十卷上下册_全栈来源时序与人物阶段静态QA_v1.0.md",
+  "real_device_qa": "NOT_RUN"
+}
