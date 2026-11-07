@@ -2,7 +2,7 @@
   "version": "location-green-v1.0",
   "date": "2026-11-07",
   "based_on_commit": "c6cd635684a43443cc49005dcb854d8d8351e080",
-  "status": "64_SOURCE_ENTRIES_STATIC_PASS_FINAL_CCV3_NOT_ASSEMBLED",
+  "status": "64_SOURCE_BODIES_FORMAT_VERIFIED_20_CORE_SITES_EXPANDED_STATIC_QA_PASS",
   "sources": {
     "file": "绝区零_原卡无损提取_ccv3.json",
     "source_book_total": 707,
@@ -48,7 +48,7 @@
       "content_tag": "地点:六分街",
       "comment": "地点:六分街",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 475,
+      "text_characters": 240,
       "build": {
         "keys": [
           "六分街",
@@ -80,7 +80,7 @@
       "content_tag": "地点:光映广场",
       "comment": "地点:光映广场",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 473,
+      "text_characters": 233,
       "build": {
         "keys": [
           "光映广场",
@@ -111,7 +111,7 @@
       "content_tag": "地点:芭莱大厦前",
       "comment": "地点:芭莱大厦前",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 455,
+      "text_characters": 202,
       "build": {
         "keys": [
           "芭莱大厦前",
@@ -144,7 +144,7 @@
       "content_tag": "地点:厄匹斯港",
       "comment": "地点:厄匹斯港",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 458,
+      "text_characters": 218,
       "build": {
         "keys": [
           "厄匹斯港",
@@ -176,7 +176,7 @@
       "content_tag": "地点:星环",
       "comment": "地点:星环",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 425,
+      "text_characters": 128,
       "build": {
         "keys": [
           "星环",
@@ -207,7 +207,7 @@
       "content_tag": "地点:热望角",
       "comment": "地点:热望角",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 386,
+      "text_characters": 113,
       "build": {
         "keys": [
           "热望角",
@@ -238,7 +238,7 @@
       "content_tag": "地点:回响斗技场",
       "comment": "地点:回响斗技场",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 416,
+      "text_characters": 119,
       "build": {
         "keys": [
           "回响斗技场"
@@ -268,7 +268,7 @@
       "content_tag": "地点:布兰特街工地",
       "comment": "地点:布兰特街工地",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 422,
+      "text_characters": 119,
       "build": {
         "keys": [
           "布兰特街工地"
@@ -298,7 +298,7 @@
       "content_tag": "地点:黑雁工地旧址",
       "comment": "地点:黑雁工地旧址",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 428,
+      "text_characters": 121,
       "build": {
         "keys": [
           "黑雁工地旧址",
@@ -329,7 +329,7 @@
       "content_tag": "地点:Random Play录像店",
       "comment": "地点:Random Play录像店",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 518,
+      "text_characters": 229,
       "build": {
         "keys": [
           "Random Play",
@@ -360,7 +360,7 @@
       "content_tag": "地点:404 ERROR Livehouse",
       "comment": "地点:404 ERROR Livehouse",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 460,
+      "text_characters": 224,
       "build": {
         "keys": [
           "404 ERROR",
@@ -391,7 +391,7 @@
       "content_tag": "地点:141便利店",
       "comment": "地点:141便利店",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 434,
+      "text_characters": 129,
       "build": {
         "keys": [
           "141便利店",
@@ -422,7 +422,7 @@
       "content_tag": "地点:金手指电玩店",
       "comment": "地点:金手指电玩店",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 428,
+      "text_characters": 123,
       "build": {
         "keys": [
           "金手指",
@@ -453,7 +453,7 @@
       "content_tag": "地点:COFF CAFE",
       "comment": "地点:COFF CAFE",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 416,
+      "text_characters": 129,
       "build": {
         "keys": [
           "COFF CAFE"
@@ -483,7 +483,7 @@
       "content_tag": "地点:瀑汤谷",
       "comment": "地点:瀑汤谷",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 431,
+      "text_characters": 128,
       "build": {
         "keys": [
           "瀑汤谷"
@@ -513,7 +513,7 @@
       "content_tag": "地点:盒子银河玩具店",
       "comment": "地点:盒子银河玩具店",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 470,
+      "text_characters": 133,
       "build": {
         "keys": [
           "盒子银河",
@@ -544,7 +544,7 @@
       "content_tag": "地点:吟游唱针",
       "comment": "地点:吟游唱针",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 431,
+      "text_characters": 126,
       "build": {
         "keys": [
           "吟游唱针",
@@ -575,7 +575,7 @@
       "content_tag": "地点:涡轮改装店",
       "comment": "地点:涡轮改装店",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 425,
+      "text_characters": 122,
       "build": {
         "keys": [
           "涡轮",
@@ -606,7 +606,7 @@
       "content_tag": "地点:城市报刊亭",
       "comment": "地点:城市报刊亭",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 422,
+      "text_characters": 121,
       "build": {
         "keys": [
           "六分街报刊亭",
@@ -638,7 +638,7 @@
       "content_tag": "地点:引力影院",
       "comment": "地点:引力影院",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 407,
+      "text_characters": 180,
       "build": {
         "keys": [
           "引力影院",
@@ -669,7 +669,7 @@
       "content_tag": "地点:HIA俱乐部",
       "comment": "地点:HIA俱乐部",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 418,
+      "text_characters": 125,
       "build": {
         "keys": [
           "HIA俱乐部",
@@ -700,7 +700,7 @@
       "content_tag": "地点:比弗森美容沙龙",
       "comment": "地点:比弗森美容沙龙",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 449,
+      "text_characters": 126,
       "build": {
         "keys": [
           "比弗森美容沙龙"
@@ -730,7 +730,7 @@
       "content_tag": "地点:露珠园艺店",
       "comment": "地点:露珠园艺店",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 443,
+      "text_characters": 128,
       "build": {
         "keys": [
           "露珠园艺店"
@@ -760,7 +760,7 @@
       "content_tag": "地点:笃逸理疗工作室",
       "comment": "地点:笃逸理疗工作室",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 461,
+      "text_characters": 130,
       "build": {
         "keys": [
           "笃逸理疗工作室"
@@ -790,7 +790,7 @@
       "content_tag": "地点:理查醇奶",
       "comment": "地点:理查醇奶",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 407,
+      "text_characters": 118,
       "build": {
         "keys": [
           "理查醇奶"
@@ -820,7 +820,7 @@
       "content_tag": "地点:煮釜",
       "comment": "地点:煮釜",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 407,
+      "text_characters": 122,
       "build": {
         "keys": [
           "煮釜"
@@ -850,7 +850,7 @@
       "content_tag": "地点:三Z工作室",
       "comment": "地点:三Z工作室",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 413,
+      "text_characters": 120,
       "build": {
         "keys": [
           "三Z工作室",
@@ -881,7 +881,7 @@
       "content_tag": "地点:白波医院",
       "comment": "地点:白波医院",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 440,
+      "text_characters": 129,
       "build": {
         "keys": [
           "白波医院"
@@ -911,7 +911,7 @@
       "content_tag": "地点:鲁斯理工学院",
       "comment": "地点:鲁斯理工学院",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 452,
+      "text_characters": 129,
       "build": {
         "keys": [
           "鲁斯理工学院"
@@ -941,7 +941,7 @@
       "content_tag": "地点:墨提斯综合学校",
       "comment": "地点:墨提斯综合学校",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 470,
+      "text_characters": 133,
       "build": {
         "keys": [
           "墨提斯综合学校"
@@ -971,7 +971,7 @@
       "content_tag": "地点:死路空洞",
       "comment": "地点:死路空洞",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 440,
+      "text_characters": 203,
       "build": {
         "keys": [
           "死路空洞",
@@ -1002,7 +1002,7 @@
       "content_tag": "地点:克里特空洞",
       "comment": "地点:克里特空洞",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 452,
+      "text_characters": 131,
       "build": {
         "keys": [
           "克里特空洞"
@@ -1032,7 +1032,7 @@
       "content_tag": "地点:零号空洞",
       "comment": "地点:零号空洞",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 488,
+      "text_characters": 217,
       "build": {
         "keys": [
           "零号空洞",
@@ -1063,7 +1063,7 @@
       "content_tag": "地点:大裂谷",
       "comment": "地点:大裂谷",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 464,
+      "text_characters": 139,
       "build": {
         "keys": [
           "大裂谷",
@@ -1094,7 +1094,7 @@
       "content_tag": "地点:斯科特前哨",
       "comment": "地点:斯科特前哨",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 479,
+      "text_characters": 140,
       "build": {
         "keys": [
           "斯科特前哨",
@@ -1125,7 +1125,7 @@
       "content_tag": "地点:白星院",
       "comment": "地点:白星院",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 401,
+      "text_characters": 118,
       "build": {
         "keys": [
           "白星院"
@@ -1155,7 +1155,7 @@
       "content_tag": "地点:幻海奇境",
       "comment": "地点:幻海奇境",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 443,
+      "text_characters": 130,
       "build": {
         "keys": [
           "幻海奇境"
@@ -1185,7 +1185,7 @@
       "content_tag": "地点:幻海水族馆",
       "comment": "地点:幻海水族馆",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 425,
+      "text_characters": 122,
       "build": {
         "keys": [
           "幻海水族馆"
@@ -1215,7 +1215,7 @@
       "content_tag": "地点:野火镇",
       "comment": "地点:野火镇",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 422,
+      "text_characters": 221,
       "build": {
         "keys": [
           "野火镇",
@@ -1246,7 +1246,7 @@
       "content_tag": "地点:余烬竞技场",
       "comment": "地点:余烬竞技场",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 443,
+      "text_characters": 128,
       "build": {
         "keys": [
           "余烬竞技场"
@@ -1276,7 +1276,7 @@
       "content_tag": "地点:老油田与灰烬湖",
       "comment": "地点:老油田与灰烬湖",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 464,
+      "text_characters": 131,
       "build": {
         "keys": [
           "灰烬湖",
@@ -1307,7 +1307,7 @@
       "content_tag": "地点:澄辉坪",
       "comment": "地点:澄辉坪",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 437,
+      "text_characters": 202,
       "build": {
         "keys": [
           "澄辉坪"
@@ -1337,7 +1337,7 @@
       "content_tag": "地点:云岿山",
       "comment": "地点:云岿山",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 470,
+      "text_characters": 192,
       "build": {
         "keys": [
           "云岿山",
@@ -1368,7 +1368,7 @@
       "content_tag": "地点:随便观",
       "comment": "地点:随便观",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 428,
+      "text_characters": 127,
       "build": {
         "keys": [
           "随便观"
@@ -1398,7 +1398,7 @@
       "content_tag": "地点:释诡斋",
       "comment": "地点:释诡斋",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 449,
+      "text_characters": 134,
       "build": {
         "keys": [
           "释诡斋"
@@ -1428,7 +1428,7 @@
       "content_tag": "地点:好物铺",
       "comment": "地点:好物铺",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 416,
+      "text_characters": 123,
       "build": {
         "keys": [
           "好物铺"
@@ -1458,7 +1458,7 @@
       "content_tag": "地点:金刚钻",
       "comment": "地点:金刚钻",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 440,
+      "text_characters": 131,
       "build": {
         "keys": [
           "金刚钻"
@@ -1488,7 +1488,7 @@
       "content_tag": "地点:平心堂",
       "comment": "地点:平心堂",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 440,
+      "text_characters": 131,
       "build": {
         "keys": [
           "平心堂"
@@ -1518,7 +1518,7 @@
       "content_tag": "地点:德丰大押",
       "comment": "地点:德丰大押",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 440,
+      "text_characters": 129,
       "build": {
         "keys": [
           "德丰大押"
@@ -1548,7 +1548,7 @@
       "content_tag": "地点:饮茶仙",
       "comment": "地点:饮茶仙",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 461,
+      "text_characters": 204,
       "build": {
         "keys": [
           "饮茶仙"
@@ -1578,7 +1578,7 @@
       "content_tag": "地点:茸毛宠物店",
       "comment": "地点:茸毛宠物店",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 458,
+      "text_characters": 133,
       "build": {
         "keys": [
           "茸毛宠物店"
@@ -1608,7 +1608,7 @@
       "content_tag": "地点:BooBox",
       "comment": "地点:BooBox",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 452,
+      "text_characters": 141,
       "build": {
         "keys": [
           "BooBox"
@@ -1638,7 +1638,7 @@
       "content_tag": "地点:泅珑围",
       "comment": "地点:泅珑围",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 416,
+      "text_characters": 173,
       "build": {
         "keys": [
           "泅珑围"
@@ -1668,7 +1668,7 @@
       "content_tag": "地点:莱姆尼安空洞",
       "comment": "地点:莱姆尼安空洞",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 461,
+      "text_characters": 215,
       "build": {
         "keys": [
           "莱姆尼安空洞",
@@ -1699,7 +1699,7 @@
       "content_tag": "地点:航天城废墟",
       "comment": "地点:航天城废墟",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 470,
+      "text_characters": 234,
       "build": {
         "keys": [
           "航天城",
@@ -1730,7 +1730,7 @@
       "content_tag": "地点:青溟秘境",
       "comment": "地点:青溟秘境",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 485,
+      "text_characters": 184,
       "build": {
         "keys": [
           "青溟秘境"
@@ -1760,7 +1760,7 @@
       "content_tag": "地点:空域总控塔",
       "comment": "地点:空域总控塔",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 464,
+      "text_characters": 188,
       "build": {
         "keys": [
           "空域总控塔"
@@ -1790,7 +1790,7 @@
       "content_tag": "地点:算枢广场",
       "comment": "地点:算枢广场",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 488,
+      "text_characters": 145,
       "build": {
         "keys": [
           "算枢广场"
@@ -1820,7 +1820,7 @@
       "content_tag": "地点:奥蕾莉亚学院",
       "comment": "地点:奥蕾莉亚学院",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 467,
+      "text_characters": 192,
       "build": {
         "keys": [
           "奥蕾莉亚学院"
@@ -1850,7 +1850,7 @@
       "content_tag": "地点:琥珀馆",
       "comment": "地点:琥珀馆",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 488,
+      "text_characters": 188,
       "build": {
         "keys": [
           "琥珀馆"
@@ -1880,7 +1880,7 @@
       "content_tag": "地点:艾玫尔中央公园",
       "comment": "地点:艾玫尔中央公园",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 455,
+      "text_characters": 128,
       "build": {
         "keys": [
           "艾玫尔中央公园"
@@ -1910,7 +1910,7 @@
       "content_tag": "地点:片刻闲",
       "comment": "地点:片刻闲",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 446,
+      "text_characters": 133,
       "build": {
         "keys": [
           "片刻闲",
@@ -1941,7 +1941,7 @@
       "content_tag": "地点:Charge邦布充电站",
       "comment": "地点:Charge邦布充电站",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 473,
+      "text_characters": 138,
       "build": {
         "keys": [
           "Charge充电站",
@@ -1974,7 +1974,7 @@
       "content_tag": "地点:贝克福德街餐饮带",
       "comment": "地点:贝克福德街餐饮带",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 494,
+      "text_characters": 139,
       "build": {
         "keys": [
           "贝克福德街",
@@ -1996,5 +1996,17 @@
         }
       }
     }
-  ]
+  ],
+  "readback_date": "2026-11-07",
+  "qa_metrics": {
+    "source_files": 64,
+    "all_tags_valid": true,
+    "all_content_fields_valid": true,
+    "script_markers_zero": true,
+    "body_characters_total": 9781,
+    "body_characters_min": 113,
+    "body_characters_max": 240,
+    "all_text_characters_recounted": true,
+    "core_site_expansions": 20
+  }
 }
