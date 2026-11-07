@@ -1,0 +1,91 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS_OFFICIAL_SOURCE_DETAIL_PARTIAL",
+  "volume": 14,
+  "part": "上",
+  "comment": "时间线:第十四卷（上）·罗斯凯利法新章（正式3.2主线她与她的隐秘往事）",
+  "body_file": "worldbook/timeline/TIMELINE-014-上_罗斯凯利法新章.md",
+  "source_chapters": [
+    {
+      "title": "她与她的隐秘往事",
+      "kind": "官方已上线主线",
+      "official_version": "3.2",
+      "official_story_released": "2026-09-09",
+      "source_full_id": null,
+      "source_lite_id": null,
+      "original_card_story": false,
+      "official_named_chapters": [
+        "新的邀约",
+        "辉金的故乡",
+        "潜踪匿影",
+        "孤岛上的人",
+        "藏于地下的真相",
+        "挽昼的秘密"
+      ]
+    }
+  ],
+  "date_basis": "2082-04-19 to 2082-04-25; all dates are in-world card chronology and not official in-game stated calendar dates",
+  "sandbox_start": "2082-04-26",
+  "previous_part": "worldbook/timeline/TIMELINE-013-下_漫长的告别.md",
+  "next_part": "worldbook/timeline/TIMELINE-014-下_罗斯凯利法新章.md",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 481,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Separate manual worldbook entry. Only first-volume upper initially enabled. Disable upper before enabling lower when continuing on the same 2082-04-26. No dynamic MVU or scene script.",
+  "stage_gates": [
+    {
+      "part": "上",
+      "event": "A",
+      "subject": "铃与哲",
+      "fact": "后续辉金调查与德蕾琪娜康复状况延续第十三卷；铃唯一佩洛伊斯宿主",
+      "boundary": "疗程只是监测旧有力量，不首次觉醒"
+    },
+    {
+      "part": "上",
+      "event": "E",
+      "subject": "Youkai／塞尔皮科",
+      "fact": "人形塞尔皮科为Youkai的假躯体，不证明已故赫利俄斯旧友复活",
+      "boundary": "在此前只能有外貌相似者线索"
+    },
+    {
+      "part": "上",
+      "event": "F",
+      "subject": "林德薇恩",
+      "fact": "向法厄同披露三位挽昼业核源于最初挽昼分割",
+      "boundary": "初代挽昼完整经历直到下H梦境才讲述"
+    }
+  ],
+  "source_manifest": "worldbook/timeline/000_第十四卷_官方3_2与3_3剧情来源事件映射_v1.0.json",
+  "source_verification": "OFFICIAL_VERSION_AND_AREAS_VERIFIED__STORY_EVENT_DETAILS_NEED_FULL_IN_GAME_COMPARISON",
+  "continuity_warnings": [
+    {
+      "id": "REM-11-14",
+      "status": "OPEN"
+    },
+    {
+      "id": "TRI-13-14",
+      "status": "PARTIAL_CLARIFIED_NOT_FREELY_RETCONNED"
+    },
+    {
+      "id": "SER-13-14",
+      "status": "CLARIFIED"
+    },
+    {
+      "id": "TOU-13",
+      "status": "OPEN"
+    }
+  ],
+  "static_qa": "qa/050_第十四卷上下册_官方版本核验与全栈时间线静态QA_v1.0.md",
+  "script_deps": [],
+  "android_sillytavern_real_device": "NOT_RUN"
+}
