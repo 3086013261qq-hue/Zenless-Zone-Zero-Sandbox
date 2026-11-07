@@ -1,0 +1,189 @@
+{
+  "version": "1.0",
+  "arc_number": 4,
+  "arc_title": "六课与星流霆击",
+  "plan": "docs/038_时间线14卷29分册_支线日常完整归卷目录_v1.1.md",
+  "source_counts": {
+    "主线": 2,
+    "支线": 3,
+    "日常": 9,
+    "total": 14
+  },
+  "total_original_scenes": 73,
+  "parts": [
+    {
+      "part": "上",
+      "file": "worldbook/timeline/TIMELINE-004-上_六课与星流霆击.md",
+      "metadata": "worldbook/timeline/000_第四卷上_装配元数据_v1.0.json",
+      "first_event": "A",
+      "last_story_event": "AJ",
+      "sandbox_event": "AK",
+      "full_events": 37,
+      "sources": [
+        {
+          "title": "虚拟杀机",
+          "kind": "主线",
+          "source_full_id": 300065,
+          "source_lite_id": 12635,
+          "original_scenes": 8,
+          "events": "A-H",
+          "note": "月城柳为主要行动者，绳匠只在最后HIA会面"
+        },
+        {
+          "title": "代理人秘闻「无人喝彩之冠」",
+          "kind": "支线",
+          "source_full_id": 892237,
+          "source_lite_id": 733572,
+          "original_scenes": 5,
+          "events": "I-M",
+          "note": "发生于凯撒已成旧油井区代理霸主之后"
+        },
+        {
+          "title": "「嗯呢」助教计划",
+          "kind": "日常",
+          "source_full_id": 824404,
+          "source_lite_id": 236223,
+          "original_scenes": 4,
+          "events": "N-Q"
+        },
+        {
+          "title": "断层之谜与双重背叛",
+          "kind": "日常",
+          "source_full_id": 944186,
+          "source_lite_id": 437993,
+          "original_scenes": 6,
+          "events": "R-W",
+          "note": "原详版为HTML包裹，提取事件块，保留埃洛温与4412的前后真相"
+        },
+        {
+          "title": "当三明治来敲门",
+          "kind": "日常",
+          "source_full_id": 209523,
+          "source_lite_id": 488003,
+          "original_scenes": 6,
+          "events": "X-AC"
+        },
+        {
+          "title": "电子战场乱斗",
+          "kind": "日常",
+          "source_full_id": 902250,
+          "source_lite_id": 664234,
+          "original_scenes": 4,
+          "events": "AD-AG",
+          "note": "耀嘉音经咔嚓仔邦布远程求助，禁止提前写成后续主线熟人"
+        },
+        {
+          "title": "帮帮凯伊",
+          "kind": "日常",
+          "source_full_id": 411340,
+          "source_lite_id": 777200,
+          "original_scenes": 3,
+          "events": "AH-AJ"
+        }
+      ]
+    },
+    {
+      "part": "下",
+      "file": "worldbook/timeline/TIMELINE-004-下_六课与星流霆击.md",
+      "metadata": "worldbook/timeline/000_第四卷下_装配元数据_v1.0.json",
+      "first_event": "A",
+      "last_story_event": "AK",
+      "sandbox_event": "AL",
+      "full_events": 38,
+      "sources": [
+        {
+          "title": "星流霆击",
+          "kind": "主线",
+          "source_full_id": 176138,
+          "source_lite_id": 551770,
+          "original_scenes": 9,
+          "events": "A-I",
+          "note": "星见雅、布林格、莎拉、六课及跨阵营会战；选举日紧急事件A-H保持同日；雅信任星见家庇护在I后生效"
+        },
+        {
+          "title": "代理人秘闻·「此地长眠者」",
+          "kind": "支线",
+          "source_full_id": 834843,
+          "source_lite_id": 716667,
+          "original_scenes": 6,
+          "events": "J-O",
+          "note": "悠真以太适性衰竭症候群及特效药救治，不写为永久根治"
+        },
+        {
+          "title": "直到苍白荒秽之地",
+          "kind": "支线",
+          "source_full_id": 433228,
+          "source_lite_id": 848462,
+          "original_scenes": 5,
+          "events": "P-T",
+          "note": "以已相识伙伴关系承接，不重复第一次认识；孤儿院正常白色谎言路线"
+        },
+        {
+          "title": "星芒闪耀之处",
+          "kind": "日常",
+          "source_full_id": 503922,
+          "source_lite_id": 5263,
+          "original_scenes": 3,
+          "events": "U-W"
+        },
+        {
+          "title": "协作设计师",
+          "kind": "日常",
+          "source_full_id": 560427,
+          "source_lite_id": 9905,
+          "original_scenes": 6,
+          "events": "X-AC"
+        },
+        {
+          "title": "小邦布大战坏以骸",
+          "kind": "日常",
+          "source_full_id": 556768,
+          "source_lite_id": 28174,
+          "original_scenes": 5,
+          "events": "AD-AH",
+          "note": "雨果相关为悬念线索，不提前揭开真实身份"
+        },
+        {
+          "title": "作战影像回顾",
+          "kind": "日常",
+          "source_full_id": 243081,
+          "source_lite_id": 457847,
+          "original_scenes": 3,
+          "events": "AI-AK"
+        }
+      ]
+    }
+  ],
+  "state_notes": [
+    {
+      "event": "I",
+      "date": "2078-04-02",
+      "character": "星见雅",
+      "effect": "星见雅得知哲与铃赫利俄斯旧事并赠发簪，承诺星见家庇护",
+      "not_before": "在本卷（下）事件I之前不得向星见雅预设兄妹全部身世",
+      "no_new_static_state_entry": "本轮不另改五个既有特殊状态条目"
+    },
+    {
+      "stage": "凯撒·代理霸主",
+      "trigger": "III卷下火狱骑行后才成立，第四卷延续，不重新宣告"
+    },
+    {
+      "stage": "星见雅佩刀心魔",
+      "trigger": "事件F斩念千幻后才逐步驾驭，不预设无代价完全掌握"
+    },
+    {
+      "stage": "浅羽悠真疗养后",
+      "trigger": "下册事件O以后脱离即时生命危险，非痊愈"
+    }
+  ],
+  "original_issues": [
+    "断层之谜与双重背叛原详细正文有HTML包裹，应提取事件正文，不能把HTML显示元素装进世界书",
+    "星流霆击原卡第九事件使用事件名称字段，应保留题名被埋葬的过往",
+    "直到苍白荒秽之地一处称初次合作，与先前已相识的六课矛盾，应改为再次协力",
+    "电子战场乱斗耀嘉音邦布同步关系，不提前知晓第五卷以后主线",
+    "苍白荒秽之地涉及霜角在正常路线被保护于部分残酷细节，不装互斥隐藏路线"
+  ],
+  "non_host": "哲",
+  "sole_host": "铃",
+  "real_device_test": "NOT_RUN"
+}
