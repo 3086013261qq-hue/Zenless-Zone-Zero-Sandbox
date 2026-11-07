@@ -9,7 +9,7 @@
 - 112 条原卡含 EJS/getvar 的条目逐一静态化或明确排除，最终正文中 `getvar(`、`<%...`、`StatusPlaceHolderImpl`、旧“游戏版本”判断必须为零。
 - 完成字符书条目实际可见、双重防递归、首卷默认启用、人物/能力与事件顺序及 Android/SillyTavern 实机 QA。
 
-当前正式 JSON/PNG：**不存在**。
+当前正式成果：**CCV3 JSON与独立世界书JSON已由仓库可复现装配流程构建并通过静态QA；PNG已在ChatGPT工作区用正式封面嵌入并完成两份元数据一致性、CRC与像素校验。Android/SillyTavern实机尚未运行。**
 
 ## 邦布人物补充（2026-11-07）
 单篇角色、无需独立能力：读取 `worldbook/characters/bangboo/000_邦布角色装配元数据_v1.2.json`，按同名 `<story_scene>` 触发，`constant=false`、`enabled=true`，`exclude_recursion=true` 与 `prevent_recursion=true`。装入48篇已收录战斗／具名剧情邦布、11篇原创邦布角色，并沿用更新后的原人物 `CHAR-064_缄枢`。**禁止装入**旧 `ABILITY-064_缄枢·能力`：该历史源稿的关键能力信息已并入缄枢人物正文。不得将其他邦布另拆ABILITIES。原有其余81篇能力不变；条目序号在最终装卡时与所有模块全量对照去重。
@@ -34,3 +34,12 @@ GREEN关键词母表正式采用`worldbook/green/000_核心绿灯静态触发方
 ## 地点层官方查漏补齐·现行v1.1（2026-11-07）
 地点层现行唯一装配母表：`worldbook/locations/000_地点绿灯正式装配元数据_v1.1.json`，共71篇地点GREEN（原卡64篇＋官方1.4/3.0～3.3新增7篇）。先前v1.0的64篇清单只作历史留档，**不可把v1.0与v1.1同时装入卡内**。旧五篇LOCATION-BLUE全部保留常驻。新地点GREEN-065～071按字面关键词启用且不常驻，order964～970，双重防递归开启。
 已存总控塔的公共建筑与3.3管制层由原LOCATION-GREEN-057统一承载，**不要为管制区空域总控塔再造重复地点条目**；不引入额外按日期触发或权限脚本。全卡最终正式装配前全局核对order，并只加载v1.1 entries[].body_file，绝不将metadata、QA、README正文装入世界书。此时仍无最终CCV3及实机验收结果。
+
+## 正式完整卡 v1.0.0｜2026-11-07 装配完成记录
+
+- 主构建脚本：`scripts/build_fullcard.py`；GitHub Actions工作流：`.github/workflows/assemble_ccv3.yml`；成功构建运行： https://github.com/3086013261qq-hue/Zenless-Zone-Zero-Sandbox/actions/runs/42380343361 。
+- 正式输出：`assembly/card/dist/绝区零_咩咩全栈_完整角色卡_v1.0.0.json` 与 `assembly/worldbook/dist/绝区零_咩咩全栈_完整世界书_v1.0.0.json`，均在上述Actions产物内；**未自动提交输出字节到公开主分支**。最终可导入PNG由ChatGPT会话中已确认的封面（压缩至768×1024）和该JSON生成。
+- 世界书严格来源分层：九条世界BLUE＋五条地点BLUE、54条普通GREEN、82主要人物、81人物能力（原`ABILITY-064`禁用不装）、五条特殊状态、59邦布人物、71具体地点、29独立时间线。共395篇业务正文。补齐14个配对分区标记、战斗原则、叙事输出、开放话题池、静态记忆与默认关闭的兼容预留，占位不执行旧状态/MVU脚本，合计**418条**。
+- 只有第一卷（上）一条时间线默认启用，其余28条关闭；29份上下中正文各自独立，不合并。全部 **353条已启用的触发型世界书条目**，均开启`exclude_recursion=true`与`prevent_recursion=true`；分区标记独立处理。全卡385启用、33关闭（28卷＋5占位）。
+- **世界书真实正文从文件读取**：不把docs/、qa/、README.md、JSON装配清单、GitHub施工记录、原始原卡脚本正文混入卡。卡体没有旧MVU、酒馆助手脚本、正则美化、状态栏或NSFW脚本开关。
+- [QA-069｜装配验收](../qa/069_绝区零全栈角色卡与封面正式装配_静态QA_v1.0.0.md)。GitHub Actions构建验证5656项检查，零失败；本地PNG`chara`与`ccv3`逐字节一致、原图缩放后像素一致、PNG CRC全部通过。**这不是 Android/SillyTavern 实机PASS**，必须由用户真实导入确认世界书可见、开场和触发正常后再标REAL_DEVICE_PASS。
