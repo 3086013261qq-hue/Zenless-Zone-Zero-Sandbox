@@ -1,6 +1,6 @@
 {
-  "version": "1.0",
-  "status": "BODY_COMPLETE_STATIC_QA_PASS_OFFICIAL_SOURCE_DETAIL_PARTIAL",
+  "version": "1.1",
+  "status": "BODY_REVISED_GAME_TEXT_CROSSCHECK_STATIC_QA_PASS",
   "volume": 14,
   "part": "下",
   "comment": "时间线:第十四卷（下）·罗斯凯利法新章（正式3.3主线重返天空的旅程）",
@@ -89,10 +89,31 @@
       "subject": "最初挽昼／梦游布",
       "fact": "初代挽昼曾是巢主空洞结使幼体，与亚契/赫利俄斯机关相识，梦现权能与逐日计划悲剧在梦中说明",
       "boundary": "她告别后巢主空洞未来危机仍未完全解决，不能提前推出世界终极本质"
+    },
+    {
+      "part": "下",
+      "event": "A",
+      "subject": "哲与希希芙",
+      "fact": "已在主岛琥珀馆被高志集团抓走，菲欧妮带出由哲托付的Fairy",
+      "boundary": "两人获救前不得同时在安全后方自由执行HDD与伊埃斯任务"
+    },
+    {
+      "part": "下",
+      "event": "F",
+      "subject": "菲欧妮",
+      "fact": "遭特里薇亚致命袭击后凭自身特殊以太吸收体质复归",
+      "boundary": "不能普适为所有角色死而复活"
+    },
+    {
+      "part": "下",
+      "event": "I",
+      "subject": "罗斯凯利法／艾尔妲／蕾米埃尔",
+      "fact": "铃梦醒后Youkai特里薇亚巴什穆攻击总控塔，艾尔妲掩护撤离，蕾米埃尔救铃与林德薇恩，巢主空洞吞没罗斯凯利法",
+      "boundary": "章节到此官方未完待续；沙盒不能宣告城市和平或众人全员获救"
     }
   ],
   "source_manifest": "worldbook/timeline/000_第十四卷_官方3_2与3_3剧情来源事件映射_v1.0.json",
-  "source_verification": "OFFICIAL_VERSION_AND_AREAS_VERIFIED__STORY_EVENT_DETAILS_NEED_FULL_IN_GAME_COMPARISON",
+  "source_verification": "OFFICIAL_RELEASE_VERIFIED__PUBLISHED_GAME_DIALOGUE_AND_ARCHIVE_CROSSCHECKED__DIRECT_IN_GAME_PLAYBACK_NOT_RUN",
   "continuity_warnings": [
     {
       "id": "REM-11-14",
@@ -111,7 +132,12 @@
       "status": "OPEN"
     }
   ],
-  "static_qa": "qa/050_第十四卷上下册_官方版本核验与全栈时间线静态QA_v1.0.md",
+  "static_qa": "qa/051_第十四卷官方剧情逐幕交叉核验与正式返工_v1.1.md",
   "script_deps": [],
-  "android_sillytavern_real_device": "NOT_RUN"
+  "android_sillytavern_real_device": "NOT_RUN",
+  "official_game_replay": "NOT_RUN",
+  "source_note": "Direct released-game text crosscheck through non-official community transcript; not first-party official full script or personal game client run. Dates are internal RP chronology.",
+  "event_count": 10,
+  "story_event_count": 9,
+  "sandbox_event": "J"
 }
