@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 11,
+  "part": "中",
+  "comment": "时间线:第十一卷（中）·旧梦与新·艾利都日落",
+  "body_file": "worldbook/timeline/TIMELINE-011-中_旧梦与新艾利都日落.md",
+  "source_chapters": [
+    {
+      "title": "新·艾利都日落时 上",
+      "kind": "主线",
+      "full_id": 809180,
+      "lite_id": 3888,
+      "source_event_slots": 5,
+      "event_indices": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    }
+  ],
+  "date_basis": "2082-02-13 through 2082-02-19; constructed card-internal chronology, NOT official game dates",
+  "sandbox_start": "2082-02-20",
+  "previous_part": "worldbook/timeline/TIMELINE-011-上_旧梦与新艾利都日落.md",
+  "next_part": "worldbook/timeline/TIMELINE-011-下_旧梦与新艾利都日落.md",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 473,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Each upper/middle/lower is a separate stand-alone worldbook entry. Activate manually in story order, and deactivate previous chapter; only volume 1 upper is enabled at card start, no MVU or automatic date script.",
+  "stage_gates": [
+    {
+      "part": "中",
+      "event": "A",
+      "date": "2082-02-13",
+      "subject": "铃",
+      "trigger": "弗林特辉金的短暂以太波动缓解效果在佩洛伊斯唯一宿主铃身上观察",
+      "constraint": "不代表痊愈，不产生哲第二寄宿者"
+    }
+  ],
+  "static_qa": "qa/047_第十一卷上中下_来源单线与状态时序静态QA_v1.0.md",
+  "script_deps": [],
+  "android_sillytavern_real_device": "NOT_RUN"
+}
