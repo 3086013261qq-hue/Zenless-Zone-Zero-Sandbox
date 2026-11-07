@@ -424,7 +424,7 @@
       "comment": "核心设定:邦布语言与专用网络",
       "insertion_order": 312,
       "position": "after_char",
-      "text_characters": 252,
+      "text_characters": 253,
       "qa_status": "SOURCE_CROSS_LAYER_AUDIT_PASS_NOT_REAL_DEVICE",
       "build": {
         "keys": [
@@ -674,7 +674,7 @@
       "insertion_order": 318,
       "position": "after_char",
       "qa_status": "SOURCE_CROSS_LAYER_AUDIT_PASS_NOT_REAL_DEVICE",
-      "text_characters": 218,
+      "text_characters": 220,
       "source_format": "Miemie fullstack v1.0.0 core-setting template",
       "keyword_audit_note": "Add exact official organization-name aliases; original body unchanged"
     },
@@ -948,7 +948,7 @@
       "comment": "核心设定:妄想天使与都市偶像活动",
       "insertion_order": 326,
       "position": "after_char",
-      "text_characters": 236,
+      "text_characters": 238,
       "qa_status": "SOURCE_CROSS_LAYER_AUDIT_PASS_NOT_REAL_DEVICE",
       "build": {
         "keys": [
@@ -1187,7 +1187,7 @@
       "insertion_order": 332,
       "position": "after_char",
       "qa_status": "SOURCE_CROSS_LAYER_AUDIT_PASS_NOT_REAL_DEVICE",
-      "text_characters": 215,
+      "text_characters": 218,
       "source_format": "Miemie fullstack v1.0.0 core-setting template"
     },
     {
@@ -1273,7 +1273,7 @@
       "comment": "核心设定:反舌鸟与怪盗行动",
       "insertion_order": 333,
       "position": "after_char",
-      "text_characters": 228,
+      "text_characters": 226,
       "qa_status": "SOURCE_STATIC_QA_PASS__REAL_DEVICE_NOT_RUN",
       "source_format": "Miemie fullstack v1.0.0 core-setting template",
       "source_scope": "PUBLIC_ORG_FACTS_ONLY__NO_LATE_STORY_SECRET",
@@ -1318,7 +1318,7 @@
       "comment": "核心设定:怪啖屋与都市怪谈调查",
       "insertion_order": 334,
       "position": "after_char",
-      "text_characters": 230,
+      "text_characters": 228,
       "qa_status": "SOURCE_STATIC_QA_PASS__REAL_DEVICE_NOT_RUN",
       "source_format": "Miemie fullstack v1.0.0 core-setting template",
       "source_scope": "PUBLIC_ORG_FACTS_ONLY__NO_LATE_STORY_SECRET",
@@ -1364,7 +1364,7 @@
       "comment": "核心设定:称颂会与隐秘教义",
       "insertion_order": 335,
       "position": "after_char",
-      "text_characters": 232,
+      "text_characters": 230,
       "qa_status": "SOURCE_STATIC_QA_PASS__REAL_DEVICE_NOT_RUN",
       "source_format": "Miemie fullstack v1.0.0 core-setting template",
       "source_scope": "PUBLIC_ORG_FACTS_ONLY__NO_LATE_STORY_SECRET",
@@ -1408,7 +1408,7 @@
       "comment": "核心设定:坎卜斯黑枝与审查裁决",
       "insertion_order": 336,
       "position": "after_char",
-      "text_characters": 239,
+      "text_characters": 237,
       "qa_status": "SOURCE_STATIC_QA_PASS__REAL_DEVICE_NOT_RUN",
       "source_format": "Miemie fullstack v1.0.0 core-setting template",
       "source_scope": "PUBLIC_ORG_FACTS_ONLY__NO_LATE_STORY_SECRET",
@@ -1453,7 +1453,7 @@
       "comment": "核心设定:天琴座与演艺经纪",
       "insertion_order": 337,
       "position": "after_char",
-      "text_characters": 236,
+      "text_characters": 234,
       "qa_status": "SOURCE_STATIC_QA_PASS__REAL_DEVICE_NOT_RUN",
       "source_format": "Miemie fullstack v1.0.0 core-setting template",
       "source_scope": "PUBLIC_ORG_FACTS_ONLY__NO_LATE_STORY_SECRET",
@@ -1523,7 +1523,7 @@
       "comment": "核心设定:云岿山与山门修习",
       "insertion_order": 338,
       "position": "after_char",
-      "text_characters": 218,
+      "text_characters": 216,
       "qa_status": "SOURCE_STATIC_QA_PASS__REAL_DEVICE_NOT_RUN",
       "source_format": "Miemie fullstack v1.0.0 core-setting template",
       "source_scope": "PUBLIC_ORG_FACTS_ONLY__NO_LATE_STORY_SECRET",
@@ -1562,7 +1562,7 @@
       "comment": "核心设定:弗林特工坊与辉金工艺",
       "insertion_order": 339,
       "position": "after_char",
-      "text_characters": 241,
+      "text_characters": 239,
       "qa_status": "SOURCE_STATIC_QA_PASS__REAL_DEVICE_NOT_RUN",
       "source_format": "Miemie fullstack v1.0.0 core-setting template",
       "source_scope": "PUBLIC_ORG_FACTS_ONLY__NO_LATE_STORY_SECRET",
@@ -1599,7 +1599,7 @@
       "comment": "核心设定:罗斯凯利法中枢五局",
       "insertion_order": 340,
       "position": "after_char",
-      "text_characters": 239,
+      "text_characters": 237,
       "qa_status": "SOURCE_STATIC_QA_PASS__REAL_DEVICE_NOT_RUN",
       "source_format": "Miemie fullstack v1.0.0 core-setting template",
       "source_scope": "PUBLIC_ORG_FACTS_ONLY__NO_LATE_STORY_SECRET",
@@ -1643,7 +1643,7 @@
       "comment": "核心设定:都市秩序部与治安分工",
       "insertion_order": 341,
       "position": "after_char",
-      "text_characters": 214,
+      "text_characters": 212,
       "qa_status": "SOURCE_STATIC_QA_PASS__REAL_DEVICE_NOT_RUN",
       "source_format": "Miemie fullstack v1.0.0 core-setting template",
       "source_scope": "PUBLIC_ORG_FACTS_ONLY__NO_LATE_STORY_SECRET",
@@ -1681,7 +1681,7 @@
       "comment": "核心设定:防卫军白银小队与旧编制",
       "insertion_order": 342,
       "position": "after_char",
-      "text_characters": 237,
+      "text_characters": 235,
       "qa_status": "SOURCE_STATIC_QA_PASS__REAL_DEVICE_NOT_RUN",
       "source_format": "Miemie fullstack v1.0.0 core-setting template",
       "source_scope": "PUBLIC_ORG_FACTS_ONLY__NO_LATE_STORY_SECRET",
@@ -1719,7 +1719,7 @@
       "comment": "核心设定:达识结社与隐秘联络",
       "insertion_order": 343,
       "position": "after_char",
-      "text_characters": 230,
+      "text_characters": 228,
       "qa_status": "SOURCE_STATIC_QA_PASS__REAL_DEVICE_NOT_RUN",
       "source_format": "Miemie fullstack v1.0.0 core-setting template",
       "source_scope": "PUBLIC_ORG_FACTS_ONLY__NO_LATE_STORY_SECRET",
@@ -2049,7 +2049,8 @@
         "奥波勒斯"
       ]
     },
-    "audit": "qa/058_绝区零_组织绿灯42条_新增触发与安全QA_v1.0.md"
+    "audit": "qa/058_绝区零_组织绿灯42条_新增触发与安全QA_v1.0.md",
+    "text_characters_recount": "15 metadata-only length corrections to standardize existing and new entries"
   },
   "blue_08_expansion": {
     "completed": true,
@@ -2709,5 +2710,6 @@
       "GREEN-07-10"
     ]
   },
-  "blue_baseline_manifest": "worldbook/blue/000_蓝灯邦布防机械兔误读封版清单_v1.2.json"
+  "blue_baseline_manifest": "worldbook/blue/000_蓝灯邦布防机械兔误读封版清单_v1.2.json",
+  "char_count_policy": "count text between core-setting tags excluding newline characters; preserve all source bodies"
 }
