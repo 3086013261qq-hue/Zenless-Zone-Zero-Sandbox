@@ -1,7 +1,7 @@
 {
   "version": "1.1",
   "date": "2026-11-07",
-  "status": "PRIORITY_SCOPED_AND_FANON_FILTERED",
+  "status": "SUPERSEDED_BY_STATIC_KEYWORD_PLAN_V1_2",
   "baseline_head": "eb1a460e2475c106a6bc44bfa256224dc0d8dc8c",
   "blue_frozen": true,
   "initial_candidates": 50,
@@ -544,5 +544,7 @@
     "manual_static_volume_gate_required": true,
     "dual_anti_recursion": true,
     "actual_engine_test": "NOT_RUN"
-  }
+  },
+  "superseded_by": "000_核心绿灯静态触发方案_v1.2.json",
+  "warning": "Historical 1.1 record of an invalid enabled:false proposal; do NOT assemble from this file. Use v1.2."
 }
