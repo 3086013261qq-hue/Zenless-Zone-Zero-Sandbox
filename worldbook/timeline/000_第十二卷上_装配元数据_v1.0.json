@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 12,
+  "part": "上",
+  "comment": "时间线:第十二卷（上）·某个梦游者的自白",
+  "body_file": "worldbook/timeline/TIMELINE-012-上_某个梦游者的自白.md",
+  "source_chapters": [
+    {
+      "title": "某个梦游者的自白（上）",
+      "kind": "主线",
+      "full_id": 99247,
+      "lite_id": 228766,
+      "source_event_slots": 6,
+      "event_range": "A-F"
+    }
+  ],
+  "date_basis": "2082-03-12 through 2082-03-19; invented card-internal chronology, not official game calendar",
+  "sandbox_start": "2082-03-20",
+  "previous_part": "worldbook/timeline/TIMELINE-011-下_旧梦与新艾利都日落.md",
+  "next_part": "worldbook/timeline/TIMELINE-012-中_某个梦游者的自白.md",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 475,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "This is an independent static worldbook part. Only volume 1 upper is enabled at start; deactivate current part before enabling the next, even if the crisis continues on the same date. No MVU or automatic time/scene script.",
+  "stage_gates": [
+    {
+      "part": "上",
+      "event": "C",
+      "date": "2082-03-12",
+      "subject": "哲",
+      "revelation": "非寄宿者哲在第一夜梦见赫利俄斯旧友特里薇亚、塞尔皮科及植入体测试前兆",
+      "boundary": "不得将旧梦当作哲的佩洛伊斯寄宿"
+    },
+    {
+      "part": "上",
+      "event": "E",
+      "date": "2082-03-19",
+      "subject": "铃",
+      "revelation": "在德蕾琪娜治疗中与佩洛伊斯进一步和解，控制能力提升",
+      "boundary": "并非第六卷下册已发生的首次觉醒；代价仍存在"
+    }
+  ],
+  "continuity_warning": "OPEN_UNRESOLVED_ORIGINAL_SOURCE_CONFLICT",
+  "continuity_warning_details": "第11卷下蕾米埃尔消散和第12卷她现身不相容，文本只保留身份未明的外观一致者，未解决复活机制。",
+  "static_qa": "qa/048_第十二卷上中下_单线来源与蕾米埃尔连续性静态QA_v1.0.md",
+  "script_deps": [],
+  "android_sillytavern_real_device": "NOT_RUN"
+}
