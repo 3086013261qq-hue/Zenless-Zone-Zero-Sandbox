@@ -1,0 +1,99 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 4,
+  "part": "下",
+  "comment": "时间线:第四卷（下）·六课与星流霆击",
+  "body_file": "worldbook/timeline/TIMELINE-004-下_六课与星流霆击.md",
+  "source_chapters": [
+    {
+      "title": "星流霆击",
+      "kind": "主线",
+      "source_full_id": 176138,
+      "source_lite_id": 551770,
+      "original_scenes": 9,
+      "events": "A-I",
+      "note": "星见雅、布林格、莎拉、六课及跨阵营会战；选举日紧急事件A-H保持同日；雅信任星见家庇护在I后生效"
+    },
+    {
+      "title": "代理人秘闻·「此地长眠者」",
+      "kind": "支线",
+      "source_full_id": 834843,
+      "source_lite_id": 716667,
+      "original_scenes": 6,
+      "events": "J-O",
+      "note": "悠真以太适性衰竭症候群及特效药救治，不写为永久根治"
+    },
+    {
+      "title": "直到苍白荒秽之地",
+      "kind": "支线",
+      "source_full_id": 433228,
+      "source_lite_id": 848462,
+      "original_scenes": 5,
+      "events": "P-T",
+      "note": "以已相识伙伴关系承接，不重复第一次认识；孤儿院正常白色谎言路线"
+    },
+    {
+      "title": "星芒闪耀之处",
+      "kind": "日常",
+      "source_full_id": 503922,
+      "source_lite_id": 5263,
+      "original_scenes": 3,
+      "events": "U-W"
+    },
+    {
+      "title": "协作设计师",
+      "kind": "日常",
+      "source_full_id": 560427,
+      "source_lite_id": 9905,
+      "original_scenes": 6,
+      "events": "X-AC"
+    },
+    {
+      "title": "小邦布大战坏以骸",
+      "kind": "日常",
+      "source_full_id": 556768,
+      "source_lite_id": 28174,
+      "original_scenes": 5,
+      "events": "AD-AH",
+      "note": "雨果相关为悬念线索，不提前揭开真实身份"
+    },
+    {
+      "title": "作战影像回顾",
+      "kind": "日常",
+      "source_full_id": 243081,
+      "source_lite_id": 457847,
+      "original_scenes": 3,
+      "events": "AI-AK"
+    }
+  ],
+  "date_basis": "2078-03-30 to 2078-06-11; internally chosen card chronology, not official story dates",
+  "previous_part": "worldbook/timeline/TIMELINE-004-上_六课与星流霆击.md",
+  "next_part": "worldbook/timeline/TIMELINE-005_金翅雀与闪耀的此刻.md",
+  "sandbox_start": "2078-06-12",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 461,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Manually disable prior timeline part and enable this standalone part upon story transition. Only Volume 1 Upper is enabled at initial character-card assembly; no automatic or scripted switch.",
+  "script_deps": [],
+  "static_qa": "qa/040_第四卷上下册_全栈来源角色状态与编年静态QA_v1.0.md",
+  "android_sillytavern_real_device": "NOT_RUN",
+  "stage_gate": {
+    "event": "I",
+    "date": "2078-04-02",
+    "character": "星见雅",
+    "effect": "星见雅得知哲与铃赫利俄斯旧事并赠发簪，承诺星见家庇护",
+    "not_before": "在本卷（下）事件I之前不得向星见雅预设兄妹全部身世",
+    "no_new_static_state_entry": "本轮不另改五个既有特殊状态条目"
+  }
+}
