@@ -1,0 +1,177 @@
+{
+  "version": "1.4",
+  "date": "2026-11-07",
+  "previous_version": "v1.3",
+  "reason": "Additional 2 official agents; ability positions 413 and 414, states moved to 415-419",
+  "states": [
+    {
+      "id": "STATE-015",
+      "comment": "核心设定:凯撒·代理霸主状态",
+      "character": "凯撒·金",
+      "parent_character_id": "CHAR-015",
+      "source_ids": [
+        417274
+      ],
+      "status": "STAGE_SPECIFIC_KEYWORD_GREEN",
+      "body_file": "worldbook/abilities/states/STATE-015_凯撒·代理霸主.md",
+      "keys": [
+        "/<story_scene>(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:凯撒|Caesar King))(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:火狱骑行后|旧油井区代理霸主))(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "secondary_keys": [],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "insertion_order": 415,
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "runtime_caveat": "阶段标记须在同一story_scene与人物同时出现；无MVU、不自动按日期解锁"
+    },
+    {
+      "id": "STATE-004",
+      "comment": "核心设定:安比·零号战斗状态",
+      "character": "安比·德玛拉",
+      "source_ids": [
+        405520
+      ],
+      "body_file": "worldbook/abilities/states/STATE-004_安比·零号战斗状态.md",
+      "keys": [
+        "/<story_scene>(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:安比|Anby))(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:零号·安比|零号安比|恢复零号战斗身份|Soldier 0 - Anby))(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "secondary_keys": [],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "insertion_order": 416,
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "status": "STAGE_SPECIFIC_KEYWORD_GREEN",
+      "runtime_caveat": "阶段标记须在同一story_scene与人物同时出现；无MVU、不自动按日期解锁",
+      "static_match_checks": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "STATE-005",
+      "comment": "核心设定:比利·星徽战装状态",
+      "character": "比利·奇德",
+      "source_ids": [
+        691758
+      ],
+      "body_file": "worldbook/abilities/states/STATE-005_比利·星徽战装状态.md",
+      "keys": [
+        "/<story_scene>(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:比利|Billy))(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:星徽·比利|星徽战装启用|星徽装备激活|Starlight - Billy))(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "secondary_keys": [],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "insertion_order": 417,
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "status": "STAGE_SPECIFIC_KEYWORD_GREEN",
+      "runtime_caveat": "阶段标记须在同一story_scene与人物同时出现；无MVU、不自动按日期解锁",
+      "static_match_checks": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "STATE-001",
+      "comment": "核心设定:铃·佩洛伊斯觉醒状态",
+      "character": "铃",
+      "source_ids": [
+        393477
+      ],
+      "body_file": "worldbook/abilities/states/STATE-001_铃·佩洛伊斯觉醒状态.md",
+      "keys": [
+        "/<story_scene>(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:铃|Belle))(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:佩洛伊斯觉醒|佩洛伊斯共鸣|铃掌握佩洛伊斯力量))(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "secondary_keys": [],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "insertion_order": 418,
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "status": "STAGE_SPECIFIC_KEYWORD_GREEN",
+      "runtime_caveat": "阶段标记须在同一story_scene与人物同时出现；无MVU、不自动按日期解锁",
+      "static_match_checks": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "STATE-078",
+      "comment": "核心设定:蒂娜·特佩什变异状态",
+      "character": "蒂娜",
+      "parent_character_id": "CHAR-078",
+      "source_ids": [
+        800422
+      ],
+      "body_file": "worldbook/abilities/states/STATE-078_蒂娜·特佩什变异状态.md",
+      "keys": [
+        "/<story_scene>(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:蒂娜|Dina))(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:特佩什|蜕生·特佩什|牲鬼化|注射牲鬼药剂))(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "secondary_keys": [],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "insertion_order": 419,
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "status": "STAGE_SPECIFIC_KEYWORD_GREEN",
+      "runtime_caveat": "Only when Tina and transformation stage are named within same story_scene; no MVU or automatic unlocking"
+    }
+  ],
+  "all_enabled": true,
+  "all_nonconstant": true,
+  "all_double_recursion_guard": true,
+  "full_CCV3_real_device_qa": "NOT_RUN",
+  "special_state_sample_regex_cases": [
+    {
+      "expected": false,
+      "pass": true
+    },
+    {
+      "expected": true,
+      "pass": true
+    },
+    {
+      "expected": false,
+      "pass": true
+    },
+    {
+      "expected": true,
+      "pass": true
+    }
+  ]
+}

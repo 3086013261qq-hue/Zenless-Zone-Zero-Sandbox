@@ -1,6 +1,6 @@
 # 人物能力与装备｜同源触发
 
-80名人物各有一篇对应`<核心设定:角色名·能力>`，与人物使用同一个`story_scene`限域正则。不是新增世界书类别。
+82名人物各有一篇对应`<核心设定:角色名·能力>`，与人物使用同一个`story_scene`限域正则。不是新增世界书类别。
 
 - [铃·能力](ABILITY-001_铃·能力.md)：人物[铃](../characters/major/CHAR-001_铃.md)，order333
 - [哲·能力](ABILITY-002_哲·能力.md)：人物[哲](../characters/major/CHAR-002_哲.md)，order334
@@ -58,12 +58,12 @@
 - [蕾米埃尔·丹·能力](ABILITY-054_蕾米埃尔·丹·能力.md)：人物[蕾米埃尔·丹](../characters/major/CHAR-054_蕾米埃尔·丹.md)，order386
 - [维琳娜·艾嘉德·能力](ABILITY-055_维琳娜·艾嘉德·能力.md)：人物[维琳娜·艾嘉德](../characters/major/CHAR-055_维琳娜·艾嘉德.md)，order387
 - [诺姆·霍洛维尔·能力](ABILITY-056_诺姆·霍洛维尔·能力.md)：人物[诺姆·霍洛维尔](../characters/major/CHAR-056_诺姆·霍洛维尔.md)，order388
-- [塞维里安·洛威尔·能力](ABILITY-057_塞维里安·洛威尔·能力.md)：人物[塞维里安·洛威尔](../characters/major/CHAR-057_塞维里安·洛威尔.md)，order389
+- [赛维里安·洛威尔·能力](ABILITY-057_赛维里安·洛威尔·能力.md)：人物[赛维里安·洛威尔](../characters/major/CHAR-057_赛维里安·洛威尔.md)，order389
 - [克拉蕾·弗林特·能力](ABILITY-058_克拉蕾·弗林特·能力.md)：人物[克拉蕾·弗林特](../characters/major/CHAR-058_克拉蕾·弗林特.md)，order390
 - [希格莉德·德拉叙尔·能力](ABILITY-059_希格莉德·德拉叙尔·能力.md)：人物[希格莉德·德拉叙尔](../characters/major/CHAR-059_希格莉德·德拉叙尔.md)，order391
 - [蕾·耶尔辛·能力](ABILITY-060_蕾·耶尔辛·能力.md)：人物[蕾·耶尔辛](../characters/major/CHAR-060_蕾·耶尔辛.md)，order392
 
-普通人物order202—281，普通GREEN302—332，角色能力order333—412，五条特殊状态order413—417，均不冲突。特殊状态见[states](states/)；不采用MVU自动解锁。
+普通人物order202—283，普通GREEN302—332，角色能力order333—414，五条特殊状态order415—419，均不冲突。特殊状态见[states](states/)；不采用MVU自动解锁。
 
 ## 末批新增20篇能力
 - [兰·能力](ABILITY-061_兰·能力.md)（与[人物](../characters/major/CHAR-061_兰.md)同名触发；能力order393）
@@ -88,3 +88,9 @@
 - [红豆·能力](ABILITY-080_红豆·能力.md)（与[人物](../characters/major/CHAR-080_红豆.md)同名触发；能力order412）
 
 最新5条状态元数据见[states v1.3](states/000_特殊状态装配元数据_v1.3.json)。
+
+## 2026官设新增能力
+- [洛克茜·伊芙莉塔·普莱斯·能力](ABILITY-081_洛克茜·伊芙莉塔·普莱斯·能力.md) — 与[人物](../characters/major/CHAR-081_洛克茜·伊芙莉塔·普莱斯.md)同源；order413
+- [菲欧妮·蕾法爱菈·能力](ABILITY-082_菲欧妮·蕾法爱菈·能力.md) — 与[人物](../characters/major/CHAR-082_菲欧妮·蕾法爱菈.md)同源；order414
+
+特殊状态现行[装配元数据v1.4](states/000_特殊状态装配元数据_v1.4.json)。
