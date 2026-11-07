@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-07",
+  "status": "FROZEN",
+  "scope": "nine BLUE worldbook root files only, not full card",
+  "source": "zzz-4 (1).png",
+  "source_sha256": "3e8c450438fe7fdf4634043c46d113d546a1db82ba3afe66d82e02f174dc335d",
+  "baseline_head": "d0c911ff233ee2ad274384d24cb2f4315d4d0246",
+  "entry_count": 9,
+  "prior_chars": 2744,
+  "total_chars": 2711,
+  "host": "铃",
+  "non_host": "哲",
+  "files": [
+    {
+      "id": "BLUE-01",
+      "path": "worldbook/blue/BLUE-01_世界格局与新艾利都.md",
+      "title": "世界格局与新艾利都",
+      "chars": 282,
+      "revised": true
+    },
+    {
+      "id": "BLUE-02",
+      "path": "worldbook/blue/BLUE-02_空洞与空间灾害.md",
+      "title": "空洞与空间灾害",
+      "chars": 287,
+      "revised": false
+    },
+    {
+      "id": "BLUE-03",
+      "path": "worldbook/blue/BLUE-03_以太侵蚀与以骸.md",
+      "title": "以太、侵蚀与以骸",
+      "chars": 305,
+      "revised": false
+    },
+    {
+      "id": "BLUE-04",
+      "path": "worldbook/blue/BLUE-04_空洞行动与绳匠体系.md",
+      "title": "空洞行动与绳匠体系",
+      "chars": 301,
+      "revised": true
+    },
+    {
+      "id": "BLUE-05",
+      "path": "worldbook/blue/BLUE-05_邦布与智能科技.md",
+      "title": "邦布与智能科技",
+      "chars": 302,
+      "revised": false
+    },
+    {
+      "id": "BLUE-06",
+      "path": "worldbook/blue/BLUE-06_都市社会与多元族群.md",
+      "title": "都市社会与多元族群",
+      "chars": 293,
+      "revised": true
+    },
+    {
+      "id": "BLUE-07",
+      "path": "worldbook/blue/BLUE-07_城市治理与势力秩序.md",
+      "title": "城市治理与势力秩序",
+      "chars": 320,
+      "revised": false
+    },
+    {
+      "id": "BLUE-08",
+      "path": "worldbook/blue/BLUE-08_以太经济与产业体系.md",
+      "title": "以太经济与产业体系",
+      "chars": 298,
+      "revised": false
+    },
+    {
+      "id": "BLUE-09",
+      "path": "worldbook/blue/BLUE-09_法厄同与铃的主线根设定.md",
+      "title": "法厄同与铃的主线根设定",
+      "chars": 323,
+      "revised": true
+    }
+  ],
+  "excluded_legacy": [
+    "MVU",
+    "Tavern Helper",
+    "regex scripts",
+    "NSFW options",
+    "game version branches"
+  ],
+  "location_blue": "LOCATION-BLUE-00 method frozen, text not written",
+  "green": "NOT_STARTED",
+  "android_sillytavern_real_device": "NOT_RUN"
+}
