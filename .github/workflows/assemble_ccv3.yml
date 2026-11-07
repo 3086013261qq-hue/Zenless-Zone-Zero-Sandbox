@@ -1,0 +1,28 @@
+name: Assemble Zenless CCV3
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assembly/**'
+      - 'scripts/**'
+      - '.github/workflows/assemble_ccv3.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify environment
+        run: |
+          python --version
+          mkdir -p assembly/dist
+          printf 'workflow available\n' > assembly/dist/smoke.txt
+      - name: Upload initial QA output
+        uses: actions/upload-artifact@v4
+        with:
+          name: zenless-assembly-smoke
+          path: assembly/dist/smoke.txt
