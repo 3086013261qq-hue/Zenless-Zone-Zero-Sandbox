@@ -1,0 +1,117 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 7,
+  "part": "上",
+  "comment": "时间线:第七卷（上）·云岿山初行",
+  "body_file": "worldbook/timeline/TIMELINE-007-上_云岿山初行.md",
+  "source_chapters": [
+    {
+      "title": "悠然插曲·游方闲客",
+      "kind": "主线",
+      "full_id": 184127,
+      "lite_id": 696517,
+      "original_events": 4,
+      "event_range": "A-D",
+      "note": "仪玄先在Random Play结识铃、哲，云岿修行及不掩包裹留作后续伏笔；铃已在第六卷觉醒，不重新觉醒"
+    },
+    {
+      "title": "朝露·初识花信",
+      "kind": "支线",
+      "full_id": 260594,
+      "lite_id": 256404,
+      "original_events": 4,
+      "event_range": "E-H",
+      "note": "必须先让兰教学、丽娜提出尼尼微稀有花委托，再接朝露既闻花名"
+    },
+    {
+      "title": "朝露·既闻花名",
+      "kind": "支线",
+      "full_id": 289134,
+      "lite_id": 95145,
+      "original_events": 4,
+      "event_range": "I-L",
+      "note": "莱卡恩劝退、薇薇安与丁香线索、非法矿场查封、简的角色扮演、安东金属饭盆误会"
+    },
+    {
+      "title": "花语未明之言",
+      "kind": "支线",
+      "full_id": 946822,
+      "lite_id": 225672,
+      "original_events": 1,
+      "event_range": "M",
+      "note": "十五位顾客可选订单合集，不直接强制全部成功与领取奖励"
+    },
+    {
+      "title": "朝露·解语之时",
+      "kind": "支线",
+      "full_id": 551957,
+      "lite_id": 112633,
+      "original_events": 4,
+      "event_range": "N-Q",
+      "note": "妮可投机花卉、雨果送尼尼微、莱卡恩宴会、失意矿主行贿失败；花卉尼尼微≠零号空洞强力以骸尼尼微"
+    },
+    {
+      "title": "美味食光全城热配",
+      "kind": "日常",
+      "full_id": 935380,
+      "lite_id": 436256,
+      "original_events": 5,
+      "event_range": "R-V",
+      "note": "连续五位幸运顾客分别露西、啾啾、星见雅、佩吉、比利"
+    },
+    {
+      "title": "乘上春日的影像",
+      "kind": "日常",
+      "full_id": 527465,
+      "lite_id": 853855,
+      "original_events": 5,
+      "event_range": "W-AA",
+      "note": "柯尼新电影5幕，春日为片名主题，内部编年九月日期并非季节断言"
+    },
+    {
+      "title": "邦邦冲冲冲",
+      "kind": "日常",
+      "full_id": 753535,
+      "lite_id": 859253,
+      "original_events": 3,
+      "event_range": "AB-AD",
+      "note": "伊埃斯在障碍赛再夺冠军是竞速，不与第五卷丽都有布选美冠军混为同一次"
+    }
+  ],
+  "date_basis": "2079-07-10 to 2079-09-26, internally constructed card chronology only, NOT official dates",
+  "sandbox_start": "2079-09-27",
+  "previous_part": "worldbook/timeline/TIMELINE-006-下_将眼泪与过往一同埋葬.md",
+  "next_part": "worldbook/timeline/TIMELINE-007-下_云岿山初行.md",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 465,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Only volume 1 upper is initially enabled. All other independent timeline parts, including both halves here, are manually toggled at the applicable story window; no runtime script or MVU.",
+  "script_deps": [],
+  "static_qa": "qa/043_第七卷上下册_全栈来源时序与角色状态静态QA_v1.0.md",
+  "android_sillytavern_real_device": "NOT_RUN",
+  "stage_gates": [
+    {
+      "character": "铃",
+      "state_id": "STATE-001",
+      "precondition": "已经在第六卷下册G经历佩洛伊斯觉醒",
+      "applies": "在仪玄指导下渐进修行，不首次觉醒、不无代价使用全部云岿术法；哲非寄宿者"
+    },
+    {
+      "character": "凯撒",
+      "state_id": "STATE-015",
+      "precondition": "第三卷下册火狱骑行结束",
+      "applies": "已是代理霸主，仅按实际事件与公开职责触发"
+    }
+  ]
+}
