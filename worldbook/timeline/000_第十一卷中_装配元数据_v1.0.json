@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "status": "OFFICIAL_CHRONICLE_RECONCILED_STATIC_QA_PENDING",
+  "status": "STATIC_QA_PASS_CANON_ISSUES_RESOLVED_READY_FOR_TIMELINE_FREEZE",
   "volume": 11,
   "part": "中",
   "comment": "时间线:第十一卷（中）·旧梦与新·艾利都日落",
@@ -68,5 +68,7 @@
   "android_sillytavern_real_device": "NOT_RUN",
   "story_event_count": 9,
   "event_count": 10,
-  "sandbox_event": "J"
+  "sandbox_event": "J",
+  "freeze_review": "qa/054_绝区零_时间层14卷29分册_静态封版验收_v1.0.md",
+  "canon_review": "qa/053_绝区零_原著待审事件_正式纠错与跨卷复核_v1.0.md"
 }
