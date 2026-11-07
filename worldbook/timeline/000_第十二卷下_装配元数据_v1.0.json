@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "status": "BODY_COMPLETE_STATIC_QA_PASS",
   "volume": 12,
   "part": "下",
@@ -62,14 +62,15 @@
       "part": "下",
       "event": "G",
       "date": "2082-03-27",
-      "subject": "疑似蕾米埃尔",
+      "subject": "蕾米埃尔本人",
       "revelation": "说出基塔布鲁、巴什穆与结使有关，且自称认识最初的挽昼",
-      "boundary": "与第十一卷下册已消散的蕾米埃尔矛盾未解，不认定复活/分身/影像任何机制"
+      "boundary": "蕾米埃尔在2.8之后持续存活，挽昼旧事仍待正常剧情揭露"
     }
   ],
-  "continuity_warning": "OPEN_UNRESOLVED_ORIGINAL_SOURCE_CONFLICT",
-  "continuity_warning_details": "第11卷下蕾米埃尔消散和第12卷她现身不相容，文本只保留身份未明的外观一致者，未解决复活机制。",
+  "continuity_warning": "RESOLVED_2_8_CANON_CORRECTION",
+  "continuity_warning_details": "第十一卷下F/G经2.8剧情纠错：蕾米埃尔并未死亡，已救铃并取回塔乌弥尔。3.1游戏对白追认二人第一次记忆共鸣。",
   "static_qa": "qa/048_第十二卷上中下_单线来源与蕾米埃尔连续性静态QA_v1.0.md",
   "script_deps": [],
-  "android_sillytavern_real_device": "NOT_RUN"
+  "android_sillytavern_real_device": "NOT_RUN",
+  "canon_qa": "qa/053_绝区零_原著待审事件_正式纠错与跨卷复核_v1.0.md"
 }
