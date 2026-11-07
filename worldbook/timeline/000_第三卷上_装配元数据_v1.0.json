@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 3,
+  "part": "上",
+  "comment": "时间线:第三卷（上）·卧底与外环风云",
+  "body_file": "worldbook/timeline/TIMELINE-003-上_卧底与外环风云.md",
+  "source_chapters": [
+    {
+      "title": "卧底蓝调",
+      "kind": "主线",
+      "full_id": 76209,
+      "lite_id": 999885,
+      "original_events": 4,
+      "range": "A-D",
+      "note": "E为原章节结束条件：简归还录像带"
+    }
+  ],
+  "date_basis": "2077-09-27 through 2077-10-05; internal card chronology only, NOT official calendar date",
+  "previous_part": "worldbook/timeline/TIMELINE-002-下_新艾利都的暗流.md",
+  "next_part": "worldbook/timeline/TIMELINE-003-下_卧底与外环风云.md",
+  "sandbox_start": "2077-10-06",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 458,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Only volume 1 upper initially enabled. Activate this standalone part manually at its narrative entry; keep other timeline parts off. No runtime scripted switching.",
+  "script_deps": [],
+  "static_qa": "qa/039_第三卷上下册_主支日来源与阶段状态静态QA_v1.0.md",
+  "android_sillytavern_real_device": "NOT_RUN"
+}
