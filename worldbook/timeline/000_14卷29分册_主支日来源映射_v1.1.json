@@ -1,0 +1,1244 @@
+{
+  "version": "1.1",
+  "source": "zzz-4 (1).png extracted CCV3 122 detailed plus 122 lite stories, no verbatim raw story bodies",
+  "supersedes": "docs/037_时间线二十九卷总目录与角色状态转变锚点_v1.0.md",
+  "volumes": [
+    {
+      "number": 1,
+      "name": "法厄同启程",
+      "part_count": 2
+    },
+    {
+      "number": 2,
+      "name": "新艾利都的暗流",
+      "part_count": 2
+    },
+    {
+      "number": 3,
+      "name": "卧底与外环风云",
+      "part_count": 2
+    },
+    {
+      "number": 4,
+      "name": "六课与星流霆击",
+      "part_count": 2
+    },
+    {
+      "number": 5,
+      "name": "金翅雀与闪耀的此刻",
+      "part_count": 1
+    },
+    {
+      "number": 6,
+      "name": "将眼泪与过往一同埋葬",
+      "part_count": 2
+    },
+    {
+      "number": 7,
+      "name": "云岿山初行",
+      "part_count": 2
+    },
+    {
+      "number": 8,
+      "name": "仲夏浪涌",
+      "part_count": 1
+    },
+    {
+      "number": 9,
+      "name": "良夜与梦",
+      "part_count": 2
+    },
+    {
+      "number": 10,
+      "name": "深渊中的微光",
+      "part_count": 2
+    },
+    {
+      "number": 11,
+      "name": "旧梦与新·艾利都日落",
+      "part_count": 3
+    },
+    {
+      "number": 12,
+      "name": "某个梦游者的自白",
+      "part_count": 3
+    },
+    {
+      "number": 13,
+      "name": "漫长的告别",
+      "part_count": 3
+    },
+    {
+      "number": 14,
+      "name": "罗斯凯利法新章",
+      "part_count": 2
+    }
+  ],
+  "parts": [
+    {
+      "arc_number": 1,
+      "arc_title": "法厄同启程",
+      "part": "上",
+      "original_volume": 1,
+      "expected_count": 2,
+      "sources": [
+        {
+          "title": "生意 X 诡异 X 道义",
+          "kind": "主线",
+          "source_full_id": 318545,
+          "source_lite_id": 250853,
+          "fixed_event": true
+        },
+        {
+          "title": "猫的失物",
+          "kind": "主线",
+          "source_full_id": 271065,
+          "source_lite_id": 307081,
+          "fixed_event": true
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 1,
+      "arc_title": "法厄同启程",
+      "part": "下",
+      "original_volume": 2,
+      "expected_count": 2,
+      "sources": [
+        {
+          "title": "第一章 幕间：绳匠的日常与暗流",
+          "kind": "主线",
+          "source_full_id": 951314,
+          "source_lite_id": 923254,
+          "fixed_event": true
+        },
+        {
+          "title": "在空洞的中心呼唤",
+          "kind": "主线",
+          "source_full_id": 46750,
+          "source_lite_id": 400038,
+          "fixed_event": true
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 2,
+      "arc_title": "新艾利都的暗流",
+      "part": "上",
+      "original_volume": 3,
+      "expected_count": 6,
+      "sources": [
+        {
+          "title": "间章：非常任务",
+          "kind": "主线",
+          "source_full_id": 722399,
+          "source_lite_id": 864497,
+          "fixed_event": true
+        },
+        {
+          "title": "资质考核",
+          "kind": "主线",
+          "source_full_id": 311826,
+          "source_lite_id": 405101,
+          "fixed_event": true
+        },
+        {
+          "title": "代理人秘闻「贼猫御鼠」",
+          "kind": "支线",
+          "source_full_id": 208918,
+          "source_lite_id": 628718,
+          "fixed_event": false
+        },
+        {
+          "title": "代理人秘闻：钢铁的女巫",
+          "kind": "支线",
+          "source_full_id": 652857,
+          "source_lite_id": 762453,
+          "fixed_event": false
+        },
+        {
+          "title": "代理人秘闻：满级小学生",
+          "kind": "支线",
+          "source_full_id": 905895,
+          "source_lite_id": 840526,
+          "fixed_event": false
+        },
+        {
+          "title": "代理人秘闻「洞中谍」",
+          "kind": "支线",
+          "source_full_id": 78403,
+          "source_lite_id": 937453,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 2,
+      "arc_title": "新艾利都的暗流",
+      "part": "下",
+      "original_volume": 4,
+      "expected_count": 6,
+      "sources": [
+        {
+          "title": "危楼夜寻踪",
+          "kind": "主线",
+          "source_full_id": 328246,
+          "source_lite_id": 162567,
+          "fixed_event": true
+        },
+        {
+          "title": "代理人秘闻：直到您彻底遗忘",
+          "kind": "支线",
+          "source_full_id": 552655,
+          "source_lite_id": 36679,
+          "fixed_event": false
+        },
+        {
+          "title": "代理人秘闻「失踪邦口」",
+          "kind": "支线",
+          "source_full_id": 716710,
+          "source_lite_id": 527919,
+          "fixed_event": false
+        },
+        {
+          "title": "代理人秘闻「而英雄总是归于幕后」",
+          "kind": "支线",
+          "source_full_id": 551508,
+          "source_lite_id": 674986,
+          "fixed_event": false
+        },
+        {
+          "title": "沙罗黄金周：从淘金美梦到假日保卫战",
+          "kind": "支线",
+          "source_full_id": 3758,
+          "source_lite_id": 744905,
+          "fixed_event": false
+        },
+        {
+          "title": "第一幕，第一镜！",
+          "kind": "日常",
+          "source_full_id": 802065,
+          "source_lite_id": 488771,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 3,
+      "arc_title": "卧底与外环风云",
+      "part": "上",
+      "original_volume": 5,
+      "expected_count": 1,
+      "sources": [
+        {
+          "title": "卧底蓝调",
+          "kind": "主线",
+          "source_full_id": 76209,
+          "source_lite_id": 999885,
+          "fixed_event": true
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 3,
+      "arc_title": "卧底与外环风云",
+      "part": "下",
+      "original_volume": 6,
+      "expected_count": 7,
+      "sources": [
+        {
+          "title": "火狱骑行",
+          "kind": "主线",
+          "source_full_id": 920723,
+          "source_lite_id": 204413,
+          "fixed_event": true
+        },
+        {
+          "title": "赠尔·丽都",
+          "kind": "支线",
+          "source_full_id": 203740,
+          "source_lite_id": 394577,
+          "fixed_event": false
+        },
+        {
+          "title": "漫行于以太虚境",
+          "kind": "支线",
+          "source_full_id": 365704,
+          "source_lite_id": 652286,
+          "fixed_event": false
+        },
+        {
+          "title": "代理人秘闻「幸运当头」",
+          "kind": "支线",
+          "source_full_id": 499948,
+          "source_lite_id": 986812,
+          "fixed_event": false
+        },
+        {
+          "title": "141友情联络",
+          "kind": "日常",
+          "source_full_id": 239731,
+          "source_lite_id": 186550,
+          "fixed_event": false
+        },
+        {
+          "title": "鏖战高塔",
+          "kind": "日常",
+          "source_full_id": 464152,
+          "source_lite_id": 339433,
+          "fixed_event": false
+        },
+        {
+          "title": "霸主的欢宴",
+          "kind": "日常",
+          "source_full_id": 27386,
+          "source_lite_id": 892398,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": "凯撒成为代理霸主：仅火狱骑行相应赛事结束后进入STATE-015。"
+    },
+    {
+      "arc_number": 4,
+      "arc_title": "六课与星流霆击",
+      "part": "上",
+      "original_volume": 7,
+      "expected_count": 7,
+      "sources": [
+        {
+          "title": "虚拟杀机",
+          "kind": "主线",
+          "source_full_id": 300065,
+          "source_lite_id": 12635,
+          "fixed_event": true
+        },
+        {
+          "title": "代理人秘闻「无人喝彩之冠」",
+          "kind": "支线",
+          "source_full_id": 892237,
+          "source_lite_id": 733572,
+          "fixed_event": false
+        },
+        {
+          "title": "「嗯呢」助教计划",
+          "kind": "日常",
+          "source_full_id": 824404,
+          "source_lite_id": 236223,
+          "fixed_event": false
+        },
+        {
+          "title": "断层之谜与双重背叛",
+          "kind": "日常",
+          "source_full_id": 944186,
+          "source_lite_id": 437993,
+          "fixed_event": false
+        },
+        {
+          "title": "当三明治来敲门",
+          "kind": "日常",
+          "source_full_id": 209523,
+          "source_lite_id": 488003,
+          "fixed_event": false
+        },
+        {
+          "title": "电子战场乱斗",
+          "kind": "日常",
+          "source_full_id": 902250,
+          "source_lite_id": 664234,
+          "fixed_event": false
+        },
+        {
+          "title": "帮帮凯伊",
+          "kind": "日常",
+          "source_full_id": 411340,
+          "source_lite_id": 777200,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 4,
+      "arc_title": "六课与星流霆击",
+      "part": "下",
+      "original_volume": 8,
+      "expected_count": 7,
+      "sources": [
+        {
+          "title": "星流霆击",
+          "kind": "主线",
+          "source_full_id": 176138,
+          "source_lite_id": 551770,
+          "fixed_event": true
+        },
+        {
+          "title": "代理人秘闻·「此地长眠者」",
+          "kind": "支线",
+          "source_full_id": 834843,
+          "source_lite_id": 716667,
+          "fixed_event": false
+        },
+        {
+          "title": "直到苍白荒秽之地",
+          "kind": "支线",
+          "source_full_id": 433228,
+          "source_lite_id": 848462,
+          "fixed_event": false
+        },
+        {
+          "title": "星芒闪耀之处",
+          "kind": "日常",
+          "source_full_id": 503922,
+          "source_lite_id": 5263,
+          "fixed_event": false
+        },
+        {
+          "title": "协作设计师",
+          "kind": "日常",
+          "source_full_id": 560427,
+          "source_lite_id": 9905,
+          "fixed_event": false
+        },
+        {
+          "title": "小邦布大战坏以骸",
+          "kind": "日常",
+          "source_full_id": 556768,
+          "source_lite_id": 28174,
+          "fixed_event": false
+        },
+        {
+          "title": "作战影像回顾",
+          "kind": "日常",
+          "source_full_id": 243081,
+          "source_lite_id": 457847,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 5,
+      "arc_title": "金翅雀与闪耀的此刻",
+      "part": "独卷",
+      "original_volume": 9,
+      "expected_count": 10,
+      "sources": [
+        {
+          "title": "悠然插曲·金翅雀逃跑计划",
+          "kind": "主线",
+          "source_full_id": 286555,
+          "source_lite_id": 661753,
+          "fixed_event": true
+        },
+        {
+          "title": "闪耀的此刻",
+          "kind": "主线",
+          "source_full_id": 908374,
+          "source_lite_id": 727721,
+          "fixed_event": true
+        },
+        {
+          "title": "代理人秘闻：我是艾莲，在忙，有事留言",
+          "kind": "支线",
+          "source_full_id": 712784,
+          "source_lite_id": 314739,
+          "fixed_event": false
+        },
+        {
+          "title": "协律共契",
+          "kind": "支线",
+          "source_full_id": 567199,
+          "source_lite_id": 577364,
+          "fixed_event": false
+        },
+        {
+          "title": "如愿璀璨之日",
+          "kind": "支线",
+          "source_full_id": 749502,
+          "source_lite_id": 617003,
+          "fixed_event": false
+        },
+        {
+          "title": "咔嚓咔嚓空洞记者",
+          "kind": "日常",
+          "source_full_id": 494841,
+          "source_lite_id": 13429,
+          "fixed_event": false
+        },
+        {
+          "title": "美梦如约而至",
+          "kind": "日常",
+          "source_full_id": 637563,
+          "source_lite_id": 29574,
+          "fixed_event": false
+        },
+        {
+          "title": "愿我亦是天琴之星",
+          "kind": "日常",
+          "source_full_id": 546832,
+          "source_lite_id": 416419,
+          "fixed_event": false
+        },
+        {
+          "title": "厄匹斯极钓大师赛",
+          "kind": "日常",
+          "source_full_id": 870182,
+          "source_lite_id": 664337,
+          "fixed_event": false
+        },
+        {
+          "title": "决战「金手指」之巅",
+          "kind": "日常",
+          "source_full_id": 220064,
+          "source_lite_id": 919574,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 6,
+      "arc_title": "将眼泪与过往一同埋葬",
+      "part": "上",
+      "original_volume": 10,
+      "expected_count": 8,
+      "sources": [
+        {
+          "title": "将眼泪与过往一同埋葬（上）",
+          "kind": "主线",
+          "source_full_id": 46064,
+          "source_lite_id": 170519,
+          "fixed_event": true
+        },
+        {
+          "title": "银心锡兵之歌",
+          "kind": "支线",
+          "source_full_id": 733519,
+          "source_lite_id": 28039,
+          "fixed_event": false
+        },
+        {
+          "title": "扳机代理人秘闻「目不可及」",
+          "kind": "支线",
+          "source_full_id": 74938,
+          "source_lite_id": 315806,
+          "fixed_event": false
+        },
+        {
+          "title": "战斗吧！三尺英雄",
+          "kind": "支线",
+          "source_full_id": 410291,
+          "source_lite_id": 718168,
+          "fixed_event": false
+        },
+        {
+          "title": "代理人秘闻：白银的复苏",
+          "kind": "支线",
+          "source_full_id": 633817,
+          "source_lite_id": 797111,
+          "fixed_event": false
+        },
+        {
+          "title": "虚界热战风云",
+          "kind": "日常",
+          "source_full_id": 9628,
+          "source_lite_id": 353446,
+          "fixed_event": false
+        },
+        {
+          "title": "小小骑士大冲锋",
+          "kind": "日常",
+          "source_full_id": 64951,
+          "source_lite_id": 510584,
+          "fixed_event": false
+        },
+        {
+          "title": "零号空洞：掠影摧锋",
+          "kind": "日常",
+          "source_full_id": 964429,
+          "source_lite_id": 720260,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": "安比零号身份及相关装备：银心锡兵之歌、白银的复苏等须核准详细剧情中准确节点，不能开场即常驻STATE-004。"
+    },
+    {
+      "arc_number": 6,
+      "arc_title": "将眼泪与过往一同埋葬",
+      "part": "下",
+      "original_volume": 11,
+      "expected_count": 1,
+      "sources": [
+        {
+          "title": "将眼泪与过往一同埋葬（下）",
+          "kind": "主线",
+          "source_full_id": 480273,
+          "source_lite_id": 81014,
+          "fixed_event": true
+        }
+      ],
+      "state_anchor": "蒂娜→特佩什：只在禁忌药剂导致真实异变后才进入STATE-078。"
+    },
+    {
+      "arc_number": 7,
+      "arc_title": "云岿山初行",
+      "part": "上",
+      "original_volume": 12,
+      "expected_count": 8,
+      "sources": [
+        {
+          "title": "悠然插曲·游方闲客",
+          "kind": "主线",
+          "source_full_id": 184127,
+          "source_lite_id": 696517,
+          "fixed_event": true
+        },
+        {
+          "title": "朝露·既闻花名",
+          "kind": "支线",
+          "source_full_id": 289134,
+          "source_lite_id": 95145,
+          "fixed_event": false
+        },
+        {
+          "title": "朝露·解语之时",
+          "kind": "支线",
+          "source_full_id": 551957,
+          "source_lite_id": 112633,
+          "fixed_event": false
+        },
+        {
+          "title": "花语未明之言",
+          "kind": "支线",
+          "source_full_id": 946822,
+          "source_lite_id": 225672,
+          "fixed_event": false
+        },
+        {
+          "title": "朝露·初识花信",
+          "kind": "支线",
+          "source_full_id": 260594,
+          "source_lite_id": 256404,
+          "fixed_event": false
+        },
+        {
+          "title": "美味食光全城热配",
+          "kind": "日常",
+          "source_full_id": 935380,
+          "source_lite_id": 436256,
+          "fixed_event": false
+        },
+        {
+          "title": "乘上春日的影像",
+          "kind": "日常",
+          "source_full_id": 527465,
+          "source_lite_id": 853855,
+          "fixed_event": false
+        },
+        {
+          "title": "邦邦冲冲冲",
+          "kind": "日常",
+          "source_full_id": 753535,
+          "source_lite_id": 859253,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 7,
+      "arc_title": "云岿山初行",
+      "part": "下",
+      "original_volume": 13,
+      "expected_count": 9,
+      "sources": [
+        {
+          "title": "云霞同归处",
+          "kind": "主线",
+          "source_full_id": 683004,
+          "source_lite_id": 372813,
+          "fixed_event": true
+        },
+        {
+          "title": "代理人秘闻「《猛虎伏魔传！》」",
+          "kind": "支线",
+          "source_full_id": 855422,
+          "source_lite_id": 270060,
+          "fixed_event": false
+        },
+        {
+          "title": "缘于引力的邂逅",
+          "kind": "支线",
+          "source_full_id": 227446,
+          "source_lite_id": 591744,
+          "fixed_event": false
+        },
+        {
+          "title": "虎啸有风生",
+          "kind": "支线",
+          "source_full_id": 585713,
+          "source_lite_id": 810920,
+          "fixed_event": false
+        },
+        {
+          "title": "钢魂：黄金之绊",
+          "kind": "日常",
+          "source_full_id": 505782,
+          "source_lite_id": 9211,
+          "fixed_event": false
+        },
+        {
+          "title": "全息强袭战域",
+          "kind": "日常",
+          "source_full_id": 872712,
+          "source_lite_id": 106718,
+          "fixed_event": false
+        },
+        {
+          "title": "美味大作战",
+          "kind": "日常",
+          "source_full_id": 307061,
+          "source_lite_id": 139276,
+          "fixed_event": false
+        },
+        {
+          "title": "厄影弥途",
+          "kind": "日常",
+          "source_full_id": 3905,
+          "source_lite_id": 345110,
+          "fixed_event": false
+        },
+        {
+          "title": "凋荣十载随便一观",
+          "kind": "日常",
+          "source_full_id": 541849,
+          "source_lite_id": 929496,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 8,
+      "arc_title": "仲夏浪涌",
+      "part": "独卷",
+      "original_volume": 14,
+      "expected_count": 8,
+      "sources": [
+        {
+          "title": "迟吟的浪涌",
+          "kind": "主线",
+          "source_full_id": 729174,
+          "source_lite_id": 9561,
+          "fixed_event": true
+        },
+        {
+          "title": "仲夏游梦绮谭·爱丽丝番外",
+          "kind": "支线",
+          "source_full_id": 66130,
+          "source_lite_id": 237831,
+          "fixed_event": false
+        },
+        {
+          "title": "仲夏游梦绮谭",
+          "kind": "支线",
+          "source_full_id": 983351,
+          "source_lite_id": 517452,
+          "fixed_event": false
+        },
+        {
+          "title": "仲夏游梦绮谭·柚叶番外",
+          "kind": "支线",
+          "source_full_id": 174377,
+          "source_lite_id": 829988,
+          "fixed_event": false
+        },
+        {
+          "title": "拼出澄辉夏日！",
+          "kind": "日常",
+          "source_full_id": 206252,
+          "source_lite_id": 264163,
+          "fixed_event": false
+        },
+        {
+          "title": "幽灵船大冒险",
+          "kind": "日常",
+          "source_full_id": 12989,
+          "source_lite_id": 720232,
+          "fixed_event": false
+        },
+        {
+          "title": "最靓鱼档传说",
+          "kind": "日常",
+          "source_full_id": 863762,
+          "source_lite_id": 797800,
+          "fixed_event": false
+        },
+        {
+          "title": "乔乔的太空探秘",
+          "kind": "日常",
+          "source_full_id": 648185,
+          "source_lite_id": 919778,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 9,
+      "arc_title": "良夜与梦",
+      "part": "上",
+      "original_volume": 15,
+      "expected_count": 7,
+      "sources": [
+        {
+          "title": "不要温和地走入那良夜",
+          "kind": "主线",
+          "source_full_id": 986318,
+          "source_lite_id": 978500,
+          "fixed_event": true
+        },
+        {
+          "title": "代理人秘闻：花之谷的芙罗拉",
+          "kind": "支线",
+          "source_full_id": 404187,
+          "source_lite_id": 495476,
+          "fixed_event": false
+        },
+        {
+          "title": "问题士兵补习班",
+          "kind": "日常",
+          "source_full_id": 45870,
+          "source_lite_id": 184664,
+          "fixed_event": false
+        },
+        {
+          "title": "「嗯呢」大寻宝",
+          "kind": "日常",
+          "source_full_id": 497753,
+          "source_lite_id": 258134,
+          "fixed_event": false
+        },
+        {
+          "title": "激战聚光决胜",
+          "kind": "日常",
+          "source_full_id": 586615,
+          "source_lite_id": 654053,
+          "fixed_event": false
+        },
+        {
+          "title": "寻梦瓶游记",
+          "kind": "日常",
+          "source_full_id": 745188,
+          "source_lite_id": 719050,
+          "fixed_event": false
+        },
+        {
+          "title": "小邦布勇任防卫军",
+          "kind": "日常",
+          "source_full_id": 760552,
+          "source_lite_id": 872425,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 9,
+      "arc_title": "良夜与梦",
+      "part": "下",
+      "original_volume": 16,
+      "expected_count": 5,
+      "sources": [
+        {
+          "title": "可曾记得梦",
+          "kind": "主线",
+          "source_full_id": 488767,
+          "source_lite_id": 582687,
+          "fixed_event": true
+        },
+        {
+          "title": "代理人秘闻「失梦者奇谭」",
+          "kind": "支线",
+          "source_full_id": 885347,
+          "source_lite_id": 358,
+          "fixed_event": false
+        },
+        {
+          "title": "残梦未尽之时",
+          "kind": "支线",
+          "source_full_id": 62228,
+          "source_lite_id": 690506,
+          "fixed_event": false
+        },
+        {
+          "title": "咔嚓！闪耀大进击",
+          "kind": "日常",
+          "source_full_id": 783543,
+          "source_lite_id": 518490,
+          "fixed_event": false
+        },
+        {
+          "title": "解忧轶事录",
+          "kind": "日常",
+          "source_full_id": 606691,
+          "source_lite_id": 952031,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 10,
+      "arc_title": "深渊中的微光",
+      "part": "上",
+      "original_volume": 17,
+      "expected_count": 6,
+      "sources": [
+        {
+          "title": "将临未抵的深渊",
+          "kind": "主线",
+          "source_full_id": 866152,
+          "source_lite_id": 875565,
+          "fixed_event": true
+        },
+        {
+          "title": "新黄金魔神战士",
+          "kind": "日常",
+          "source_full_id": 405936,
+          "source_lite_id": 21500,
+          "fixed_event": false
+        },
+        {
+          "title": "「嗯呢」棋侠传",
+          "kind": "日常",
+          "source_full_id": 637574,
+          "source_lite_id": 347221,
+          "fixed_event": false
+        },
+        {
+          "title": "流光札记",
+          "kind": "日常",
+          "source_full_id": 720478,
+          "source_lite_id": 514776,
+          "fixed_event": false
+        },
+        {
+          "title": "兔子小姐百分百",
+          "kind": "日常",
+          "source_full_id": 328265,
+          "source_lite_id": 604952,
+          "fixed_event": false
+        },
+        {
+          "title": "拟境序列对决",
+          "kind": "日常",
+          "source_full_id": 799132,
+          "source_lite_id": 843814,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 10,
+      "arc_title": "深渊中的微光",
+      "part": "下",
+      "original_volume": 18,
+      "expected_count": 7,
+      "sources": [
+        {
+          "title": "微光引灯时",
+          "kind": "主线",
+          "source_full_id": 557368,
+          "source_lite_id": 673516,
+          "fixed_event": true
+        },
+        {
+          "title": "空明寻剑录",
+          "kind": "支线",
+          "source_full_id": 190010,
+          "source_lite_id": 152043,
+          "fixed_event": false
+        },
+        {
+          "title": "潜影暗流交锋",
+          "kind": "日常",
+          "source_full_id": 133722,
+          "source_lite_id": 114,
+          "fixed_event": false
+        },
+        {
+          "title": "连携调查：神之迷宫",
+          "kind": "日常",
+          "source_full_id": 308211,
+          "source_lite_id": 19086,
+          "fixed_event": false
+        },
+        {
+          "title": "妄想天使训练中",
+          "kind": "日常",
+          "source_full_id": 492521,
+          "source_lite_id": 120875,
+          "fixed_event": false
+        },
+        {
+          "title": "天使与缪斯妄想",
+          "kind": "日常",
+          "source_full_id": 471705,
+          "source_lite_id": 173794,
+          "fixed_event": false
+        },
+        {
+          "title": "心愿代投站",
+          "kind": "日常",
+          "source_full_id": 743182,
+          "source_lite_id": 466322,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 11,
+      "arc_title": "旧梦与新·艾利都日落",
+      "part": "上",
+      "original_volume": 19,
+      "expected_count": 6,
+      "sources": [
+        {
+          "title": "旧梦的安可曲",
+          "kind": "主线",
+          "source_full_id": 949051,
+          "source_lite_id": 925007,
+          "fixed_event": true
+        },
+        {
+          "title": "妄想协鸣于此刻",
+          "kind": "支线",
+          "source_full_id": 31700,
+          "source_lite_id": 423490,
+          "fixed_event": false
+        },
+        {
+          "title": "「福」至沓来",
+          "kind": "日常",
+          "source_full_id": 984821,
+          "source_lite_id": 156419,
+          "fixed_event": false
+        },
+        {
+          "title": "满分集卡专家",
+          "kind": "日常",
+          "source_full_id": 965738,
+          "source_lite_id": 322230,
+          "fixed_event": false
+        },
+        {
+          "title": "咔嚓！虚境大作战",
+          "kind": "日常",
+          "source_full_id": 893374,
+          "source_lite_id": 558886,
+          "fixed_event": false
+        },
+        {
+          "title": "引力映叙时光",
+          "kind": "日常",
+          "source_full_id": 975593,
+          "source_lite_id": 913796,
+          "fixed_event": false
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 11,
+      "arc_title": "旧梦与新·艾利都日落",
+      "part": "中",
+      "original_volume": 20,
+      "expected_count": 1,
+      "sources": [
+        {
+          "title": "新·艾利都日落时 上",
+          "kind": "主线",
+          "source_full_id": 809180,
+          "source_lite_id": 3888,
+          "fixed_event": true
+        }
+      ],
+      "state_anchor": ""
+    },
+    {
+      "arc_number": 11,
+      "arc_title": "旧梦与新·艾利都日落",
+      "part": "下",
+      "original_volume": 21,
+      "expected_count": 1,
+      "sources": [
+        {
+          "title": "新·艾利都日落时 下",
+          "kind": "主线",
+          "source_full_id": 390363,
+          "source_lite_id": 295224,
+          "fixed_event": true
+        }
+      ],
+      "state_anchor": "比利星徽战装：仅在真正取得并装备甲胄后进入STATE-005。"
+    },
+    {
+      "arc_number": 12,
+      "arc_title": "某个梦游者的自白",
+      "part": "上",
+      "original_volume": 22,
+      "expected_count": 1,
+      "sources": [
+        {
+          "title": "某个梦游者的自白（上）",
+          "kind": "主线",
+          "source_full_id": 99247,
+          "source_lite_id": 228766,
+          "fixed_event": true
+        }
+      ],
+      "state_anchor": "佩洛伊斯寄宿者固定为铃，哲非寄宿；觉醒状态STATE-001须按首次觉醒实情设置，不能将未来能力倒灌。"
+    },
+    {
+      "arc_number": 12,
+      "arc_title": "某个梦游者的自白",
+      "part": "中",
+      "original_volume": 23,
+      "expected_count": 1,
+      "sources": [
+        {
+          "title": "某个梦游者的自白（中）",
+          "kind": "主线",
+          "source_full_id": 525474,
+          "source_lite_id": 339197,
+          "fixed_event": true
+        }
+      ],
+      "state_anchor": "铃佩洛伊斯能力增长，记录觉醒/训练、代价、知情者与限制。"
+    },
+    {
+      "arc_number": 12,
+      "arc_title": "某个梦游者的自白",
+      "part": "下",
+      "original_volume": 24,
+      "expected_count": 1,
+      "sources": [
+        {
+          "title": "某个梦游者的自白（下）",
+          "kind": "主线",
+          "source_full_id": 466854,
+          "source_lite_id": 895394,
+          "fixed_event": true
+        }
+      ],
+      "state_anchor": "铃佩洛伊斯相关真相逐步揭露，仅对应当时已知的信息。"
+    },
+    {
+      "arc_number": 13,
+      "arc_title": "漫长的告别",
+      "part": "上",
+      "original_volume": 25,
+      "expected_count": 1,
+      "sources": [
+        {
+          "title": "漫长的告别（上）",
+          "kind": "主线",
+          "source_full_id": 54593,
+          "source_lite_id": 490651,
+          "fixed_event": true
+        }
+      ],
+      "state_anchor": "铃寄宿线与哲正常支援，保持双方当时关系、已知情报和伤势。"
+    },
+    {
+      "arc_number": 13,
+      "arc_title": "漫长的告别",
+      "part": "中",
+      "original_volume": 26,
+      "expected_count": 1,
+      "sources": [
+        {
+          "title": "漫长的告别（中）",
+          "kind": "主线",
+          "source_full_id": 485072,
+          "source_lite_id": 366049,
+          "fixed_event": true
+        }
+      ],
+      "state_anchor": "能力限制和知情范围承前，不跨越后来事件。"
+    },
+    {
+      "arc_number": 13,
+      "arc_title": "漫长的告别",
+      "part": "下",
+      "original_volume": 27,
+      "expected_count": 1,
+      "sources": [
+        {
+          "title": "漫长的告别（下）",
+          "kind": "主线",
+          "source_full_id": 56747,
+          "source_lite_id": 653587,
+          "fixed_event": true
+        }
+      ],
+      "state_anchor": "记录事件结局导致的关系、身体及权限状态变化。"
+    },
+    {
+      "arc_number": 14,
+      "arc_title": "罗斯凯利法新章",
+      "part": "上",
+      "original_volume": 28,
+      "expected_count": 0,
+      "sources": [],
+      "state_anchor": "",
+      "official_added_main": [
+        "她与她的隐秘往事"
+      ]
+    },
+    {
+      "arc_number": 14,
+      "arc_title": "罗斯凯利法新章",
+      "part": "下",
+      "original_volume": 29,
+      "expected_count": 0,
+      "sources": [],
+      "state_anchor": "",
+      "official_added_main": [
+        "重返天空的旅程"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "title": "三契密约",
+      "kind": "支线",
+      "source_full_id": 675466,
+      "source_lite_id": 912166,
+      "requires": "英雄不死于往昔",
+      "reason": "missing prerequisite in original 122 titles"
+    }
+  ],
+  "source_corrections": [
+    {
+      "title": "卧底蓝调",
+      "original_prerequisite": "火狱骑行",
+      "chronological_decision": "卧底蓝调 precedes 火狱骑行; retain conflict for QA"
+    }
+  ],
+  "rules": [
+    "每个分册独立world_timeline，事件A重新起算，最后沙盒模式",
+    "日常与支线在相应主线解锁后的可用叙事窗口内发生，不强制每条都发生",
+    "唯一寄宿铃，哲不寄宿",
+    "时间锚点待详细来源核实，初始2077-03-15不是官方主线日期",
+    "默认仅第一册启用，静态世界书、无旧脚本"
+  ]
+}
