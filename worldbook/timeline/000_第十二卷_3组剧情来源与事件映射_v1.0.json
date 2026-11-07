@@ -1,0 +1,174 @@
+{
+  "version": "1.0",
+  "arc_number": 12,
+  "arc_title": "某个梦游者的自白",
+  "arc_parts": 3,
+  "source_counts": {
+    "main": 3,
+    "side": 0,
+    "daily": 0,
+    "total": 3
+  },
+  "source_detailed_events": 18,
+  "new_timeline_events": 21,
+  "parts": [
+    {
+      "part": "上",
+      "title": "某个梦游者的自白（上）",
+      "kind": "主线",
+      "source_full_id": 99247,
+      "source_lite_id": 228766,
+      "source_event_count": 6,
+      "explicit_detailed_blocks": 6,
+      "new_event_range": "A-F",
+      "sandbox_event": "G",
+      "date_first": "2082-03-12",
+      "date_last": "2082-03-19",
+      "sandbox_date": "2082-03-20",
+      "source_event_titles": [
+        "六分街启程与空艇见闻",
+        "落地布亚斯特·导览与安顿",
+        "第一晚的实验室事故",
+        "艾尔妲·挽昼的演讲",
+        "治疗",
+        "突发情况"
+      ],
+      "body_file": "worldbook/timeline/TIMELINE-012-上_某个梦游者的自白.md",
+      "metadata_file": "worldbook/timeline/000_第十二卷上_装配元数据_v1.0.json",
+      "worldbook_event_count": 7
+    },
+    {
+      "part": "中",
+      "title": "某个梦游者的自白（中）",
+      "kind": "主线",
+      "source_full_id": 525474,
+      "source_lite_id": 339197,
+      "source_event_count": 5,
+      "explicit_detailed_blocks": 5,
+      "new_event_range": "A-E",
+      "sandbox_event": "F",
+      "date_first": "2082-03-20",
+      "date_last": "2082-03-21",
+      "sandbox_date": "2082-03-22",
+      "source_event_titles": [
+        "兵分两路·救援与佩洛伊斯之力",
+        "深入核心区·发现西蒙",
+        "质询会来袭",
+        "诺姆的调查计划",
+        "剧场调查·夜闯前夕"
+      ],
+      "body_file": "worldbook/timeline/TIMELINE-012-中_某个梦游者的自白.md",
+      "metadata_file": "worldbook/timeline/000_第十二卷中_装配元数据_v1.0.json",
+      "worldbook_event_count": 6
+    },
+    {
+      "part": "下",
+      "title": "某个梦游者的自白（下）",
+      "kind": "主线",
+      "source_full_id": 466854,
+      "source_lite_id": 895394,
+      "source_event_count": 7,
+      "explicit_detailed_blocks": 7,
+      "new_event_range": "A-G",
+      "sandbox_event": "H",
+      "date_first": "2082-03-22",
+      "date_last": "2082-03-27",
+      "sandbox_date": "2082-03-28",
+      "source_event_titles": [
+        "夜闯算枢局·货箱潜入",
+        "遇见蕾米埃尔·问答结盟",
+        "天使信号与泄露奇点",
+        "斯卡莫空洞·巴什穆",
+        "救托比·「天使」现身",
+        "质询会与真相",
+        "尾声·结使伏笔"
+      ],
+      "body_file": "worldbook/timeline/TIMELINE-012-下_某个梦游者的自白.md",
+      "metadata_file": "worldbook/timeline/000_第十二卷下_装配元数据_v1.0.json",
+      "worldbook_event_count": 8
+    }
+  ],
+  "stage_gates": [
+    {
+      "part": "上",
+      "event": "C",
+      "date": "2082-03-12",
+      "subject": "哲",
+      "revelation": "非寄宿者哲在第一夜梦见赫利俄斯旧友特里薇亚、塞尔皮科及植入体测试前兆",
+      "boundary": "不得将旧梦当作哲的佩洛伊斯寄宿"
+    },
+    {
+      "part": "上",
+      "event": "E",
+      "date": "2082-03-19",
+      "subject": "铃",
+      "revelation": "在德蕾琪娜治疗中与佩洛伊斯进一步和解，控制能力提升",
+      "boundary": "并非第六卷下册已发生的首次觉醒；代价仍存在"
+    },
+    {
+      "part": "中",
+      "event": "A",
+      "date": "2082-03-20",
+      "subject": "铃",
+      "revelation": "首次了解泄露奇点的单向性并反向注入以太，有限脱出和穿梭",
+      "boundary": "可控条件下使用，不是任意空间传送"
+    },
+    {
+      "part": "下",
+      "event": "D",
+      "date": "2082-03-22",
+      "subject": "铃",
+      "revelation": "用佩洛伊斯短暂收纳同伴进入防护空间，借奇点推回巴什穆",
+      "boundary": "紧急临时保护，同伴不永久变成召唤物"
+    },
+    {
+      "part": "下",
+      "event": "E",
+      "date": "2082-03-22",
+      "subject": "维琳娜",
+      "revelation": "以认知安全密钥救回托比并首次证实自己正是邦布口中的天使",
+      "boundary": "事前只存在传闻，西蒙已经死亡不被逆转"
+    },
+    {
+      "part": "下",
+      "event": "F",
+      "date": "2082-03-23",
+      "subject": "德蕾琪娜、维琳娜",
+      "revelation": "邦布死亡真因是被外部植入的烈性以太而非新版逻辑核心固有缺陷",
+      "boundary": "对外说明保留细节，结使真正身份尚待调查"
+    },
+    {
+      "part": "下",
+      "event": "G",
+      "date": "2082-03-27",
+      "subject": "疑似蕾米埃尔",
+      "revelation": "说出基塔布鲁、巴什穆与结使有关，且自称认识最初的挽昼",
+      "boundary": "与第十一卷下册已消散的蕾米埃尔矛盾未解，不认定复活/分身/影像任何机制"
+    }
+  ],
+  "continuity_conflict": {
+    "status": "OPEN_UNRESOLVED_ORIGINAL_SOURCE_CONFLICT",
+    "prior_chapter": "第十一卷（下）事件G, 2082-03-06：蕾米埃尔在完成最后一次虚狩后随夕阳消散",
+    "following_source": "第十二卷上事件二的罗斯凯利法通缉令及下事件二至七：原卡又写蕾米埃尔在空岛活动、协助救援并亲述结使",
+    "handling": "运行正文保留所见的带翼女子外观、言谈及行动；人物明确察觉与前次死亡冲突，不宣称已复活或提供未经来源证实的替身、时间回溯、克隆机制。二者是否同一存在待后续来源或人工审核确认；本项不能标记为叙事连续性已彻底解决。",
+    "needs_followup_review": true,
+    "source_limitation": "单靠此卷原卡原文无法解释她再次出现的方式"
+  },
+  "special_handling": [
+    "原卡对三篇全部使用getvar选择哲或铃当佩洛伊斯宿主；按冻结004唯一固定铃，哲为非寄宿共同经营者与H.D.D.后方领航员，六分街出行、公开演讲和密谈保留兄妹都在场",
+    "上册第一夜源文把童年噩梦指向非宿主，故安排哲回忆旧都；治疗虚拟梦境、控制能力提升归铃。治疗不是首次觉醒，本卡初觉醒已在第六卷下G",
+    "第十一卷下G蕾米埃尔死亡与源第十二卷蕾米埃尔活跃不能自动和解；在官方机制未有材料时列为未解决连续性警告，正文不假定她本人复活",
+    "中册西蒙死亡不可由托比后来的奇迹倒写复活，托比仅下册E从严重侵蚀中被维琳娜以认证密钥救回",
+    "上册F的紧急调度与中册A在隔日凌晨接续；中册E与下册A跨入夜间及次日凌晨接续；相邻分册沙盒开始日与后继正剧第一天相同，只在手动切换时启用一册，绝不同时开启两册",
+    "西蒙03月20日殒命，03月23日质询会前调查结果正式提交，符合原卡三日倒计时",
+    "原卡三位挽昼一分为三、皆为构造体的设定只有上E内部被知会之后兄妹才了解，不当作新艾利都公众常识；真正天使身份只在下E揭晓",
+    "下册佩洛伊斯对泄露奇点的稳定、有限同伴保护及反向操纵能力在本次现场渐次发现，不能预支到上册开篇",
+    "全章仅3个主线来源不添加用户未授权支线或日常，仍在间隙留可自然互动的空档；所有时间为虚构卡内编年而非官方精确日期"
+  ],
+  "only_peloyis_host": "铃",
+  "nonhost_partner": "哲",
+  "no_mvu": true,
+  "script_deps": [],
+  "android_real_device_qa": "NOT_RUN",
+  "qa_file": "qa/048_第十二卷上中下_单线来源与蕾米埃尔连续性静态QA_v1.0.md"
+}
