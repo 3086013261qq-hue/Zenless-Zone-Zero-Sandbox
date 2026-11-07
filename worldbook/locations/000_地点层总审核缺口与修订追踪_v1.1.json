@@ -83,5 +83,11 @@
     "厄匹斯港": "官方简体名称（厄尔庇斯港为原卡别名）"
   },
   "pending_official_visual_details": "新增地区只能稳妥写空间职能、已证实连接与可见设施，内部精确细节未逐图验收；本轮不声称全景3D完美复刻",
-  "notes": "五条地点常驻BLUE、九条世界BLUE、54条普通GREEN、人物能力、时间线均不更改；无新增触发脚本、时间门控、人物出场表"
+  "notes": "五条地点常驻BLUE、九条世界BLUE、54条普通GREEN、人物能力、时间线均不更改；无新增触发脚本、时间门控、人物出场表",
+  "directory_correction": {
+    "id": "LOCATION-GREEN-004",
+    "old_path": "worldbook/locations/green/city/LOCATION-GREEN-004_厄匹斯港.md",
+    "new_path": "worldbook/locations/green/coast/LOCATION-GREEN-004_厄匹斯港.md",
+    "reason": "厄匹斯港为滨海港区，源码目录应归coast而非city; no duplicate files"
+  }
 }

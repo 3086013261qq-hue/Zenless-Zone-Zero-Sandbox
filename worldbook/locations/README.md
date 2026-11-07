@@ -14,11 +14,10 @@
 
 ## 原卡精修地点绿灯（64篇）
 
-### 市区及生活店铺（30篇）
+### 市区及生活店铺（29篇）
 - [LOCATION-GREEN-001｜六分街](green/city/LOCATION-GREEN-001_六分街.md)
 - [LOCATION-GREEN-002｜光映广场](green/city/LOCATION-GREEN-002_光映广场.md)
 - [LOCATION-GREEN-003｜芭莱大厦前](green/city/LOCATION-GREEN-003_芭莱大厦前.md)
-- [LOCATION-GREEN-004｜厄匹斯港](green/city/LOCATION-GREEN-004_厄匹斯港.md)
 - [LOCATION-GREEN-005｜星环](green/city/LOCATION-GREEN-005_星环.md)
 - [LOCATION-GREEN-006｜热望角](green/city/LOCATION-GREEN-006_热望角.md)
 - [LOCATION-GREEN-007｜回响斗技场](green/city/LOCATION-GREEN-007_回响斗技场.md)
@@ -54,7 +53,8 @@
 - [LOCATION-GREEN-035｜斯科特前哨](green/hollow/LOCATION-GREEN-035_斯科特前哨.md)
 - [LOCATION-GREEN-036｜白星院](green/hollow/LOCATION-GREEN-036_白星院.md)
 
-### 滨海与休闲（2篇）
+### 滨海与休闲（3篇）
+- [LOCATION-GREEN-004｜厄匹斯港](green/coast/LOCATION-GREEN-004_厄匹斯港.md)
 - [LOCATION-GREEN-037｜幻海奇境](green/coast/LOCATION-GREEN-037_幻海奇境.md)
 - [LOCATION-GREEN-038｜幻海水族馆](green/coast/LOCATION-GREEN-038_幻海水族馆.md)
 

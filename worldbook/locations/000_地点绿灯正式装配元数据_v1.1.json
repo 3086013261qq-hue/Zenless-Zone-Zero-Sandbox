@@ -2,7 +2,7 @@
   "version": "location-green-v1.1",
   "date": "2026-11-07",
   "based_on_commit": "c6cd635684a43443cc49005dcb854d8d8351e080",
-  "status": "71_LOCATION_GREENS_64_SOURCE_CARD_7_OFFICIAL_ADDITIONS_STATIC_QA_PASS_NOT_ASSEMBLED",
+  "status": "LOCATION_71_ALL_BODIES_READBACK_STATIC_QA_PASS_FINAL_CCV3_PENDING",
   "sources": {
     "file": "绝区零_原卡无损提取_ccv3.json",
     "source_book_total": 707,
@@ -143,7 +143,7 @@
         169690
       ],
       "parent_location_blue": "LOCATION-BLUE-01",
-      "body_file": "worldbook/locations/green/city/LOCATION-GREEN-004_厄匹斯港.md",
+      "body_file": "worldbook/locations/green/coast/LOCATION-GREEN-004_厄匹斯港.md",
       "content_tag": "地点:厄匹斯港",
       "comment": "地点:厄匹斯港",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
@@ -2237,7 +2237,7 @@
     "all_tags_valid": true,
     "all_content_fields_valid": true,
     "script_markers_zero": true,
-    "body_characters_total": 9781,
+    "body_characters_total": 11041,
     "body_characters_min": 113,
     "body_characters_max": 240,
     "all_text_characters_recounted": true,
@@ -2248,8 +2248,12 @@
       "海神雕像",
       "404 Livehouse",
       "涡轮改装店"
-    ]
+    ],
+    "review_recheck": "71/71 REMOTE READBACK FORMAT QA PASS",
+    "directory_relocated": "LOCATION-GREEN-004 city → coast",
+    "cross_module_order_check": "54 keyword GREEN + 29 timeline + 62 bangboo + 71 location: no location-order collision"
   },
   "supersedes": "000_地点绿灯正式装配元数据_v1.0.json",
-  "updated": "2026-11-07"
+  "updated": "2026-11-07",
+  "last_source_readback_date": "2026-11-07"
 }
