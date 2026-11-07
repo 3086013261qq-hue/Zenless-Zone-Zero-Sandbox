@@ -1,0 +1,624 @@
+{
+  "version": "1.0",
+  "as_of": "2026-11-07",
+  "original_card_character_candidate_count": 82,
+  "first_batch_character_count": 8,
+  "first_batch_ability_count": 8,
+  "pending_manual_review": 74,
+  "never_copy_unverified_fanon": true,
+  "original_png_not_uploaded": true,
+  "approved": [
+    {
+      "num": "001",
+      "name": "铃",
+      "original_char_source_id": 393477,
+      "character_file": "worldbook/characters/major/CHAR-001_铃.md",
+      "ability_file": "worldbook/abilities/ABILITY-001_铃·能力.md",
+      "character_order": 202,
+      "ability_order": 333,
+      "character_and_ability_keys": [
+        "/<story_scene>.*?(?:铃|Belle|法厄同).*?<\\/story_scene>/s"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "002",
+      "name": "哲",
+      "original_char_source_id": 491165,
+      "character_file": "worldbook/characters/major/CHAR-002_哲.md",
+      "ability_file": "worldbook/abilities/ABILITY-002_哲·能力.md",
+      "character_order": 203,
+      "ability_order": 334,
+      "character_and_ability_keys": [
+        "/<story_scene>.*?(?:哲|Wise|法厄同).*?<\\/story_scene>/s"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "003",
+      "name": "妮可·德玛拉",
+      "original_char_source_id": 607631,
+      "character_file": "worldbook/characters/major/CHAR-003_妮可·德玛拉.md",
+      "ability_file": "worldbook/abilities/ABILITY-003_妮可·德玛拉·能力.md",
+      "character_order": 204,
+      "ability_order": 335,
+      "character_and_ability_keys": [
+        "/<story_scene>.*?(?:妮可|Nicole|妮可·德玛拉).*?<\\/story_scene>/s"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "004",
+      "name": "安比·德玛拉",
+      "original_char_source_id": 405520,
+      "character_file": "worldbook/characters/major/CHAR-004_安比·德玛拉.md",
+      "ability_file": "worldbook/abilities/ABILITY-004_安比·德玛拉·能力.md",
+      "character_order": 205,
+      "ability_order": 336,
+      "character_and_ability_keys": [
+        "/<story_scene>.*?(?:安比|Anby|安比·德玛拉).*?<\\/story_scene>/s"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "005",
+      "name": "比利·奇德",
+      "original_char_source_id": 691758,
+      "character_file": "worldbook/characters/major/CHAR-005_比利·奇德.md",
+      "ability_file": "worldbook/abilities/ABILITY-005_比利·奇德·能力.md",
+      "character_order": 206,
+      "ability_order": 337,
+      "character_and_ability_keys": [
+        "/<story_scene>.*?(?:比利|比利·奇德|Billy Kid).*?<\\/story_scene>/s"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "006",
+      "name": "猫宫又奈",
+      "original_char_source_id": 985768,
+      "character_file": "worldbook/characters/major/CHAR-006_猫宫又奈.md",
+      "ability_file": "worldbook/abilities/ABILITY-006_猫宫又奈·能力.md",
+      "character_order": 207,
+      "ability_order": 338,
+      "character_and_ability_keys": [
+        "/<story_scene>.*?(?:猫又|猫宫又奈|Nekomata).*?<\\/story_scene>/s"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "007",
+      "name": "格莉丝·霍华德",
+      "original_char_source_id": 173676,
+      "character_file": "worldbook/characters/major/CHAR-007_格莉丝·霍华德.md",
+      "ability_file": "worldbook/abilities/ABILITY-007_格莉丝·霍华德·能力.md",
+      "character_order": 208,
+      "ability_order": 339,
+      "character_and_ability_keys": [
+        "/<story_scene>.*?(?:格莉丝|Grace|格莉丝·霍华德).*?<\\/story_scene>/s"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "008",
+      "name": "冯·莱卡恩",
+      "original_char_source_id": 74258,
+      "character_file": "worldbook/characters/major/CHAR-008_冯·莱卡恩.md",
+      "ability_file": "worldbook/abilities/ABILITY-008_冯·莱卡恩·能力.md",
+      "character_order": 209,
+      "ability_order": 340,
+      "character_and_ability_keys": [
+        "/<story_scene>.*?(?:莱卡恩|冯·莱卡恩|Lycaon).*?<\\/story_scene>/s"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    }
+  ],
+  "source_candidate_index": [
+    {
+      "source_id": 687,
+      "source_comment": "char:兰",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 11680,
+      "source_comment": "char:丽娜",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 17177,
+      "source_comment": "char:狛野真斗",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 20445,
+      "source_comment": "char:扳机",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 55121,
+      "source_comment": "char:波可娜",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 57617,
+      "source_comment": "char:露西",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 63814,
+      "source_comment": "char:席德",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 73480,
+      "source_comment": "char:拉米尔",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 74258,
+      "source_comment": "char:莱卡恩",
+      "status": "BATCH01_APPROVED"
+    },
+    {
+      "source_id": 77409,
+      "source_comment": "char:卢西娅",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 85498,
+      "source_comment": "char:fairy",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 110848,
+      "source_comment": "char:月城柳",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 134251,
+      "source_comment": "char:派派",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 134930,
+      "source_comment": "char:莉莉可",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 150773,
+      "source_comment": "char:橘福福",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 160335,
+      "source_comment": "char:朱鸢",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 162104,
+      "source_comment": "char:维琳娜",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 173676,
+      "source_comment": "char:格莉丝",
+      "status": "BATCH01_APPROVED"
+    },
+    {
+      "source_id": 198355,
+      "source_comment": "char:伊芙琳",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 210540,
+      "source_comment": "char:珂蕾妲",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 224465,
+      "source_comment": "char:绒枢",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 227222,
+      "source_comment": "char:安东",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 245099,
+      "source_comment": "char:挽昼",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 247043,
+      "source_comment": "char:芮恩",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 269261,
+      "source_comment": "char:卡洛丝·阿尔娜",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 273376,
+      "source_comment": "char:简",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 299532,
+      "source_comment": "char:法厄同",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 312860,
+      "source_comment": "char:希格莉德",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 363727,
+      "source_comment": "char:本",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 367603,
+      "source_comment": "char:特里薇亚",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 370993,
+      "source_comment": "char:Youkai",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 393477,
+      "source_comment": "char:铃",
+      "status": "BATCH01_APPROVED"
+    },
+    {
+      "source_id": 405520,
+      "source_comment": "char:安比",
+      "status": "BATCH01_APPROVED"
+    },
+    {
+      "source_id": 407839,
+      "source_comment": "char:雨果",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 412945,
+      "source_comment": "char:可琳",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 417274,
+      "source_comment": "char:凯撒",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 422025,
+      "source_comment": "char:伊德海莉",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 429284,
+      "source_comment": "char:伊瑟尔德",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 429676,
+      "source_comment": "char:般岳",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 438653,
+      "source_comment": "char:千夏",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 445397,
+      "source_comment": "char:浅羽悠真",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 457396,
+      "source_comment": "char:维克",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 461319,
+      "source_comment": "char:柏妮思",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 477380,
+      "source_comment": "char:11号",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 491165,
+      "source_comment": "char:哲",
+      "status": "BATCH01_APPROVED"
+    },
+    {
+      "source_id": 516698,
+      "source_comment": "char:叶瞬光",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 570661,
+      "source_comment": "char:诺姆",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 587605,
+      "source_comment": "char:莱特",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 592199,
+      "source_comment": "char:薇丝珀",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 607631,
+      "source_comment": "char:妮可",
+      "status": "BATCH01_APPROVED"
+    },
+    {
+      "source_id": 623738,
+      "source_comment": "char:塞西莉亚",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 635483,
+      "source_comment": "char:赛维里安·洛威尔",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 642043,
+      "source_comment": "char:莎拉",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 650803,
+      "source_comment": "char:爱丽丝·泰姆菲尔德",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 655284,
+      "source_comment": "char:青衣",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 671675,
+      "source_comment": "char:崔姬",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 691758,
+      "source_comment": "char:比利",
+      "status": "BATCH01_APPROVED"
+    },
+    {
+      "source_id": 694235,
+      "source_comment": "char:克拉蕾",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 699186,
+      "source_comment": "char:照",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 714991,
+      "source_comment": "char:乔伊斯",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 720526,
+      "source_comment": "char:佐伊",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 730366,
+      "source_comment": "char:仪玄",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 734804,
+      "source_comment": "char:星见雅",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 734831,
+      "source_comment": "char:南宫羽",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 740378,
+      "source_comment": "char:丹",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 745931,
+      "source_comment": "char:赛斯",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 745946,
+      "source_comment": "char:艾莲",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 758175,
+      "source_comment": "char:希希芙",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 777506,
+      "source_comment": "char:蕾",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 790916,
+      "source_comment": "char:奥菲丝·马格努森 & 「鬼火」",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 800422,
+      "source_comment": "char:蒂娜",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 817309,
+      "source_comment": "char:普罗米娅",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 877447,
+      "source_comment": "char:耀嘉音",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 904315,
+      "source_comment": "char:薇薇安",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 912875,
+      "source_comment": "char:启明星",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 959182,
+      "source_comment": "char:琉音",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 965940,
+      "source_comment": "char:潘引壶",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 970071,
+      "source_comment": "char:红豆",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 982429,
+      "source_comment": "char:浮波柚叶",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 985768,
+      "source_comment": "char:猫又",
+      "status": "BATCH01_APPROVED"
+    },
+    {
+      "source_id": 993969,
+      "source_comment": "char:爱芮",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    },
+    {
+      "source_id": 998866,
+      "source_comment": "char:苍角",
+      "status": "PENDING_CANON_AND_FANON_AUDIT"
+    }
+  ]
+}
