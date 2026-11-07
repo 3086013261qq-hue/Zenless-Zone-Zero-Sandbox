@@ -1,0 +1,131 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 7,
+  "part": "下",
+  "comment": "时间线:第七卷（下）·云岿山初行",
+  "body_file": "worldbook/timeline/TIMELINE-007-下_云岿山初行.md",
+  "source_chapters": [
+    {
+      "title": "云霞同归处",
+      "kind": "主线",
+      "full_id": 683004,
+      "lite_id": 372813,
+      "original_events": 7,
+      "event_range": "A-G",
+      "note": "铃在市长安排下与仪玄先赴卫非地，哲后方联络；灾害和仪绛旧事在相应事件后揭开；幕后莎拉/巨茧资料不自动公开"
+    },
+    {
+      "title": "代理人秘闻「《猛虎伏魔传！》」",
+      "kind": "支线",
+      "full_id": 855422,
+      "lite_id": 270060,
+      "original_events": 5,
+      "event_range": "H-L",
+      "note": "由橘福福亲自主演调查，最后辨明苍黄为夺取真苍黄生命的冒名虎希人；不让玩家代她打败对手"
+    },
+    {
+      "title": "缘于引力的邂逅",
+      "kind": "支线",
+      "full_id": 227446,
+      "lite_id": 591744,
+      "original_events": 8,
+      "event_range": "M-T",
+      "note": "第6事件仅保留铃玩家观文艺片与哲互动的单线，另一哲玩家分支不装入运行正文"
+    },
+    {
+      "title": "虎啸有风生",
+      "kind": "支线",
+      "full_id": 585713,
+      "lite_id": 810920,
+      "original_events": 4,
+      "event_range": "U-X",
+      "note": "福福为料理清剿、海岸采药、称颂会余党调查和教学，仍是大师姐而非门主"
+    },
+    {
+      "title": "钢魂：黄金之绊",
+      "kind": "日常",
+      "full_id": 505782,
+      "lite_id": 9211,
+      "original_events": 5,
+      "event_range": "Y-AC",
+      "note": "宇宙秘密=赫拉克勒斯生日4月2日/42，黄金机甲归白祇工地合作维护，不无条件成为法厄同永久武器"
+    },
+    {
+      "title": "全息强袭战域",
+      "kind": "日常",
+      "full_id": 872712,
+      "lite_id": 106718,
+      "original_events": 3,
+      "event_range": "AD-AF",
+      "note": "枫在HIA VR受挫后才意识到真实空洞危险；VR与实际战斗实力不等价"
+    },
+    {
+      "title": "美味大作战",
+      "kind": "日常",
+      "full_id": 307061,
+      "lite_id": 139276,
+      "original_events": 5,
+      "event_range": "AG-AK",
+      "note": "修正原卡明显错配：偶像演出由耀嘉音、六课课长星见雅不变歌姬；月城柳属对空六课而非维多利亚家政"
+    },
+    {
+      "title": "厄影弥途",
+      "kind": "日常",
+      "full_id": 3905,
+      "lite_id": 345110,
+      "original_events": 4,
+      "event_range": "AL-AO",
+      "note": "H.D.D.回看仪玄既往调查录像，日期是本卷观看日；霍波与朽峰矿业为待查线索，不能默认已清剿"
+    },
+    {
+      "title": "凋荣十载随便一观",
+      "kind": "日常",
+      "full_id": 541849,
+      "lite_id": 929496,
+      "original_events": 9,
+      "event_range": "AP-AX",
+      "note": "只在云霞主线随便观正式启用后开始修缮；道观等级、商店解锁、观潮节/街坊委托按进度和实际参加情况生效"
+    }
+  ],
+  "date_basis": "2079-10-05 to 2080-02-25, internally constructed card chronology only, NOT official dates",
+  "sandbox_start": "2080-02-26",
+  "previous_part": "worldbook/timeline/TIMELINE-007-上_云岿山初行.md",
+  "next_part": "worldbook/timeline/TIMELINE-008_仲夏浪涌.md",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 466,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Only volume 1 upper is initially enabled. All other independent timeline parts, including both halves here, are manually toggled at the applicable story window; no runtime script or MVU.",
+  "script_deps": [],
+  "static_qa": "qa/043_第七卷上下册_全栈来源时序与角色状态静态QA_v1.0.md",
+  "android_sillytavern_real_device": "NOT_RUN",
+  "stage_gates": [
+    {
+      "character": "铃",
+      "state_id": "STATE-001",
+      "precondition": "已经在第六卷下册G经历佩洛伊斯觉醒",
+      "applies": "在仪玄指导下渐进修行，不首次觉醒、不无代价使用全部云岿术法；哲非寄宿者"
+    },
+    {
+      "character": "凯撒",
+      "state_id": "STATE-015",
+      "precondition": "第三卷下册火狱骑行结束",
+      "applies": "已是代理霸主，仅按实际事件与公开职责触发"
+    },
+    {
+      "character": "仪玄",
+      "precondition": "下册事件E+F始发生姐姐仪绛的完整往事告白和对称颂会司教的心境突破",
+      "applies": "不得在飞空艇坠毁时便把仪绛的最终遗言或幕后茧中怪物情报当公开已知"
+    }
+  ]
+}
