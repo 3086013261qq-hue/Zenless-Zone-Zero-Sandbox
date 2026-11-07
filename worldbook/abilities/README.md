@@ -1,6 +1,6 @@
 # 人物能力与装备｜同源触发
 
-60名人物各有一篇对应`<核心设定:角色名·能力>`，与人物使用同一个`story_scene`限域正则。不是新增世界书类别。
+80名人物各有一篇对应`<核心设定:角色名·能力>`，与人物使用同一个`story_scene`限域正则。不是新增世界书类别。
 
 - [铃·能力](ABILITY-001_铃·能力.md)：人物[铃](../characters/major/CHAR-001_铃.md)，order333
 - [哲·能力](ABILITY-002_哲·能力.md)：人物[哲](../characters/major/CHAR-002_哲.md)，order334
@@ -63,4 +63,28 @@
 - [希格莉德·德拉叙尔·能力](ABILITY-059_希格莉德·德拉叙尔·能力.md)：人物[希格莉德·德拉叙尔](../characters/major/CHAR-059_希格莉德·德拉叙尔.md)，order391
 - [蕾·耶尔辛·能力](ABILITY-060_蕾·耶尔辛·能力.md)：人物[蕾·耶尔辛](../characters/major/CHAR-060_蕾·耶尔辛.md)，order392
 
-普通人物order202—261，普通GREEN302—332，角色能力order333—392，四条特殊状态order393—396，均不冲突。特殊状态见[states](states/)；不采用MVU自动解锁。
+普通人物order202—281，普通GREEN302—332，角色能力order333—412，五条特殊状态order413—417，均不冲突。特殊状态见[states](states/)；不采用MVU自动解锁。
+
+## 末批新增20篇能力
+- [兰·能力](ABILITY-061_兰·能力.md)（与[人物](../characters/major/CHAR-061_兰.md)同名触发；能力order393）
+- [Fairy·能力](ABILITY-062_Fairy·能力.md)（与[人物](../characters/major/CHAR-062_Fairy.md)同名触发；能力order394）
+- [莉莉可·能力](ABILITY-063_莉莉可·能力.md)（与[人物](../characters/major/CHAR-063_莉莉可.md)同名触发；能力order395）
+- [缄枢·能力](ABILITY-064_缄枢·能力.md)（与[人物](../characters/major/CHAR-064_缄枢.md)同名触发；能力order396）
+- [挽昼·能力](ABILITY-065_挽昼·能力.md)（与[人物](../characters/major/CHAR-065_挽昼.md)同名触发；能力order397）
+- [芮恩·能力](ABILITY-066_芮恩·能力.md)（与[人物](../characters/major/CHAR-066_芮恩.md)同名触发；能力order398）
+- [卡洛丝·阿尔娜·能力](ABILITY-067_卡洛丝·阿尔娜·能力.md)（与[人物](../characters/major/CHAR-067_卡洛丝·阿尔娜.md)同名触发；能力order399）
+- [特里薇亚·能力](ABILITY-068_特里薇亚·能力.md)（与[人物](../characters/major/CHAR-068_特里薇亚.md)同名触发；能力order400）
+- [Youkai·能力](ABILITY-069_Youkai·能力.md)（与[人物](../characters/major/CHAR-069_Youkai.md)同名触发；能力order401）
+- [伊瑟尔德·能力](ABILITY-070_伊瑟尔德·能力.md)（与[人物](../characters/major/CHAR-070_伊瑟尔德.md)同名触发；能力order402）
+- [贝莉奥拉·维克·能力](ABILITY-071_贝莉奥拉·维克·能力.md)（与[人物](../characters/major/CHAR-071_贝莉奥拉·维克.md)同名触发；能力order403）
+- [薇斯珀·能力](ABILITY-072_薇斯珀·能力.md)（与[人物](../characters/major/CHAR-072_薇斯珀.md)同名触发；能力order404）
+- [塞西莉亚·能力](ABILITY-073_塞西莉亚·能力.md)（与[人物](../characters/major/CHAR-073_塞西莉亚.md)同名触发；能力order405）
+- [莎拉·弗洛伦·能力](ABILITY-074_莎拉·弗洛伦·能力.md)（与[人物](../characters/major/CHAR-074_莎拉·弗洛伦.md)同名触发；能力order406）
+- [崔姬·能力](ABILITY-075_崔姬·能力.md)（与[人物](../characters/major/CHAR-075_崔姬.md)同名触发；能力order407）
+- [乔伊斯·能力](ABILITY-076_乔伊斯·能力.md)（与[人物](../characters/major/CHAR-076_乔伊斯.md)同名触发；能力order408）
+- [佐伊·能力](ABILITY-077_佐伊·能力.md)（与[人物](../characters/major/CHAR-077_佐伊.md)同名触发；能力order409）
+- [蒂娜·能力](ABILITY-078_蒂娜·能力.md)（与[人物](../characters/major/CHAR-078_蒂娜.md)同名触发；能力order410）
+- [启明星·能力](ABILITY-079_启明星·能力.md)（与[人物](../characters/major/CHAR-079_启明星.md)同名触发；能力order411）
+- [红豆·能力](ABILITY-080_红豆·能力.md)（与[人物](../characters/major/CHAR-080_红豆.md)同名触发；能力order412）
+
+最新5条状态元数据见[states v1.3](states/000_特殊状态装配元数据_v1.3.json)。

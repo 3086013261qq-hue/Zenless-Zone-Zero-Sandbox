@@ -1,0 +1,2842 @@
+{
+  "version": "1.4",
+  "as_of": "2026-11-07",
+  "original_card_character_candidate_count": 82,
+  "first_batch_character_count": 8,
+  "first_batch_ability_count": 8,
+  "pending_manual_review": 0,
+  "never_copy_unverified_fanon": true,
+  "original_png_not_uploaded": true,
+  "approved": [
+    {
+      "num": "001",
+      "name": "铃",
+      "original_char_source_id": 393477,
+      "character_file": "worldbook/characters/major/CHAR-001_铃.md",
+      "ability_file": "worldbook/abilities/ABILITY-001_铃·能力.md",
+      "character_order": 202,
+      "ability_order": 333,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:铃|Belle|法厄同)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "002",
+      "name": "哲",
+      "original_char_source_id": 491165,
+      "character_file": "worldbook/characters/major/CHAR-002_哲.md",
+      "ability_file": "worldbook/abilities/ABILITY-002_哲·能力.md",
+      "character_order": 203,
+      "ability_order": 334,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:哲|Wise|法厄同)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "003",
+      "name": "妮可·德玛拉",
+      "original_char_source_id": 607631,
+      "character_file": "worldbook/characters/major/CHAR-003_妮可·德玛拉.md",
+      "ability_file": "worldbook/abilities/ABILITY-003_妮可·德玛拉·能力.md",
+      "character_order": 204,
+      "ability_order": 335,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:妮可|Nicole|妮可·德玛拉)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "004",
+      "name": "安比·德玛拉",
+      "original_char_source_id": 405520,
+      "character_file": "worldbook/characters/major/CHAR-004_安比·德玛拉.md",
+      "ability_file": "worldbook/abilities/ABILITY-004_安比·德玛拉·能力.md",
+      "character_order": 205,
+      "ability_order": 336,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:安比|Anby|安比·德玛拉)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "005",
+      "name": "比利·奇德",
+      "original_char_source_id": 691758,
+      "character_file": "worldbook/characters/major/CHAR-005_比利·奇德.md",
+      "ability_file": "worldbook/abilities/ABILITY-005_比利·奇德·能力.md",
+      "character_order": 206,
+      "ability_order": 337,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:比利|比利·奇德|Billy Kid)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "006",
+      "name": "猫宫又奈",
+      "original_char_source_id": 985768,
+      "character_file": "worldbook/characters/major/CHAR-006_猫宫又奈.md",
+      "ability_file": "worldbook/abilities/ABILITY-006_猫宫又奈·能力.md",
+      "character_order": 207,
+      "ability_order": 338,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:猫又|猫宫又奈|Nekomata)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "007",
+      "name": "格莉丝·霍华德",
+      "original_char_source_id": 173676,
+      "character_file": "worldbook/characters/major/CHAR-007_格莉丝·霍华德.md",
+      "ability_file": "worldbook/abilities/ABILITY-007_格莉丝·霍华德·能力.md",
+      "character_order": 208,
+      "ability_order": 339,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:格莉丝|Grace|格莉丝·霍华德)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "008",
+      "name": "冯·莱卡恩",
+      "original_char_source_id": 74258,
+      "character_file": "worldbook/characters/major/CHAR-008_冯·莱卡恩.md",
+      "ability_file": "worldbook/abilities/ABILITY-008_冯·莱卡恩·能力.md",
+      "character_order": 209,
+      "ability_order": 340,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:莱卡恩|冯·莱卡恩|Lycaon)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方形象/职业/能力已核，体征及心理模型含合理制卡推断，非官网精确数据",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "009",
+      "name": "珂蕾妲·贝洛伯格",
+      "original_char_source_id": 210540,
+      "original_item_source_ids": [],
+      "character_file": "worldbook/characters/major/CHAR-009_珂蕾妲·贝洛伯格.md",
+      "ability_file": "worldbook/abilities/ABILITY-009_珂蕾妲·贝洛伯格·能力.md",
+      "character_order": 210,
+      "ability_order": 341,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:珂蕾妲|柯蕾妲|Koleda)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方职业、基础形象和战斗风格核对；体征补全与心理模型为制卡资料，不是官宣测量",
+      "qa": "SOURCE_STATIC_PASS_NEEDS_RUNTIME"
+    },
+    {
+      "num": "010",
+      "name": "本·比格",
+      "original_char_source_id": 363727,
+      "original_item_source_ids": [],
+      "character_file": "worldbook/characters/major/CHAR-010_本·比格.md",
+      "ability_file": "worldbook/abilities/ABILITY-010_本·比格·能力.md",
+      "character_order": 211,
+      "ability_order": 342,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:本·比格|大本|Ben Bigger)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方职业、基础形象和战斗风格核对；体征补全与心理模型为制卡资料，不是官宣测量",
+      "qa": "SOURCE_STATIC_PASS_NEEDS_RUNTIME"
+    },
+    {
+      "num": "011",
+      "name": "安东·伊万诺夫",
+      "original_char_source_id": 227222,
+      "original_item_source_ids": [],
+      "character_file": "worldbook/characters/major/CHAR-011_安东·伊万诺夫.md",
+      "ability_file": "worldbook/abilities/ABILITY-011_安东·伊万诺夫·能力.md",
+      "character_order": 212,
+      "ability_order": 343,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:安东·伊万诺夫|安东|Anton Ivanov)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方职业、基础形象和战斗风格核对；体征补全与心理模型为制卡资料，不是官宣测量",
+      "qa": "SOURCE_STATIC_PASS_NEEDS_RUNTIME"
+    },
+    {
+      "num": "012",
+      "name": "丽娜",
+      "original_char_source_id": 11680,
+      "original_item_source_ids": [],
+      "character_file": "worldbook/characters/major/CHAR-012_丽娜.md",
+      "ability_file": "worldbook/abilities/ABILITY-012_丽娜·能力.md",
+      "character_order": 213,
+      "ability_order": 344,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:丽娜|亚历山德丽娜|Rina|Alexandrina)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方职业、基础形象和战斗风格核对；体征补全与心理模型为制卡资料，不是官宣测量",
+      "qa": "SOURCE_STATIC_PASS_NEEDS_RUNTIME"
+    },
+    {
+      "num": "013",
+      "name": "可琳·威克斯",
+      "original_char_source_id": 412945,
+      "original_item_source_ids": [],
+      "character_file": "worldbook/characters/major/CHAR-013_可琳·威克斯.md",
+      "ability_file": "worldbook/abilities/ABILITY-013_可琳·威克斯·能力.md",
+      "character_order": 214,
+      "ability_order": 345,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:可琳|可琳·威克斯|Corin Wickes)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方职业、基础形象和战斗风格核对；体征补全与心理模型为制卡资料，不是官宣测量",
+      "qa": "SOURCE_STATIC_PASS_NEEDS_RUNTIME"
+    },
+    {
+      "num": "014",
+      "name": "艾莲·乔",
+      "original_char_source_id": 745946,
+      "original_item_source_ids": [],
+      "character_file": "worldbook/characters/major/CHAR-014_艾莲·乔.md",
+      "ability_file": "worldbook/abilities/ABILITY-014_艾莲·乔·能力.md",
+      "character_order": 215,
+      "ability_order": 346,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:艾莲|艾莲·乔|Ellen Joe)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方职业、基础形象和战斗风格核对；体征补全与心理模型为制卡资料，不是官宣测量",
+      "qa": "SOURCE_STATIC_PASS_NEEDS_RUNTIME"
+    },
+    {
+      "num": "015",
+      "name": "凯撒·金",
+      "original_char_source_id": 417274,
+      "original_item_source_ids": [
+        953559
+      ],
+      "character_file": "worldbook/characters/major/CHAR-015_凯撒·金.md",
+      "ability_file": "worldbook/abilities/ABILITY-015_凯撒·金·能力.md",
+      "character_order": 216,
+      "ability_order": 347,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:凯撒·金|凯撒|Caesar King)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方职业、基础形象和战斗风格核对；体征补全与心理模型为制卡资料，不是官宣测量",
+      "qa": "SOURCE_STATIC_PASS_NEEDS_RUNTIME"
+    },
+    {
+      "num": "016",
+      "name": "露西",
+      "original_char_source_id": 57617,
+      "original_item_source_ids": [],
+      "character_file": "worldbook/characters/major/CHAR-016_露西.md",
+      "ability_file": "worldbook/abilities/ABILITY-016_露西·能力.md",
+      "character_order": 217,
+      "ability_order": 348,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:露西|露西亚娜|Lucy Montefio)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方职业、基础形象和战斗风格核对；体征补全与心理模型为制卡资料，不是官宣测量",
+      "qa": "SOURCE_STATIC_PASS_NEEDS_RUNTIME"
+    },
+    {
+      "num": "017",
+      "name": "派派·韦尔",
+      "original_char_source_id": 134251,
+      "original_item_source_ids": [
+        959504
+      ],
+      "character_file": "worldbook/characters/major/CHAR-017_派派·韦尔.md",
+      "ability_file": "worldbook/abilities/ABILITY-017_派派·韦尔·能力.md",
+      "character_order": 218,
+      "ability_order": 349,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:派派|派派·韦尔|Piper Wheel)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方职业、基础形象和战斗风格核对；体征补全与心理模型为制卡资料，不是官宣测量",
+      "qa": "SOURCE_STATIC_PASS_NEEDS_RUNTIME"
+    },
+    {
+      "num": "018",
+      "name": "柏妮思·怀特",
+      "original_char_source_id": 461319,
+      "original_item_source_ids": [
+        788339,
+        600981
+      ],
+      "character_file": "worldbook/characters/major/CHAR-018_柏妮思·怀特.md",
+      "ability_file": "worldbook/abilities/ABILITY-018_柏妮思·怀特·能力.md",
+      "character_order": 219,
+      "ability_order": 350,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:柏妮思|柏妮思·怀特|Burnice White)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方职业、基础形象和战斗风格核对；体征补全与心理模型为制卡资料，不是官宣测量",
+      "qa": "SOURCE_STATIC_PASS_NEEDS_RUNTIME"
+    },
+    {
+      "num": "019",
+      "name": "朱鸢",
+      "original_char_source_id": 160335,
+      "original_item_source_ids": [
+        171585
+      ],
+      "character_file": "worldbook/characters/major/CHAR-019_朱鸢.md",
+      "ability_file": "worldbook/abilities/ABILITY-019_朱鸢·能力.md",
+      "character_order": 220,
+      "ability_order": 351,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:朱鸢|Zhu Yuan)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方职业、基础形象和战斗风格核对；体征补全与心理模型为制卡资料，不是官宣测量",
+      "qa": "SOURCE_STATIC_PASS_NEEDS_RUNTIME"
+    },
+    {
+      "num": "020",
+      "name": "青衣",
+      "original_char_source_id": 655284,
+      "original_item_source_ids": [],
+      "character_file": "worldbook/characters/major/CHAR-020_青衣.md",
+      "ability_file": "worldbook/abilities/ABILITY-020_青衣·能力.md",
+      "character_order": 221,
+      "ability_order": 352,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:青衣|Qingyi)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方职业、基础形象和战斗风格核对；体征补全与心理模型为制卡资料，不是官宣测量",
+      "qa": "SOURCE_STATIC_PASS_NEEDS_RUNTIME"
+    },
+    {
+      "num": "021",
+      "name": "11号",
+      "faction": "奥波勒斯小队",
+      "original_char_source_id": 477380,
+      "character_file": "worldbook/characters/major/CHAR-021_11号.md",
+      "ability_file": "worldbook/abilities/ABILITY-021_11号·能力.md",
+      "character_order": 222,
+      "ability_order": 353,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:11号|Soldier 11)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "022",
+      "name": "苍角",
+      "faction": "对空六课",
+      "original_char_source_id": 998866,
+      "character_file": "worldbook/characters/major/CHAR-022_苍角.md",
+      "ability_file": "worldbook/abilities/ABILITY-022_苍角·能力.md",
+      "character_order": 223,
+      "ability_order": 354,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:苍角|Soukaku)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "023",
+      "name": "星见雅",
+      "faction": "对空六课",
+      "original_char_source_id": 734804,
+      "character_file": "worldbook/characters/major/CHAR-023_星见雅.md",
+      "ability_file": "worldbook/abilities/ABILITY-023_星见雅·能力.md",
+      "character_order": 224,
+      "ability_order": 355,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:星见雅|Miyabi|Hoshimi Miyabi)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "024",
+      "name": "月城柳",
+      "faction": "对空六课",
+      "original_char_source_id": 110848,
+      "character_file": "worldbook/characters/major/CHAR-024_月城柳.md",
+      "ability_file": "worldbook/abilities/ABILITY-024_月城柳·能力.md",
+      "character_order": 225,
+      "ability_order": 356,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:月城柳|柳姐|Tsukishiro Yanagi)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "025",
+      "name": "浅羽悠真",
+      "faction": "对空六课",
+      "original_char_source_id": 445397,
+      "character_file": "worldbook/characters/major/CHAR-025_浅羽悠真.md",
+      "ability_file": "worldbook/abilities/ABILITY-025_浅羽悠真·能力.md",
+      "character_order": 226,
+      "ability_order": 357,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:浅羽悠真|悠真|Asaba Harumasa)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "026",
+      "name": "赛斯·洛威尔",
+      "faction": "刑侦特勤组",
+      "original_char_source_id": 745931,
+      "character_file": "worldbook/characters/major/CHAR-026_赛斯·洛威尔.md",
+      "ability_file": "worldbook/abilities/ABILITY-026_赛斯·洛威尔·能力.md",
+      "character_order": 227,
+      "ability_order": 358,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:赛斯·洛威尔|赛斯|Seth Lowell)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "027",
+      "name": "简·杜",
+      "faction": "刑侦特勤组",
+      "original_char_source_id": 273376,
+      "character_file": "worldbook/characters/major/CHAR-027_简·杜.md",
+      "ability_file": "worldbook/abilities/ABILITY-027_简·杜·能力.md",
+      "character_order": 228,
+      "ability_order": 359,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:简·杜|Jane Doe|简(?!单|化|历|述|报|直|短|陋|易|约))(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "028",
+      "name": "莱特",
+      "faction": "卡吕冬之子",
+      "original_char_source_id": 587605,
+      "character_file": "worldbook/characters/major/CHAR-028_莱特.md",
+      "ability_file": "worldbook/abilities/ABILITY-028_莱特·能力.md",
+      "character_order": 229,
+      "ability_order": 360,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:莱特|Lighter)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "029",
+      "name": "耀嘉音",
+      "faction": "天琴座",
+      "original_char_source_id": 877447,
+      "character_file": "worldbook/characters/major/CHAR-029_耀嘉音.md",
+      "ability_file": "worldbook/abilities/ABILITY-029_耀嘉音·能力.md",
+      "character_order": 230,
+      "ability_order": 361,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:耀嘉音|嘉音|Astra Yao)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "030",
+      "name": "伊芙琳·舒瓦利耶",
+      "faction": "天琴座",
+      "original_char_source_id": 198355,
+      "character_file": "worldbook/characters/major/CHAR-030_伊芙琳·舒瓦利耶.md",
+      "ability_file": "worldbook/abilities/ABILITY-030_伊芙琳·舒瓦利耶·能力.md",
+      "character_order": 231,
+      "ability_order": 362,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:伊芙琳|伊芙|Evelyn Chevalier)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "031",
+      "name": "雨果",
+      "faction": "反舌鸟",
+      "original_char_source_id": 407839,
+      "character_file": "worldbook/characters/major/CHAR-031_雨果.md",
+      "ability_file": "worldbook/abilities/ABILITY-031_雨果·能力.md",
+      "character_order": 232,
+      "ability_order": 363,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:雨果|Hugo Vlad)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "032",
+      "name": "薇薇安",
+      "faction": "反舌鸟",
+      "original_char_source_id": 904315,
+      "character_file": "worldbook/characters/major/CHAR-032_薇薇安.md",
+      "ability_file": "worldbook/abilities/ABILITY-032_薇薇安·能力.md",
+      "character_order": 233,
+      "ability_order": 364,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:薇薇安|Vivian Banshee)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "033",
+      "name": "仪玄",
+      "faction": "云岿山",
+      "original_char_source_id": 730366,
+      "character_file": "worldbook/characters/major/CHAR-033_仪玄.md",
+      "ability_file": "worldbook/abilities/ABILITY-033_仪玄·能力.md",
+      "character_order": 234,
+      "ability_order": 365,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:仪玄|Yixuan)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "034",
+      "name": "潘引壶",
+      "faction": "云岿山",
+      "original_char_source_id": 965940,
+      "character_file": "worldbook/characters/major/CHAR-034_潘引壶.md",
+      "ability_file": "worldbook/abilities/ABILITY-034_潘引壶·能力.md",
+      "character_order": 235,
+      "ability_order": 366,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:潘引壶|潘师兄|Pan Yinhu)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "035",
+      "name": "橘福福",
+      "faction": "云岿山",
+      "original_char_source_id": 150773,
+      "character_file": "worldbook/characters/major/CHAR-035_橘福福.md",
+      "ability_file": "worldbook/abilities/ABILITY-035_橘福福·能力.md",
+      "character_order": 236,
+      "ability_order": 367,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:橘福福|福福师姐|Ju Fufu)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "036",
+      "name": "浮波柚叶",
+      "faction": "怪啖屋",
+      "original_char_source_id": 982429,
+      "character_file": "worldbook/characters/major/CHAR-036_浮波柚叶.md",
+      "ability_file": "worldbook/abilities/ABILITY-036_浮波柚叶·能力.md",
+      "character_order": 237,
+      "ability_order": 368,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:浮波柚叶|柚叶|Ukinami Yuzuha)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "037",
+      "name": "爱丽丝·泰姆菲尔德",
+      "faction": "怪啖屋",
+      "original_char_source_id": 650803,
+      "character_file": "worldbook/characters/major/CHAR-037_爱丽丝·泰姆菲尔德.md",
+      "ability_file": "worldbook/abilities/ABILITY-037_爱丽丝·泰姆菲尔德·能力.md",
+      "character_order": 238,
+      "ability_order": 369,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:爱丽丝·泰姆菲尔德|爱丽丝|Alice Thymefield)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "038",
+      "name": "扳机",
+      "faction": "奥波勒斯小队",
+      "original_char_source_id": 20445,
+      "character_file": "worldbook/characters/major/CHAR-038_扳机.md",
+      "ability_file": "worldbook/abilities/ABILITY-038_扳机·能力.md",
+      "character_order": 239,
+      "ability_order": 370,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:扳机|Trigger)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "039",
+      "name": "叶瞬光",
+      "faction": "云岿山",
+      "original_char_source_id": 516698,
+      "character_file": "worldbook/characters/major/CHAR-039_叶瞬光.md",
+      "ability_file": "worldbook/abilities/ABILITY-039_叶瞬光·能力.md",
+      "character_order": 240,
+      "ability_order": 371,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:叶瞬光|Ye Shunguang)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "040",
+      "name": "狛野真斗",
+      "faction": "怪啖屋",
+      "original_char_source_id": 17177,
+      "character_file": "worldbook/characters/major/CHAR-040_狛野真斗.md",
+      "ability_file": "worldbook/abilities/ABILITY-040_狛野真斗·能力.md",
+      "character_order": 241,
+      "ability_order": 372,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:狛野真斗|真斗|Komano Manato)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "官方人物身份、阵营、形象与战斗特点核对，部分身体数据与心理描写用于稳定制卡，不作为官方精确测量",
+      "qa": "SOURCE_STATIC_PASS_NOT_CCV3_ASSEMBLED"
+    },
+    {
+      "num": "041",
+      "name": "波可娜·费雷尼",
+      "faction": "外环／卡吕冬之子",
+      "classification": "官方代理人",
+      "original_char_source_id": 55121,
+      "original_source_comment": "char:波可娜",
+      "character_file": "worldbook/characters/major/CHAR-041_波可娜·费雷尼.md",
+      "ability_file": "worldbook/abilities/ABILITY-041_波可娜·费雷尼·能力.md",
+      "character_order": 242,
+      "ability_order": 373,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:波可娜|Pulchra)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "042",
+      "name": "席德",
+      "faction": "奥波勒斯小队",
+      "classification": "官方代理人",
+      "original_char_source_id": 63814,
+      "original_source_comment": "char:席德",
+      "character_file": "worldbook/characters/major/CHAR-042_席德.md",
+      "ability_file": "worldbook/abilities/ABILITY-042_席德·能力.md",
+      "character_order": 243,
+      "ability_order": 374,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:席德|Seed)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "043",
+      "name": "卢西娅·艾洛温",
+      "faction": "怪啖屋",
+      "classification": "官方代理人",
+      "original_char_source_id": 77409,
+      "original_source_comment": "char:卢西娅",
+      "character_file": "worldbook/characters/major/CHAR-043_卢西娅·艾洛温.md",
+      "ability_file": "worldbook/abilities/ABILITY-043_卢西娅·艾洛温·能力.md",
+      "character_order": 244,
+      "ability_order": 375,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:卢西娅|Lucia Elowen)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "044",
+      "name": "伊德海莉·墨菲",
+      "faction": "怪啖屋",
+      "classification": "官方代理人",
+      "original_char_source_id": 422025,
+      "original_source_comment": "char:伊德海莉",
+      "character_file": "worldbook/characters/major/CHAR-044_伊德海莉·墨菲.md",
+      "ability_file": "worldbook/abilities/ABILITY-044_伊德海莉·墨菲·能力.md",
+      "character_order": 245,
+      "ability_order": 376,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:伊德海莉|Yidhari)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "045",
+      "name": "般岳",
+      "faction": "坎卜斯黑枝",
+      "classification": "官方代理人",
+      "original_char_source_id": 429676,
+      "original_source_comment": "char:般岳",
+      "character_file": "worldbook/characters/major/CHAR-045_般岳.md",
+      "ability_file": "worldbook/abilities/ABILITY-045_般岳·能力.md",
+      "character_order": 246,
+      "ability_order": 377,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:般岳|Banyue)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "046",
+      "name": "千夏",
+      "faction": "妄想天使",
+      "classification": "官方代理人",
+      "original_char_source_id": 438653,
+      "original_source_comment": "char:千夏",
+      "character_file": "worldbook/characters/major/CHAR-046_千夏.md",
+      "ability_file": "worldbook/abilities/ABILITY-046_千夏·能力.md",
+      "character_order": 247,
+      "ability_order": 378,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:千夏|Sunna)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "047",
+      "name": "照",
+      "faction": "坎卜斯黑枝",
+      "classification": "官方代理人",
+      "original_char_source_id": 699186,
+      "original_source_comment": "char:照",
+      "character_file": "worldbook/characters/major/CHAR-047_照.md",
+      "ability_file": "worldbook/abilities/ABILITY-047_照·能力.md",
+      "character_order": 248,
+      "ability_order": 379,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:「照」|小照|照小姐|裁决官照|Zhao)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "048",
+      "name": "南宫羽",
+      "faction": "妄想天使",
+      "classification": "官方代理人",
+      "original_char_source_id": 734831,
+      "original_source_comment": "char:南宫羽",
+      "character_file": "worldbook/characters/major/CHAR-048_南宫羽.md",
+      "ability_file": "worldbook/abilities/ABILITY-048_南宫羽·能力.md",
+      "character_order": 249,
+      "ability_order": 380,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:南宫羽|Nangong Yu)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "049",
+      "name": "希希芙",
+      "faction": "都市秩序部",
+      "classification": "官方代理人",
+      "original_char_source_id": 758175,
+      "original_source_comment": "char:希希芙",
+      "character_file": "worldbook/characters/major/CHAR-049_希希芙.md",
+      "ability_file": "worldbook/abilities/ABILITY-049_希希芙·能力.md",
+      "character_order": 250,
+      "ability_order": 381,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:希希芙|Cissia)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "050",
+      "name": "奥菲丝与「鬼火」",
+      "faction": "奥波勒斯小队",
+      "classification": "官方代理人（双意识组合）",
+      "original_char_source_id": 790916,
+      "original_source_comment": "char:奥菲丝·马格努森 & 「鬼火」",
+      "character_file": "worldbook/characters/major/CHAR-050_奥菲丝与「鬼火」.md",
+      "ability_file": "worldbook/abilities/ABILITY-050_奥菲丝与「鬼火」·能力.md",
+      "character_order": 251,
+      "ability_order": 382,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:奥菲丝|奥菲丝·马格努森|奥菲丝&「鬼火」|Orphie|Magus)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "051",
+      "name": "琉音",
+      "faction": "坎卜斯黑枝",
+      "classification": "官方代理人",
+      "original_char_source_id": 959182,
+      "original_source_comment": "char:琉音",
+      "character_file": "worldbook/characters/major/CHAR-051_琉音.md",
+      "ability_file": "worldbook/abilities/ABILITY-051_琉音·能力.md",
+      "character_order": 252,
+      "ability_order": 383,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:琉音|Dialyn)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "052",
+      "name": "爱芮",
+      "faction": "妄想天使",
+      "classification": "官方代理人",
+      "original_char_source_id": 993969,
+      "original_source_comment": "char:爱芮",
+      "character_file": "worldbook/characters/major/CHAR-052_爱芮.md",
+      "ability_file": "worldbook/abilities/ABILITY-052_爱芮·能力.md",
+      "character_order": 253,
+      "ability_order": 384,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:爱芮|Aria)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "053",
+      "name": "普罗米娅",
+      "faction": "坎卜斯黑枝",
+      "classification": "官方代理人",
+      "original_char_source_id": 817309,
+      "original_source_comment": "char:普罗米娅",
+      "character_file": "worldbook/characters/major/CHAR-053_普罗米娅.md",
+      "ability_file": "worldbook/abilities/ABILITY-053_普罗米娅·能力.md",
+      "character_order": 254,
+      "ability_order": 385,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:普罗米娅|Promeia)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "054",
+      "name": "蕾米埃尔·丹",
+      "faction": "旧都／罗斯凯利法",
+      "classification": "官方代理人（隐秘身份）",
+      "original_char_source_id": 740378,
+      "original_source_comment": "char:丹",
+      "character_file": "worldbook/characters/major/CHAR-054_蕾米埃尔·丹.md",
+      "ability_file": "worldbook/abilities/ABILITY-054_蕾米埃尔·丹·能力.md",
+      "character_order": 255,
+      "ability_order": 386,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:蕾米埃尔|Remielle Dan)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "055",
+      "name": "维琳娜·艾嘉德",
+      "faction": "罗斯凯利法外务筹策局",
+      "classification": "官方代理人",
+      "original_char_source_id": 162104,
+      "original_source_comment": "char:维琳娜",
+      "character_file": "worldbook/characters/major/CHAR-055_维琳娜·艾嘉德.md",
+      "ability_file": "worldbook/abilities/ABILITY-055_维琳娜·艾嘉德·能力.md",
+      "character_order": 256,
+      "ability_order": 387,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:维琳娜|Velina)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "056",
+      "name": "诺姆·霍洛维尔",
+      "faction": "罗斯凯利法外务筹策局",
+      "classification": "官方代理人",
+      "original_char_source_id": 570661,
+      "original_source_comment": "char:诺姆",
+      "character_file": "worldbook/characters/major/CHAR-056_诺姆·霍洛维尔.md",
+      "ability_file": "worldbook/abilities/ABILITY-056_诺姆·霍洛维尔·能力.md",
+      "character_order": 257,
+      "ability_order": 388,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:诺姆|Norma)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "057",
+      "name": "塞维里安·洛威尔",
+      "faction": "治安局都市秩序部",
+      "classification": "官方代理人",
+      "original_char_source_id": 635483,
+      "original_source_comment": "char:赛维里安·洛威尔",
+      "character_file": "worldbook/characters/major/CHAR-057_塞维里安·洛威尔.md",
+      "ability_file": "worldbook/abilities/ABILITY-057_塞维里安·洛威尔·能力.md",
+      "character_order": 258,
+      "ability_order": 389,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:塞维里安|赛维里安|Severian)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "058",
+      "name": "克拉蕾·弗林特",
+      "faction": "弗林特工坊",
+      "classification": "官方代理人",
+      "original_char_source_id": 694235,
+      "original_source_comment": "char:克拉蕾",
+      "character_file": "worldbook/characters/major/CHAR-058_克拉蕾·弗林特.md",
+      "ability_file": "worldbook/abilities/ABILITY-058_克拉蕾·弗林特·能力.md",
+      "character_order": 259,
+      "ability_order": 390,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:克拉蕾|Claret)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "059",
+      "name": "希格莉德·德拉叙尔",
+      "faction": "罗斯凯利法空域巡戍局",
+      "classification": "官方代理人",
+      "original_char_source_id": 312860,
+      "original_source_comment": "char:希格莉德",
+      "character_file": "worldbook/characters/major/CHAR-059_希格莉德·德拉叙尔.md",
+      "ability_file": "worldbook/abilities/ABILITY-059_希格莉德·德拉叙尔·能力.md",
+      "character_order": 260,
+      "ability_order": 391,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:希格莉德|Sigrid)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "060",
+      "name": "蕾·耶尔辛",
+      "faction": "斯科特哨站",
+      "classification": "官方剧情NPC（非战斗科研人员）",
+      "original_char_source_id": 777506,
+      "original_source_comment": "char:蕾",
+      "character_file": "worldbook/characters/major/CHAR-060_蕾·耶尔辛.md",
+      "ability_file": "worldbook/abilities/ABILITY-060_蕾·耶尔辛·能力.md",
+      "character_order": 261,
+      "ability_order": 392,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:蕾·耶尔辛|蕾研究员|耶尔辛|Ray Yersin)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡与官方资料交叉核验，工作体征值/对话/心理模型为内世界化补全，非官方精密测量",
+      "qa": "SOURCE_STATIC_PASS_PENDING_FINAL_CCV3_REAL_DEVICE"
+    },
+    {
+      "num": "061",
+      "name": "兰",
+      "classification": "剧情NPC",
+      "original_char_source_id": 687,
+      "original_comment": "char:兰",
+      "character_file": "worldbook/characters/major/CHAR-061_兰.md",
+      "ability_file": "worldbook/abilities/ABILITY-061_兰·能力.md",
+      "character_order": 262,
+      "ability_order": 393,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:兰店长|兰女士|露水花园店长|Orchidea)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "062",
+      "name": "Fairy",
+      "classification": "AI角色",
+      "original_char_source_id": 85498,
+      "original_comment": "char:fairy",
+      "character_file": "worldbook/characters/major/CHAR-062_Fairy.md",
+      "ability_file": "worldbook/abilities/ABILITY-062_Fairy·能力.md",
+      "character_order": 263,
+      "ability_order": 394,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:Fairy|仙灵AI)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "063",
+      "name": "莉莉可",
+      "classification": "剧情NPC",
+      "original_char_source_id": 134930,
+      "original_comment": "char:莉莉可",
+      "character_file": "worldbook/characters/major/CHAR-063_莉莉可.md",
+      "ability_file": "worldbook/abilities/ABILITY-063_莉莉可·能力.md",
+      "character_order": 264,
+      "ability_order": 395,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:莉莉可|Lilica)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "064",
+      "name": "缄枢",
+      "classification": "旧式邦布NPC",
+      "original_char_source_id": 224465,
+      "original_comment": "char:绒枢",
+      "character_file": "worldbook/characters/major/CHAR-064_缄枢.md",
+      "ability_file": "worldbook/abilities/ABILITY-064_缄枢·能力.md",
+      "character_order": 265,
+      "ability_order": 396,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:缄枢|Lockspring|GU-0001)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "065",
+      "name": "挽昼",
+      "classification": "初代虚狩/官方角色",
+      "original_char_source_id": 245099,
+      "original_comment": "char:挽昼",
+      "character_file": "worldbook/characters/major/CHAR-065_挽昼.md",
+      "ability_file": "worldbook/abilities/ABILITY-065_挽昼·能力.md",
+      "character_order": 266,
+      "ability_order": 397,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:挽昼|Sunbringer)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "066",
+      "name": "芮恩",
+      "classification": "剧情NPC",
+      "original_char_source_id": 247043,
+      "original_comment": "char:芮恩",
+      "character_file": "worldbook/characters/major/CHAR-066_芮恩.md",
+      "ability_file": "worldbook/abilities/ABILITY-066_芮恩·能力.md",
+      "character_order": 267,
+      "ability_order": 398,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:芮恩|灰帽衫少女|Rain)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "067",
+      "name": "卡洛丝·阿尔娜",
+      "classification": "历史剧情NPC",
+      "original_char_source_id": 269261,
+      "original_comment": "char:卡洛丝·阿尔娜",
+      "character_file": "worldbook/characters/major/CHAR-067_卡洛丝·阿尔娜.md",
+      "ability_file": "worldbook/abilities/ABILITY-067_卡洛丝·阿尔娜·能力.md",
+      "character_order": 268,
+      "ability_order": 399,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:卡洛丝|Carole Arna)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "068",
+      "name": "特里薇亚",
+      "classification": "历史剧情NPC",
+      "original_char_source_id": 367603,
+      "original_comment": "char:特里薇亚",
+      "character_file": "worldbook/characters/major/CHAR-068_特里薇亚.md",
+      "ability_file": "worldbook/abilities/ABILITY-068_特里薇亚·能力.md",
+      "character_order": 269,
+      "ability_order": 400,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:特里薇亚|Truvia)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "069",
+      "name": "Youkai",
+      "classification": "AI反派",
+      "original_char_source_id": 370993,
+      "original_comment": "char:Youkai",
+      "character_file": "worldbook/characters/major/CHAR-069_Youkai.md",
+      "ability_file": "worldbook/abilities/ABILITY-069_Youkai·能力.md",
+      "character_order": 270,
+      "ability_order": 401,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:Youkai|妖怪AI)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "070",
+      "name": "伊瑟尔德",
+      "classification": "剧情NPC",
+      "original_char_source_id": 429284,
+      "original_comment": "char:伊瑟尔德",
+      "character_file": "worldbook/characters/major/CHAR-070_伊瑟尔德.md",
+      "ability_file": "worldbook/abilities/ABILITY-070_伊瑟尔德·能力.md",
+      "character_order": 271,
+      "ability_order": 402,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:伊瑟尔德|Isolde)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "071",
+      "name": "贝莉奥拉·维克",
+      "classification": "历史虚狩NPC",
+      "original_char_source_id": 457396,
+      "original_comment": "char:维克",
+      "character_file": "worldbook/characters/major/CHAR-071_贝莉奥拉·维克.md",
+      "ability_file": "worldbook/abilities/ABILITY-071_贝莉奥拉·维克·能力.md",
+      "character_order": 272,
+      "ability_order": 403,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:贝莉奥拉·维克|维克上校|Beliora Vike)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "072",
+      "name": "薇斯珀",
+      "classification": "构装体NPC",
+      "original_char_source_id": 592199,
+      "original_comment": "char:薇丝珀",
+      "character_file": "worldbook/characters/major/CHAR-072_薇斯珀.md",
+      "ability_file": "worldbook/abilities/ABILITY-072_薇斯珀·能力.md",
+      "character_order": 273,
+      "ability_order": 404,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:薇斯珀|Vesper)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "073",
+      "name": "塞西莉亚",
+      "classification": "剧情NPC",
+      "original_char_source_id": 623738,
+      "original_comment": "char:塞西莉亚",
+      "character_file": "worldbook/characters/major/CHAR-073_塞西莉亚.md",
+      "ability_file": "worldbook/abilities/ABILITY-073_塞西莉亚·能力.md",
+      "character_order": 274,
+      "ability_order": 405,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:塞西莉亚|瑟汐|Cecilia|Cersea)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "074",
+      "name": "莎拉·弗洛伦",
+      "classification": "剧情NPC",
+      "original_char_source_id": 642043,
+      "original_comment": "char:莎拉",
+      "character_file": "worldbook/characters/major/CHAR-074_莎拉·弗洛伦.md",
+      "ability_file": "worldbook/abilities/ABILITY-074_莎拉·弗洛伦·能力.md",
+      "character_order": 275,
+      "ability_order": 406,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:莎拉·弗洛伦|莎拉|Sarah Floren)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "075",
+      "name": "崔姬",
+      "classification": "剧情NPC",
+      "original_char_source_id": 671675,
+      "original_comment": "char:崔姬",
+      "character_file": "worldbook/characters/major/CHAR-075_崔姬.md",
+      "ability_file": "worldbook/abilities/ABILITY-075_崔姬·能力.md",
+      "character_order": 276,
+      "ability_order": 407,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:崔姬|Twiggy)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "076",
+      "name": "乔伊斯",
+      "classification": "历史虚狩NPC",
+      "original_char_source_id": 714991,
+      "original_comment": "char:乔伊斯",
+      "character_file": "worldbook/characters/major/CHAR-076_乔伊斯.md",
+      "ability_file": "worldbook/abilities/ABILITY-076_乔伊斯·能力.md",
+      "character_order": 277,
+      "ability_order": 408,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:乔伊斯|Joyous)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "077",
+      "name": "佐伊",
+      "classification": "剧情NPC",
+      "original_char_source_id": 720526,
+      "original_comment": "char:佐伊",
+      "character_file": "worldbook/characters/major/CHAR-077_佐伊.md",
+      "ability_file": "worldbook/abilities/ABILITY-077_佐伊·能力.md",
+      "character_order": 278,
+      "ability_order": 409,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:佐伊|尸鹫|Zoe)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "078",
+      "name": "蒂娜",
+      "classification": "剧情NPC",
+      "original_char_source_id": 800422,
+      "original_comment": "char:蒂娜",
+      "character_file": "worldbook/characters/major/CHAR-078_蒂娜.md",
+      "ability_file": "worldbook/abilities/ABILITY-078_蒂娜·能力.md",
+      "character_order": 279,
+      "ability_order": 410,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:蒂娜|Dina)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "079",
+      "name": "启明星",
+      "classification": "剧情NPC",
+      "original_char_source_id": 912875,
+      "original_comment": "char:启明星",
+      "character_file": "worldbook/characters/major/CHAR-079_启明星.md",
+      "ability_file": "worldbook/abilities/ABILITY-079_启明星·能力.md",
+      "character_order": 280,
+      "ability_order": 411,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:启明星|绳网中间人启明星)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    },
+    {
+      "num": "080",
+      "name": "红豆",
+      "classification": "生活NPC",
+      "original_char_source_id": 970071,
+      "original_comment": "char:红豆",
+      "character_file": "worldbook/characters/major/CHAR-080_红豆.md",
+      "ability_file": "worldbook/abilities/ABILITY-080_红豆·能力.md",
+      "character_order": 281,
+      "ability_order": 412,
+      "character_and_ability_keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:饮茶仙的红豆|红豆店员|红豆姑娘|红豆(?=说|正|在|忙|招呼|端|拿|向|笑|喊))(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "secondary_keys": [],
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "data_grade": "原卡剧情角色与游戏可核身份/职责相互核对；外貌心理等补充为制卡工作资料，非官方公布的实测数值",
+      "qa": "SOURCE_TEXT_STATIC_CHECK_PENDING_FINAL_AUDIT"
+    }
+  ],
+  "source_candidate_index": [
+    {
+      "source_id": 687,
+      "source_comment": "char:兰",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "兰"
+    },
+    {
+      "source_id": 11680,
+      "source_comment": "char:丽娜",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 17177,
+      "source_comment": "char:狛野真斗",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 20445,
+      "source_comment": "char:扳机",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 55121,
+      "source_comment": "char:波可娜",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 57617,
+      "source_comment": "char:露西",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 63814,
+      "source_comment": "char:席德",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 73480,
+      "source_comment": "char:拉米尔",
+      "status": "MERGED_ALIAS_NOT_NEW_PERSON",
+      "merged_into": "蕾米埃尔·丹",
+      "reason": "拉米尔 Ramiel 是蕾米埃尔·丹使用过的身份；不重复创建角色，不提前公开真实姓名"
+    },
+    {
+      "source_id": 74258,
+      "source_comment": "char:莱卡恩",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 77409,
+      "source_comment": "char:卢西娅",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 85498,
+      "source_comment": "char:fairy",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "Fairy"
+    },
+    {
+      "source_id": 110848,
+      "source_comment": "char:月城柳",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 134251,
+      "source_comment": "char:派派",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 134930,
+      "source_comment": "char:莉莉可",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "莉莉可"
+    },
+    {
+      "source_id": 150773,
+      "source_comment": "char:橘福福",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 160335,
+      "source_comment": "char:朱鸢",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 162104,
+      "source_comment": "char:维琳娜",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 173676,
+      "source_comment": "char:格莉丝",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 198355,
+      "source_comment": "char:伊芙琳",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 210540,
+      "source_comment": "char:珂蕾妲",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 224465,
+      "source_comment": "char:绒枢",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "缄枢"
+    },
+    {
+      "source_id": 227222,
+      "source_comment": "char:安东",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 245099,
+      "source_comment": "char:挽昼",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "挽昼"
+    },
+    {
+      "source_id": 247043,
+      "source_comment": "char:芮恩",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "芮恩"
+    },
+    {
+      "source_id": 269261,
+      "source_comment": "char:卡洛丝·阿尔娜",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "卡洛丝·阿尔娜"
+    },
+    {
+      "source_id": 273376,
+      "source_comment": "char:简",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 299532,
+      "source_comment": "char:法厄同",
+      "status": "MERGED_GROUP_NOT_NEW_PERSON",
+      "merged_into": "铃＋哲",
+      "reason": "法厄同是铃、哲共同使用的绳匠代号，不是第三个人"
+    },
+    {
+      "source_id": 312860,
+      "source_comment": "char:希格莉德",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 363727,
+      "source_comment": "char:本",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 367603,
+      "source_comment": "char:特里薇亚",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "特里薇亚"
+    },
+    {
+      "source_id": 370993,
+      "source_comment": "char:Youkai",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "Youkai"
+    },
+    {
+      "source_id": 393477,
+      "source_comment": "char:铃",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 405520,
+      "source_comment": "char:安比",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 407839,
+      "source_comment": "char:雨果",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 412945,
+      "source_comment": "char:可琳",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 417274,
+      "source_comment": "char:凯撒",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 422025,
+      "source_comment": "char:伊德海莉",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 429284,
+      "source_comment": "char:伊瑟尔德",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "伊瑟尔德"
+    },
+    {
+      "source_id": 429676,
+      "source_comment": "char:般岳",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 438653,
+      "source_comment": "char:千夏",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 445397,
+      "source_comment": "char:浅羽悠真",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 457396,
+      "source_comment": "char:维克",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "贝莉奥拉·维克"
+    },
+    {
+      "source_id": 461319,
+      "source_comment": "char:柏妮思",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 477380,
+      "source_comment": "char:11号",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 491165,
+      "source_comment": "char:哲",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 516698,
+      "source_comment": "char:叶瞬光",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 570661,
+      "source_comment": "char:诺姆",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 587605,
+      "source_comment": "char:莱特",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 592199,
+      "source_comment": "char:薇丝珀",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "薇斯珀"
+    },
+    {
+      "source_id": 607631,
+      "source_comment": "char:妮可",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 623738,
+      "source_comment": "char:塞西莉亚",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "塞西莉亚"
+    },
+    {
+      "source_id": 635483,
+      "source_comment": "char:赛维里安·洛威尔",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 642043,
+      "source_comment": "char:莎拉",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "莎拉·弗洛伦"
+    },
+    {
+      "source_id": 650803,
+      "source_comment": "char:爱丽丝·泰姆菲尔德",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 655284,
+      "source_comment": "char:青衣",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 671675,
+      "source_comment": "char:崔姬",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "崔姬"
+    },
+    {
+      "source_id": 691758,
+      "source_comment": "char:比利",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 694235,
+      "source_comment": "char:克拉蕾",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 699186,
+      "source_comment": "char:照",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 714991,
+      "source_comment": "char:乔伊斯",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "乔伊斯"
+    },
+    {
+      "source_id": 720526,
+      "source_comment": "char:佐伊",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "佐伊"
+    },
+    {
+      "source_id": 730366,
+      "source_comment": "char:仪玄",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 734804,
+      "source_comment": "char:星见雅",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 734831,
+      "source_comment": "char:南宫羽",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 740378,
+      "source_comment": "char:丹",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 745931,
+      "source_comment": "char:赛斯",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 745946,
+      "source_comment": "char:艾莲",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 758175,
+      "source_comment": "char:希希芙",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 777506,
+      "source_comment": "char:蕾",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 790916,
+      "source_comment": "char:奥菲丝·马格努森 & 「鬼火」",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 800422,
+      "source_comment": "char:蒂娜",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "蒂娜"
+    },
+    {
+      "source_id": 817309,
+      "source_comment": "char:普罗米娅",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 877447,
+      "source_comment": "char:耀嘉音",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 904315,
+      "source_comment": "char:薇薇安",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 912875,
+      "source_comment": "char:启明星",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "启明星"
+    },
+    {
+      "source_id": 959182,
+      "source_comment": "char:琉音",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 965940,
+      "source_comment": "char:潘引壶",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 970071,
+      "source_comment": "char:红豆",
+      "status": "CANON_DRAFT_CREATED",
+      "canonical_name": "红豆"
+    },
+    {
+      "source_id": 982429,
+      "source_comment": "char:浮波柚叶",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 985768,
+      "source_comment": "char:猫又",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 993969,
+      "source_comment": "char:爱芮",
+      "status": "CANON_DRAFT_CREATED"
+    },
+    {
+      "source_id": 998866,
+      "source_comment": "char:苍角",
+      "status": "CANON_DRAFT_CREATED"
+    }
+  ],
+  "second_batch_character_count": 12,
+  "second_batch_ability_count": 12,
+  "approved_character_total": 80,
+  "approved_ability_total": 80,
+  "special_state_entries": [
+    {
+      "id": "STATE-015",
+      "character": "凯撒·金",
+      "order": 413,
+      "file": "worldbook/abilities/states/STATE-015_凯撒·代理霸主.md"
+    },
+    {
+      "id": "STATE-004",
+      "character": "安比·德玛拉",
+      "order": 414,
+      "file": "worldbook/abilities/states/STATE-004_安比·零号战斗状态.md"
+    },
+    {
+      "id": "STATE-005",
+      "character": "比利·奇德",
+      "order": 415,
+      "file": "worldbook/abilities/states/STATE-005_比利·星徽战装状态.md"
+    },
+    {
+      "id": "STATE-001",
+      "character": "铃",
+      "order": 416,
+      "file": "worldbook/abilities/states/STATE-001_铃·佩洛伊斯觉醒状态.md"
+    },
+    {
+      "id": "STATE-078",
+      "character": "蒂娜",
+      "order": 417,
+      "file": "worldbook/abilities/states/STATE-078_蒂娜·特佩什变异状态.md"
+    }
+  ],
+  "latest_batch_size": 22,
+  "latest_batch_character_count": 20,
+  "latest_batch_ability_count": 20,
+  "metadata_scheme": "Character Card V3 enabled true; same-scene bounded story_scene regex for each character/ability pair",
+  "note": "原卡82个char候选已全部做出去重/角色成文决策；本次仅源文件和静态触发验证，未进行80人全面官设/外貌/装备总审或CCV3及安卓实测。",
+  "first_eight_state_review": [
+    {
+      "name": "铃",
+      "extra_state_required": true,
+      "state_id": "STATE-001",
+      "note": "佩洛伊斯觉醒后才加载"
+    },
+    {
+      "name": "哲",
+      "extra_state_required": false,
+      "state_id": null,
+      "note": "H.D.D.共用；无佩洛伊斯寄宿，不增加状态"
+    },
+    {
+      "name": "妮可·德玛拉",
+      "extra_state_required": false,
+      "state_id": null,
+      "note": "现有能力与装备已覆盖稳定状态"
+    },
+    {
+      "name": "安比·德玛拉",
+      "extra_state_required": true,
+      "state_id": "STATE-004",
+      "note": "零号身份单独场景门控"
+    },
+    {
+      "name": "比利·奇德",
+      "extra_state_required": true,
+      "state_id": "STATE-005",
+      "note": "星徽战装在实际取得后门控"
+    },
+    {
+      "name": "猫宫又奈",
+      "extra_state_required": false,
+      "state_id": null,
+      "note": "无额外可验证独立能力阶段"
+    },
+    {
+      "name": "格莉丝·霍华德",
+      "extra_state_required": false,
+      "state_id": null,
+      "note": "工程装备变化属常规更新，暂无独立形态"
+    },
+    {
+      "name": "冯·莱卡恩",
+      "extra_state_required": false,
+      "state_id": null,
+      "note": "旧日经历归人物/时间线，无需全局触发状态"
+    }
+  ],
+  "extra_character_clone_created": false,
+  "last_22_decisions": {
+    "created": [
+      {
+        "source_id": 687,
+        "name": "兰",
+        "category": "剧情NPC",
+        "character_file": "worldbook/characters/major/CHAR-061_兰.md",
+        "ability_file": "worldbook/abilities/ABILITY-061_兰·能力.md"
+      },
+      {
+        "source_id": 85498,
+        "name": "Fairy",
+        "category": "AI角色",
+        "character_file": "worldbook/characters/major/CHAR-062_Fairy.md",
+        "ability_file": "worldbook/abilities/ABILITY-062_Fairy·能力.md"
+      },
+      {
+        "source_id": 134930,
+        "name": "莉莉可",
+        "category": "剧情NPC",
+        "character_file": "worldbook/characters/major/CHAR-063_莉莉可.md",
+        "ability_file": "worldbook/abilities/ABILITY-063_莉莉可·能力.md"
+      },
+      {
+        "source_id": 224465,
+        "name": "缄枢",
+        "category": "旧式邦布NPC",
+        "character_file": "worldbook/characters/major/CHAR-064_缄枢.md",
+        "ability_file": "worldbook/abilities/ABILITY-064_缄枢·能力.md"
+      },
+      {
+        "source_id": 245099,
+        "name": "挽昼",
+        "category": "初代虚狩/官方角色",
+        "character_file": "worldbook/characters/major/CHAR-065_挽昼.md",
+        "ability_file": "worldbook/abilities/ABILITY-065_挽昼·能力.md"
+      },
+      {
+        "source_id": 247043,
+        "name": "芮恩",
+        "category": "剧情NPC",
+        "character_file": "worldbook/characters/major/CHAR-066_芮恩.md",
+        "ability_file": "worldbook/abilities/ABILITY-066_芮恩·能力.md"
+      },
+      {
+        "source_id": 269261,
+        "name": "卡洛丝·阿尔娜",
+        "category": "历史剧情NPC",
+        "character_file": "worldbook/characters/major/CHAR-067_卡洛丝·阿尔娜.md",
+        "ability_file": "worldbook/abilities/ABILITY-067_卡洛丝·阿尔娜·能力.md"
+      },
+      {
+        "source_id": 367603,
+        "name": "特里薇亚",
+        "category": "历史剧情NPC",
+        "character_file": "worldbook/characters/major/CHAR-068_特里薇亚.md",
+        "ability_file": "worldbook/abilities/ABILITY-068_特里薇亚·能力.md"
+      },
+      {
+        "source_id": 370993,
+        "name": "Youkai",
+        "category": "AI反派",
+        "character_file": "worldbook/characters/major/CHAR-069_Youkai.md",
+        "ability_file": "worldbook/abilities/ABILITY-069_Youkai·能力.md"
+      },
+      {
+        "source_id": 429284,
+        "name": "伊瑟尔德",
+        "category": "剧情NPC",
+        "character_file": "worldbook/characters/major/CHAR-070_伊瑟尔德.md",
+        "ability_file": "worldbook/abilities/ABILITY-070_伊瑟尔德·能力.md"
+      },
+      {
+        "source_id": 457396,
+        "name": "贝莉奥拉·维克",
+        "category": "历史虚狩NPC",
+        "character_file": "worldbook/characters/major/CHAR-071_贝莉奥拉·维克.md",
+        "ability_file": "worldbook/abilities/ABILITY-071_贝莉奥拉·维克·能力.md"
+      },
+      {
+        "source_id": 592199,
+        "name": "薇斯珀",
+        "category": "构装体NPC",
+        "character_file": "worldbook/characters/major/CHAR-072_薇斯珀.md",
+        "ability_file": "worldbook/abilities/ABILITY-072_薇斯珀·能力.md"
+      },
+      {
+        "source_id": 623738,
+        "name": "塞西莉亚",
+        "category": "剧情NPC",
+        "character_file": "worldbook/characters/major/CHAR-073_塞西莉亚.md",
+        "ability_file": "worldbook/abilities/ABILITY-073_塞西莉亚·能力.md"
+      },
+      {
+        "source_id": 642043,
+        "name": "莎拉·弗洛伦",
+        "category": "剧情NPC",
+        "character_file": "worldbook/characters/major/CHAR-074_莎拉·弗洛伦.md",
+        "ability_file": "worldbook/abilities/ABILITY-074_莎拉·弗洛伦·能力.md"
+      },
+      {
+        "source_id": 671675,
+        "name": "崔姬",
+        "category": "剧情NPC",
+        "character_file": "worldbook/characters/major/CHAR-075_崔姬.md",
+        "ability_file": "worldbook/abilities/ABILITY-075_崔姬·能力.md"
+      },
+      {
+        "source_id": 714991,
+        "name": "乔伊斯",
+        "category": "历史虚狩NPC",
+        "character_file": "worldbook/characters/major/CHAR-076_乔伊斯.md",
+        "ability_file": "worldbook/abilities/ABILITY-076_乔伊斯·能力.md"
+      },
+      {
+        "source_id": 720526,
+        "name": "佐伊",
+        "category": "剧情NPC",
+        "character_file": "worldbook/characters/major/CHAR-077_佐伊.md",
+        "ability_file": "worldbook/abilities/ABILITY-077_佐伊·能力.md"
+      },
+      {
+        "source_id": 800422,
+        "name": "蒂娜",
+        "category": "剧情NPC",
+        "character_file": "worldbook/characters/major/CHAR-078_蒂娜.md",
+        "ability_file": "worldbook/abilities/ABILITY-078_蒂娜·能力.md"
+      },
+      {
+        "source_id": 912875,
+        "name": "启明星",
+        "category": "剧情NPC",
+        "character_file": "worldbook/characters/major/CHAR-079_启明星.md",
+        "ability_file": "worldbook/abilities/ABILITY-079_启明星·能力.md"
+      },
+      {
+        "source_id": 970071,
+        "name": "红豆",
+        "category": "生活NPC",
+        "character_file": "worldbook/characters/major/CHAR-080_红豆.md",
+        "ability_file": "worldbook/abilities/ABILITY-080_红豆·能力.md"
+      }
+    ],
+    "merged": [
+      {
+        "source_id": 73480,
+        "status": "MERGED_ALIAS_NOT_NEW_PERSON",
+        "merged_into": "蕾米埃尔·丹",
+        "reason": "拉米尔 Ramiel 是蕾米埃尔·丹使用过的身份；不重复创建角色，不提前公开真实姓名"
+      },
+      {
+        "source_id": 299532,
+        "status": "MERGED_GROUP_NOT_NEW_PERSON",
+        "merged_into": "铃＋哲",
+        "reason": "法厄同是铃、哲共同使用的绳匠代号，不是第三个人"
+      }
+    ],
+    "original_candidates_complete": 82,
+    "total_independent_character_records": 80
+  },
+  "future_character_audit_pending": true
+}
