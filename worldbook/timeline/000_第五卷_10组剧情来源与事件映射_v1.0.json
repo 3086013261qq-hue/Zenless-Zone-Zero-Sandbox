@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "volume": 5,
+  "title": "金翅雀与闪耀的此刻",
+  "type": "独立整卷",
+  "source": "用户授权原卡zzz-4 (1).png无损CCV3的122对story/lite story候选池",
+  "planning_source": "docs/038_时间线14卷29分册_支线日常完整归卷目录_v1.1.md",
+  "body_file": "worldbook/timeline/TIMELINE-005_金翅雀与闪耀的此刻.md",
+  "metadata_file": "worldbook/timeline/000_第五卷_装配元数据_v1.0.json",
+  "qa_file": "qa/041_第五卷_金翅雀与闪耀的此刻_来源编年与状态静态QA_v1.0.md",
+  "source_chapters": [
+    {
+      "title": "代理人秘闻：我是艾莲，在忙，有事留言",
+      "kind": "支线",
+      "full_id": 712784,
+      "lite_id": 314739,
+      "original_events": 4,
+      "events": "A-D",
+      "note": "艾莲维多利亚家政身份及朋友关系自第四卷延续；救援时向朋友暴露强大战力，朋友是否获知全部身份仍有限"
+    },
+    {
+      "title": "咔嚓咔嚓空洞记者",
+      "kind": "日常",
+      "full_id": 494841,
+      "lite_id": 13429,
+      "original_events": 6,
+      "events": "E-J",
+      "note": "咔嚓先生首次出现至希拉决定留下废弃智能兵器；芮恩的虚拟星环为VR，不是实际演唱会"
+    },
+    {
+      "title": "厄匹斯极钓大师赛",
+      "kind": "日常",
+      "full_id": 870182,
+      "lite_id": 664337,
+      "original_events": 3,
+      "events": "K-M",
+      "note": "青衣调查艺术品盗窃，唐的海鸦身份、灯塔及提灯真相逐步揭露；不附带治安官权限"
+    },
+    {
+      "title": "决战「金手指」之巅",
+      "kind": "日常",
+      "full_id": 220064,
+      "lite_id": 919574,
+      "original_events": 5,
+      "events": "N-R",
+      "note": "街机活动奖励与称号需按实际完成挑战取得"
+    },
+    {
+      "title": "悠然插曲·金翅雀逃跑计划",
+      "kind": "主线",
+      "full_id": 286555,
+      "lite_id": 661753,
+      "original_events": 2,
+      "events": "S-T",
+      "note": "首次在现实确认匿名网友「乱七八糟炒饭」就是耀嘉音；仅生日当天出逃一日"
+    },
+    {
+      "title": "美梦如约而至",
+      "kind": "日常",
+      "full_id": 637563,
+      "lite_id": 29574,
+      "original_events": 6,
+      "events": "U-Z",
+      "note": "事件U-Y全部为兄妹梦境，梦中转移假期和财富不应用于真实世界状态；事件Z现实聚餐"
+    },
+    {
+      "title": "愿我亦是天琴之星",
+      "kind": "日常",
+      "full_id": 546832,
+      "lite_id": 416419,
+      "original_events": 5,
+      "events": "AA-AE",
+      "note": "天琴座创想赛原为粉丝自办，赛方不发真票；耀嘉音本人向已知好友兑现票券，避免第二次匿名身份首次揭晓"
+    },
+    {
+      "title": "闪耀的此刻",
+      "kind": "主线",
+      "full_id": 908374,
+      "lite_id": 727721,
+      "original_events": 8,
+      "events": "AF-AM",
+      "note": "生日段已见过伊芙琳，此处作熟人重逢；粉丝赛已得票，另获VIP资格；星环塔演唱会同日发生AI-AM中的四段紧急事件；伊芙琳舍勒之青坦白与三核心重启不能提前"
+    },
+    {
+      "title": "协律共契",
+      "kind": "支线",
+      "full_id": 567199,
+      "lite_id": 577364,
+      "original_events": 3,
+      "events": "AN-AP",
+      "note": "星环救援之后的声敏物质后续探索，歌声共鸣观测不宣称以骸全部有意识"
+    },
+    {
+      "title": "如愿璀璨之日",
+      "kind": "支线",
+      "full_id": 749502,
+      "lite_id": 617003,
+      "original_events": 14,
+      "events": "AQ-BD",
+      "original_event_order": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        4,
+        5,
+        6,
+        7,
+        13,
+        14
+      ],
+      "note": "原详细后半所列服装小故事实际在比赛进行时发生，按事件发生顺序插回中段；露西亲情与妮可外包存在互斥前置，遵守是否调查，不全部自动完成；伊埃斯由兄妹领航和持有"
+    }
+  ],
+  "source_counts": {
+    "main": 2,
+    "side": 3,
+    "daily": 5,
+    "total": 10
+  },
+  "source_event_count": 56,
+  "timeline_event_count": 57,
+  "sandbox_event": "BE",
+  "chronology": {
+    "first": "2078-06-20",
+    "last_event": "2079-02-18",
+    "sandbox": "2079-02-19",
+    "official_calendar": false
+  },
+  "conflict_resolutions": [
+    "耀嘉音匿名网友身份于金翅雀首次揭开，天琴应援回信不再重复第一次揭晓",
+    "天琴粉丝赛给出的真票属于耀嘉音本人赠送，演唱会篇的抢票失败改为既往事实，VIP邀请为附加福利",
+    "生日后伊芙琳与兄妹是旧识，闪耀篇不再二次介绍",
+    "如愿璀璨之日原来源先描述决赛又倒叙多条赛中服装配件，本卡在赛事中插入，奖杯后日谈在末尾",
+    "梦境中的转移假期、免债等魔幻操作只限梦境，不改变现实经济或职务",
+    "艾莲身份与朋友关系、青衣协查权限、星见雅身世知情均依之前卷保留，不提前升级",
+    "源稿里部分分支要求未写入本卷独立剧情如粉红兔的新年奖赏，保留条件而非捏造事件"
+  ],
+  "sole_host": "铃",
+  "nonhost": "哲",
+  "no_scripts": true
+}
