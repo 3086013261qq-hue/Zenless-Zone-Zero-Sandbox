@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "status": "BODY_COMPLETE_STATIC_QA_PASS_WITH_OPEN_CONTINUITY",
+  "status": "STATIC_QA_PASS_CANON_ISSUES_RESOLVED_READY_FOR_TIMELINE_FREEZE",
   "volume": 13,
   "part": "中",
   "comment": "时间线:第十三卷（中）·漫长的告别",
@@ -62,19 +62,21 @@
   "continuity_warnings": [
     {
       "id": "REM-11-13",
-      "status": "RESOLVED_AFTER_2_8_3_1_CROSSCHECK"
+      "status": "RESOLVED_BY_QA053"
     },
     {
       "id": "TRI-13",
-      "status": "SOURCE_INCONSISTENCY_ADAPTED_OPEN"
+      "status": "RESOLVED_BY_QA053"
     },
     {
       "id": "TOU-13",
-      "status": "RESOLVED_AFTER_2_8_3_1_CROSSCHECK"
+      "status": "RESOLVED_BY_QA053"
     }
   ],
   "static_qa": "qa/049_第十三卷上中下_原卡来源人物知情与跨卷连续性静态QA_v1.0.md",
   "script_deps": [],
   "android_sillytavern_real_device": "NOT_RUN",
-  "canon_qa": "qa/053_绝区零_原著待审事件_正式纠错与跨卷复核_v1.0.md"
+  "canon_qa": "qa/053_绝区零_原著待审事件_正式纠错与跨卷复核_v1.0.md",
+  "freeze_review": "qa/054_绝区零_时间层14卷29分册_静态封版验收_v1.0.md",
+  "canon_review": "qa/053_绝区零_原著待审事件_正式纠错与跨卷复核_v1.0.md"
 }
