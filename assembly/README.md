@@ -10,3 +10,6 @@
 - 完成字符书条目实际可见、双重防递归、首卷默认启用、人物/能力与事件顺序及 Android/SillyTavern 实机 QA。
 
 当前正式 JSON/PNG：**不存在**。
+
+## 邦布人物补充（2026-11-07）
+单篇角色、无需独立能力：读取 `worldbook/characters/bangboo/000_邦布角色装配元数据_v1.0.json`，按同名 `<story_scene>` 触发，`constant=false`、`enabled=true`，`exclude_recursion=true` 与 `prevent_recursion=true`。装入新15篇官设/剧情邦布、4篇原创邦布角色，并沿用更新后的原人物 `CHAR-064_缄枢`。**禁止装入**旧 `ABILITY-064_缄枢·能力`：该历史源稿的关键能力信息已并入缄枢人物正文。不得将其他邦布另拆ABILITIES。原有其余81篇能力不变；条目序号在最终装卡时与所有模块全量对照去重。
