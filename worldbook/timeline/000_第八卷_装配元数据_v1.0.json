@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 8,
+  "part": "独卷",
+  "comment": "时间线:第八卷·仲夏浪涌",
+  "body_file": "worldbook/timeline/TIMELINE-008_仲夏浪涌.md",
+  "source_chapters": [
+    {
+      "title": "迟吟的浪涌",
+      "kind": "主线",
+      "full_id": 729174,
+      "lite_id": 9561,
+      "original_list_count": 7,
+      "event_range": "A-G"
+    },
+    {
+      "title": "仲夏游梦绮谭",
+      "kind": "支线",
+      "full_id": 983351,
+      "lite_id": 517452,
+      "original_list_count": 8,
+      "event_range": "H-O"
+    },
+    {
+      "title": "仲夏游梦绮谭·爱丽丝番外",
+      "kind": "支线",
+      "full_id": 66130,
+      "lite_id": 237831,
+      "original_list_count": 3,
+      "event_range": "P-R"
+    },
+    {
+      "title": "仲夏游梦绮谭·柚叶番外",
+      "kind": "支线",
+      "full_id": 174377,
+      "lite_id": 829988,
+      "original_list_count": 3,
+      "event_range": "S-U"
+    },
+    {
+      "title": "拼出澄辉夏日！",
+      "kind": "日常",
+      "full_id": 206252,
+      "lite_id": 264163,
+      "original_list_count": 3,
+      "event_range": "V-X"
+    },
+    {
+      "title": "幽灵船大冒险",
+      "kind": "日常",
+      "full_id": 12989,
+      "lite_id": 720232,
+      "original_list_count": 4,
+      "event_range": "Y-AB"
+    },
+    {
+      "title": "最靓鱼档传说",
+      "kind": "日常",
+      "full_id": 863762,
+      "lite_id": 797800,
+      "original_list_count": 2,
+      "event_range": "AC-AD"
+    },
+    {
+      "title": "乔乔的太空探秘",
+      "kind": "日常",
+      "full_id": 648185,
+      "lite_id": 919778,
+      "original_list_count": 5,
+      "event_range": "AE-AI"
+    }
+  ],
+  "date_basis": "2080-06-03 through 2080-08-24. Dates are internal-card fictional chronology, NOT official game dates",
+  "previous_part": "worldbook/timeline/TIMELINE-007-下_云岿山初行.md",
+  "next_part": "worldbook/timeline/TIMELINE-009-上_良夜与梦.md",
+  "sandbox_start": "2080-08-25",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 467,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Only volume 1 upper enabled initially. Activate this independent timeline chapter by manual toggle at its story window; no dynamic scripts or automatic next-chapter switch.",
+  "stage_gates": [
+    {
+      "state_id": "STATE-001",
+      "character": "铃",
+      "prerequisite": "第六卷下册G首次觉醒并于第七卷渐进学习",
+      "scope": "本卷受限使用，非全能逆侵蚀；哲非寄宿者"
+    }
+  ],
+  "static_qa": "qa/044_第八卷_仲夏浪涌_主支日来源与时序静态QA_v1.0.md",
+  "script_deps": [],
+  "android_sillytavern_real_device": "NOT_RUN"
+}
