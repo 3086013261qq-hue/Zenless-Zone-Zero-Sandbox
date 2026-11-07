@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 1,
+  "part": "下",
+  "comment": "时间线:第一卷（下）·法厄同启程",
+  "body_file": "worldbook/timeline/TIMELINE-001-下_法厄同启程.md",
+  "source_chapters": [
+    {
+      "title": "第一章 幕间：绳匠的日常与暗流",
+      "full_id": 951314,
+      "lite_id": 923254,
+      "original_scenes": 7,
+      "timeline_events": "A-G"
+    },
+    {
+      "title": "在空洞的中心呼唤",
+      "full_id": 46750,
+      "lite_id": 400038,
+      "original_scenes": 9,
+      "timeline_events": "H-P"
+    }
+  ],
+  "date_basis": "2077-04-05 to 2077-04-14: internal-card chronology; not official source date",
+  "previous_part": "worldbook/timeline/TIMELINE-001-上_法厄同启程.md",
+  "previous_part_ends": "2077-04-04",
+  "sandbox_start": "2077-04-15",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 455,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Only first upper part is enabled by default; manually disable 上 and enable 下 when story enters second part; later switch into volume 2",
+  "script_deps": [],
+  "static_qa": "qa/036_第一卷下_完整原卡事件映射与跨册连贯性QA_v1.0.md",
+  "android_sillytavern_real_device": "NOT_RUN"
+}
