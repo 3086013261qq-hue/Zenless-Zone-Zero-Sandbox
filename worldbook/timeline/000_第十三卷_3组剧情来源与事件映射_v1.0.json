@@ -178,10 +178,10 @@
     },
     {
       "id": "TRI-13",
-      "status": "SOURCE_INCONSISTENCY_ADAPTED_OPEN",
-      "issue": "第十三卷中E源文字称特里薇亚当场殒命，源第十三卷下D/E却称她医院重伤昏迷及塞尔皮科探病",
-      "handling": "中E保留贯穿伤及现场失去反应，写铃以为其死但现场没有死亡鉴定；下D/E按来源保留抢救后重伤昏迷，绝不凭空写复活机制",
-      "requires_review": true
+      "status": "RESOLVED_SOURCE_DEATH_CLAIM_FALSE",
+      "issue": "原卡3.1中E声称特里薇亚当场死亡，但已发行3.1剧情明确抢救后存活、当时昏迷，3.3继续活动",
+      "handling": "正文保留穿刺重伤与铃的现场误判、下册病房仍昏迷，并依据3.1的希格莉德亲口通报和3.3后续行动确认为存活，不设复活情节。",
+      "requires_review": false
     },
     {
       "id": "TOU-13",
