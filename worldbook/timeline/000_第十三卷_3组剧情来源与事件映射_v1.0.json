@@ -1,0 +1,206 @@
+{
+  "version": "1.0",
+  "arc_number": 13,
+  "arc_title": "漫长的告别",
+  "parts": [
+    {
+      "part": "上",
+      "body_file": "worldbook/timeline/TIMELINE-013-上_漫长的告别.md",
+      "metadata_file": "worldbook/timeline/000_第十三卷上_装配元数据_v1.0.json",
+      "source_story": {
+        "title": "漫长的告别（上）",
+        "kind": "主线",
+        "full_id": 54593,
+        "lite_id": 490651
+      },
+      "source_event_titles": [
+        "幕布之外的访客",
+        "茶会惊喜与第三位挽昼",
+        "永不再见的旧友",
+        "托比的记忆",
+        "潜入叮当集市",
+        "回流区的嗯呢帮"
+      ],
+      "original_detailed_event_blocks": 6,
+      "event_range": "A-F",
+      "sandbox_event": "G",
+      "body_event_count": 7,
+      "first_story_date": "2082-04-03",
+      "last_story_date": "2082-04-07",
+      "sandbox_date": "2082-04-08",
+      "notes": "原上篇有独立6块详细事件，依次结使幼体情报、三位挽昼的林德薇恩登场、特里薇亚重逢、托比记忆、伊埃斯独入集市、嗯呢帮启示；关于真挽昼囚禁是邦布的幻象信念，不在此核实"
+    },
+    {
+      "part": "中",
+      "body_file": "worldbook/timeline/TIMELINE-013-中_漫长的告别.md",
+      "metadata_file": "worldbook/timeline/000_第十三卷中_装配元数据_v1.0.json",
+      "source_story": {
+        "title": "漫长的告别（中）",
+        "kind": "主线",
+        "full_id": 485072,
+        "lite_id": 366049
+      },
+      "source_event_titles": [
+        "舞伴的磨合",
+        "机甲与塞尔皮科的幻影",
+        "交织的记忆",
+        "通道之谜",
+        "被将死的棋局",
+        "冰冷雨中·蒙冤通缉",
+        "沉重湿透的羽翼之下"
+      ],
+      "original_detailed_event_blocks": 7,
+      "event_range": "A-G",
+      "sandbox_event": "H",
+      "body_event_count": 8,
+      "first_story_date": "2082-04-08",
+      "last_story_date": "2082-04-10",
+      "sandbox_date": "2082-04-11",
+      "notes": "7块详细事件完整，铃唯一寄宿前线、哲HDD后援；中E特里薇亚遭致命袭击被铃误认为死亡，下D明确重伤昏迷需核验，不能虚构复活；百年前近假死封印不能用来解释十一卷日落化灰"
+    },
+    {
+      "part": "下",
+      "body_file": "worldbook/timeline/TIMELINE-013-下_漫长的告别.md",
+      "metadata_file": "worldbook/timeline/000_第十三卷下_装配元数据_v1.0.json",
+      "source_story": {
+        "title": "漫长的告别（下）",
+        "kind": "主线",
+        "full_id": 56747,
+        "lite_id": 653587
+      },
+      "source_event_titles": [
+        "被遗忘者的追忆",
+        "与你共入深渊·宴会决战",
+        "共犯的戏码·顶罪",
+        "风暴之后·真相残卷",
+        "帷幕之后·不死者"
+      ],
+      "original_detailed_event_blocks": 5,
+      "event_range": "A-E",
+      "sandbox_event": "F",
+      "body_event_count": 6,
+      "first_story_date": "2082-04-11",
+      "last_story_date": "2082-04-12",
+      "sandbox_date": "2082-04-13",
+      "notes": "5块详细事件：罗斯威克旧研究所恢复、可控奇点、伪挽昼决战和巴什穆吞业核、蕾米埃尔顶罪、旧挽昼与达雅特盟约、塞尔皮科幕后现身；不能让中册前人物先知道秘密"
+    }
+  ],
+  "source_counts": {
+    "main": 3,
+    "side": 0,
+    "daily": 0,
+    "total": 3
+  },
+  "original_detailed_events": 18,
+  "timeline_events": 21,
+  "date_basis": "Card internal invented chronology; not official day/month/year",
+  "stage_gates": [
+    {
+      "part": "上",
+      "event": "A",
+      "date": "2082-04-03",
+      "subject": "铃",
+      "knowledge": "听闻女子讲结使幼体及虚狩武器重要性",
+      "limit": "来源为该女子口述，尚非能独立验证全部真相"
+    },
+    {
+      "part": "上",
+      "event": "F",
+      "date": "2082-04-07",
+      "subject": "嗯呢帮",
+      "knowledge": "数据布见过真挽昼求救幻象，怀疑三位挽昼冒牌",
+      "limit": "属结社相信的启示，铃不能把它当确认历史"
+    },
+    {
+      "part": "中",
+      "event": "B",
+      "date": "2082-04-08",
+      "subject": "铃",
+      "knowledge": "托比案机甲病毒证物与酷似塞尔皮科的照片",
+      "limit": "照片未证实塞尔皮科存活"
+    },
+    {
+      "part": "中",
+      "event": "E",
+      "date": "2082-04-10",
+      "subject": "特里薇亚",
+      "knowledge": "遭伪装德蕾琪娜贯穿，现场铃误认为已死",
+      "limit": "下册D在病房仍重伤昏迷，二者需明确区别目击误判和医学判断"
+    },
+    {
+      "part": "中",
+      "event": "G",
+      "date": "2082-04-10",
+      "subject": "铃、希格莉德",
+      "knowledge": "女子讲逐日计划、贝莉与业核，以及假德蕾琪娜被基塔布鲁侵入的推理",
+      "limit": "业核三分仍是线索，百年前时间封印不解释二卷前日落消散"
+    },
+    {
+      "part": "下",
+      "event": "B",
+      "date": "2082-04-11",
+      "subject": "铃、蕾米埃尔式女子",
+      "knowledge": "救出真正德蕾琪娜，巴什穆吞噬基塔布鲁",
+      "limit": "当场尚未确认业核实际去向"
+    },
+    {
+      "part": "下",
+      "event": "C",
+      "date": "2082-04-11",
+      "subject": "铃",
+      "knowledge": "辨明顶罪是女子与希格莉德林德薇恩的共谋，拒绝让其独自赴险",
+      "limit": "方案此前对铃不公开，通缉需次日正式撤销"
+    },
+    {
+      "part": "下",
+      "event": "D",
+      "date": "2082-04-12",
+      "subject": "铃",
+      "knowledge": "听闻巴什穆吞关键业核、三位挽昼身上存三份；女子提出活兵装假说",
+      "limit": "下E揭示所谓活兵装猜测是对铃故意隐瞒，不将其当真相"
+    },
+    {
+      "part": "下",
+      "event": "E",
+      "date": "2082-04-12",
+      "subject": "幕后",
+      "knowledge": "女子与达雅特盟约成员密谈、活兵装假说为谎；塞尔皮科出现在特里薇亚病房",
+      "limit": "铃哲没有现场目击，不能提前获得该幕后情报"
+    }
+  ],
+  "continuity_warnings": [
+    {
+      "id": "REM-11-13",
+      "status": "OPEN_UNRESOLVED",
+      "issue": "第十一卷下G明确蕾米埃尔完成最后一次虚狩后化金灰消散，第十二、十三卷原卡仍将她作为活跃角色",
+      "handling": "保留外观言谈相同的带翼女子和她的自述、行动；人物知道矛盾；中G提供的百年前时间停滞假死只能解释百年前失踪，不能自动解释几周前日落化灰",
+      "requires_review": true
+    },
+    {
+      "id": "TRI-13",
+      "status": "SOURCE_INCONSISTENCY_ADAPTED_OPEN",
+      "issue": "第十三卷中E源文字称特里薇亚当场殒命，源第十三卷下D/E却称她医院重伤昏迷及塞尔皮科探病",
+      "handling": "中E保留贯穿伤及现场失去反应，写铃以为其死但现场没有死亡鉴定；下D/E按来源保留抢救后重伤昏迷，绝不凭空写复活机制",
+      "requires_review": true
+    },
+    {
+      "id": "TOU-13",
+      "status": "SOURCE_RETROACTIVE_CLAIM_UNVERIFIED",
+      "issue": "第十三卷中C源文讲蕾米埃尔此前从法厄同体内取出陶秘尔，但第十一卷下的已封版正文未建立实体取出场景",
+      "handling": "改写为女子声称在此前救援铃时与陶秘尔残力共鸣，留实体兵装来源待后续核实，不从零改写第十一卷",
+      "requires_review": true
+    }
+  ],
+  "changes": [
+    "三册固定铃唯一佩洛伊斯寄宿，哲使用HDD与伊埃斯远程引导、继续共同生活，旧双路线EJS不装卡",
+    "上E在仅邦布进入的市集由哲借伊埃斯潜入、铃留外围策应，符合门禁和两人分工",
+    "中E特里薇亚遭致命伤，旁观者误以为死亡，下D医院昏迷，源冲突保留审核记录",
+    "下E只有幕后知道蕾米埃尔参与达雅特盟约、自己不信活兵装说法，以及塞尔皮科在病房现身；铃哲不能直接掌握",
+    "第十一卷蕾米埃尔日落化灰与本卷活跃未得到确定解释，百年前陶秘尔时间封印不同于当前冲突",
+    "中末沙盒2082-04-11和下A同日相接，需手动先关中册再开下册，不能同时装载"
+  ],
+  "qa_path": "qa/049_第十三卷上中下_原卡来源人物知情与跨卷连续性静态QA_v1.0.md",
+  "real_device_status": "NOT_RUN",
+  "no_mvu": true,
+  "no_scripts": true
+}
