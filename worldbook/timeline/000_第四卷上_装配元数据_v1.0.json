@@ -1,0 +1,91 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 4,
+  "part": "上",
+  "comment": "时间线:第四卷（上）·六课与星流霆击",
+  "body_file": "worldbook/timeline/TIMELINE-004-上_六课与星流霆击.md",
+  "source_chapters": [
+    {
+      "title": "虚拟杀机",
+      "kind": "主线",
+      "source_full_id": 300065,
+      "source_lite_id": 12635,
+      "original_scenes": 8,
+      "events": "A-H",
+      "note": "月城柳为主要行动者，绳匠只在最后HIA会面"
+    },
+    {
+      "title": "代理人秘闻「无人喝彩之冠」",
+      "kind": "支线",
+      "source_full_id": 892237,
+      "source_lite_id": 733572,
+      "original_scenes": 5,
+      "events": "I-M",
+      "note": "发生于凯撒已成旧油井区代理霸主之后"
+    },
+    {
+      "title": "「嗯呢」助教计划",
+      "kind": "日常",
+      "source_full_id": 824404,
+      "source_lite_id": 236223,
+      "original_scenes": 4,
+      "events": "N-Q"
+    },
+    {
+      "title": "断层之谜与双重背叛",
+      "kind": "日常",
+      "source_full_id": 944186,
+      "source_lite_id": 437993,
+      "original_scenes": 6,
+      "events": "R-W",
+      "note": "原详版为HTML包裹，提取事件块，保留埃洛温与4412的前后真相"
+    },
+    {
+      "title": "当三明治来敲门",
+      "kind": "日常",
+      "source_full_id": 209523,
+      "source_lite_id": 488003,
+      "original_scenes": 6,
+      "events": "X-AC"
+    },
+    {
+      "title": "电子战场乱斗",
+      "kind": "日常",
+      "source_full_id": 902250,
+      "source_lite_id": 664234,
+      "original_scenes": 4,
+      "events": "AD-AG",
+      "note": "耀嘉音经咔嚓仔邦布远程求助，禁止提前写成后续主线熟人"
+    },
+    {
+      "title": "帮帮凯伊",
+      "kind": "日常",
+      "source_full_id": 411340,
+      "source_lite_id": 777200,
+      "original_scenes": 3,
+      "events": "AH-AJ"
+    }
+  ],
+  "date_basis": "2078-01-16 to 2078-03-23; internally chosen card chronology, not official story dates",
+  "previous_part": "worldbook/timeline/TIMELINE-003-下_卧底与外环风云.md",
+  "next_part": "worldbook/timeline/TIMELINE-004-下_六课与星流霆击.md",
+  "sandbox_start": "2078-03-24",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 460,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Manually disable prior timeline part and enable this standalone part upon story transition. Only Volume 1 Upper is enabled at initial character-card assembly; no automatic or scripted switch.",
+  "script_deps": [],
+  "static_qa": "qa/040_第四卷上下册_全栈来源角色状态与编年静态QA_v1.0.md",
+  "android_sillytavern_real_device": "NOT_RUN"
+}
