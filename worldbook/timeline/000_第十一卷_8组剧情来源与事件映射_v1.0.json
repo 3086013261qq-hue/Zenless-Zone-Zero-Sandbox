@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "arc_number": 11,
   "arc_title": "旧梦与新·艾利都日落",
   "arc_parts": 3,
@@ -7,11 +7,12 @@
     "main": 3,
     "side": 1,
     "daily": 4,
-    "total": 8
+    "total": 9,
+    "chronicle": 1
   },
-  "original_explicit_detailed_event_blocks": 37,
-  "original_named_event_slots": 37,
-  "new_timeline_event_count": 40,
+  "original_explicit_detailed_event_blocks": 41,
+  "original_named_event_slots": 41,
+  "new_timeline_event_count": 44,
   "parts": [
     {
       "part": "上",
@@ -115,13 +116,27 @@
       "part": "中",
       "body_file": "worldbook/timeline/TIMELINE-011-中_旧梦与新艾利都日落.md",
       "metadata_file": "worldbook/timeline/000_第十一卷中_装配元数据_v1.0.json",
-      "first": "2082-02-13",
+      "first": "2082-02-08",
       "last_story": "2082-02-19",
       "sandbox": "2082-02-20",
-      "source_event_count": 5,
-      "timeline_event_count": 6,
-      "sandbox_event": "F",
+      "source_event_count": 9,
+      "timeline_event_count": 10,
+      "sandbox_event": "J",
       "sources": [
+        {
+          "title": "三契密约",
+          "kind": "纪事",
+          "full_id": 913477,
+          "lite_id": 912166,
+          "source_events": 4,
+          "new_events": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "note": "来源是2026-03-14官方《绝区零》事纪短片与原PNG卡详简章节；《英雄不死于往昔》是2.7版本名，不是前置主线。作为TOPS秘密会议幕后切幕插入第11卷中最前，铃哲此时并不知情。原卡具体扩写不能冒称5分钟短片逐字台词。"
+        },
         {
           "title": "新·艾利都日落时 上",
           "kind": "主线",
@@ -129,11 +144,11 @@
           "lite_id": 3888,
           "source_events": 5,
           "new_events": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E"
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
           ],
           "note": "原卡将辉金缓解眼部以太侵蚀写在哲身上：按004冻结单线统一转给铃；黑狼抢货、拉米尔夺音擎依原流程。原卡错称希希芙=照，依既有角色关系分开两人；不混装哲昏迷Bad Ending"
         }
@@ -181,7 +196,7 @@
     },
     {
       "part": "中",
-      "event": "A",
+      "event": "E",
       "date": "2082-02-13",
       "subject": "铃",
       "trigger": "弗林特辉金的短暂以太波动缓解效果在佩洛伊斯唯一宿主铃身上观察",
@@ -232,5 +247,8 @@
   "no_mvu": true,
   "script_deps": [],
   "android_sillytavern_real_device": "NOT_RUN",
-  "qa_revision": "qa/053_绝区零_原著待审事件_正式纠错与跨卷复核_v1.0.md"
+  "qa_revision": "qa/053_绝区零_原著待审事件_正式纠错与跨卷复核_v1.0.md",
+  "citation_source": "https://www.bilibili.com/video/BV14ZwszqE4e/",
+  "source_type_exception": "第11卷中A-D为官方PV《三契密约》在原卡的四幕戏剧化改编，不是主线任务；同卷E-I为正式2.7游戏剧情。",
+  "previous_legacy_filename": "第十一卷_8组剧情来源与事件映射_v1.0.json 文件名是旧版8组存档路径，目前内容为9组v1.2数据；安装时以JSON内部source_counts.total=9为准。"
 }
