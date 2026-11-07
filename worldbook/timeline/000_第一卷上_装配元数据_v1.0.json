@@ -34,7 +34,9 @@
   },
   "load_policy": "Only first standalone timeline part is enabled by default; manually switch to next part when story advances",
   "script_deps": [],
-  "other_parts_written": 0,
+  "other_parts_written": 1,
   "static_qa": "qa/035_第一卷上_全栈时间线来源与状态静态QA_v1.0.md",
-  "android_sillytavern_real_device": "NOT_RUN"
+  "android_sillytavern_real_device": "NOT_RUN",
+  "next_part": "worldbook/timeline/TIMELINE-001-下_法厄同启程.md",
+  "paired_volume_status": "VOLUME_01_UPPER_AND_LOWER_COMPLETE"
 }
