@@ -1,0 +1,258 @@
+{
+  "version": "1.0",
+  "arc_number": 14,
+  "arc_title": "罗斯凯利法新章",
+  "source_mode": "NEW_OFFICIAL_RELEASED_CHAPTERS_AFTER_ORIGINAL_CARD",
+  "source_status": "PARTIAL_VERIFIED_OFFICIAL_ANNOUNCEMENTS_PLUS_SECONDARY_GAMEPLAY_SPOILER_SUMMARIES",
+  "not_in_original_card": true,
+  "official_chapters": [
+    {
+      "title": "她与她的隐秘往事",
+      "version": "3.2",
+      "official_season": "第三季第三章",
+      "released": "2026-09-09",
+      "category": "主线",
+      "original_card_full_id": null,
+      "original_card_lite_id": null,
+      "official_chapter_titles": [
+        "新的邀约",
+        "辉金的故乡",
+        "潜踪匿影",
+        "孤岛上的人",
+        "藏于地下的真相",
+        "挽昼的秘密"
+      ],
+      "story_event_count": 6,
+      "adapted_event_ids": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sandbox_event": "G"
+    },
+    {
+      "title": "重返天空的旅程",
+      "version": "3.3",
+      "official_season": "第三季第四章",
+      "released": "2026-10-21",
+      "category": "主线",
+      "original_card_full_id": null,
+      "original_card_lite_id": null,
+      "official_chapter_titles": [
+        "天际的回程票",
+        "旗帜永不坠落",
+        "名为求索的阶梯",
+        "还有梦境与黎明"
+      ],
+      "story_event_count": 8,
+      "adapted_event_groups": {
+        "天际的回程票": [
+          "A",
+          "B"
+        ],
+        "旗帜永不坠落": [
+          "C",
+          "D"
+        ],
+        "名为求索的阶梯": [
+          "E",
+          "F"
+        ],
+        "还有梦境与黎明": [
+          "G",
+          "H"
+        ]
+      },
+      "sandbox_event": "I",
+      "title_note": "公开录像索引存在「天际的回程票／天空的回程票」用字不一，正式第十四卷暂以「天际」写事件题；上四组为录像章节目录，下共8个为本卡细分锚点"
+    }
+  ],
+  "parts": [
+    {
+      "part": "上",
+      "body_file": "worldbook/timeline/TIMELINE-014-上_罗斯凯利法新章.md",
+      "metadata_file": "worldbook/timeline/000_第十四卷上_装配元数据_v1.0.json",
+      "version": "3.2",
+      "official_chapter": "她与她的隐秘往事",
+      "story_event_count": 6,
+      "timeline_event_count": 7,
+      "first_event": "A",
+      "last_story": "F",
+      "sandbox_event": "G",
+      "first_story_date": "2082-04-19",
+      "last_story_date": "2082-04-25",
+      "sandbox_start": "2082-04-26"
+    },
+    {
+      "part": "下",
+      "body_file": "worldbook/timeline/TIMELINE-014-下_罗斯凯利法新章.md",
+      "metadata_file": "worldbook/timeline/000_第十四卷下_装配元数据_v1.0.json",
+      "version": "3.3",
+      "official_chapter": "重返天空的旅程",
+      "story_event_count": 8,
+      "timeline_event_count": 9,
+      "first_event": "A",
+      "last_story": "H",
+      "sandbox_event": "I",
+      "first_story_date": "2082-04-26",
+      "last_story_date": "2082-04-27",
+      "sandbox_start": "2082-04-28"
+    }
+  ],
+  "total_official_main_chapters": 2,
+  "original_card_story_count": 0,
+  "original_card_event_count": 0,
+  "adapted_story_events": 14,
+  "total_events_including_sandboxes": 16,
+  "source_references": [
+    {
+      "type": "PRIMARY_OFFICIAL_RELEASE",
+      "url": "https://zzz.mihoyo.com/news/166026",
+      "supports": "3.2主线第三季第三章官方标题、开放顺序、2026-09-09更新与两处新管制区域、克拉蕾/洛克茜"
+    },
+    {
+      "type": "PRIMARY_OFFICIAL_RELEASE",
+      "url": "https://zenless.hoyoverse.com/zh-cn/news/166963",
+      "supports": "3.3主线第三季第四章标题、2026-10-21更新、宁息屿/空域总控塔、菲欧妮/塞维里安"
+    },
+    {
+      "type": "PRIMARY_HOYOVERSE_STORY_PREVIEW",
+      "url": "https://www.hoyoverse.com/zh-tw/news/166759",
+      "supports": "宁息屿被高志占领、航线封锁、菲欧妮与塞维里安、林德薇恩源质重构制造高志机甲、业核疑谜"
+    },
+    {
+      "type": "SECONDARY_PUBLIC_GAMEPLAY_CHAPTER_INDEX",
+      "url": "https://www.bilibili.com/video/BV1DmLD6TEsg/",
+      "supports": "两章公开视频流程的章/幕题与分段顺序；视频搜索可读索引，不等于逐句游戏对话已核验",
+      "limitations": "不是制作组发布的官方文本；章节首幕「天际／天空」的字样需要未来实机复核"
+    },
+    {
+      "type": "SECONDARY_POSTRELEASE_PLAYER_RECAP",
+      "url": "https://bbs.hupu.com/642356675.html",
+      "supports": "3.2辉金追踪、维尔乌姆/中转站与高志夺岛、林德薇恩揭露及菲欧妮箱子线索",
+      "limitations": "包含玩家分析与猜测，未当作可确证事实写进正文"
+    },
+    {
+      "type": "SECONDARY_CUTSCENE_SUMMARY",
+      "url": "https://allthings.how/their-secret-histories-all-cutscenes-in-zenless-zone-zero-3-2-main-story/",
+      "supports": "3.2塞尔皮科伪躯/Youkai、库萨里库夺业核和三挽昼来源的过场摘要",
+      "limitations": "为非官方节选概览，不覆盖游戏全流程；与另一篇过场摘要个别战斗细节有差异"
+    },
+    {
+      "type": "SECONDARY_UNOFFICIAL_STORY_TEXT_EXCERPTS",
+      "url": "https://t.me/s/Seele_Leaks?after=37964",
+      "supports": "3.3关卡简介、菲欧妮装载Fairy、宁息屿、卡利内斯和特里薇亚、梦游布与原初挽昼告别的梗概交叉比对",
+      "limitations": "非官方、含发布前提取内容，不能替代正式游戏实机逐事件核对；只改写短摘要、不照录长对话"
+    }
+  ],
+  "stage_gates": [
+    {
+      "part": "上",
+      "event": "A",
+      "subject": "铃与哲",
+      "fact": "后续辉金调查与德蕾琪娜康复状况延续第十三卷；铃唯一佩洛伊斯宿主",
+      "boundary": "疗程只是监测旧有力量，不首次觉醒"
+    },
+    {
+      "part": "上",
+      "event": "E",
+      "subject": "Youkai／塞尔皮科",
+      "fact": "人形塞尔皮科为Youkai的假躯体，不证明已故赫利俄斯旧友复活",
+      "boundary": "在此前只能有外貌相似者线索"
+    },
+    {
+      "part": "上",
+      "event": "F",
+      "subject": "林德薇恩",
+      "fact": "向法厄同披露三位挽昼业核源于最初挽昼分割",
+      "boundary": "初代挽昼完整经历直到下H梦境才讲述"
+    },
+    {
+      "part": "下",
+      "event": "A",
+      "subject": "菲欧妮",
+      "fact": "从主岛带回Fairy运算载体，确认主岛封锁及高志占据宁息屿",
+      "boundary": "此刻艾尔妲是否主动合作不明"
+    },
+    {
+      "part": "下",
+      "event": "B",
+      "subject": "林德薇恩",
+      "fact": "源质重构制造敌式机甲以供限时伪装与作战",
+      "boundary": "机甲不是铃/伊埃斯的个人永久装备"
+    },
+    {
+      "part": "下",
+      "event": "C",
+      "subject": "塞维里安",
+      "fact": "受梅弗劳尔市长委托以截获空艇前来援助",
+      "boundary": "与菲欧妮过去冲突不等于现阶段共同叛变"
+    },
+    {
+      "part": "下",
+      "event": "D",
+      "subject": "希格莉德／洛克茜",
+      "fact": "从泄露奇点获救，证实卡利内斯是政理局内鬼",
+      "boundary": "不在上册或下C此前令兄妹先知"
+    },
+    {
+      "part": "下",
+      "event": "F",
+      "subject": "特里薇亚／Youkai",
+      "fact": "特里薇亚与Youkai合作，利用奇点与旧友关系攻击救援队",
+      "boundary": "第十三卷被重伤并在医院昏迷不是已确认死亡，幕后主使身分此时才向主角团揭露"
+    },
+    {
+      "part": "下",
+      "event": "G",
+      "subject": "艾尔妲",
+      "fact": "最初挽昼分割力量创生三位挽昼、构造罗塞塔数据，自己原打算自我牺牲稳定巢主空洞",
+      "boundary": "仅在塔顶密室知情，不代表大众已知"
+    },
+    {
+      "part": "下",
+      "event": "H",
+      "subject": "最初挽昼／梦游布",
+      "fact": "初代挽昼曾是巢主空洞结使幼体，与亚契/赫利俄斯机关相识，梦现权能与逐日计划悲剧在梦中说明",
+      "boundary": "她告别后巢主空洞未来危机仍未完全解决，不能提前推出世界终极本质"
+    }
+  ],
+  "continuity_warnings": [
+    {
+      "id": "REM-11-14",
+      "status": "OPEN",
+      "note": "第十一卷蕾米埃尔化灰后第十二/十三卷以相似样貌行动，3.2/3.3可核信息不足以确定具体再现机制；不强行解决"
+    },
+    {
+      "id": "TRI-13-14",
+      "status": "PARTIAL_CLARIFIED_NOT_FREELY_RETCONNED",
+      "note": "此前特里薇亚重伤昏迷，第3.3章恢复行动且与Youkai合作；依剧情后续可确认没有永久死亡，但袭击是否预先自导自演未确认"
+    },
+    {
+      "id": "SER-13-14",
+      "status": "CLARIFIED",
+      "note": "近期外貌似塞尔皮科的活动者是Youkai借伪躯行动；与旧都真正塞尔皮科的死亡不是本人复活"
+    },
+    {
+      "id": "TOU-13",
+      "status": "OPEN",
+      "note": "第十三卷陶秘尔是否曾从法厄同实体取出仍缺可追溯场景，不在第十四卷虚构取出事件"
+    }
+  ],
+  "rules": [
+    "只纳入截至2026-11-07正式上线的3.2与3.3第三季第三、四章，版本活动、代理人信赖、未上线后续一律不强插入主线。",
+    "原PNG卡没有这两章详情，严禁将官方资料细节写成「原卡XX个源事件」或编造原卡ID；采用自写事件锚而非逐字复制完整游戏台词。",
+    "因官方公告只证明开放、角色、区域、版本预告，具体分幕细节主要按公开实录章节索引及非官方摘要整理，必须在最终真人实机/全流程复核前标记来源核验未完成。",
+    "第十三卷下2082-04-13沙盒结束后，上册4月19日开启；上沙盒4月26日与下册A同日，需先关闭上册再开下册。",
+    "铃是佩洛伊斯唯一宿主，哲仍参与调查与支援，按共同行动和HDD/伊埃斯分工修订官方二选一玩家路线。",
+    "初代挽昼之梦现与身世只在下册H正式揭示，避免之前全员知情。业核源头在上F由林德薇恩初步讲述，下G/H进一步解释。",
+    "机甲属于林德薇恩造物与任务场景的驾驶装备，菲欧妮保命技能不推断全体人物不死，战后危机尚未全终结。",
+    "第十四卷加入新人物：克拉蕾、洛克茜、菲欧妮、塞维里安等；现有冻结角色/能力层未被偷偷扩改，后续应审计是否需要增设相应人物与能力世界书条目。"
+  ],
+  "qa_file": "qa/050_第十四卷上下册_官方版本核验与全栈时间线静态QA_v1.0.md",
+  "full_CCV3_assembly": "NOT_RUN",
+  "android_sillytavern": "NOT_RUN"
+}
