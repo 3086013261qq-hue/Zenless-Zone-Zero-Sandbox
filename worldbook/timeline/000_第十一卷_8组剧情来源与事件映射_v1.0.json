@@ -1,0 +1,234 @@
+{
+  "version": "1.0",
+  "arc_number": 11,
+  "arc_title": "旧梦与新·艾利都日落",
+  "arc_parts": 3,
+  "source_counts": {
+    "main": 3,
+    "side": 1,
+    "daily": 4,
+    "total": 8
+  },
+  "original_explicit_detailed_event_blocks": 37,
+  "original_named_event_slots": 37,
+  "new_timeline_event_count": 40,
+  "parts": [
+    {
+      "part": "上",
+      "body_file": "worldbook/timeline/TIMELINE-011-上_旧梦与新艾利都日落.md",
+      "metadata_file": "worldbook/timeline/000_第十一卷上_装配元数据_v1.0.json",
+      "first": "2081-12-19",
+      "last_story": "2082-02-04",
+      "sandbox": "2082-02-05",
+      "source_event_count": 25,
+      "timeline_event_count": 26,
+      "sandbox_event": "Z",
+      "sources": [
+        {
+          "title": "旧梦的安可曲",
+          "kind": "主线",
+          "full_id": 949051,
+          "lite_id": 925007,
+          "source_events": 6,
+          "new_events": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "H"
+          ],
+          "note": "原第六幕庆典晚会必须在拓金日当天，因「福至沓来」前夜及翌日活动穿插而安排到H；保留Fairy真身、Youkai和爱芮的核心信息揭示顺序"
+        },
+        {
+          "title": "妄想协鸣于此刻",
+          "kind": "支线",
+          "full_id": 31700,
+          "lite_id": 423490,
+          "source_events": 4,
+          "new_events": [
+            "M",
+            "N",
+            "O",
+            "P"
+          ],
+          "note": "在妄想天使404正式首演之后才参加新艾利都新星大赛；第二幕千夏与南宫羽纠纷、第三幕获奖、第四幕惊喜都保留"
+        },
+        {
+          "title": "「福」至沓来",
+          "kind": "日常",
+          "full_id": 984821,
+          "lite_id": 156419,
+          "source_events": 3,
+          "new_events": [
+            "F",
+            "G",
+            "I"
+          ],
+          "note": "原第一幕拓金日前夕，第二幕翌日海滩发岁钱，第三幕次日返六分街家；与主线拓金日当晚的H交错"
+        },
+        {
+          "title": "满分集卡专家",
+          "kind": "日常",
+          "full_id": 965738,
+          "lite_id": 322230,
+          "source_events": 3,
+          "new_events": [
+            "Q",
+            "R",
+            "S"
+          ],
+          "note": "仅通过实际参与HIA模拟集章/翻卡后才可获得奖品，失主南宫羽主动赠卡需尊重玩家接受选择；原主线后续"
+        },
+        {
+          "title": "咔嚓！虚境大作战",
+          "kind": "日常",
+          "full_id": 893374,
+          "lite_id": 558886,
+          "source_events": 6,
+          "new_events": [
+            "T",
+            "U",
+            "V",
+            "W",
+            "X",
+            "Y"
+          ],
+          "note": "希拉升级后的智能相机「克利克先生」沿用前卷「咔嚓先生」同一个体；五次集章/VR与最终404领奖、星辉交响曲"
+        },
+        {
+          "title": "引力映叙时光",
+          "kind": "日常",
+          "full_id": 975593,
+          "lite_id": 913796,
+          "source_events": 3,
+          "new_events": [
+            "J",
+            "K",
+            "L"
+          ],
+          "note": "拓金日特映后的短期电影活动；朋友共影只在实际邀请和观看后结算"
+        }
+      ]
+    },
+    {
+      "part": "中",
+      "body_file": "worldbook/timeline/TIMELINE-011-中_旧梦与新艾利都日落.md",
+      "metadata_file": "worldbook/timeline/000_第十一卷中_装配元数据_v1.0.json",
+      "first": "2082-02-13",
+      "last_story": "2082-02-19",
+      "sandbox": "2082-02-20",
+      "source_event_count": 5,
+      "timeline_event_count": 6,
+      "sandbox_event": "F",
+      "sources": [
+        {
+          "title": "新·艾利都日落时 上",
+          "kind": "主线",
+          "full_id": 809180,
+          "lite_id": 3888,
+          "source_events": 5,
+          "new_events": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "note": "原卡将辉金缓解眼部以太侵蚀写在哲身上：按004冻结单线统一转给铃；黑狼抢货、拉米尔夺音擎依原流程。原卡错称希希芙=照，依既有角色关系分开两人；不混装哲昏迷Bad Ending"
+        }
+      ]
+    },
+    {
+      "part": "下",
+      "body_file": "worldbook/timeline/TIMELINE-011-下_旧梦与新艾利都日落.md",
+      "metadata_file": "worldbook/timeline/000_第十一卷下_装配元数据_v1.0.json",
+      "first": "2082-02-27",
+      "last_story": "2082-03-06",
+      "sandbox": "2082-03-07",
+      "source_event_count": 7,
+      "timeline_event_count": 8,
+      "sandbox_event": "H",
+      "sources": [
+        {
+          "title": "新·艾利都日落时 下",
+          "kind": "主线",
+          "full_id": 390363,
+          "lite_id": 295224,
+          "source_events": 7,
+          "new_events": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "note": "原卡寄宿旧都印记与焚昼异化由哲承担；为落实004铃唯一佩洛伊斯宿主，此支线全部转给铃、哲始终非寄宿但保留行动。比利只在B实际穿戴百年星徽甲胄后才能启用STATE-005；旧原名罗斯卡埃利弗统一为冻结归卷用名罗斯凯利法（Roscaelifer）"
+        }
+      ]
+    }
+  ],
+  "stage_gates": [
+    {
+      "part": "上",
+      "event": "D",
+      "date": "2081-12-27",
+      "subject": "爱芮",
+      "trigger": "经Fairy和同伴的记忆协助挣脱Youkai的操控，得知最初许愿精灵是Fairy",
+      "constraint": "在此事件前不提前获知原始许愿精灵身份；网络攻击仍未结束"
+    },
+    {
+      "part": "中",
+      "event": "A",
+      "date": "2082-02-13",
+      "subject": "铃",
+      "trigger": "弗林特辉金的短暂以太波动缓解效果在佩洛伊斯唯一宿主铃身上观察",
+      "constraint": "不代表痊愈，不产生哲第二寄宿者"
+    },
+    {
+      "part": "下",
+      "event": "B",
+      "date": "2082-03-01",
+      "subject": "比利·奇德",
+      "state_id": "STATE-005",
+      "trigger": "凯撒交付百年星徽甲胄，比利实际获准、穿戴并调试",
+      "constraint": "只有甲胄实际装备、可用和维护时才启用，狡兔屋的比利本体身份不变"
+    },
+    {
+      "part": "下",
+      "event": "F",
+      "date": "2082-03-06",
+      "subject": "铃",
+      "trigger": "外界古遗迹与旧都印记共鸣引发佩洛伊斯唯一宿主铃的焚昼异化，蕾米埃尔以最后一次虚狩救回",
+      "constraint": "哲绝非宿主；不可把焚昼当可随时无代价开启的战斗装备"
+    },
+    {
+      "part": "下",
+      "event": "G",
+      "date": "2082-03-06",
+      "subject": "蕾米埃尔·丹",
+      "trigger": "完成最后的告别，亲口留下罗斯凯利法线索并随日落消散",
+      "constraint": "不视作仍然存活的普通NPC；罗斯凯利法后续必须等第14卷展开"
+    }
+  ],
+  "planning_source": "docs/038_时间线14卷29分册_支线日常完整归卷目录_v1.1.md",
+  "all_dates_official": false,
+  "special_source_handling": [
+    "拓金日两条剧情应遵从事件内部相对日期：前夕随便观宴（F）→庆典当日午前洋流湾岁钱（G）→当晚旧梦安可点灯防入侵和404演出（H）→次日六分街归家（I）；保留每条各自原事件顺序",
+    "原卡对Youkai入侵、Fairy最初许愿精灵、瑟汐=塞西莉亚、爱芮A-HOLO真相分事件揭晓，不把全知视角强灌给前期人物",
+    "先由旧梦的安可曲完成404首演，再进入新艾利都新星大赛与对应后日谈；演出舞台本体由妄想天使负责，兄妹仅协助",
+    "中册原版让哲眼部以太侵蚀并依赖辉金，本卡依冻结004只让铃承受与佩洛伊斯相关特殊病症/印记，哲留HDD与救援职能",
+    "下册原版让哲异化为焚昼·法厄同-塔乌弥尔并由蕾米埃尔救回，本卡同样只改为铃的危机；保留哥哥保护妹妹的情感和调查职责，不增加哲第二宿主",
+    "STATE-005比利星徽战装只有下册B从凯撒处获得并试穿甲胄后生效；不可倒灌到中册空洞英雄大赛",
+    "原中册源文误称希希芙即既有裁决官照，但两人的归属/职责和既往相识情况冲突；本卷分别处理，不合并人物",
+    "下册罗斯卡埃利弗/罗斯凯利法两种中文写法视为同一Roscaelifer，在本卡运行正文统一采用已经冻结的第14卷罗斯凯利法，不提前展示远方城内幕",
+    "原卡的Bad Ending（哲过用HDD昏厥）和OC双主角动态占位不装入这三册单线正式正文，旧HTML/执行指导不装"
+  ],
+  "only_peloyis_host": "铃",
+  "nonhost_partner": "哲",
+  "no_mvu": true,
+  "script_deps": [],
+  "android_sillytavern_real_device": "NOT_RUN"
+}
