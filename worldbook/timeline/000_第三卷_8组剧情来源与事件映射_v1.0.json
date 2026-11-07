@@ -1,0 +1,152 @@
+{
+  "version": "1.0",
+  "arc_number": 3,
+  "arc_title": "卧底与外环风云",
+  "planning_source": "worldbook/timeline/000_14卷29分册_主支日来源映射_v1.1.json",
+  "parts": [
+    {
+      "part": "上",
+      "body_file": "worldbook/timeline/TIMELINE-003-上_卧底与外环风云.md",
+      "source_chapters": [
+        {
+          "title": "卧底蓝调",
+          "kind": "主线",
+          "full_id": 76209,
+          "lite_id": 999885,
+          "original_events": 4,
+          "range": "A-D",
+          "note": "E为原章节结束条件：简归还录像带"
+        }
+      ],
+      "first": "2077-09-27",
+      "last_story": "2077-10-05",
+      "sandbox": "2077-10-06",
+      "events": 6
+    },
+    {
+      "part": "下",
+      "body_file": "worldbook/timeline/TIMELINE-003-下_卧底与外环风云.md",
+      "source_chapters": [
+        {
+          "title": "火狱骑行",
+          "kind": "主线",
+          "full_id": 920723,
+          "lite_id": 204413,
+          "original_events": 11,
+          "range": "A-K"
+        },
+        {
+          "title": "霸主的欢宴",
+          "kind": "日常",
+          "full_id": 27386,
+          "lite_id": 892398,
+          "original_events": 7,
+          "range": "L-R"
+        },
+        {
+          "title": "赠尔·丽都",
+          "kind": "支线",
+          "full_id": 203740,
+          "lite_id": 394577,
+          "original_events": 3,
+          "range": "S-U",
+          "note": "铃路线未发生的后期回忆不加载"
+        },
+        {
+          "title": "漫行于以太虚境",
+          "kind": "支线",
+          "full_id": 365704,
+          "lite_id": 652286,
+          "original_events": 5,
+          "range": "V-Z",
+          "note": "电话路线使用来源的正常分支，不另加未通话结局"
+        },
+        {
+          "title": "代理人秘闻「幸运当头」",
+          "kind": "支线",
+          "full_id": 499948,
+          "lite_id": 986812,
+          "original_events": 5,
+          "range": "AA-AE"
+        },
+        {
+          "title": "141友情联络",
+          "kind": "日常",
+          "full_id": 239731,
+          "lite_id": 186550,
+          "original_events": 8,
+          "range": "AF-AM",
+          "note": "拉面少主秘密行动使用正常分支，保留未曝光父亲事实"
+        },
+        {
+          "title": "鏖战高塔",
+          "kind": "日常",
+          "full_id": 464152,
+          "lite_id": 339433,
+          "original_events": 4,
+          "range": "AN-AQ",
+          "note": "VR不等于现实战斗技能"
+        }
+      ],
+      "first": "2077-10-13",
+      "last_story": "2078-01-08",
+      "sandbox": "2078-01-09",
+      "events": 44
+    }
+  ],
+  "source_counts": {
+    "main": 2,
+    "side": 3,
+    "daily": 3,
+    "total": 8
+  },
+  "detail_original_events": 47,
+  "stage_changes": [
+    {
+      "state_id": "STATE-015",
+      "character": "凯撒·金",
+      "earliest_event": "K",
+      "date": "2077-10-29",
+      "when": "火狱骑行赛事结束、外环诸方认可后",
+      "forbidden_before": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "does_not_grant": "自动超常能力或行政无限权力"
+    }
+  ],
+  "known_source_issues": [
+    {
+      "title": "卧底蓝调",
+      "issue": "lite story req:火狱骑行 conflicts with chronology",
+      "decision": "place before 火狱骑行"
+    },
+    {
+      "title": "赠尔·丽都",
+      "issue": "Belle route recalls later chapters and Yao Jiayin before they happen",
+      "decision": "preserve magazine photos but do not treat them as earlier shared experiences"
+    },
+    {
+      "title": "火狱骑行",
+      "issue": "event ten source closing tag has typo </事件十。>",
+      "decision": "read actual event 10 detail and preserve 英雄归来"
+    },
+    {
+      "title": "141友情联络",
+      "issue": "branch that ruins ramen collaboration conflicts with seven-completed-letter main flow",
+      "decision": "follow non-failed normal route only"
+    }
+  ],
+  "canon_host": "铃",
+  "canon_nonhost": "哲",
+  "dates_are_official": false,
+  "static_book_only": true
+}
