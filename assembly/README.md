@@ -12,4 +12,6 @@
 当前正式 JSON/PNG：**不存在**。
 
 ## 邦布人物补充（2026-11-07）
-单篇角色、无需独立能力：读取 `worldbook/characters/bangboo/000_邦布角色装配元数据_v1.0.json`，按同名 `<story_scene>` 触发，`constant=false`、`enabled=true`，`exclude_recursion=true` 与 `prevent_recursion=true`。装入新15篇官设/剧情邦布、4篇原创邦布角色，并沿用更新后的原人物 `CHAR-064_缄枢`。**禁止装入**旧 `ABILITY-064_缄枢·能力`：该历史源稿的关键能力信息已并入缄枢人物正文。不得将其他邦布另拆ABILITIES。原有其余81篇能力不变；条目序号在最终装卡时与所有模块全量对照去重。
+单篇角色、无需独立能力：读取 `worldbook/characters/bangboo/000_邦布角色装配元数据_v1.1.json`，按同名 `<story_scene>` 触发，`constant=false`、`enabled=true`，`exclude_recursion=true` 与 `prevent_recursion=true`。装入15篇官设/剧情邦布、11篇原创邦布角色，并沿用更新后的原人物 `CHAR-064_缄枢`。**禁止装入**旧 `ABILITY-064_缄枢·能力`：该历史源稿的关键能力信息已并入缄枢人物正文。不得将其他邦布另拆ABILITIES。原有其余81篇能力不变；条目序号在最终装卡时与所有模块全量对照去重。
+
+2026-11-07追加：普通邦布口头音节以BLUE-05 v1.3「嗯呐」为主，不能因翻译器或字幕把一般邦布写成直接讲流利中文。特殊缄枢人语与H.D.D.远程通讯例外；26篇邦布人物（15官设＋11原创）按bangboo v1.1清单装入，旧缄枢ABILITY-064仍必须排除。主要角色的希人身份以人物层最新正文为准，不另起重复CHAR。
