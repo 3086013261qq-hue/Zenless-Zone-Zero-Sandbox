@@ -1,0 +1,111 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PENDING",
+  "volume": 5,
+  "part": "独卷",
+  "comment": "时间线:第五卷·金翅雀与闪耀的此刻",
+  "body_file": "worldbook/timeline/TIMELINE-005_金翅雀与闪耀的此刻.md",
+  "source_chapters": [
+    {
+      "title": "代理人秘闻：我是艾莲，在忙，有事留言",
+      "kind": "支线",
+      "source_full_id": 712784,
+      "source_lite_id": 314739,
+      "source_events": 4,
+      "event_range": "A-D"
+    },
+    {
+      "title": "咔嚓咔嚓空洞记者",
+      "kind": "日常",
+      "source_full_id": 494841,
+      "source_lite_id": 13429,
+      "source_events": 6,
+      "event_range": "E-J"
+    },
+    {
+      "title": "厄匹斯极钓大师赛",
+      "kind": "日常",
+      "source_full_id": 870182,
+      "source_lite_id": 664337,
+      "source_events": 3,
+      "event_range": "K-M"
+    },
+    {
+      "title": "决战「金手指」之巅",
+      "kind": "日常",
+      "source_full_id": 220064,
+      "source_lite_id": 919574,
+      "source_events": 5,
+      "event_range": "N-R"
+    },
+    {
+      "title": "悠然插曲·金翅雀逃跑计划",
+      "kind": "主线",
+      "source_full_id": 286555,
+      "source_lite_id": 661753,
+      "source_events": 2,
+      "event_range": "S-T"
+    },
+    {
+      "title": "美梦如约而至",
+      "kind": "日常",
+      "source_full_id": 637563,
+      "source_lite_id": 29574,
+      "source_events": 6,
+      "event_range": "U-Z"
+    },
+    {
+      "title": "愿我亦是天琴之星",
+      "kind": "日常",
+      "source_full_id": 546832,
+      "source_lite_id": 416419,
+      "source_events": 5,
+      "event_range": "AA-AE"
+    },
+    {
+      "title": "闪耀的此刻",
+      "kind": "主线",
+      "source_full_id": 908374,
+      "source_lite_id": 727721,
+      "source_events": 8,
+      "event_range": "AF-AM"
+    },
+    {
+      "title": "协律共契",
+      "kind": "支线",
+      "source_full_id": 567199,
+      "source_lite_id": 577364,
+      "source_events": 3,
+      "event_range": "AN-AP"
+    },
+    {
+      "title": "如愿璀璨之日",
+      "kind": "支线",
+      "source_full_id": 749502,
+      "source_lite_id": 617003,
+      "source_events": 14,
+      "event_range": "AQ-BD"
+    }
+  ],
+  "date_basis": "2078-06-20 through 2079-02-18: internal card chronology only, not official event dates",
+  "previous_part": "worldbook/timeline/TIMELINE-004-下_六课与星流霆击.md",
+  "next_part": "worldbook/timeline/TIMELINE-006-上_将眼泪与过往一同埋葬.md",
+  "sandbox_start": "2079-02-19",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 462,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Manual switch after completing volume 4 lower; only volume 1 upper enabled initially, this independent volume remains disabled by default.",
+  "script_deps": [],
+  "static_qa": "qa/041_第五卷_金翅雀与闪耀的此刻_来源编年与状态静态QA_v1.0.md",
+  "android_sillytavern_real_device": "NOT_RUN"
+}
