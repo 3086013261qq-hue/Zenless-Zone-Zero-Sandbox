@@ -1,0 +1,87 @@
+{
+  "version": "location-audit-v1.1",
+  "date": "2026-11-07",
+  "starting_head": "3d9241fb4419ead72bdb0d01878f4322d4ae114b",
+  "source_card_locs": 71,
+  "original_covered_source_ids": 71,
+  "prior_green_entries": 64,
+  "new_official_places": [
+    {
+      "id": "LOCATION-GREEN-065",
+      "name": "布亚斯特城区",
+      "official_version": "3.0",
+      "source": "https://zenless.hoyoverse.com/zh-cn/news/164779"
+    },
+    {
+      "id": "LOCATION-GREEN-066",
+      "name": "齿轮街",
+      "official_version": "3.1",
+      "source": "https://zzz.mihoyo.com/news/165415"
+    },
+    {
+      "id": "LOCATION-GREEN-067",
+      "name": "维尔乌姆城区",
+      "official_version": "3.2",
+      "source": "https://zzz.mihoyo.com/news/166026"
+    },
+    {
+      "id": "LOCATION-GREEN-068",
+      "name": "辉金研究所",
+      "official_version": "3.2",
+      "source": "https://zzz.mihoyo.com/news/166026"
+    },
+    {
+      "id": "LOCATION-GREEN-069",
+      "name": "隐礁中转站",
+      "official_version": "3.2",
+      "source": "https://zzz.mihoyo.com/news/166026"
+    },
+    {
+      "id": "LOCATION-GREEN-070",
+      "name": "宁息屿",
+      "official_version": "3.3",
+      "source": "https://zenless.hoyoverse.com/zh-cn/news/166963"
+    },
+    {
+      "id": "LOCATION-GREEN-071",
+      "name": "对空六课办公室",
+      "official_version": "1.4",
+      "source": "https://www.gamersky.com/handbook/202412/1860804.shtml"
+    }
+  ],
+  "result_green_entries": 71,
+  "corrected_existing": [
+    {
+      "id": "LOCATION-GREEN-002",
+      "problem": "已并入桶之贤者却未配关键词",
+      "repair": "补完整别名与垃圾桶功能"
+    },
+    {
+      "id": "LOCATION-GREEN-004",
+      "problem": "已并入海神雕像却未配关键词且灾害严重度偏轻",
+      "repair": "海神雕像加入关键词并对齐官方1.4港口大部分区域被吞没"
+    },
+    {
+      "id": "LOCATION-GREEN-011",
+      "problem": "旧名未包含2.6更新后的404 Livehouse",
+      "repair": "保留旧源文件标签；正文写新旧名称，关键词兼容"
+    },
+    {
+      "id": "LOCATION-GREEN-018",
+      "problem": "涡轮字面词过宽",
+      "repair": "改为涡轮改装店与涡轮改装铺"
+    },
+    {
+      "id": "LOCATION-GREEN-057",
+      "problem": "3.3同塔多楼层管制区欠说明",
+      "repair": "公共与管制层整合一篇避免重复造塔"
+    }
+  ],
+  "canonical_names": {
+    "热望角": "官方正确名（旧原卡无误）",
+    "齿轮街": "官方3.1简体中文名称（不是机括街）",
+    "厄匹斯港": "官方简体名称（厄尔庇斯港为原卡别名）"
+  },
+  "pending_official_visual_details": "新增地区只能稳妥写空间职能、已证实连接与可见设施，内部精确细节未逐图验收；本轮不声称全景3D完美复刻",
+  "notes": "五条地点常驻BLUE、九条世界BLUE、54条普通GREEN、人物能力、时间线均不更改；无新增触发脚本、时间门控、人物出场表"
+}

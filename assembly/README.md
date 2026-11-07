@@ -30,3 +30,7 @@ GREEN关键词母表正式采用`worldbook/green/000_核心绿灯静态触发方
 
 ## 地点层绿灯正式装配（2026-11-07 v1.0）
 地点模块已有5条独立常驻BLUE，另有[64篇关键词地点GREEN](../worldbook/locations/000_地点绿灯正式装配元数据_v1.0.json)正式源码。64篇覆盖原卡71个loc来源中的68个，另外3个由蓝灯承载或排除；正式装卡**只读取metadata entries[].body_file**，不要把目录README、审计JSON、QA或来源原卡当正文装载。64篇绿灯`enabled=true`、`constant=false`、`selective=true`、`use_regex=false`，字面key触发，`insertion_order=900..963`、`position=after_char`、双重防递归全开。最终CCV3应与所有其他层检查数字序号碰撞，五条地点常驻BLUE及9篇世界BLUE不重复安装。更改人物认知/剧情时间线或引入脚本门控均禁止。本轮没有装配整卡，也没有Android实机PASS。
+
+## 地点层官方查漏补齐·现行v1.1（2026-11-07）
+地点层现行唯一装配母表：`worldbook/locations/000_地点绿灯正式装配元数据_v1.1.json`，共71篇地点GREEN（原卡64篇＋官方1.4/3.0～3.3新增7篇）。先前v1.0的64篇清单只作历史留档，**不可把v1.0与v1.1同时装入卡内**。旧五篇LOCATION-BLUE全部保留常驻。新地点GREEN-065～071按字面关键词启用且不常驻，order964～970，双重防递归开启。
+已存总控塔的公共建筑与3.3管制层由原LOCATION-GREEN-057统一承载，**不要为管制区空域总控塔再造重复地点条目**；不引入额外按日期触发或权限脚本。全卡最终正式装配前全局核对order，并只加载v1.1 entries[].body_file，绝不将metadata、QA、README正文装入世界书。此时仍无最终CCV3及实机验收结果。
