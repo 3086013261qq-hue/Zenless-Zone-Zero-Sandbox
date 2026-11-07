@@ -1,0 +1,208 @@
+{
+  "version": "1.0",
+  "arc_number": 7,
+  "arc_title": "云岿山初行",
+  "planning_source": "worldbook/timeline/000_14卷29分册_主支日来源映射_v1.1.json",
+  "parts": [
+    {
+      "part": "上",
+      "body_file": "worldbook/timeline/TIMELINE-007-上_云岿山初行.md",
+      "metadata_file": "worldbook/timeline/000_第七卷上_装配元数据_v1.0.json",
+      "source_chapters": [
+        {
+          "title": "悠然插曲·游方闲客",
+          "kind": "主线",
+          "full_id": 184127,
+          "lite_id": 696517,
+          "original_events": 4,
+          "event_range": "A-D",
+          "note": "仪玄先在Random Play结识铃、哲，云岿修行及不掩包裹留作后续伏笔；铃已在第六卷觉醒，不重新觉醒"
+        },
+        {
+          "title": "朝露·初识花信",
+          "kind": "支线",
+          "full_id": 260594,
+          "lite_id": 256404,
+          "original_events": 4,
+          "event_range": "E-H",
+          "note": "必须先让兰教学、丽娜提出尼尼微稀有花委托，再接朝露既闻花名"
+        },
+        {
+          "title": "朝露·既闻花名",
+          "kind": "支线",
+          "full_id": 289134,
+          "lite_id": 95145,
+          "original_events": 4,
+          "event_range": "I-L",
+          "note": "莱卡恩劝退、薇薇安与丁香线索、非法矿场查封、简的角色扮演、安东金属饭盆误会"
+        },
+        {
+          "title": "花语未明之言",
+          "kind": "支线",
+          "full_id": 946822,
+          "lite_id": 225672,
+          "original_events": 1,
+          "event_range": "M",
+          "note": "十五位顾客可选订单合集，不直接强制全部成功与领取奖励"
+        },
+        {
+          "title": "朝露·解语之时",
+          "kind": "支线",
+          "full_id": 551957,
+          "lite_id": 112633,
+          "original_events": 4,
+          "event_range": "N-Q",
+          "note": "妮可投机花卉、雨果送尼尼微、莱卡恩宴会、失意矿主行贿失败；花卉尼尼微≠零号空洞强力以骸尼尼微"
+        },
+        {
+          "title": "美味食光全城热配",
+          "kind": "日常",
+          "full_id": 935380,
+          "lite_id": 436256,
+          "original_events": 5,
+          "event_range": "R-V",
+          "note": "连续五位幸运顾客分别露西、啾啾、星见雅、佩吉、比利"
+        },
+        {
+          "title": "乘上春日的影像",
+          "kind": "日常",
+          "full_id": 527465,
+          "lite_id": 853855,
+          "original_events": 5,
+          "event_range": "W-AA",
+          "note": "柯尼新电影5幕，春日为片名主题，内部编年九月日期并非季节断言"
+        },
+        {
+          "title": "邦邦冲冲冲",
+          "kind": "日常",
+          "full_id": 753535,
+          "lite_id": 859253,
+          "original_events": 3,
+          "event_range": "AB-AD",
+          "note": "伊埃斯在障碍赛再夺冠军是竞速，不与第五卷丽都有布选美冠军混为同一次"
+        }
+      ],
+      "source_event_count": 30,
+      "timeline_event_count": 31,
+      "sandbox_event": "AE",
+      "first": "2079-07-10",
+      "sandbox_date": "2079-09-27"
+    },
+    {
+      "part": "下",
+      "body_file": "worldbook/timeline/TIMELINE-007-下_云岿山初行.md",
+      "metadata_file": "worldbook/timeline/000_第七卷下_装配元数据_v1.0.json",
+      "source_chapters": [
+        {
+          "title": "云霞同归处",
+          "kind": "主线",
+          "full_id": 683004,
+          "lite_id": 372813,
+          "original_events": 7,
+          "event_range": "A-G",
+          "note": "铃在市长安排下与仪玄先赴卫非地，哲后方联络；灾害和仪绛旧事在相应事件后揭开；幕后莎拉/巨茧资料不自动公开"
+        },
+        {
+          "title": "代理人秘闻「《猛虎伏魔传！》」",
+          "kind": "支线",
+          "full_id": 855422,
+          "lite_id": 270060,
+          "original_events": 5,
+          "event_range": "H-L",
+          "note": "由橘福福亲自主演调查，最后辨明苍黄为夺取真苍黄生命的冒名虎希人；不让玩家代她打败对手"
+        },
+        {
+          "title": "缘于引力的邂逅",
+          "kind": "支线",
+          "full_id": 227446,
+          "lite_id": 591744,
+          "original_events": 8,
+          "event_range": "M-T",
+          "note": "第6事件仅保留铃玩家观文艺片与哲互动的单线，另一哲玩家分支不装入运行正文"
+        },
+        {
+          "title": "虎啸有风生",
+          "kind": "支线",
+          "full_id": 585713,
+          "lite_id": 810920,
+          "original_events": 4,
+          "event_range": "U-X",
+          "note": "福福为料理清剿、海岸采药、称颂会余党调查和教学，仍是大师姐而非门主"
+        },
+        {
+          "title": "钢魂：黄金之绊",
+          "kind": "日常",
+          "full_id": 505782,
+          "lite_id": 9211,
+          "original_events": 5,
+          "event_range": "Y-AC",
+          "note": "宇宙秘密=赫拉克勒斯生日4月2日/42，黄金机甲归白祇工地合作维护，不无条件成为法厄同永久武器"
+        },
+        {
+          "title": "全息强袭战域",
+          "kind": "日常",
+          "full_id": 872712,
+          "lite_id": 106718,
+          "original_events": 3,
+          "event_range": "AD-AF",
+          "note": "枫在HIA VR受挫后才意识到真实空洞危险；VR与实际战斗实力不等价"
+        },
+        {
+          "title": "美味大作战",
+          "kind": "日常",
+          "full_id": 307061,
+          "lite_id": 139276,
+          "original_events": 5,
+          "event_range": "AG-AK",
+          "note": "修正原卡明显错配：偶像演出由耀嘉音、六课课长星见雅不变歌姬；月城柳属对空六课而非维多利亚家政"
+        },
+        {
+          "title": "厄影弥途",
+          "kind": "日常",
+          "full_id": 3905,
+          "lite_id": 345110,
+          "original_events": 4,
+          "event_range": "AL-AO",
+          "note": "H.D.D.回看仪玄既往调查录像，日期是本卷观看日；霍波与朽峰矿业为待查线索，不能默认已清剿"
+        },
+        {
+          "title": "凋荣十载随便一观",
+          "kind": "日常",
+          "full_id": 541849,
+          "lite_id": 929496,
+          "original_events": 9,
+          "event_range": "AP-AX",
+          "note": "只在云霞主线随便观正式启用后开始修缮；道观等级、商店解锁、观潮节/街坊委托按进度和实际参加情况生效"
+        }
+      ],
+      "source_event_count": 50,
+      "timeline_event_count": 51,
+      "sandbox_event": "AY",
+      "first": "2079-10-05",
+      "sandbox_date": "2080-02-26"
+    }
+  ],
+  "source_counts": {
+    "main": 2,
+    "side": 7,
+    "daily": 8,
+    "total": 17
+  },
+  "original_detailed_events": 80,
+  "timeline_events": 82,
+  "order_adjustments": [
+    "上册：朝露支线严格依序「初识花信」→「既闻花名」→可选「花语未明之言」→「解语之时」，不能按旧来源目录排列次序",
+    "下册：先发生「云霞同归处」到达卫非地与随便观，后才可以修复「凋荣十载随便一观」，不倒灌道观修复奖励",
+    "原详细版「云霞同归处」有动态哲/铃选先行路线，按冻结铃寄宿唯一分支固定铃同仪玄乘飞空艇，哲在后方通信",
+    "原详细版「缘于引力的邂逅」兄妹观影有哲／铃两种互斥视角，固定铃看《吾本如斯》，哲同场陪伴",
+    "原详细版「美味大作战」将星见雅误作演唱会偶像、月城柳误作维多利亚家政：保留食物与互动设计但将身份纠错为耀嘉音歌手和六课柳",
+    "「厄影弥途」是回看仪玄初查录像，不当作当日重复发生的直接身历",
+    "花「尼尼微」非巨型以骸尼尼微本体；「乘上春日的影像」春日为创作主题而非事件发生的官方春季",
+    "仪绛最后意愿与茧中怪物幕后场景不预支人物知情；云岿术法受训练条件限制，铃仍佩洛伊斯唯一宿主"
+  ],
+  "sole_host": "铃",
+  "non_host": "哲",
+  "scripts": [],
+  "android_st_test": "NOT_RUN",
+  "dates_official": false
+}
