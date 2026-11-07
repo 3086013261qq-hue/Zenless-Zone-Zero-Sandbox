@@ -1,0 +1,123 @@
+{
+  "version": "v1.0",
+  "date": "2026-11-07",
+  "baseline_head": "b4739e5dd409ee79caeed319e36c753c1e3ac973",
+  "scope": "Bangboo character-only backlog under worldbook/characters/bangboo/",
+  "reference_version": "3.3",
+  "source_urls": [
+    "https://www.prydwen.gg/zenless/bangboo",
+    "https://genshin-builds.com/cn/zenless/bangboos",
+    "https://zenless.hoyoverse.com/zh-cn/news/166963",
+    "https://zenless.hoyoverse.com/m/zh-cn/news/166498",
+    "https://wiki.hoyolab.com/pc/zzz/entry/125?lang=zh-cn"
+  ],
+  "available_playable": 41,
+  "existing_playable": 12,
+  "missing_playable": 29,
+  "missing_S": [
+    "插头布",
+    "「墨丘利」",
+    "比克布利克",
+    "艾瑞儿",
+    "飚速布",
+    "狮耶",
+    "左轮布",
+    "赤红莫库斯",
+    "咔嚓仔",
+    "艾丝弥小姐",
+    "芽芽",
+    "超极杰克",
+    "格列佛探员"
+  ],
+  "missing_A": [
+    "寻宝布",
+    "磁力布",
+    "气压布",
+    "泪眼布",
+    "飞靶布",
+    "电击布",
+    "加班布",
+    "幽浮布",
+    "招财布",
+    "不良布",
+    "乐玩布",
+    "恶魔布",
+    "扑击布",
+    "果核布",
+    "圣剑布",
+    "格斗布"
+  ],
+  "existing_playable_names": [
+    "艾米莉安",
+    "巴特勒",
+    "鲨牙布",
+    "阿全",
+    "阿崔巡查",
+    "罗宾",
+    "骑士布",
+    "企鹅布",
+    "纸袋布",
+    "纸壳布",
+    "共鸣布",
+    "阿饭"
+  ],
+  "existing_story_bangboo": [
+    "伊埃斯",
+    "邦布18号",
+    "4412号"
+  ],
+  "existing_original_bangboo_count": 11,
+  "other_existing": "缄枢在原82人物层，勿再新增重复邦布条目",
+  "story_candidates": [
+    {
+      "name": "阿跛",
+      "source": "《绝区零》2026-10-01官方「跛脚乌鸦奇探录」活动说明",
+      "status": "official_npc_confirmed_needs_character"
+    },
+    {
+      "name": "邦布6号",
+      "source": "原卡npc:邦布18号提到Random Play第三只邦布",
+      "status": "source_card_candidate_verify"
+    },
+    {
+      "name": "吼吼先生",
+      "source": "原卡npc:吼吼先生",
+      "status": "source_card_candidate_verify"
+    },
+    {
+      "name": "塔利",
+      "source": "原卡npc:塔利",
+      "status": "source_card_candidate_verify"
+    },
+    {
+      "name": "格里夫·阿什顿",
+      "source": "原卡npc:格里夫·阿什顿",
+      "status": "source_card_candidate_verify"
+    },
+    {
+      "name": "雷金纳德·阿什顿",
+      "source": "原卡npc:雷金纳德·阿什顿",
+      "status": "source_card_candidate_verify"
+    }
+  ],
+  "excluded_false_positives": [
+    {
+      "name": "阿草／阿木／阿砖",
+      "category": "wild_boar_thiren",
+      "reason": "官方露西角色资料称小猪亲卫队成员为卡吕冬野猪希人，不能归类邦布"
+    },
+    {
+      "name": "阿釜",
+      "category": "raccoon_dog_companion",
+      "reason": "原卡明确是浮波柚叶的貉伙伴；不是邦布"
+    },
+    {
+      "name": "百万",
+      "category": "possible_alias_of_Amillion",
+      "reason": "原卡是狡兔屋绿色邦布，优先核对与现有艾米莉安是否同一型号/个体以防重复"
+    }
+  ],
+  "assembly_policy": "邦布1篇角色条目，不另建独立ABILITIES；官设与原创分离；默认邦布音节嗯呐；额外名字只在story_scene限定触发；双重防递归；先核对官设立绘，未核不臆造具体配色",
+  "status": "coverage_audit_only_not_generated",
+  "next_step": "先补齐S13，再A16，再核对命名剧情邦布；不修改既有世界蓝灯/时间线/角色能力（露西分类纠错除外）"
+}
