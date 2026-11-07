@@ -1,0 +1,710 @@
+{
+  "version": "v1.0",
+  "date": "2026-11-07",
+  "source_commit": "0a96689e55a159371948712871ca2dd1219125b2",
+  "scope": "82 character entries under worldbook/characters/major/ (excludes newly split Bangboo character-only entries)",
+  "method": "Review every existing source entry; collect explicitly grounded nonhuman identity, flag accessories and cybernetic replacements; non-confirmation is not proof of ordinary human",
+  "counts": {
+    "regular_or_unconfirmed": 50,
+    "embodied_construct": 5,
+    "thiren": 20,
+    "oni": 1,
+    "human_with_machine_partner": 1,
+    "mixed_dual_consciousness": 1,
+    "software_ai": 2,
+    "bangboo": 1,
+    "human_cyborg": 1
+  },
+  "classes": {
+    "thiren": "希人，限有明确人物正文和可核对来源的个体；不因耳朵饰物推断",
+    "oni": "鬼族，独立于希人",
+    "embodied_construct": "智能构装体，钰偶是其中特殊一型",
+    "bangboo": "邦布机体，单人物条目，不与普通人或智能构装体类混同",
+    "software_ai": "仅数据/软件形式的人工智能",
+    "human_with_machine_partner": "人类与独立机甲伙伴",
+    "mixed_dual_consciousness": "人类与智能机械构件共同组成一项人物源条目",
+    "human_cyborg": "人类或复制人类使用机械义体",
+    "regular_or_unconfirmed": "人物正文没有足够明确的非人类身份佐证；并不表示已经证明为普通人类"
+  },
+  "unresolved": [
+    "薇薇安的尖耳不可单凭外观断言种族",
+    "蕾米埃尔的尖耳和羽翼不能据此断言种族",
+    "菲欧妮背部装置不能据此断言种族",
+    "叶瞬光的确切动物类别尚待核",
+    "南宫羽希人子类别尚待核"
+  ],
+  "do_not_change": [
+    "BLUE-05 邦布语言",
+    "BLUE-06 希人蓝灯",
+    "原人物能力与装备",
+    "时间线",
+    "邦布独立目录",
+    "角色总数"
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "name": "铃",
+      "path": "worldbook/characters/major/CHAR-001_铃.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 2,
+      "name": "哲",
+      "path": "worldbook/characters/major/CHAR-002_哲.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 3,
+      "name": "妮可·德玛拉",
+      "path": "worldbook/characters/major/CHAR-003_妮可·德玛拉.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit",
+      "note": "兔耳形发饰不等于兔希人"
+    },
+    {
+      "id": 4,
+      "name": "安比·德玛拉",
+      "path": "worldbook/characters/major/CHAR-004_安比·德玛拉.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 5,
+      "name": "比利·奇德",
+      "path": "worldbook/characters/major/CHAR-005_比利·奇德.md",
+      "category": "embodied_construct",
+      "subtype": "人形智能构装体",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 6,
+      "name": "猫宫又奈",
+      "path": "worldbook/characters/major/CHAR-006_猫宫又奈.md",
+      "category": "thiren",
+      "subtype": "猫希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 7,
+      "name": "格莉丝·霍华德",
+      "path": "worldbook/characters/major/CHAR-007_格莉丝·霍华德.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 8,
+      "name": "冯·莱卡恩",
+      "path": "worldbook/characters/major/CHAR-008_冯·莱卡恩.md",
+      "category": "thiren",
+      "subtype": "狼希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 9,
+      "name": "珂蕾妲·贝洛伯格",
+      "path": "worldbook/characters/major/CHAR-009_珂蕾妲·贝洛伯格.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 10,
+      "name": "本·比格",
+      "path": "worldbook/characters/major/CHAR-010_本·比格.md",
+      "category": "thiren",
+      "subtype": "熊希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 11,
+      "name": "安东·伊万诺夫",
+      "path": "worldbook/characters/major/CHAR-011_安东·伊万诺夫.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 12,
+      "name": "丽娜",
+      "path": "worldbook/characters/major/CHAR-012_丽娜.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 13,
+      "name": "可琳·威克斯",
+      "path": "worldbook/characters/major/CHAR-013_可琳·威克斯.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 14,
+      "name": "艾莲·乔",
+      "path": "worldbook/characters/major/CHAR-014_艾莲·乔.md",
+      "category": "thiren",
+      "subtype": "鲨鱼希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 15,
+      "name": "凯撒·金",
+      "path": "worldbook/characters/major/CHAR-015_凯撒·金.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 16,
+      "name": "露西",
+      "path": "worldbook/characters/major/CHAR-016_露西.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 17,
+      "name": "派派·韦尔",
+      "path": "worldbook/characters/major/CHAR-017_派派·韦尔.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 18,
+      "name": "柏妮思·怀特",
+      "path": "worldbook/characters/major/CHAR-018_柏妮思·怀特.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 19,
+      "name": "朱鸢",
+      "path": "worldbook/characters/major/CHAR-019_朱鸢.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 20,
+      "name": "青衣",
+      "path": "worldbook/characters/major/CHAR-020_青衣.md",
+      "category": "embodied_construct",
+      "subtype": "钰偶（使用生物材料的特殊智能构装体）",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 21,
+      "name": "11号",
+      "path": "worldbook/characters/major/CHAR-021_11号.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 22,
+      "name": "苍角",
+      "path": "worldbook/characters/major/CHAR-022_苍角.md",
+      "category": "oni",
+      "subtype": "蓝肤鬼族，不是希人",
+      "confidence": "confirmed_existing_source"
+    },
+    {
+      "id": 23,
+      "name": "星见雅",
+      "path": "worldbook/characters/major/CHAR-023_星见雅.md",
+      "category": "thiren",
+      "subtype": "狐希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 24,
+      "name": "月城柳",
+      "path": "worldbook/characters/major/CHAR-024_月城柳.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 25,
+      "name": "浅羽悠真",
+      "path": "worldbook/characters/major/CHAR-025_浅羽悠真.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 26,
+      "name": "赛斯·洛威尔",
+      "path": "worldbook/characters/major/CHAR-026_赛斯·洛威尔.md",
+      "category": "thiren",
+      "subtype": "猞猁希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 27,
+      "name": "简·杜",
+      "path": "worldbook/characters/major/CHAR-027_简·杜.md",
+      "category": "thiren",
+      "subtype": "鼠希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 28,
+      "name": "莱特",
+      "path": "worldbook/characters/major/CHAR-028_莱特.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 29,
+      "name": "耀嘉音",
+      "path": "worldbook/characters/major/CHAR-029_耀嘉音.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 30,
+      "name": "伊芙琳·舒瓦利耶",
+      "path": "worldbook/characters/major/CHAR-030_伊芙琳·舒瓦利耶.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 31,
+      "name": "雨果",
+      "path": "worldbook/characters/major/CHAR-031_雨果.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 32,
+      "name": "薇薇安",
+      "path": "worldbook/characters/major/CHAR-032_薇薇安.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit",
+      "note": "尖耳造型不能直接认定种族，需进一步查官方明确分类"
+    },
+    {
+      "id": 33,
+      "name": "仪玄",
+      "path": "worldbook/characters/major/CHAR-033_仪玄.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 34,
+      "name": "潘引壶",
+      "path": "worldbook/characters/major/CHAR-034_潘引壶.md",
+      "category": "thiren",
+      "subtype": "熊猫希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 35,
+      "name": "橘福福",
+      "path": "worldbook/characters/major/CHAR-035_橘福福.md",
+      "category": "thiren",
+      "subtype": "虎希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 36,
+      "name": "浮波柚叶",
+      "path": "worldbook/characters/major/CHAR-036_浮波柚叶.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit",
+      "note": "狸猫配饰和机械尾巴不等于狸猫希人，浮波柚叶为人类"
+    },
+    {
+      "id": 37,
+      "name": "爱丽丝·泰姆菲尔德",
+      "path": "worldbook/characters/major/CHAR-037_爱丽丝·泰姆菲尔德.md",
+      "category": "thiren",
+      "subtype": "兔希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 38,
+      "name": "扳机",
+      "path": "worldbook/characters/major/CHAR-038_扳机.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 39,
+      "name": "叶瞬光",
+      "path": "worldbook/characters/major/CHAR-039_叶瞬光.md",
+      "category": "thiren",
+      "subtype": "希人（具体动物类别待核）",
+      "confidence": "confirmed_existing_and_sources",
+      "note": "确认为希人，但不根据耳尾造型自行指定动物种类"
+    },
+    {
+      "id": 40,
+      "name": "狛野真斗",
+      "path": "worldbook/characters/major/CHAR-040_狛野真斗.md",
+      "category": "thiren",
+      "subtype": "犬希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 41,
+      "name": "波可娜·费雷尼",
+      "path": "worldbook/characters/major/CHAR-041_波可娜·费雷尼.md",
+      "category": "thiren",
+      "subtype": "猫希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 42,
+      "name": "席德",
+      "path": "worldbook/characters/major/CHAR-042_席德.md",
+      "category": "human_with_machine_partner",
+      "subtype": "人类席德与独立智能机甲「老席德」协同，不能把本人称作机械人",
+      "confidence": "confirmed_existing_source"
+    },
+    {
+      "id": 43,
+      "name": "卢西娅·艾洛温",
+      "path": "worldbook/characters/major/CHAR-043_卢西娅·艾洛温.md",
+      "category": "thiren",
+      "subtype": "羊希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 44,
+      "name": "伊德海莉·墨菲",
+      "path": "worldbook/characters/major/CHAR-044_伊德海莉·墨菲.md",
+      "category": "thiren",
+      "subtype": "章鱼希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 45,
+      "name": "般岳",
+      "path": "worldbook/characters/major/CHAR-045_般岳.md",
+      "category": "embodied_construct",
+      "subtype": "狮形智能构装体（非狮希人）",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 46,
+      "name": "千夏",
+      "path": "worldbook/characters/major/CHAR-046_千夏.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 47,
+      "name": "照",
+      "path": "worldbook/characters/major/CHAR-047_照.md",
+      "category": "thiren",
+      "subtype": "兔希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 48,
+      "name": "南宫羽",
+      "path": "worldbook/characters/major/CHAR-048_南宫羽.md",
+      "category": "thiren",
+      "subtype": "希人（有真实光环与羽翼，具体族属待核）",
+      "confidence": "confirmed_existing_and_sources",
+      "note": "只写明确证实的希人身份和真实羽翼光环"
+    },
+    {
+      "id": 49,
+      "name": "希希芙",
+      "path": "worldbook/characters/major/CHAR-049_希希芙.md",
+      "category": "thiren",
+      "subtype": "蛇希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 50,
+      "name": "奥菲丝与「鬼火」",
+      "path": "worldbook/characters/major/CHAR-050_奥菲丝与「鬼火」.md",
+      "category": "mixed_dual_consciousness",
+      "subtype": "奥菲丝为人物，「鬼火」为独立意识机械龙尾伙伴；同一人物组合条目",
+      "confidence": "confirmed_existing_source"
+    },
+    {
+      "id": 51,
+      "name": "琉音",
+      "path": "worldbook/characters/major/CHAR-051_琉音.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 52,
+      "name": "爱芮",
+      "path": "worldbook/characters/major/CHAR-052_爱芮.md",
+      "category": "embodied_construct",
+      "subtype": "人形智能构装体",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 53,
+      "name": "普罗米娅",
+      "path": "worldbook/characters/major/CHAR-053_普罗米娅.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 54,
+      "name": "蕾米埃尔·丹",
+      "path": "worldbook/characters/major/CHAR-054_蕾米埃尔·丹.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit",
+      "note": "尖耳与机械羽翼装置不能单独证明种族"
+    },
+    {
+      "id": 55,
+      "name": "维琳娜·艾嘉德",
+      "path": "worldbook/characters/major/CHAR-055_维琳娜·艾嘉德.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 56,
+      "name": "诺姆·霍洛维尔",
+      "path": "worldbook/characters/major/CHAR-056_诺姆·霍洛维尔.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 57,
+      "name": "赛维里安·洛威尔",
+      "path": "worldbook/characters/major/CHAR-057_赛维里安·洛威尔.md",
+      "category": "thiren",
+      "subtype": "猞猁希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 58,
+      "name": "克拉蕾·弗林特",
+      "path": "worldbook/characters/major/CHAR-058_克拉蕾·弗林特.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 59,
+      "name": "希格莉德·德拉叙尔",
+      "path": "worldbook/characters/major/CHAR-059_希格莉德·德拉叙尔.md",
+      "category": "thiren",
+      "subtype": "马希人",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 60,
+      "name": "蕾·耶尔辛",
+      "path": "worldbook/characters/major/CHAR-060_蕾·耶尔辛.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 61,
+      "name": "兰",
+      "path": "worldbook/characters/major/CHAR-061_兰.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 62,
+      "name": "Fairy",
+      "path": "worldbook/characters/major/CHAR-062_Fairy.md",
+      "category": "software_ai",
+      "subtype": "Fairy，纯软件高阶人工智能",
+      "confidence": "confirmed_existing_source"
+    },
+    {
+      "id": 63,
+      "name": "莉莉可",
+      "path": "worldbook/characters/major/CHAR-063_莉莉可.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 64,
+      "name": "缄枢",
+      "path": "worldbook/characters/major/CHAR-064_缄枢.md",
+      "category": "bangboo",
+      "subtype": "特殊战斗邦布GU-0001，不是人类或希人",
+      "confidence": "confirmed_existing_source"
+    },
+    {
+      "id": 65,
+      "name": "挽昼",
+      "path": "worldbook/characters/major/CHAR-065_挽昼.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit",
+      "note": "头部机械风双角不能单独证明鬼人或构装体"
+    },
+    {
+      "id": 66,
+      "name": "芮恩",
+      "path": "worldbook/characters/major/CHAR-066_芮恩.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 67,
+      "name": "卡洛丝·阿尔娜",
+      "path": "worldbook/characters/major/CHAR-067_卡洛丝·阿尔娜.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 68,
+      "name": "特里薇亚",
+      "path": "worldbook/characters/major/CHAR-068_特里薇亚.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 69,
+      "name": "Youkai",
+      "path": "worldbook/characters/major/CHAR-069_Youkai.md",
+      "category": "software_ai",
+      "subtype": "Youkai，纯软件高阶人工智能",
+      "confidence": "confirmed_existing_source"
+    },
+    {
+      "id": 70,
+      "name": "伊瑟尔德",
+      "path": "worldbook/characters/major/CHAR-070_伊瑟尔德.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 71,
+      "name": "贝莉奥拉·维克",
+      "path": "worldbook/characters/major/CHAR-071_贝莉奥拉·维克.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 72,
+      "name": "薇斯珀",
+      "path": "worldbook/characters/major/CHAR-072_薇斯珀.md",
+      "category": "embodied_construct",
+      "subtype": "V-DTX型智能构装体（猫耳传感器非猫希人）",
+      "confidence": "confirmed_existing_and_sources"
+    },
+    {
+      "id": 73,
+      "name": "塞西莉亚",
+      "path": "worldbook/characters/major/CHAR-073_塞西莉亚.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 74,
+      "name": "莎拉·弗洛伦",
+      "path": "worldbook/characters/major/CHAR-074_莎拉·弗洛伦.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 75,
+      "name": "崔姬",
+      "path": "worldbook/characters/major/CHAR-075_崔姬.md",
+      "category": "human_cyborg",
+      "subtype": "复制人类士兵、机械义体，不等于智能构装体",
+      "confidence": "confirmed_existing_source"
+    },
+    {
+      "id": 76,
+      "name": "乔伊斯",
+      "path": "worldbook/characters/major/CHAR-076_乔伊斯.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 77,
+      "name": "佐伊",
+      "path": "worldbook/characters/major/CHAR-077_佐伊.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 78,
+      "name": "蒂娜",
+      "path": "worldbook/characters/major/CHAR-078_蒂娜.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 79,
+      "name": "启明星",
+      "path": "worldbook/characters/major/CHAR-079_启明星.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 80,
+      "name": "红豆",
+      "path": "worldbook/characters/major/CHAR-080_红豆.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 81,
+      "name": "洛克茜·伊芙莉塔·普莱斯",
+      "path": "worldbook/characters/major/CHAR-081_洛克茜·伊芙莉塔·普莱斯.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit"
+    },
+    {
+      "id": 82,
+      "name": "菲欧妮·蕾法爱菈",
+      "path": "worldbook/characters/major/CHAR-082_菲欧妮·蕾法爱菈.md",
+      "category": "regular_or_unconfirmed",
+      "subtype": null,
+      "confidence": "no_supported_nonhuman_identification_in_current_audit",
+      "note": "背后的光焰翼状装置不能单独证明希人或鬼族"
+    }
+  ]
+}
