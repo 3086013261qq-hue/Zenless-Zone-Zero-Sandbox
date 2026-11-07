@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS_WITH_OPEN_CONTINUITY",
+  "volume": 13,
+  "part": "上",
+  "comment": "时间线:第十三卷（上）·漫长的告别",
+  "body_file": "worldbook/timeline/TIMELINE-013-上_漫长的告别.md",
+  "source_chapters": [
+    {
+      "title": "漫长的告别（上）",
+      "kind": "主线",
+      "full_id": 54593,
+      "lite_id": 490651,
+      "source_event_slots": 6,
+      "event_range": "A-F"
+    }
+  ],
+  "date_basis": "2082-04-03 through 2082-04-07; card-internal dates, not official",
+  "sandbox_start": "2082-04-08",
+  "previous_part": "worldbook/timeline/TIMELINE-012-下_某个梦游者的自白.md",
+  "next_part": "worldbook/timeline/TIMELINE-013-中_漫长的告别.md",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 478,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Each part independent. Only volume 1 upper is enabled on initial card. Manually close former part before enabling following, even across a continuous emergency/same day. No scripts, no MVU.",
+  "stage_gates": [
+    {
+      "part": "上",
+      "event": "A",
+      "date": "2082-04-03",
+      "subject": "铃",
+      "knowledge": "听闻女子讲结使幼体及虚狩武器重要性",
+      "limit": "来源为该女子口述，尚非能独立验证全部真相"
+    },
+    {
+      "part": "上",
+      "event": "F",
+      "date": "2082-04-07",
+      "subject": "嗯呢帮",
+      "knowledge": "数据布见过真挽昼求救幻象，怀疑三位挽昼冒牌",
+      "limit": "属结社相信的启示，铃不能把它当确认历史"
+    }
+  ],
+  "continuity_warnings": [
+    {
+      "id": "REM-11-13",
+      "status": "OPEN_UNRESOLVED"
+    },
+    {
+      "id": "TRI-13",
+      "status": "SOURCE_INCONSISTENCY_ADAPTED_OPEN"
+    },
+    {
+      "id": "TOU-13",
+      "status": "SOURCE_RETROACTIVE_CLAIM_UNVERIFIED"
+    }
+  ],
+  "static_qa": "qa/049_第十三卷上中下_原卡来源人物知情与跨卷连续性静态QA_v1.0.md",
+  "script_deps": [],
+  "android_sillytavern_real_device": "NOT_RUN"
+}
