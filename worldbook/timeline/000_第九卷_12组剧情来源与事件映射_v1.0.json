@@ -1,0 +1,225 @@
+{
+  "version": "1.0",
+  "arc_number": 9,
+  "arc_title": "良夜与梦",
+  "planning_source": "worldbook/timeline/000_14卷29分册_主支日来源映射_v1.1.json",
+  "parts": [
+    {
+      "part": "上",
+      "body_file": "worldbook/timeline/TIMELINE-009-上_良夜与梦.md",
+      "metadata_file": "worldbook/timeline/000_第九卷上_装配元数据_v1.0.json",
+      "source_chapters": [
+        {
+          "title": "不要温和地走入那良夜",
+          "kind": "主线",
+          "full_id": 986318,
+          "lite_id": 978500,
+          "named_events": 8,
+          "explicit_blocks": 8,
+          "events": "A-H",
+          "note": "鬼火/奥菲斯身份在D揭露，伊瑟尔德即梅若拉可在G确认；叶释渊与莎拉的会面仅幕后"
+        },
+        {
+          "title": "问题士兵补习班",
+          "kind": "日常",
+          "full_id": 45870,
+          "lite_id": 184664,
+          "named_events": 3,
+          "explicit_blocks": 3,
+          "events": "I-K",
+          "note": "特训时席德仍驾驶老席德机体，必须在花之谷正式安置老席德机体之前"
+        },
+        {
+          "title": "代理人秘闻：花之谷的芙罗拉",
+          "kind": "支线",
+          "full_id": 404187,
+          "lite_id": 495476,
+          "named_events": 5,
+          "explicit_blocks": 5,
+          "events": "L-P",
+          "note": "芙罗拉即席德；老席德已经死亡，花田告别后机体不再驾出训练"
+        },
+        {
+          "title": "「嗯呢」大寻宝",
+          "kind": "日常",
+          "full_id": 497753,
+          "lite_id": 258134,
+          "named_events": 3,
+          "explicit_blocks": 3,
+          "events": "Q-S",
+          "note": "半年漂九个秘宝寻人愿望未被三街工作室实现，使用绳网照片找到迈德休"
+        },
+        {
+          "title": "激战聚光决胜",
+          "kind": "日常",
+          "full_id": 586615,
+          "lite_id": 654053,
+          "named_events": 3,
+          "explicit_blocks": 3,
+          "events": "T-V",
+          "note": "罗文真实文艺性格得到芙露蒂认可，HIA只是VR战斗体验"
+        },
+        {
+          "title": "寻梦瓶游记",
+          "kind": "日常",
+          "full_id": 745188,
+          "lite_id": 719050,
+          "named_events": 3,
+          "explicit_blocks": 3,
+          "events": "W-Y",
+          "note": "古力/海巫师为角色扮演；海巫师继承第八卷幻绮鱼档的出现，不重新造人物"
+        },
+        {
+          "title": "小邦布勇任防卫军",
+          "kind": "日常",
+          "full_id": 760552,
+          "lite_id": 872425,
+          "named_events": 4,
+          "explicit_blocks": 0,
+          "events": "Z-AC",
+          "note": "原详版无独立<事件一>子块，仅详细剧情总段与四条事件目录；按目录四幕拆分，芙罗拉已从悲伤中成长"
+        }
+      ],
+      "source_event_count": 29,
+      "timeline_event_count": 30,
+      "first_event": "A",
+      "last_story_event": "AC",
+      "sandbox_event": "AD",
+      "start": "2080-09-04",
+      "sandbox": "2080-11-25"
+    },
+    {
+      "part": "下",
+      "body_file": "worldbook/timeline/TIMELINE-009-下_良夜与梦.md",
+      "metadata_file": "worldbook/timeline/000_第九卷下_装配元数据_v1.0.json",
+      "source_chapters": [
+        {
+          "title": "可曾记得梦",
+          "kind": "主线",
+          "full_id": 488767,
+          "lite_id": 582687,
+          "named_events": 7,
+          "explicit_blocks": 7,
+          "events": "A-G",
+          "note": "真斗的白衣溺想者/茧/卢西娅父亲各在剧情推进后揭开，伊德海莉先解救整镇才可离开"
+        },
+        {
+          "title": "残梦未尽之时",
+          "kind": "支线",
+          "full_id": 62228,
+          "lite_id": 690506,
+          "named_events": 6,
+          "explicit_blocks": 6,
+          "events": "H-M",
+          "note": "源开头明确小镇事件结束不久即回声室昏迷，故紧接主线安排；旧船票误读→谷爷爷证言→黑水基地悲剧→苏醒"
+        },
+        {
+          "title": "代理人秘闻「失梦者奇谭」",
+          "kind": "支线",
+          "full_id": 885347,
+          "lite_id": 358,
+          "named_events": 4,
+          "explicit_blocks": 4,
+          "events": "N-Q",
+          "note": "卢西娅守夜人特质与刺梨之谜，奇兰到P才证实主谋，卢西娅真正召唤哈提的能力只在Q濒危触发"
+        },
+        {
+          "title": "咔嚓！闪耀大进击",
+          "kind": "日常",
+          "full_id": 783543,
+          "lite_id": 518490,
+          "named_events": 3,
+          "explicit_blocks": 0,
+          "events": "R-T",
+          "note": "原详版仅一大段+三条事件目录；希拉生日/咔嚓拍照与音乐盒为同一阶段，延续先前相识"
+        },
+        {
+          "title": "解忧轶事录",
+          "kind": "日常",
+          "full_id": 606691,
+          "lite_id": 952031,
+          "named_events": 4,
+          "explicit_blocks": 0,
+          "events": "U-X",
+          "note": "原详版仅一大段+四事件目录，固定铃路线由哲帮忙摆摊；薇薇安海滩邀请可接受或拒绝，不混装互斥结局"
+        }
+      ],
+      "source_event_count": 24,
+      "timeline_event_count": 25,
+      "first_event": "A",
+      "last_story_event": "X",
+      "sandbox_event": "Y",
+      "start": "2080-12-03",
+      "sandbox": "2081-01-20"
+    }
+  ],
+  "source_counts": {
+    "main": 2,
+    "side": 3,
+    "daily": 7,
+    "total": 12
+  },
+  "original_named_event_slots": 53,
+  "original_explicit_detailed_event_blocks": 42,
+  "total_timeline_events": 55,
+  "dates_are_official": false,
+  "structural_exceptions": [
+    "小邦布勇任防卫军：原详版没有独立事件块，只有章节概要和4个命名目录项，按原摘要和目录组织Z-AC",
+    "咔嚓！闪耀大进击：同上，三个事件R-T",
+    "解忧轶事录：同上，四个事件U-X；旧稿「坑哥/妹」「哲/铃」双玩家分支按唯一寄宿者铃固定为哲布置、铃经营",
+    "总计53个原卡命名事件位但只有42个显式<事件...>详细块，不虚报53块详细剧情",
+    "原卡源目录把花之谷芙罗拉列在问题士兵补习班前；两条都要求上册主线已完成，且问题士兵在结尾前仍驾驶「老席德」，故先问题士兵补习班I-K、再芙罗拉L-P花田告别",
+    "残梦未尽之时原文开篇为小镇事件结束后伊德海莉突然昏迷，排在失梦者奇谭之前以保持紧急时序",
+    "主线伊瑟尔德/梅若拉可与叶释渊莎拉内幕各有限定知情范围，不能提前当作兄妹已知",
+    "上下卷均独立世界书，每册字母从A开始，旧CCV3剧情支线只是可选事件，不自动宣称所有奖励/关系已获得"
+  ],
+  "stage_changes": [
+    {
+      "part": "上",
+      "event": "D",
+      "date": "2080-09-08",
+      "character": "奥菲斯·鬼火",
+      "revelation": "奥菲斯为克隆体，鬼火原版意识寄于武器，共享行动体"
+    },
+    {
+      "part": "上",
+      "event": "G",
+      "date": "2080-09-10",
+      "character": "伊瑟尔德/梅若拉可",
+      "revelation": "真实身份及秽黯灯塔战死，此前只可有线索"
+    },
+    {
+      "part": "上",
+      "event": "P",
+      "date": "2080-10-11",
+      "character": "席德/芙罗拉",
+      "revelation": "完成老席德不可复活的告别，从此不再驾机体受训"
+    },
+    {
+      "part": "下",
+      "event": "C",
+      "date": "2080-12-05",
+      "character": "伊德海莉",
+      "revelation": "小镇秽息之茧与溺想者的联系首次公开，必须救镇民后才能带她离开"
+    },
+    {
+      "part": "下",
+      "event": "L",
+      "date": "2080-12-13",
+      "character": "伊德海莉",
+      "revelation": "AVX-原型1-1与父母牺牲真相揭露，属童年既往史而非此时新注射"
+    },
+    {
+      "part": "下",
+      "event": "Q",
+      "date": "2080-12-24",
+      "character": "卢西娅",
+      "revelation": "极限保护刺梨时首次召唤真实哈提以骸，不划归佩洛伊斯力量"
+    }
+  ],
+  "sole_peloyis_host": "铃",
+  "non_host_partner": "哲",
+  "no_mvu": true,
+  "scripts": [],
+  "real_device_test": "NOT_RUN"
+}
