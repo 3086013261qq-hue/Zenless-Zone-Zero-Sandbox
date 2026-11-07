@@ -1,0 +1,132 @@
+{
+  "version": "1.1",
+  "date": "2026-11-07",
+  "reason": "Resolve abilities 353-372 collision; stage-gated add-ons only after all 40 base abilities",
+  "states": [
+    {
+      "id": "STATE-015",
+      "comment": "核心设定:凯撒·代理霸主状态",
+      "character": "凯撒·金",
+      "parent_character_id": "CHAR-015",
+      "source_ids": [
+        417274
+      ],
+      "status": "STAGE_SPECIFIC_KEYWORD_GREEN",
+      "body_file": "worldbook/abilities/states/STATE-015_凯撒·代理霸主.md",
+      "keys": [
+        "/<story_scene>(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:凯撒|Caesar King))(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:火狱骑行后|旧油井区代理霸主))(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "secondary_keys": [],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "insertion_order": 373,
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "runtime_caveat": "No MVU. Mere date passage does not activate status. Only the explicitly staged scene wording activates this green; stage placement is authored manually in timeline."
+    },
+    {
+      "id": "STATE-004",
+      "comment": "核心设定:安比·零号战斗状态",
+      "character": "安比·德玛拉",
+      "source_ids": [
+        405520
+      ],
+      "body_file": "worldbook/abilities/states/STATE-004_安比·零号战斗状态.md",
+      "keys": [
+        "/<story_scene>(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:安比|Anby))(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:零号·安比|零号安比|恢复零号战斗身份|Soldier 0 - Anby))(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "secondary_keys": [],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "insertion_order": 374,
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "status": "STAGE_SPECIFIC_KEYWORD_GREEN",
+      "runtime_caveat": "Must have both character and stage cue in same story_scene; no MVU and no automatic clock-based activation",
+      "static_match_checks": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "STATE-005",
+      "comment": "核心设定:比利·星徽战装状态",
+      "character": "比利·奇德",
+      "source_ids": [
+        691758
+      ],
+      "body_file": "worldbook/abilities/states/STATE-005_比利·星徽战装状态.md",
+      "keys": [
+        "/<story_scene>(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:比利|Billy))(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:星徽·比利|星徽战装启用|星徽装备激活|Starlight - Billy))(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "secondary_keys": [],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "insertion_order": 375,
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "status": "STAGE_SPECIFIC_KEYWORD_GREEN",
+      "runtime_caveat": "Must have both character and stage cue in same story_scene; no MVU and no automatic clock-based activation",
+      "static_match_checks": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "STATE-001",
+      "comment": "核心设定:铃·佩洛伊斯觉醒状态",
+      "character": "铃",
+      "source_ids": [
+        393477
+      ],
+      "body_file": "worldbook/abilities/states/STATE-001_铃·佩洛伊斯觉醒状态.md",
+      "keys": [
+        "/<story_scene>(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:铃|Belle))(?=(?:(?!<\\/story_scene>)[\\s\\S])*?(?:佩洛伊斯觉醒|佩洛伊斯共鸣|铃掌握佩洛伊斯力量))(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "secondary_keys": [],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "insertion_order": 376,
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "status": "STAGE_SPECIFIC_KEYWORD_GREEN",
+      "runtime_caveat": "Must have both character and stage cue in same story_scene; no MVU and no automatic clock-based activation",
+      "static_match_checks": [
+        false,
+        true,
+        false
+      ]
+    }
+  ],
+  "all_states_enabled": true,
+  "all_states_constant": false,
+  "all_states_dual_guard": true,
+  "static_only_no_runtime_test": true,
+  "previous_version": "v1.0 deprecated for assembly"
+}
