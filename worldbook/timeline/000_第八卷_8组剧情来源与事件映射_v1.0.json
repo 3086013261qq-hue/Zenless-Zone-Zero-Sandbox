@@ -1,0 +1,139 @@
+{
+  "version": "1.0",
+  "arc_number": 8,
+  "arc_title": "仲夏浪涌",
+  "part": "独卷",
+  "planning_source": "docs/038_时间线14卷29分册_支线日常完整归卷目录_v1.1.md",
+  "body_file": "worldbook/timeline/TIMELINE-008_仲夏浪涌.md",
+  "metadata_file": "worldbook/timeline/000_第八卷_装配元数据_v1.0.json",
+  "static_qa": "qa/044_第八卷_仲夏浪涌_主支日来源与时序静态QA_v1.0.md",
+  "source_chapters": [
+    {
+      "title": "迟吟的浪涌",
+      "kind": "主线",
+      "full_id": 729174,
+      "lite_id": 9561,
+      "original_list_count": 7,
+      "detailed_blocks": 7,
+      "events": "A-G",
+      "note": "菲洛克斯及称颂会新叶计划、柚叶ES-07身份、爱丽丝发卡真相；危机E/F同日，结束后才进度假"
+    },
+    {
+      "title": "仲夏游梦绮谭",
+      "kind": "支线",
+      "full_id": 983351,
+      "lite_id": 517452,
+      "original_list_count": 8,
+      "detailed_blocks": 8,
+      "events": "H-O",
+      "note": "绮梦度假村先修射击/冲浪等项目、才有闹鬼、揭露威利斯、音乐节与父亲秘藏"
+    },
+    {
+      "title": "仲夏游梦绮谭·爱丽丝番外",
+      "kind": "支线",
+      "full_id": 66130,
+      "lite_id": 237831,
+      "original_list_count": 3,
+      "detailed_blocks": 3,
+      "events": "P-R",
+      "note": "复兴后宣传直播两天后开始，爱丽丝自己完成管浪驾乘"
+    },
+    {
+      "title": "仲夏游梦绮谭·柚叶番外",
+      "kind": "支线",
+      "full_id": 174377,
+      "lite_id": 829988,
+      "original_list_count": 3,
+      "detailed_blocks": 3,
+      "events": "S-U",
+      "note": "柚叶儿时获救的记忆线，海中红发女性仅短暂见到，未知来历不捏造"
+    },
+    {
+      "title": "拼出澄辉夏日！",
+      "kind": "日常",
+      "full_id": 206252,
+      "lite_id": 264163,
+      "original_list_count": 3,
+      "detailed_blocks": 3,
+      "events": "V-X",
+      "note": "地点澄辉度假村与绮梦度假村分开，导览手册按是否完成拼图实际获得"
+    },
+    {
+      "title": "幽灵船大冒险",
+      "kind": "日常",
+      "full_id": 12989,
+      "lite_id": 720232,
+      "original_list_count": 4,
+      "detailed_blocks": 4,
+      "events": "Y-AB",
+      "note": "爱丽丝恶作剧被真实劫匪插入，寻宝战斗Z-AA-AB保持同日"
+    },
+    {
+      "title": "最靓鱼档传说",
+      "kind": "日常",
+      "full_id": 863762,
+      "lite_id": 797800,
+      "original_list_count": 2,
+      "detailed_blocks": 2,
+      "events": "AC-AD",
+      "note": "地点幻绮乐园与另两度假村区分，阿强与海巫师演的是营销闹剧"
+    },
+    {
+      "title": "乔乔的太空探秘",
+      "kind": "日常",
+      "full_id": 648185,
+      "lite_id": 919778,
+      "original_list_count": 5,
+      "detailed_blocks": 1,
+      "events": "AE-AI",
+      "note": "来源5个章节事件名但正文仅一条<事件一>并含四阶段；按5标题将其原有5类调查和真相整理为5锚点，不添新剧情。Fairy结论属可信推测，主人尚未找到"
+    }
+  ],
+  "source_counts": {
+    "main": 1,
+    "side": 3,
+    "daily": 4,
+    "total": 8
+  },
+  "original_named_event_slots": 35,
+  "original_literal_detailed_blocks": 31,
+  "timeline_events": 36,
+  "sandbox_event": "AJ",
+  "source_structure_exception": {
+    "chapter": "乔乔的太空探秘",
+    "list_has_titles": 5,
+    "actual_detail_blocks": 1,
+    "source_narrative_phases": 4,
+    "adaptation": "从原大段内含前后调查拆成5个事件锚，继续对应其目录5个标题；不得把差额4个误报为新增原创剧情"
+  },
+  "story_order": [
+    "迟吟的浪涌",
+    "仲夏游梦绮谭",
+    "仲夏游梦绮谭·爱丽丝番外",
+    "仲夏游梦绮谭·柚叶番外",
+    "拼出澄辉夏日！",
+    "幽灵船大冒险",
+    "最靓鱼档传说",
+    "乔乔的太空探秘"
+  ],
+  "chronology": {
+    "start": "2080-06-03",
+    "last_story": "2080-08-24",
+    "sandbox": "2080-08-25",
+    "official": false
+  },
+  "continuity_corrections": [
+    "主线柚叶实验体ES-07身世与发卡缘由在迟吟的浪涌E才揭露，F救援完成，随后假期度假；不得在开篇提前公开",
+    "主体绮梦度假村、拼图澄辉度假村与鱼档幻绮乐园为不同活动位置，不合并地名和物权",
+    "仲夏游梦绮谭主线8幕结束后再安排爱丽丝/柚叶两支线番外，已有相识关系继续，非首次遇见",
+    "原卡不规则的<事件五>结束标签及事件六/七特殊闭合按章节列表识别，不因坏标签漏事件",
+    "音乐节因威利斯闹鬼破坏后经伊埃斯视觉记录、Fairy整理证据才揭露真相；歌手称耀嘉音，不用旧错称星咏嘉音",
+    "海巫师和阿强交易是营销噱头，不能归结为真正海神身份；乔乔主人动机是Fairy推测而非已亲口证实",
+    "铃是佩洛伊斯唯一寄宿者，已经第六卷下册觉醒、在第七卷受仪玄逐渐教导；哲不寄宿，HDD/伊埃斯仍为独立导航系统",
+    "重要战斗在一段危机中连续，同日救援而非拖数日；日常活动和不同旅行目的地自然分开日期",
+    "8组故事为可触发的剧情窗口，不代表用户一定全部完成所有活动和兑换奖励"
+  ],
+  "no_mvu": true,
+  "script_deps": [],
+  "real_device_test": "NOT_RUN"
+}
