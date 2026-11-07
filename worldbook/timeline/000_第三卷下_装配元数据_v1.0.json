@@ -1,0 +1,111 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 3,
+  "part": "下",
+  "comment": "时间线:第三卷（下）·卧底与外环风云",
+  "body_file": "worldbook/timeline/TIMELINE-003-下_卧底与外环风云.md",
+  "source_chapters": [
+    {
+      "title": "火狱骑行",
+      "kind": "主线",
+      "full_id": 920723,
+      "lite_id": 204413,
+      "original_events": 11,
+      "range": "A-K"
+    },
+    {
+      "title": "霸主的欢宴",
+      "kind": "日常",
+      "full_id": 27386,
+      "lite_id": 892398,
+      "original_events": 7,
+      "range": "L-R"
+    },
+    {
+      "title": "赠尔·丽都",
+      "kind": "支线",
+      "full_id": 203740,
+      "lite_id": 394577,
+      "original_events": 3,
+      "range": "S-U",
+      "note": "铃路线未发生的后期回忆不加载"
+    },
+    {
+      "title": "漫行于以太虚境",
+      "kind": "支线",
+      "full_id": 365704,
+      "lite_id": 652286,
+      "original_events": 5,
+      "range": "V-Z",
+      "note": "电话路线使用来源的正常分支，不另加未通话结局"
+    },
+    {
+      "title": "代理人秘闻「幸运当头」",
+      "kind": "支线",
+      "full_id": 499948,
+      "lite_id": 986812,
+      "original_events": 5,
+      "range": "AA-AE"
+    },
+    {
+      "title": "141友情联络",
+      "kind": "日常",
+      "full_id": 239731,
+      "lite_id": 186550,
+      "original_events": 8,
+      "range": "AF-AM",
+      "note": "拉面少主秘密行动使用正常分支，保留未曝光父亲事实"
+    },
+    {
+      "title": "鏖战高塔",
+      "kind": "日常",
+      "full_id": 464152,
+      "lite_id": 339433,
+      "original_events": 4,
+      "range": "AN-AQ",
+      "note": "VR不等于现实战斗技能"
+    }
+  ],
+  "date_basis": "2077-10-13 through 2078-01-08; internal card chronology only, NOT official calendar date",
+  "previous_part": "worldbook/timeline/TIMELINE-003-上_卧底与外环风云.md",
+  "next_part": "worldbook/timeline/TIMELINE-004-上_六课与星流霆击.md",
+  "sandbox_start": "2078-01-09",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 459,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Only volume 1 upper initially enabled. Activate this standalone part manually at its narrative entry; keep other timeline parts off. No runtime scripted switching.",
+  "script_deps": [],
+  "static_qa": "qa/039_第三卷上下册_主支日来源与阶段状态静态QA_v1.0.md",
+  "android_sillytavern_real_device": "NOT_RUN",
+  "stage_gate": {
+    "state_id": "STATE-015",
+    "character": "凯撒·金",
+    "earliest_event": "K",
+    "date": "2077-10-29",
+    "when": "火狱骑行赛事结束、外环诸方认可后",
+    "forbidden_before": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J"
+    ],
+    "does_not_grant": "自动超常能力或行政无限权力"
+  }
+}
