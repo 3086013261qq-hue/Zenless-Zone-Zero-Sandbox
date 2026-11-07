@@ -1,9 +1,9 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "arc_number": 14,
   "arc_title": "罗斯凯利法新章",
   "source_mode": "NEW_OFFICIAL_RELEASED_CHAPTERS_AFTER_ORIGINAL_CARD",
-  "source_status": "PARTIAL_VERIFIED_OFFICIAL_ANNOUNCEMENTS_PLUS_SECONDARY_GAMEPLAY_SPOILER_SUMMARIES",
+  "source_status": "OFFICIAL_RELEASE_VERIFIED_PLUS_RELEASED_GAME_DIALOGUE_COMMUNITY_TRANSCRIPTION_CROSSCHECKED__NO_FIRST_PARTY_INGAME_PLAYBACK",
   "not_in_original_card": true,
   "official_chapters": [
     {
@@ -47,7 +47,7 @@
         "名为求索的阶梯",
         "还有梦境与黎明"
       ],
-      "story_event_count": 8,
+      "story_event_count": 9,
       "adapted_event_groups": {
         "天际的回程票": [
           "A",
@@ -63,11 +63,12 @@
         ],
         "还有梦境与黎明": [
           "G",
-          "H"
+          "H",
+          "I"
         ]
       },
-      "sandbox_event": "I",
-      "title_note": "公开录像索引存在「天际的回程票／天空的回程票」用字不一，正式第十四卷暂以「天际」写事件题；上四组为录像章节目录，下共8个为本卡细分锚点"
+      "sandbox_event": "J",
+      "title_note": "官方章节标题为「重返天空的旅程」；公开视频首幕分段标题有「天际／天空的回程票」的索引用字差异。全章实录大幕仅4个，本卡将最后一幕的梦境告别与后续巢主空洞失控拆分成G/H/I，不虚报有9个官方大幕。"
     }
   ],
   "parts": [
@@ -92,11 +93,11 @@
       "metadata_file": "worldbook/timeline/000_第十四卷下_装配元数据_v1.0.json",
       "version": "3.3",
       "official_chapter": "重返天空的旅程",
-      "story_event_count": 8,
-      "timeline_event_count": 9,
+      "story_event_count": 9,
+      "timeline_event_count": 10,
       "first_event": "A",
-      "last_story": "H",
-      "sandbox_event": "I",
+      "last_story": "I",
+      "sandbox_event": "J",
       "first_story_date": "2082-04-26",
       "last_story_date": "2082-04-27",
       "sandbox_start": "2082-04-28"
@@ -105,8 +106,8 @@
   "total_official_main_chapters": 2,
   "original_card_story_count": 0,
   "original_card_event_count": 0,
-  "adapted_story_events": 14,
-  "total_events_including_sandboxes": 16,
+  "adapted_story_events": 15,
+  "total_events_including_sandboxes": 17,
   "source_references": [
     {
       "type": "PRIMARY_OFFICIAL_RELEASE",
@@ -146,6 +147,84 @@
       "url": "https://t.me/s/Seele_Leaks?after=37964",
       "supports": "3.3关卡简介、菲欧妮装载Fairy、宁息屿、卡利内斯和特里薇亚、梦游布与原初挽昼告别的梗概交叉比对",
       "limitations": "非官方、含发布前提取内容，不能替代正式游戏实机逐事件核对；只改写短摘要、不照录长对话"
+    },
+    {
+      "type": "COMMUNITY_RELEASED_GAME_DIALOGUE_TRANSCRIPTION",
+      "url": "https://wikiwiki.jp/zenless/メインストーリー/S3-3出発準備",
+      "supports": "3.2前置卡利内斯邀约、菲欧妮在琥珀馆受伤伪装医疗助手、哲与希希芙留守，铃前往维尔乌姆",
+      "limitations": "非米哈游正式网站，属于玩家整理的实机对白；不是制作组原文授权发布文本"
+    },
+    {
+      "type": "COMMUNITY_RELEASED_GAME_DIALOGUE_TRANSCRIPTION",
+      "url": "https://wikiwiki.jp/zenless/メインストーリー/S3-3合金の故郷",
+      "supports": "3.2码头蕾米埃尔、弗林特工坊、洛克茜合金心脏、德蕾琪娜因失核疗养、塞尔皮科似身影",
+      "limitations": "非官方实机对白整理"
+    },
+    {
+      "type": "COMMUNITY_RELEASED_GAME_DIALOGUE_TRANSCRIPTION",
+      "url": "https://wikiwiki.jp/zenless/メインストーリー/S3-3謎めくハイドショア",
+      "supports": "3.2隐礁潜入、妮可与安比等狡兔屋成员被囚，安比身体不适、比利改装误会",
+      "limitations": "非官方实机对白整理"
+    },
+    {
+      "type": "COMMUNITY_RELEASED_GAME_DIALOGUE_TRANSCRIPTION",
+      "url": "https://wikiwiki.jp/zenless/メインストーリー/S3-3迷霧のメッセンジャー",
+      "supports": "3.2洛克茜回岛查询艾尔妲未预约、救出柯拉、看见卡利内斯密谋后遭泄露奇点卷走",
+      "limitations": "非官方实机对白整理"
+    },
+    {
+      "type": "COMMUNITY_RELEASED_GAME_DIALOGUE_TRANSCRIPTION",
+      "url": "https://wikiwiki.jp/zenless/メインストーリー/S3-3地下に眠る真実",
+      "supports": "3.2空巡局围研究所、克拉蕾开路、普罗米娅暂结盟、仿塞尔皮科的Youkai和库萨里库战斗",
+      "limitations": "非官方实机对白整理"
+    },
+    {
+      "type": "COMMUNITY_RELEASED_GAME_DIALOGUE_TRANSCRIPTION",
+      "url": "https://wikiwiki.jp/zenless/メインストーリー/S3-3未だ収まらない騒ぎ",
+      "supports": "3.2 Youkai调虎离山、布亚斯特被封锁、初代挽昼与林德薇恩的业核信息、菲欧妮从天空坠落",
+      "limitations": "非官方实机对白整理"
+    },
+    {
+      "type": "COMMUNITY_RELEASED_GAME_DIALOGUE_TRANSCRIPTION",
+      "url": "https://wikiwiki.jp/zenless/メインストーリー/S3-4空へ還るプレリュード",
+      "supports": "3.3菲欧妮真实黑枝身份、引出Fairy载体、哲与希希芙被高志带走、林德薇恩源质重构机甲与空港行动准备",
+      "limitations": "非官方实机对白整理"
+    },
+    {
+      "type": "COMMUNITY_RELEASED_GAME_DIALOGUE_TRANSCRIPTION",
+      "url": "https://wikiwiki.jp/zenless/メインストーリー/S3-4空港の強襲",
+      "supports": "3.3宁息屿伪装及机甲战、铃与伊埃斯驾驶舱脱困、塞维里安市政援军",
+      "limitations": "非官方实机对白整理"
+    },
+    {
+      "type": "COMMUNITY_RELEASED_GAME_DIALOGUE_TRANSCRIPTION",
+      "url": "https://wikiwiki.jp/zenless/メインストーリー/S3-4巡り巡る因果",
+      "supports": "3.3算枢局反击、希格莉德洛克茜救出、卡利内斯黑幕与罗塞塔代价、Youkai黑入其逻辑核心",
+      "limitations": "非官方实机对白整理"
+    },
+    {
+      "type": "COMMUNITY_RELEASED_GAME_DIALOGUE_TRANSCRIPTION",
+      "url": "https://wikiwiki.jp/zenless/メインストーリー/S3-4逝きそびれた魂",
+      "supports": "3.3特里薇亚杀伤菲欧妮、菲欧妮以自身以太吸收特性复归、特里薇亚异化与败走",
+      "limitations": "非官方实机对白整理"
+    },
+    {
+      "type": "COMMUNITY_RELEASED_GAME_DIALOGUE_TRANSCRIPTION",
+      "url": "https://wikiwiki.jp/zenless/メインストーリー/S3-4秘密に囚われるのは",
+      "supports": "3.3艾尔妲塔顶揭露初代挽昼业核、巢主空洞压缩、三位继承者与艾尔妲牺牲计划",
+      "limitations": "非官方实机对白整理"
+    },
+    {
+      "type": "COMMUNITY_RELEASED_GAME_DIALOGUE_TRANSCRIPTION",
+      "url": "https://wikiwiki.jp/zenless/メインストーリー/S3-4夢に遊ぶ者たちの対話",
+      "supports": "3.3梦游布三位挽昼的可能人生、初代挽昼遗言、梦醒后Youkai特里薇亚巴什穆突袭总控塔、艾尔妲掩护、蕾米埃尔救铃与林德薇恩、巢主空洞吞没罗斯凯利法，TO BE CONTINUED",
+      "limitations": "非官方实机对白整理；不复制其中完整台词"
+    },
+    {
+      "type": "COMMUNITY_GAMEPLAY_ARCHIVE_SUMMARIES",
+      "url": "https://wikiwiki.jp/zenless/映像アーカイブ/パエトーンの軌跡/シーズン3",
+      "supports": "3.2与3.3逐场剧情档案简介，可对照实际人物被俘、救援、假人身份和最终空岛坠落事件",
+      "limitations": "非官方玩家整理的游戏档案摘要"
     }
   ],
   "stage_gates": [
@@ -245,14 +324,161 @@
   "rules": [
     "只纳入截至2026-11-07正式上线的3.2与3.3第三季第三、四章，版本活动、代理人信赖、未上线后续一律不强插入主线。",
     "原PNG卡没有这两章详情，严禁将官方资料细节写成「原卡XX个源事件」或编造原卡ID；采用自写事件锚而非逐字复制完整游戏台词。",
-    "因官方公告只证明开放、角色、区域、版本预告，具体分幕细节主要按公开实录章节索引及非官方摘要整理，必须在最终真人实机/全流程复核前标记来源核验未完成。",
     "第十三卷下2082-04-13沙盒结束后，上册4月19日开启；上沙盒4月26日与下册A同日，需先关闭上册再开下册。",
     "铃是佩洛伊斯唯一宿主，哲仍参与调查与支援，按共同行动和HDD/伊埃斯分工修订官方二选一玩家路线。",
     "初代挽昼之梦现与身世只在下册H正式揭示，避免之前全员知情。业核源头在上F由林德薇恩初步讲述，下G/H进一步解释。",
     "机甲属于林德薇恩造物与任务场景的驾驶装备，菲欧妮保命技能不推断全体人物不死，战后危机尚未全终结。",
-    "第十四卷加入新人物：克拉蕾、洛克茜、菲欧妮、塞维里安等；现有冻结角色/能力层未被偷偷扩改，后续应审计是否需要增设相应人物与能力世界书条目。"
+    "第十四卷加入新人物：克拉蕾、洛克茜、菲欧妮、塞维里安等；现有冻结角色/能力层未被偷偷扩改，后续应审计是否需要增设相应人物与能力世界书条目。",
+    "此次v1.1修订使用已发行游戏逐幕玩家对白转录和游戏档案摘要作剧情交叉验证，并非直接操作游戏客户端或核验官方原始脚本，按游戏记录事实改写，不复制原文大段对白。",
+    "修订v1.1上册6正式幕+1沙盒，下册9正式锚+1沙盒，合计17；3.3最末正式事件I必须呈现空域总控塔遭袭和巢主空洞吞城，J沙盒不得写成和平已恢复。",
+    "第3.3首幕确认哲与希希芙被高志拘押，除非后续明确获救，不得让哲同时在安全的H.D.D.后方操作；铃佩洛伊斯唯一宿主不变。"
   ],
   "qa_file": "qa/050_第十四卷上下册_官方版本核验与全栈时间线静态QA_v1.0.md",
   "full_CCV3_assembly": "NOT_RUN",
-  "android_sillytavern": "NOT_RUN"
+  "android_sillytavern": "NOT_RUN",
+  "verification_status": {
+    "official_chapters_and_areas": "PASS",
+    "story_stage_sequence": "CROSSCHECK_PASS_PUBLIC_GAME_DIALOGUE_TRANSCRIPTION",
+    "detail_level": "COMMUNITY_GAME_TEXT_CROSSCHECK_NOT_OFFICIAL_ORIGINAL_TRANSCRIPT",
+    "direct_in_game_playback": "NOT_RUN"
+  },
+  "story_audit_events": [
+    {
+      "part": "上",
+      "event": "A",
+      "source": "3.2出发准备",
+      "key": "菲欧妮装作医疗助手，哲和希希芙留守照顾；铃启程",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "上",
+      "event": "B",
+      "source": "3.2合金的故乡",
+      "key": "洛克茜合金心脏、德蕾琪娜失去业核、克拉蕾检查辉金",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "上",
+      "event": "C",
+      "source": "3.2谜样隐礁",
+      "key": "狡兔屋被囚禁，安比状态不佳；比利改装与妮可误解",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "上",
+      "event": "D",
+      "source": "3.2迷雾的信使",
+      "key": "洛克茜救柯拉、见卡利内斯密谈、遭奇点卷走；主角当时未知",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "上",
+      "event": "E",
+      "source": "3.2地下真相",
+      "key": "研究所、普罗米娅、塞尔皮科假身、库萨里库争核",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "上",
+      "event": "F",
+      "source": "3.2余波未平",
+      "key": "Youkai弃假身以拖延主岛夺取，林德薇恩初步述业核，菲欧妮从天而降",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "下",
+      "event": "A",
+      "source": "3.3空へ還るプレリュード",
+      "key": "菲欧妮黑枝身份及Fairy盒；哲与希希芙已遭高志拘捕",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "下",
+      "event": "B",
+      "source": "3.3空港の強襲",
+      "key": "林德薇恩源质重构机甲、宁息屿戏法、铃及伊埃斯脱困",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "下",
+      "event": "C",
+      "source": "3.3空港の強襲",
+      "key": "塞维里安市政驰援、Youkai恶意同学会邀请、敌方特里薇亚幕后镜头",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "下",
+      "event": "D",
+      "source": "3.3巡り巡る因果",
+      "key": "塔内柯拉/希格莉德/洛克茜救援、卡利内斯与特里薇亚线索",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "下",
+      "event": "E",
+      "source": "3.3巡り巡る因果",
+      "key": "卡利内斯叛变/被Youkai黑入、罗塞塔数据代价与旧城交易",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "下",
+      "event": "F",
+      "source": "3.3逝きそびれた魂",
+      "key": "菲欧妮遭重创仍再生、特里薇亚获得奇点战力并离开",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "下",
+      "event": "G",
+      "source": "3.3秘密に囚われるのは",
+      "key": "艾尔妲谈初代挽昼像、业核及自我牺牲计划",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "下",
+      "event": "H",
+      "source": "3.3夢に遊ぶ者たちの対話",
+      "key": "梦游布、初代挽昼记忆、三姐妹可能人生与告别",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    },
+    {
+      "part": "下",
+      "event": "I",
+      "source": "3.3夢に遊ぶ者たちの対話 天の算枢の陥落",
+      "key": "梦醒敌袭、巢主空洞吞没罗斯凯利法、艾尔妲断后、蕾米埃尔救铃与林德薇恩；未完待续",
+      "confidence": "GAME_TEXT_CROSSCHECK"
+    }
+  ],
+  "verified_corrections": [
+    {
+      "severity": "P0",
+      "issue": "旧稿下册只有H梦境告别后沙盒，漏掉3.3终幕I总控塔遇袭与巢主空洞吞城",
+      "fix": "新增I正式剧情，J唯一沙盒；标记TO BE CONTINUED，不再把灾厄写成只是未来可能发生"
+    },
+    {
+      "severity": "P0",
+      "issue": "旧稿让哲从3.3初始就自由地以H.D.D.支援",
+      "fix": "3.2出发时哲与希希芙留守，3.3A确认两人被高志拘捕；被俘期无法同时安全远程领航；其释放必须待后续明确剧情"
+    },
+    {
+      "severity": "P1",
+      "issue": "3.2隐礁站狡兔屋被拘捕与安比受伤遗漏",
+      "fix": "上C补回妮可安比等人的撤离及比利改装误会"
+    },
+    {
+      "severity": "P1",
+      "issue": "3.2洛克茜与卡利内斯的调查与奇点绑架遗漏",
+      "fix": "上D补回洛克茜目击与遭袭；主角团当下不得自动得知"
+    },
+    {
+      "severity": "P1",
+      "issue": "3.3菲欧妮被特里薇亚杀伤后复归、罗塞塔代价动机被简化",
+      "fix": "下E/F恢复卡利内斯的罗塞塔代价、菲欧妮以太吸收特殊体质及特里薇亚决裂"
+    },
+    {
+      "severity": "P1",
+      "issue": "旧稿把梦境结束后的巢主空洞爆发仅写成未解决的长期风险",
+      "fix": "下I正式爆发，结尾罗斯凯利法已被吞没，后续救援和众人生死不预结算"
+    }
+  ]
 }
