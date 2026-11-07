@@ -1295,8 +1295,9 @@
     },
     {
       "id": 266953,
-      "decision": "SOURCE_REVIEW_HOLD",
-      "greens": []
+      "decision": "BLUE_ROOT_ALREADY_COVERED",
+      "greens": [],
+      "note": "BLUE-03以太资源与侵蚀、BLUE-08经济生产的已封版根事实；无需重复增设泛词绿灯"
     },
     {
       "id": 41245,
@@ -1490,7 +1491,7 @@
     },
     {
       "id": 962933,
-      "decision": "ENTERTAINMENT_NO_LYRICS",
+      "decision": "CHARACTER_DEFER",
       "greens": []
     },
     {
@@ -1500,7 +1501,7 @@
     },
     {
       "id": 448269,
-      "decision": "ITEM_CULTURE_OR_MISC",
+      "decision": "SPECIES_DETAILS_DEFER",
       "greens": []
     },
     {
@@ -1703,12 +1704,12 @@
     },
     {
       "id": 977329,
-      "decision": "ITEM_CULTURE_OR_MISC",
+      "decision": "SPECIES_DETAILS_DEFER",
       "greens": []
     },
     {
       "id": 285732,
-      "decision": "ITEM_CULTURE_OR_MISC",
+      "decision": "SPECIES_DETAILS_DEFER",
       "greens": []
     }
   ],
@@ -1925,6 +1926,7 @@
     "fac_deferred": 8,
     "priority_p0": 9,
     "story_gated": 12,
-    "needs_source_review": 12
+    "needs_source_review": 12,
+    "lore_preexisting_blue": 1
   }
 }
