@@ -1,0 +1,176 @@
+{
+  "version": "1.0",
+  "arc_number": 6,
+  "arc_title": "将眼泪与过往一同埋葬",
+  "current_plan": "worldbook/timeline/000_14卷29分册_主支日来源映射_v1.1.json",
+  "source_counts": {
+    "main": 2,
+    "side": 4,
+    "daily": 3,
+    "total": 9
+  },
+  "original_detailed_events": 49,
+  "timeline_events": 51,
+  "parts": [
+    {
+      "part": "上",
+      "body_file": "worldbook/timeline/TIMELINE-006-上_将眼泪与过往一同埋葬.md",
+      "metadata_file": "worldbook/timeline/000_第六卷上_装配元数据_v1.0.json",
+      "sources": [
+        {
+          "title": "将眼泪与过往一同埋葬（上）",
+          "kind": "主线",
+          "full_id": 46064,
+          "lite_id": 170519,
+          "original_events": 6,
+          "event_range": "A-F",
+          "note": "市长协助H.D.D.眼部植入体升级，单线选择铃取得有限的本体空洞行动适性；雨果看似死亡，生死不得提前确认"
+        },
+        {
+          "title": "银心锡兵之歌",
+          "kind": "支线",
+          "full_id": 733519,
+          "lite_id": 28039,
+          "original_events": 3,
+          "event_range": "G-I",
+          "note": "安比主动穿回白银军旧军服、以零号战法执行行动，从上册事件G进入STATE-004限定的身份与装备；不是第二个安比"
+        },
+        {
+          "title": "代理人秘闻：白银的复苏",
+          "kind": "支线",
+          "full_id": 633817,
+          "lite_id": 797111,
+          "original_events": 4,
+          "event_range": "J-M",
+          "note": "事件L安比再次穿战袍，M击败帕里库斯；结局二选一固定采用摧毁复制实验资料路线，11号战后记忆重置仍怨安比"
+        },
+        {
+          "title": "扳机代理人秘闻「目不可及」",
+          "kind": "支线",
+          "full_id": 74938,
+          "lite_id": 315806,
+          "original_events": 6,
+          "event_range": "N-S",
+          "note": "来源明确发生于绳匠开店初期，依然应早于前卷已熟识扳机；本卷写成2079年听旧记录／回忆，不把往年卡戎相识错误挪为新故事、也不重复复活佐伊"
+        },
+        {
+          "title": "战斗吧！三尺英雄",
+          "kind": "支线",
+          "full_id": 410291,
+          "lite_id": 718168,
+          "original_events": 4,
+          "event_range": "T-W",
+          "note": "HIA工作邦布图利沉迷VR幻想，雅、安比、波可娜先后参与劝导；现实没有超级英雄力量"
+        },
+        {
+          "title": "虚界热战风云",
+          "kind": "日常",
+          "full_id": 9628,
+          "lite_id": 353446,
+          "original_events": 4,
+          "event_range": "X-AA",
+          "note": "HIA白色鬼影是旧测试版程序员彩蛋，非真幽灵"
+        },
+        {
+          "title": "小小骑士大冲锋",
+          "kind": "日常",
+          "full_id": 64951,
+          "lite_id": 510584,
+          "original_events": 12,
+          "event_range": "AB-AM",
+          "note": "十大试炼是奇桀邦布误读城市的幻想；主人蕾切尔最终重逢"
+        },
+        {
+          "title": "零号空洞：掠影摧锋",
+          "kind": "日常",
+          "full_id": 964429,
+          "lite_id": 720260,
+          "original_events": 3,
+          "event_range": "AN-AP",
+          "note": "罗兰向法厄同求助匹诺曹异常，实际作战代理人分别立功，兄妹婉拒登记官方功绩"
+        }
+      ],
+      "first": "2079-03-02",
+      "last_main_or_daily": "2079-06-11",
+      "sandbox": "2079-06-12",
+      "event_count": 43,
+      "range": "A-AQ"
+    },
+    {
+      "part": "下",
+      "body_file": "worldbook/timeline/TIMELINE-006-下_将眼泪与过往一同埋葬.md",
+      "metadata_file": "worldbook/timeline/000_第六卷下_装配元数据_v1.0.json",
+      "sources": [
+        {
+          "title": "将眼泪与过往一同埋葬（下）",
+          "kind": "主线",
+          "full_id": 480273,
+          "lite_id": 81014,
+          "original_events": 7,
+          "event_range": "A-G",
+          "note": "雨果C才被确认为诈死，D为其讲述的往年幻觉与假死回忆；蒂娜F注药才异变为特佩什；铃G第一次逆转薇薇安以骸化，佩洛伊斯仅铃寄宿"
+        }
+      ],
+      "first": "2079-06-19",
+      "last_main_or_daily": "2079-07-01",
+      "sandbox": "2079-07-03",
+      "event_count": 8,
+      "range": "A-H"
+    }
+  ],
+  "stage_gates": [
+    {
+      "state_id": "STATE-004",
+      "character": "安比·德玛拉",
+      "first_event": "G",
+      "date": "2079-03-21",
+      "activation": "首次在本卷亲自穿回旧军服、运用白银军零号战术追查档案",
+      "scope": "只有安比实际以军方旧身份和装备行动时适用，不能日常随名自动常驻"
+    },
+    {
+      "state_id": "STATE-004",
+      "character": "安比·德玛拉",
+      "reinforcement_event": "L",
+      "date": "2079-04-06",
+      "activation": "换上旧日战袍准备与崔姬最终对决",
+      "scope": "身份同源不是分身，更不是再次获得新状态"
+    },
+    {
+      "state_id": "HDD_UPGRADE",
+      "character": "铃",
+      "first_event": "B",
+      "date": "2079-03-05",
+      "activation": "市长协助升级眼部植入体/HDD，恢复有限本体空洞适应",
+      "scope": "与佩洛伊斯后期侵蚀逆转觉醒不同；哲无寄宿，伊埃斯仍参与领航"
+    },
+    {
+      "state_id": "STATE-078",
+      "character": "蒂娜",
+      "first_event": "F",
+      "date": "2079-07-01",
+      "activation": "卡米尔牺牲后蒂娜将禁药注入身体，肉体异变为特佩什",
+      "scope": "变异不可逆，不是装备/战斗姿态的自由切换"
+    },
+    {
+      "state_id": "STATE-001",
+      "character": "铃",
+      "first_event": "G",
+      "date": "2079-07-01",
+      "activation": "薇薇安注射药剂并开始以骸化，铃首次在悲痛中使用佩洛伊斯力量逆转侵蚀",
+      "scope": "限已知场景，不能无代价地复活死者、全面净化或让哲成为第二宿主"
+    }
+  ],
+  "special_source_handling": [
+    "扳机的「目不可及」发生在故事开局之前，不能在此卷重新安排初遇，N-S改成对既往寻人狙击案的旧档回忆；本卷日期指听取／整理的日子，而非当年伤亡日",
+    "雨果坠入深渊后的假死，直到下册C才确认；D是回顾假死过程，不要在上册F直接写生还",
+    "白银的复苏原文提供摧毁与保留两种互斥结局，固定采用摧毁罪恶实验资料；不写中立双结局并存",
+    "H.D.D.提升本体空洞适应是上册B单独的设备升级，佩洛伊斯逆转侵蚀是下册G首次觉醒，两者不可合并",
+    "STATE-004限定安比主动启用旧军队身份，不随日常「安比」关键词无限常驻；STATE-078与STATE-001仅从下册F/G生效",
+    "源书HTML、章节目标、执行引导、旧动态角色代词与变量模板全部不写入运行条目"
+  ],
+  "sole_host": "铃",
+  "nonhost": "哲",
+  "script_deps": [],
+  "origin_dates_official": false,
+  "real_device_qa": "NOT_RUN"
+}
