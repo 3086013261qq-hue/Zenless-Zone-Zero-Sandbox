@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1",
+  "scope": "NINE_BLUE_WORLD_BOOK_ROOT_ENTRIES_ONLY",
+  "status": "FROZEN_AFTER_APPROVED_BLUE05_APPEARANCE_MICROREVISION",
+  "date": "2026-11-07",
+  "baseline_commit": "a7585bc20898ef01c70c782585d034a97dec70a2",
+  "previous_freeze_manifest": "worldbook/blue/000_蓝灯正式封版清单_v1.0.json",
+  "entry_count": 9,
+  "changed_entries": [
+    "BLUE-05"
+  ],
+  "untouched_entries": [
+    "BLUE-01",
+    "BLUE-02",
+    "BLUE-03",
+    "BLUE-04",
+    "BLUE-06",
+    "BLUE-07",
+    "BLUE-08",
+    "BLUE-09"
+  ],
+  "blue02_hollow_cave_prevention": "EXPLICIT_NONCAVE_RULE_ALREADY_PRESENT_UNMODIFIED",
+  "blue02_baseline_git_sha": "86b240518ce40a88142b9c998f35711da83bbffd",
+  "files": [
+    {
+      "id": "BLUE-01",
+      "path": "worldbook/blue/BLUE-01_世界格局与新艾利都.md",
+      "git_blob_sha": "8700f054ee790435ee6d62d2d8dc1809c3bda5ac"
+    },
+    {
+      "id": "BLUE-02",
+      "path": "worldbook/blue/BLUE-02_空洞与空间灾害.md",
+      "git_blob_sha": "86b240518ce40a88142b9c998f35711da83bbffd"
+    },
+    {
+      "id": "BLUE-03",
+      "path": "worldbook/blue/BLUE-03_以太侵蚀与以骸.md",
+      "git_blob_sha": "4ee932a4fdf2cfd72545c83be2c78f6c483ca53f"
+    },
+    {
+      "id": "BLUE-04",
+      "path": "worldbook/blue/BLUE-04_空洞行动与绳匠体系.md",
+      "git_blob_sha": "cb7174da726e71eb509ad296b77638ec65e4486d"
+    },
+    {
+      "id": "BLUE-05",
+      "path": "worldbook/blue/BLUE-05_邦布与智能科技.md",
+      "git_blob_sha": "0193919deba514dd76a3f182c66e58bde6632f8b"
+    },
+    {
+      "id": "BLUE-06",
+      "path": "worldbook/blue/BLUE-06_都市社会与多元族群.md",
+      "git_blob_sha": "d48869525b05f2e885530058b4d7e0c45775b91b"
+    },
+    {
+      "id": "BLUE-07",
+      "path": "worldbook/blue/BLUE-07_城市治理与势力秩序.md",
+      "git_blob_sha": "f8e58ac2d6e626e3a3d48a4db5e5b0dc9d9eece3"
+    },
+    {
+      "id": "BLUE-08",
+      "path": "worldbook/blue/BLUE-08_以太经济与产业体系.md",
+      "git_blob_sha": "c26a6fc800bfbd190e28c17612d90aafc926a4b6"
+    },
+    {
+      "id": "BLUE-09",
+      "path": "worldbook/blue/BLUE-09_法厄同与铃的主线根设定.md",
+      "git_blob_sha": "e85f9a087905652ab45bc61c1929b42d17342f6f"
+    }
+  ],
+  "qa": "qa/055_BLUE05邦布Q弹视觉补充_BLUE02空洞地貌防误读_微修验收_v1.0.md",
+  "timeline_freeze": "UNTOUCHED_QA054",
+  "source_safety": "No runtime code; descriptions of softness describe rounded silhouette and motion rather than invented physical elasticity",
+  "android_sillytavern_real_device": "NOT_RUN"
+}
