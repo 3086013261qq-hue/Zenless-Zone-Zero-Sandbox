@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "source": "zzz-4 (1).png extracted CCV3 122 detailed plus 122 lite stories, no verbatim raw story bodies",
   "supersedes": "docs/037_时间线二十九卷总目录与角色状态转变锚点_v1.0.md",
   "volumes": [
@@ -1061,8 +1061,16 @@
       "arc_title": "旧梦与新·艾利都日落",
       "part": "中",
       "original_volume": 20,
-      "expected_count": 1,
+      "expected_count": 2,
       "sources": [
+        {
+          "title": "三契密约",
+          "kind": "纪事",
+          "source_full_id": 913477,
+          "source_lite_id": 912166,
+          "fixed_event": true,
+          "source_type": "2026-03-14_OFFICIAL_CHRONICLE_VIDEO_NONQUEST"
+        },
         {
           "title": "新·艾利都日落时 上",
           "kind": "主线",
@@ -1217,21 +1225,18 @@
       ]
     }
   ],
-  "unresolved": [
-    {
-      "title": "三契密约",
-      "kind": "支线",
-      "source_full_id": 913477,
-      "source_lite_id": 912166,
-      "requires": "英雄不死于往昔",
-      "reason": "missing prerequisite in original 122 titles"
-    }
-  ],
+  "unresolved": [],
   "source_corrections": [
     {
       "title": "卧底蓝调",
       "original_prerequisite": "火狱骑行",
       "chronological_decision": "卧底蓝调 precedes 火狱骑行; retain conflict for QA"
+    },
+    {
+      "title": "三契密约",
+      "correction": "《英雄不死于往昔》是2.7版本标题，不是前置任务；《三契密约》是官方世界观纪事PV，故追加原PNG四幕为第11卷中A-D秘密幕后纪事，后五幕主线顺延E-I。",
+      "provenance": "https://www.bilibili.com/video/BV14ZwszqE4e/",
+      "confirmed": true
     }
   ],
   "rules": [
@@ -1239,6 +1244,7 @@
     "日常与支线在相应主线解锁后的可用叙事窗口内发生，不强制每条都发生",
     "唯一寄宿铃，哲不寄宿",
     "时间锚点待详细来源核实，初始2077-03-15不是官方主线日期",
-    "默认仅第一册启用，静态世界书、无旧脚本"
+    "默认仅第一册启用，静态世界书、无旧脚本",
+    "第11卷中A-D《三契密约》为原卡详简913477/912166对应官方非游玩世界观纪事；故事的TOPS秘密会议不意味着铃哲已知其内容，绝不误记为可领取的游戏主线。"
   ]
 }
