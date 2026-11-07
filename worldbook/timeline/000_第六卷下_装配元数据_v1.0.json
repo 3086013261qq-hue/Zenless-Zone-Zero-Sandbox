@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 6,
+  "part": "下",
+  "comment": "时间线:第六卷（下）·将眼泪与过往一同埋葬",
+  "body_file": "worldbook/timeline/TIMELINE-006-下_将眼泪与过往一同埋葬.md",
+  "source_chapters": [
+    {
+      "title": "将眼泪与过往一同埋葬（下）",
+      "kind": "主线",
+      "full_id": 480273,
+      "lite_id": 81014,
+      "original_events": 7,
+      "event_range": "A-G",
+      "note": "雨果C才被确认为诈死，D为其讲述的往年幻觉与假死回忆；蒂娜F注药才异变为特佩什；铃G第一次逆转薇薇安以骸化，佩洛伊斯仅铃寄宿"
+    }
+  ],
+  "date_basis": "2079-06-19 through 2079-07-01; internally constructed timeline anchors, not official ZZZ calendar",
+  "sandbox_start": "2079-07-03",
+  "previous_part": "worldbook/timeline/TIMELINE-006-上_将眼泪与过往一同埋葬.md",
+  "next_part": "worldbook/timeline/TIMELINE-007-上_云岿山初行.md",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 464,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Manual per-part toggle. Only volume 1 upper is enabled by default, and adjacent parts are independent entries; no automatic date/scene code.",
+  "script_deps": [],
+  "static_qa": "qa/042_第六卷上下册_全栈来源状态与时间连贯性静态QA_v1.0.md",
+  "android_sillytavern_real_device": "NOT_RUN",
+  "stage_gates": [
+    {
+      "state_id": "STATE-078",
+      "character": "蒂娜",
+      "first_event": "F",
+      "date": "2079-07-01",
+      "activation": "卡米尔牺牲后蒂娜将禁药注入身体，肉体异变为特佩什",
+      "scope": "变异不可逆，不是装备/战斗姿态的自由切换"
+    },
+    {
+      "state_id": "STATE-001",
+      "character": "铃",
+      "first_event": "G",
+      "date": "2079-07-01",
+      "activation": "薇薇安注射药剂并开始以骸化，铃首次在悲痛中使用佩洛伊斯力量逆转侵蚀",
+      "scope": "限已知场景，不能无代价地复活死者、全面净化或让哲成为第二宿主"
+    }
+  ]
+}
