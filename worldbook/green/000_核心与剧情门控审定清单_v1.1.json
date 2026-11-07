@@ -246,7 +246,7 @@
       "use_regex": false,
       "exclude_recursion": true,
       "prevent_recursion": true,
-      "body_path": "worldbook/green/core/GREEN-07-01_新艾利都公共安全与刑侦体系.md"
+      "body_path": "worldbook/green/core/GREEN-07-01_治安局与刑侦特勤组.md"
     },
     {
       "id": "GREEN-07-03",
@@ -269,7 +269,7 @@
       "use_regex": false,
       "exclude_recursion": true,
       "prevent_recursion": true,
-      "body_path": "worldbook/green/core/GREEN-07-03_HAND与对空六课组织职能.md"
+      "body_path": "worldbook/green/core/GREEN-07-03_H.A.N.D.与对空六课.md"
     },
     {
       "id": "GREEN-07-04",
@@ -477,7 +477,7 @@
       "use_regex": false,
       "exclude_recursion": true,
       "prevent_recursion": true,
-      "body_path": "worldbook/green/core/GREEN-09-01_H.D.D.与伊埃斯的远程领航.md"
+      "body_path": "worldbook/green/core/GREEN-09-01_H.D.D.与伊埃斯远程领航.md"
     },
     {
       "id": "GREEN-09-02",
