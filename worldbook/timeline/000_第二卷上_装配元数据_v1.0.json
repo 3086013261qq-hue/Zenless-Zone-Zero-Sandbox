@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 2,
+  "part": "上",
+  "comment": "时间线:第二卷（上）·新艾利都的暗流",
+  "body_file": "worldbook/timeline/TIMELINE-002-上_新艾利都的暗流.md",
+  "source_chapters": [
+    {
+      "name": "间章：非常任务",
+      "kind": "主线",
+      "full_id": 722399,
+      "lite_id": 864497,
+      "source_scenes": 5,
+      "event_range": "A-E"
+    },
+    {
+      "name": "代理人秘闻「贼猫御鼠」",
+      "kind": "支线",
+      "full_id": 208918,
+      "lite_id": 628718,
+      "source_scenes": 4,
+      "event_range": "F-I, I1"
+    },
+    {
+      "name": "代理人秘闻：钢铁的女巫",
+      "kind": "支线",
+      "full_id": 652857,
+      "lite_id": 762453,
+      "source_scenes": 3,
+      "event_range": "J-L"
+    },
+    {
+      "name": "代理人秘闻：满级小学生",
+      "kind": "支线",
+      "full_id": 905895,
+      "lite_id": 840526,
+      "source_scenes": 4,
+      "event_range": "M-P, P1"
+    },
+    {
+      "name": "代理人秘闻「洞中谍」",
+      "kind": "支线",
+      "full_id": 78403,
+      "lite_id": 937453,
+      "source_scenes": 12,
+      "event_range": "Q-U"
+    },
+    {
+      "name": "资质考核",
+      "kind": "主线",
+      "full_id": 311826,
+      "lite_id": 405101,
+      "source_scenes": 4,
+      "event_range": "V-Y"
+    }
+  ],
+  "date_basis": "2077-05-28 to 2077-07-24, card-internal fictional anchors only; not canon publication dates",
+  "previous_part": "worldbook/timeline/TIMELINE-001-下_法厄同启程.md",
+  "next_part": "worldbook/timeline/TIMELINE-002-下_新艾利都的暗流.md",
+  "sandbox_start": "2077-07-25",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 456,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Manual chapter/part switch; at card start only volume 1 upper is enabled. This part remains disabled until reached; never enable both halves as one block.",
+  "script_deps": [],
+  "static_qa": "qa/038_第二卷上下册_全栈来源时间与状态静态QA_v1.0.md",
+  "android_sillytavern_real_device": "NOT_RUN"
+}
