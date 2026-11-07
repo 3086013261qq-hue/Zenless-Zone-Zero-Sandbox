@@ -1,0 +1,578 @@
+{
+  "version": "1.4",
+  "effective_date": "2026-11-07",
+  "status": "BLUE_01_EXPANDED_TEN_GREEN_SOURCE_FILES",
+  "supersedes": "000_核心与剧情门控审定清单_v1.1.json",
+  "blue_baseline_sha": "0b673eb8887fef253e2463122bcc3aabd707c9e1",
+  "corrects_commit": "4334548f6b57b46effe5e470c1c9156ab0ded622",
+  "design": {
+    "no_mvu": true,
+    "no_automatic_calendar_gating": true,
+    "source_drafts_installed": false,
+    "keyword_green_build_disable": false,
+    "keyword_green_build_constant": false,
+    "literal_keys": true,
+    "dual_anti_recursion": true,
+    "spoilers_moved_out_of_green": true,
+    "original_fanon_excluded": true
+  },
+  "counts": {
+    "reviewed": 23,
+    "keyword_green_drafts": 10,
+    "routed_to_character_ability_timeline_or_other_layers": 10,
+    "rejected_unverified": 1,
+    "excluded_original_or_bad_scope": 2,
+    "remaining_previous_ordinary_candidates_deferred": 27
+  },
+  "entries": [
+    {
+      "id": "GREEN-01-01",
+      "title": "旧文明遗产与文化传承",
+      "parent_blue": "BLUE-01",
+      "source_ids": [
+        133356,
+        735752
+      ],
+      "disposition": "KEEP_KEYWORD_GREEN",
+      "body_file": "worldbook/green/blue01/GREEN-01-01_旧文明遗产与文化传承.md",
+      "content_tag": "核心设定:旧文明遗产与文化传承",
+      "comment": "核心设定:旧文明遗产与文化传承",
+      "insertion_order": 302,
+      "position": "after_char",
+      "text_characters": 229,
+      "qa_status": "SOURCE_QA_PASS_NOT_REAL_DEVICE",
+      "build": {
+        "disable": false,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "key": [
+          "旧文明遗产",
+          "旧文明技术"
+        ],
+        "secondary_keys": [],
+        "extensions": {
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      },
+      "source_format": "Miemie fullstack v1.0.0 core-setting template"
+    },
+    {
+      "id": "GREEN-01-02",
+      "title": "虚狩的荣誉与历史",
+      "parent_blue": "BLUE-01",
+      "source_ids": [
+        161827
+      ],
+      "disposition": "KEEP_KEYWORD_GREEN",
+      "body_file": "worldbook/green/blue01/GREEN-01-02_虚狩的荣誉与历史.md",
+      "content_tag": "核心设定:虚狩的荣誉与历史",
+      "comment": "核心设定:虚狩的荣誉与历史",
+      "insertion_order": 303,
+      "position": "after_char",
+      "text_characters": 231,
+      "qa_status": "SOURCE_QA_PASS_NOT_REAL_DEVICE",
+      "build": {
+        "disable": false,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "key": [
+          "虚狩",
+          "七虚狩"
+        ],
+        "secondary_keys": [],
+        "extensions": {
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      },
+      "source_format": "Miemie fullstack v1.0.0 core-setting template"
+    },
+    {
+      "id": "GREEN-03-01",
+      "title": "以太适性检测与耐受差异",
+      "parent_blue": "BLUE-03",
+      "source_ids": [
+        56536
+      ],
+      "original_gate": "SOURCE_REVIEW",
+      "original_priority": "P0",
+      "disposition": "KEEP_KEYWORD_GREEN",
+      "body_file": "worldbook/green/core/GREEN-03-01_以太适性检测与耐受差异.md",
+      "build": {
+        "disable": false,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "key": [
+          "以太适性检测",
+          "适性测试"
+        ],
+        "extensions": {
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      },
+      "current_state": "SOURCE_DRAFT_ONLY_NOT_ASSEMBLED",
+      "note": "条目实际装配时启用，关键词才决定是否加载；绝不使用enabled:false等待时间线开启。",
+      "content_tag": "核心设定:以太适性检测与耐受差异",
+      "comment": "核心设定:以太适性检测与耐受差异",
+      "insertion_order": 304,
+      "position": "after_char",
+      "qa_status": "SOURCE_QA_PASS_NOT_REAL_DEVICE",
+      "text_characters": 187,
+      "source_format": "Miemie fullstack v1.0.0 core-setting template"
+    },
+    {
+      "id": "GREEN-03-02",
+      "title": "腐蚀进程与侵蚀体",
+      "parent_blue": "BLUE-03",
+      "source_ids": [
+        173199,
+        582897
+      ],
+      "original_gate": "OPEN",
+      "original_priority": "P0",
+      "disposition": "KEEP_KEYWORD_GREEN",
+      "body_file": "worldbook/green/core/GREEN-03-02_腐蚀进程与侵蚀体.md",
+      "build": {
+        "disable": false,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "key": [
+          "侵蚀体",
+          "以太腐蚀症状"
+        ],
+        "extensions": {
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      },
+      "current_state": "SOURCE_DRAFT_ONLY_NOT_ASSEMBLED",
+      "note": "条目实际装配时启用，关键词才决定是否加载；绝不使用enabled:false等待时间线开启。",
+      "content_tag": "核心设定:腐蚀进程与侵蚀体",
+      "comment": "核心设定:腐蚀进程与侵蚀体",
+      "insertion_order": 305,
+      "position": "after_char",
+      "qa_status": "SOURCE_QA_PASS_NOT_REAL_DEVICE",
+      "text_characters": 191,
+      "source_format": "Miemie fullstack v1.0.0 core-setting template"
+    },
+    {
+      "id": "GREEN-04-01",
+      "title": "绳网委托与中间人",
+      "parent_blue": "BLUE-04",
+      "source_ids": [
+        319126
+      ],
+      "original_gate": "OPEN",
+      "original_priority": "P0",
+      "disposition": "KEEP_KEYWORD_GREEN",
+      "body_file": "worldbook/green/core/GREEN-04-01_绳网委托与中间人.md",
+      "build": {
+        "disable": false,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "key": [
+          "绳网委托",
+          "绳网中间人"
+        ],
+        "extensions": {
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      },
+      "current_state": "SOURCE_DRAFT_ONLY_NOT_ASSEMBLED",
+      "note": "条目实际装配时启用，关键词才决定是否加载；绝不使用enabled:false等待时间线开启。",
+      "content_tag": "核心设定:绳网委托与中间人",
+      "comment": "核心设定:绳网委托与中间人",
+      "insertion_order": 306,
+      "position": "after_char",
+      "qa_status": "SOURCE_QA_PASS_NOT_REAL_DEVICE",
+      "text_characters": 197,
+      "source_format": "Miemie fullstack v1.0.0 core-setting template"
+    },
+    {
+      "id": "GREEN-04-02",
+      "title": "萝卜制作与罗塞塔数据",
+      "parent_blue": "BLUE-04",
+      "source_ids": [
+        290820,
+        688475
+      ],
+      "original_gate": "OPEN",
+      "original_priority": "P0",
+      "disposition": "KEEP_KEYWORD_GREEN",
+      "body_file": "worldbook/green/core/GREEN-04-02_萝卜制作与罗塞塔数据.md",
+      "build": {
+        "disable": false,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "key": [
+          "空洞萝卜",
+          "罗塞塔数据"
+        ],
+        "extensions": {
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      },
+      "current_state": "SOURCE_DRAFT_ONLY_NOT_ASSEMBLED",
+      "note": "条目实际装配时启用，关键词才决定是否加载；绝不使用enabled:false等待时间线开启。",
+      "content_tag": "核心设定:萝卜制作与罗塞塔数据",
+      "comment": "核心设定:萝卜制作与罗塞塔数据",
+      "insertion_order": 307,
+      "position": "after_char",
+      "qa_status": "SOURCE_QA_PASS_NOT_REAL_DEVICE",
+      "text_characters": 206,
+      "source_format": "Miemie fullstack v1.0.0 core-setting template"
+    },
+    {
+      "id": "GREEN-05-03",
+      "title": "禁果测试与构装公民资格",
+      "parent_blue": "BLUE-05",
+      "source_ids": [
+        887385
+      ],
+      "original_gate": "SOURCE_REVIEW",
+      "original_priority": "P0",
+      "disposition": "KEEP_KEYWORD_GREEN",
+      "body_file": "worldbook/green/core/GREEN-05-03_禁果测试与构装公民资格.md",
+      "build": {
+        "disable": false,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "key": [
+          "禁果测试",
+          "机械公民资格"
+        ],
+        "extensions": {
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      },
+      "current_state": "SOURCE_DRAFT_ONLY_NOT_ASSEMBLED",
+      "note": "条目实际装配时启用，关键词才决定是否加载；绝不使用enabled:false等待时间线开启。",
+      "content_tag": "核心设定:禁果测试与构装公民资格",
+      "comment": "核心设定:禁果测试与构装公民资格",
+      "insertion_order": 308,
+      "position": "after_char",
+      "qa_status": "SOURCE_QA_PASS_NOT_REAL_DEVICE",
+      "text_characters": 208,
+      "source_format": "Miemie fullstack v1.0.0 core-setting template"
+    },
+    {
+      "id": "GREEN-07-01",
+      "title": "新艾利都公共安全与刑侦体系",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        558920,
+        578925
+      ],
+      "original_gate": "SOURCE_REVIEW",
+      "original_priority": "P0",
+      "disposition": "KEEP_KEYWORD_GREEN",
+      "body_file": "worldbook/green/core/GREEN-07-01_治安局与刑侦特勤组.md",
+      "build": {
+        "disable": false,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "key": [
+          "新艾利都公共安全",
+          "刑侦特勤组"
+        ],
+        "extensions": {
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      },
+      "current_state": "SOURCE_DRAFT_ONLY_NOT_ASSEMBLED",
+      "note": "条目实际装配时启用，关键词才决定是否加载；绝不使用enabled:false等待时间线开启。",
+      "content_tag": "核心设定:治安局与刑侦特勤组",
+      "comment": "核心设定:治安局与刑侦特勤组",
+      "insertion_order": 309,
+      "position": "after_char",
+      "qa_status": "SOURCE_QA_PASS_NOT_REAL_DEVICE",
+      "text_characters": 218,
+      "source_format": "Miemie fullstack v1.0.0 core-setting template"
+    },
+    {
+      "id": "GREEN-07-03",
+      "title": "HAND与对空六课组织职能",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        95033
+      ],
+      "original_gate": "OPEN",
+      "original_priority": "P0",
+      "disposition": "KEEP_KEYWORD_GREEN",
+      "body_file": "worldbook/green/core/GREEN-07-03_H.A.N.D.与对空六课.md",
+      "build": {
+        "disable": false,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "key": [
+          "对空六课",
+          "H.A.N.D."
+        ],
+        "extensions": {
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      },
+      "current_state": "SOURCE_DRAFT_ONLY_NOT_ASSEMBLED",
+      "note": "条目实际装配时启用，关键词才决定是否加载；绝不使用enabled:false等待时间线开启。",
+      "content_tag": "核心设定:H.A.N.D.与对空六课",
+      "comment": "核心设定:H.A.N.D.与对空六课",
+      "insertion_order": 310,
+      "position": "after_char",
+      "qa_status": "SOURCE_QA_PASS_NOT_REAL_DEVICE",
+      "text_characters": 208,
+      "source_format": "Miemie fullstack v1.0.0 core-setting template"
+    },
+    {
+      "id": "GREEN-09-01",
+      "title": "H.D.D.与伊埃斯的远程领航",
+      "parent_blue": "BLUE-09",
+      "source_ids": [
+        538706,
+        299532,
+        157231
+      ],
+      "original_gate": "OPEN",
+      "original_priority": "P0",
+      "disposition": "KEEP_KEYWORD_GREEN",
+      "body_file": "worldbook/green/core/GREEN-09-01_H.D.D.与伊埃斯远程领航.md",
+      "build": {
+        "disable": false,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "key": [
+          "H.D.D.",
+          "空洞深潜系统"
+        ],
+        "extensions": {
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      },
+      "current_state": "SOURCE_DRAFT_ONLY_NOT_ASSEMBLED",
+      "note": "条目实际装配时启用，关键词才决定是否加载；绝不使用enabled:false等待时间线开启。",
+      "content_tag": "核心设定:H.D.D.与伊埃斯远程领航",
+      "comment": "核心设定:H.D.D.与伊埃斯远程领航",
+      "insertion_order": 311,
+      "position": "after_char",
+      "qa_status": "SOURCE_QA_PASS_NOT_REAL_DEVICE",
+      "text_characters": 205,
+      "source_format": "Miemie fullstack v1.0.0 core-setting template"
+    },
+    {
+      "id": "GREEN-02-02",
+      "title": "泄露奇点与单向空间裂隙",
+      "parent_blue": "BLUE-02",
+      "source_ids": [
+        142987
+      ],
+      "original_gate": "TIMELINE_GATE",
+      "original_priority": "P2",
+      "disposition": "MOVE_OUT_OF_GREEN",
+      "destination": "TIMELINE_AND_ABILITY",
+      "rationale": "泄露奇点的场景状态属首次出现的剧情事件；佩洛伊斯如何处理奇点属于铃的能力发展；不生产等待启用的世界观绿灯。",
+      "requires_no_enabled_flag": true
+    },
+    {
+      "id": "GREEN-02-03",
+      "title": "辉耀现象与以太干扰探针",
+      "parent_blue": "BLUE-02",
+      "source_ids": [
+        641068,
+        41245
+      ],
+      "original_gate": "TIMELINE_GATE",
+      "original_priority": "P2",
+      "disposition": "REJECT_UNVERIFIED",
+      "rationale": "辉耀现象与以太干扰探针具体技术尚需官方剧情核对，暂不成文。"
+    },
+    {
+      "id": "GREEN-03-06",
+      "title": "秽息与精神侵蚀",
+      "parent_blue": "BLUE-03",
+      "source_ids": [
+        243976
+      ],
+      "original_gate": "TIMELINE_GATE",
+      "original_priority": "P1",
+      "disposition": "MOVE_OUT_OF_GREEN",
+      "destination": "TIMELINE_AND_WORLD_ENVIRONMENT",
+      "rationale": "莱姆尼安秽息的出现及侵蚀后果由对应事件与环境描写承载，觉感术由能力层核验，不设置全局待解锁GREEN。",
+      "requires_no_enabled_flag": true
+    },
+    {
+      "id": "GREEN-06-04",
+      "title": "鬼人的社会身份与历史",
+      "parent_blue": "BLUE-06",
+      "source_ids": [
+        724029
+      ],
+      "original_gate": "TIMELINE_GATE",
+      "original_priority": "P1",
+      "disposition": "EXCLUDE_FANON_OR_BAD_SCOPE",
+      "rationale": "原卡鬼人统一无公民权和鬼人族战的叙述未经核实；真实角色经历改在人物/能力/时间线核对。"
+    },
+    {
+      "id": "GREEN-07-04",
+      "title": "新艾利都防卫军与军制",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        639159
+      ],
+      "original_gate": "TIMELINE_GATE",
+      "original_priority": "P1",
+      "disposition": "MOVE_OUT_OF_GREEN",
+      "destination": "ORGANIZATION_AND_TIMELINE",
+      "rationale": "防卫军稳定的公开编制与职责可留在已封版BLUE-07；军中叛乱、内情、具体战役仅放事件与相关人物条目。",
+      "requires_no_enabled_flag": true
+    },
+    {
+      "id": "GREEN-07-11",
+      "title": "反舌鸟的怪盗行动原则",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        303752
+      ],
+      "original_gate": "TIMELINE_GATE",
+      "original_priority": "P1",
+      "disposition": "MOVE_OUT_OF_GREEN",
+      "destination": "CHARACTER_AND_TIMELINE",
+      "rationale": "反舌鸟的真实成员、动机及旧怨由人物和出场剧情承载；无附加的默认禁用组织绿灯。",
+      "requires_no_enabled_flag": true
+    },
+    {
+      "id": "GREEN-07-13",
+      "title": "怪啖屋与异常事件调查",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        765609
+      ],
+      "original_gate": "TIMELINE_GATE",
+      "original_priority": "P2",
+      "disposition": "MOVE_OUT_OF_GREEN",
+      "destination": "CHARACTER_AND_TIMELINE",
+      "rationale": "怪啖屋登场、社团活动与成员经历归对应时间线/人物；官方稳定组织事实若未来必需可另建不剧透关键词绿灯。",
+      "requires_no_enabled_flag": true
+    },
+    {
+      "id": "GREEN-07-14",
+      "title": "称颂会组织与司教制度",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        764065,
+        446647
+      ],
+      "original_gate": "TIMELINE_GATE",
+      "original_priority": "P1",
+      "disposition": "MOVE_OUT_OF_GREEN",
+      "destination": "TIMELINE_AND_CHARACTER",
+      "rationale": "称颂会司教身份、始主计划和内幕属渐进揭露的主线事件与人物关系，不能提前在GREEN中曝光。",
+      "requires_no_enabled_flag": true
+    },
+    {
+      "id": "GREEN-07-15",
+      "title": "坎卜斯黑枝的制度与行动",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        62679
+      ],
+      "original_gate": "TIMELINE_GATE",
+      "original_priority": "P2",
+      "disposition": "MOVE_OUT_OF_GREEN",
+      "destination": "TIMELINE_AND_CHARACTER",
+      "rationale": "坎卜斯黑枝的具体行动与成员秘密放对应故事；原卡未经官方核实的组织条款不采用。",
+      "requires_no_enabled_flag": true
+    },
+    {
+      "id": "GREEN-07-16",
+      "title": "天琴座的组织与行动",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        781656
+      ],
+      "original_gate": "TIMELINE_GATE",
+      "original_priority": "P2",
+      "disposition": "MOVE_OUT_OF_GREEN",
+      "destination": "CHARACTER_AND_TIMELINE",
+      "rationale": "天琴座团队成员与娱乐活动各归人物和时间线；不把未发生的个人往事装入GREEN。",
+      "requires_no_enabled_flag": true
+    },
+    {
+      "id": "GREEN-08-01",
+      "title": "蚀驭柱网络与城市供能",
+      "parent_blue": "BLUE-08",
+      "source_ids": [
+        598810
+      ],
+      "original_gate": "SOURCE_REVIEW",
+      "original_priority": "P0",
+      "disposition": "EXCLUDE_FANON_OR_BAD_SCOPE",
+      "rationale": "原卡蚀驭柱网络的供能管线与清剿机制无法充分官方核实；只保留BLUE-08基本能源规律。"
+    },
+    {
+      "id": "GREEN-08-02",
+      "title": "辉瓷矿业与耐以太材料",
+      "parent_blue": "BLUE-08",
+      "source_ids": [
+        77986,
+        210276
+      ],
+      "original_gate": "TIMELINE_GATE",
+      "original_priority": "P1",
+      "disposition": "MOVE_OUT_OF_GREEN",
+      "destination": "TIMELINE_LOCATION_AND_ITEM",
+      "rationale": "卫非地辉瓷矿业的区域、事件、矿料道具分属地点/时间线/道具，避免开局泄露后期开发内容。",
+      "requires_no_enabled_flag": true
+    },
+    {
+      "id": "GREEN-09-02",
+      "title": "赫利俄斯机关与旧都关联",
+      "parent_blue": "BLUE-09",
+      "source_ids": [
+        825389,
+        299532
+      ],
+      "original_gate": "TIMELINE_GATE",
+      "original_priority": "P1",
+      "disposition": "MOVE_OUT_OF_GREEN",
+      "destination": "TIMELINE_AND_CHARACTER",
+      "rationale": "赫利俄斯机关、卡洛丝失踪真相及兄妹掌握的证据均由时间线和人物认知承载，不能产生全员知情。",
+      "requires_no_enabled_flag": true
+    }
+  ],
+  "temporal_caveat": "普通SillyTavern词条不能可靠依据剧情日期或卷号维护解锁状态；已移动的故事事实在事件正文发生时呈现，人物已知信息逐段对应，按卷开关仍由原定静态时间线执行，不承诺自动判断。",
+  "former_source_version": "1.3",
+  "last_revision_date": "2026-11-07",
+  "content_template": "<核心设定:名称>单条独立内世界设定</核心设定:名称>",
+  "metadata_policy": "Canonical core settings slot 302-309, after_char; keyword-triggered enabled when assembled, never persistent; both recurrence flags enabled",
+  "blue_01_expansion": {
+    "completed": true,
+    "green_ids": [
+      "GREEN-01-01",
+      "GREEN-01-02"
+    ],
+    "source_ids": [
+      133356,
+      735752,
+      161827
+    ],
+    "scope": "Old civilization heritage and Void Hunter civic honor only; character secrets excluded"
+  },
+  "postponed_ids": []
+}
