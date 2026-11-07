@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "status": "BODY_COMPLETE_STATIC_QA_PASS",
   "volume": 1,
   "part": "下",
@@ -21,10 +21,10 @@
       "timeline_events": "H-P"
     }
   ],
-  "date_basis": "2077-04-05 to 2077-04-14: internal-card chronology; not official source date",
+  "date_basis": "2077-04-20 to 2077-05-20, internal-card chronology only (not official)",
   "previous_part": "worldbook/timeline/TIMELINE-001-上_法厄同启程.md",
-  "previous_part_ends": "2077-04-04",
-  "sandbox_start": "2077-04-15",
+  "previous_part_ends": "2077-04-14",
+  "sandbox_start": "2077-05-21",
   "keys": [],
   "secondary_keys": [],
   "enabled": false,
@@ -40,6 +40,7 @@
   },
   "load_policy": "Only first upper part is enabled by default; manually disable 上 and enable 下 when story enters second part; later switch into volume 2",
   "script_deps": [],
-  "static_qa": "qa/036_第一卷下_完整原卡事件映射与跨册连贯性QA_v1.0.md",
-  "android_sillytavern_real_device": "NOT_RUN"
+  "static_qa": "qa/037_第一卷_时间空档优化与全栈格式核验_v1.1.md",
+  "android_sillytavern_real_device": "NOT_RUN",
+  "chronology_revision": "City commissions, inquiries and machine retrievals staggered into playable dates; active boss confrontation O/P remains same day"
 }
