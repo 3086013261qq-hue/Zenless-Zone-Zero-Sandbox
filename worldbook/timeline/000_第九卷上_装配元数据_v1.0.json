@@ -1,0 +1,117 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 9,
+  "part": "上",
+  "comment": "时间线:第九卷（上）·良夜与梦",
+  "body_file": "worldbook/timeline/TIMELINE-009-上_良夜与梦.md",
+  "source_chapters": [
+    {
+      "title": "不要温和地走入那良夜",
+      "kind": "主线",
+      "full_id": 986318,
+      "lite_id": 978500,
+      "source_event_slots": 8,
+      "source_explicit_blocks": 8,
+      "event_range": "A-H"
+    },
+    {
+      "title": "问题士兵补习班",
+      "kind": "日常",
+      "full_id": 45870,
+      "lite_id": 184664,
+      "source_event_slots": 3,
+      "source_explicit_blocks": 3,
+      "event_range": "I-K"
+    },
+    {
+      "title": "代理人秘闻：花之谷的芙罗拉",
+      "kind": "支线",
+      "full_id": 404187,
+      "lite_id": 495476,
+      "source_event_slots": 5,
+      "source_explicit_blocks": 5,
+      "event_range": "L-P"
+    },
+    {
+      "title": "「嗯呢」大寻宝",
+      "kind": "日常",
+      "full_id": 497753,
+      "lite_id": 258134,
+      "source_event_slots": 3,
+      "source_explicit_blocks": 3,
+      "event_range": "Q-S"
+    },
+    {
+      "title": "激战聚光决胜",
+      "kind": "日常",
+      "full_id": 586615,
+      "lite_id": 654053,
+      "source_event_slots": 3,
+      "source_explicit_blocks": 3,
+      "event_range": "T-V"
+    },
+    {
+      "title": "寻梦瓶游记",
+      "kind": "日常",
+      "full_id": 745188,
+      "lite_id": 719050,
+      "source_event_slots": 3,
+      "source_explicit_blocks": 3,
+      "event_range": "W-Y"
+    },
+    {
+      "title": "小邦布勇任防卫军",
+      "kind": "日常",
+      "full_id": 760552,
+      "lite_id": 872425,
+      "source_event_slots": 4,
+      "source_explicit_blocks": 0,
+      "event_range": "Z-AC"
+    }
+  ],
+  "date_basis": "2080-09-04 to 2080-11-24, internally constructed card chronology; not official exact game dates",
+  "sandbox_start": "2080-11-25",
+  "previous_part": "worldbook/timeline/TIMELINE-008_仲夏浪涌.md",
+  "next_part": "worldbook/timeline/TIMELINE-009-下_良夜与梦.md",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 468,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Separate independent timeline chapter; enabled false at card start. Switch manually at intended story stage; only volume 1 upper initially on. No scripts or automatic state changes.",
+  "script_deps": [],
+  "static_qa": "qa/045_第九卷上下册_全栈来源时间与阶段静态QA_v1.0.md",
+  "android_sillytavern_real_device": "NOT_RUN",
+  "status_notes": [
+    {
+      "part": "上",
+      "event": "D",
+      "date": "2080-09-08",
+      "character": "奥菲斯·鬼火",
+      "revelation": "奥菲斯为克隆体，鬼火原版意识寄于武器，共享行动体"
+    },
+    {
+      "part": "上",
+      "event": "G",
+      "date": "2080-09-10",
+      "character": "伊瑟尔德/梅若拉可",
+      "revelation": "真实身份及秽黯灯塔战死，此前只可有线索"
+    },
+    {
+      "part": "上",
+      "event": "P",
+      "date": "2080-10-11",
+      "character": "席德/芙罗拉",
+      "revelation": "完成老席德不可复活的告别，从此不再驾机体受训"
+    }
+  ]
+}
