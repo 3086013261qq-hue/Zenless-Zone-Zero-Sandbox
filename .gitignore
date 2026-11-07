@@ -1,0 +1,11 @@
+# 源卡和离线备份不应意外进入公开仓库
+*.bak
+*.tmp
+source/private/
+source/raw/
+private/
+raw/
+*.ccv3.original.json
+*.source-card.png
+.DS_Store
+__pycache__/

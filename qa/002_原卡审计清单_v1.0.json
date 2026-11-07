@@ -1,0 +1,347 @@
+{
+  "source_filename": "zzz-4 (1).png",
+  "sha256_png": "3e8c450438fe7fdf4634043c46d113d546a1db82ba3afe66d82e02f174dc335d",
+  "sha256_extracted_json": "f2cceac22bd8d2a0902ce77f332a036bbfac6d23a518596b7820a7546d1f4abb",
+  "original_card_name": "zzz沙盒",
+  "original_worldbook_name": "绝区零沙盒",
+  "card_spec": "chara_card_v3",
+  "card_spec_version": "3.0",
+  "entry_count": 707,
+  "enabled_count": 568,
+  "disabled_count": 139,
+  "groups": {
+    "main": {
+      "total": 4,
+      "enabled": 3,
+      "disabled": 1,
+      "char_count": 6602
+    },
+    "lore": {
+      "total": 73,
+      "enabled": 73,
+      "disabled": 0,
+      "char_count": 13552
+    },
+    "optional": {
+      "total": 18,
+      "enabled": 15,
+      "disabled": 3,
+      "char_count": 32575
+    },
+    "fac": {
+      "total": 29,
+      "enabled": 29,
+      "disabled": 0,
+      "char_count": 15075
+    },
+    "char": {
+      "total": 82,
+      "enabled": 80,
+      "disabled": 2,
+      "char_count": 193438
+    },
+    "npc": {
+      "total": 109,
+      "enabled": 108,
+      "disabled": 1,
+      "char_count": 40333
+    },
+    "item": {
+      "total": 34,
+      "enabled": 34,
+      "disabled": 0,
+      "char_count": 3942
+    },
+    "mob": {
+      "total": 12,
+      "enabled": 12,
+      "disabled": 0,
+      "char_count": 3877
+    },
+    "loc": {
+      "total": 71,
+      "enabled": 71,
+      "disabled": 0,
+      "char_count": 39508
+    },
+    "story": {
+      "total": 122,
+      "enabled": 122,
+      "disabled": 0,
+      "char_count": 518520
+    },
+    "lite story": {
+      "total": 122,
+      "enabled": 0,
+      "disabled": 122,
+      "char_count": 62842
+    },
+    "[mvu_update]": {
+      "total": 4,
+      "enabled": 2,
+      "disabled": 2,
+      "char_count": 8558
+    },
+    "auxiliary": {
+      "total": 27,
+      "enabled": 19,
+      "disabled": 8,
+      "char_count": 7390
+    }
+  },
+  "full_story_lite_pairs": 122,
+  "missing_story_links": [
+    {
+      "story": "三契密约",
+      "requires": "英雄不死于往昔",
+      "entry_id": 912166
+    }
+  ],
+  "empty_lite_summaries": [
+    {
+      "story": "将眼泪与过往一同埋葬（上）",
+      "entry_id": 170519
+    },
+    {
+      "story": "可曾记得梦",
+      "entry_id": 582687
+    }
+  ],
+  "scripts": {
+    "tavern_helper_total": 8,
+    "enabled": 5,
+    "disabled": 3,
+    "regex_total": 7,
+    "regex_enabled": 7
+  },
+  "double_recursion_safety_count": 689,
+  "double_recursion_exceptions": [
+    {
+      "entry_id": 13435,
+      "comment": "派系后标"
+    },
+    {
+      "entry_id": 91597,
+      "comment": "地点前标"
+    },
+    {
+      "entry_id": 134478,
+      "comment": "物品后标"
+    },
+    {
+      "entry_id": 220443,
+      "comment": "主要角色前标"
+    },
+    {
+      "entry_id": 269249,
+      "comment": "派系前标"
+    },
+    {
+      "entry_id": 286093,
+      "comment": "物品前标"
+    },
+    {
+      "entry_id": 291134,
+      "comment": "次要角色后标"
+    },
+    {
+      "entry_id": 383370,
+      "comment": "词条前标"
+    },
+    {
+      "entry_id": 415420,
+      "comment": "地点后标"
+    },
+    {
+      "entry_id": 465245,
+      "comment": "杂兵前标"
+    },
+    {
+      "entry_id": 600483,
+      "comment": "次要角色前标"
+    },
+    {
+      "entry_id": 607404,
+      "comment": "已发生事件前标"
+    },
+    {
+      "entry_id": 669195,
+      "comment": "杂兵后标"
+    },
+    {
+      "entry_id": 680667,
+      "comment": "主要角色后标"
+    },
+    {
+      "entry_id": 725617,
+      "comment": "已发生事件后标"
+    },
+    {
+      "entry_id": 767602,
+      "comment": "正在进行事件后标"
+    },
+    {
+      "entry_id": 780614,
+      "comment": "正在进行事件前标"
+    },
+    {
+      "entry_id": 869976,
+      "comment": "词条后标"
+    }
+  ],
+  "single_character_active_keys": [
+    {
+      "entry_id": 14596,
+      "comment": "npc:珍",
+      "key": "珍"
+    },
+    {
+      "entry_id": 110848,
+      "comment": "char:月城柳",
+      "key": "柳"
+    },
+    {
+      "entry_id": 133356,
+      "comment": "lore:旧文明",
+      "key": "旧"
+    },
+    {
+      "entry_id": 206733,
+      "comment": "npc:乙",
+      "key": "乙"
+    },
+    {
+      "entry_id": 254064,
+      "comment": "lore:虎形希人",
+      "key": "虎"
+    },
+    {
+      "entry_id": 273376,
+      "comment": "char:简",
+      "key": "简"
+    },
+    {
+      "entry_id": 285732,
+      "comment": "lore:鼠形希人",
+      "key": "鼠"
+    },
+    {
+      "entry_id": 299532,
+      "comment": "char:法厄同",
+      "key": "哲"
+    },
+    {
+      "entry_id": 299532,
+      "comment": "char:法厄同",
+      "key": "铃"
+    },
+    {
+      "entry_id": 393477,
+      "comment": "char:铃",
+      "key": "铃"
+    },
+    {
+      "entry_id": 448269,
+      "comment": "lore:犬形希人",
+      "key": "狗"
+    },
+    {
+      "entry_id": 491165,
+      "comment": "char:哲",
+      "key": "哲"
+    },
+    {
+      "entry_id": 499447,
+      "comment": "item:噬尾蛇",
+      "key": "雅"
+    },
+    {
+      "entry_id": 500325,
+      "comment": "lore:猫形希人",
+      "key": "猫"
+    },
+    {
+      "entry_id": 734804,
+      "comment": "char:星见雅",
+      "key": "雅"
+    },
+    {
+      "entry_id": 742645,
+      "comment": "lore:狼形希人",
+      "key": "狼"
+    },
+    {
+      "entry_id": 777506,
+      "comment": "char:蕾",
+      "key": "蕾"
+    },
+    {
+      "entry_id": 797748,
+      "comment": "npc:阿釜",
+      "key": "貉"
+    },
+    {
+      "entry_id": 801514,
+      "comment": "npc:露比_凛_梦娜",
+      "key": "凛"
+    },
+    {
+      "entry_id": 819654,
+      "comment": "lore:熊形希人",
+      "key": "熊"
+    },
+    {
+      "entry_id": 914068,
+      "comment": "item:桶中鬼火",
+      "key": "桶"
+    },
+    {
+      "entry_id": 977329,
+      "comment": "lore:鲨形希人",
+      "key": "鲨"
+    }
+  ],
+  "core_character_fields": {
+    "性别": 81,
+    "年龄": 68,
+    "身高": 74,
+    "体重": 63,
+    "罩杯": 25,
+    "胸围": 9
+  },
+  "issues": [
+    {
+      "priority": "P0",
+      "description": "1条剧情前置条件引用不存在的章节",
+      "example": "三契密约 → 英雄不死于往昔"
+    },
+    {
+      "priority": "P1",
+      "description": "2条简略剧情的剧情概要为空"
+    },
+    {
+      "priority": "P1",
+      "description": "状态栏代码块正则主动产生 fenced code，与 Ui新 正则同时开启；需实机隔离测试"
+    },
+    {
+      "priority": "P1",
+      "description": "当前多套旧版剧情与 UI 脚本并存，须审计依赖与调用顺序，保留无损原始版本"
+    },
+    {
+      "priority": "P1",
+      "description": "人物信息不完全符合咩咩全栈的角色字段要求（特别是身高、体重、罩杯）"
+    },
+    {
+      "priority": "P2",
+      "description": "短键、单字关键词容易误触发，且可能引发多个条目重复注入"
+    },
+    {
+      "priority": "P2",
+      "description": "原版公开改编及脚本 NSFW Helper 需做内容许可与年龄边界审核"
+    },
+    {
+      "priority": "P2",
+      "description": "脚本导入外部未固定版本 CDN 依赖，需保留版本/离线兼容方案"
+    }
+  ]
+}
