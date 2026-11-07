@@ -1,0 +1,214 @@
+{
+  "version": "bangboo-chara-v1.0",
+  "based_on_commit": "277b5ce89e1052c6cc21cf4adbf0d5beae6e31c1",
+  "created": "2026-11-07",
+  "entry_kind": "character_only",
+  "status": "source_static_qa_not_assembled",
+  "template": "worldbook/characters/bangboo/README.md",
+  "orders": {
+    "start": 700,
+    "rule": "独立人物层暂定插入序号；最终装卡需与时间线、地点全量去重"
+  },
+  "defaults": {
+    "enabled": true,
+    "constant": false,
+    "selective": true,
+    "use_regex": true,
+    "position": "after_char",
+    "extensions": {
+      "position": 1,
+      "exclude_recursion": true,
+      "prevent_recursion": true
+    }
+  },
+  "entries": [
+    {
+      "name": "伊埃斯",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_伊埃斯.md",
+      "order": 700,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:伊埃斯|Eous)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "邦布18号",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_邦布18号.md",
+      "order": 701,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:邦布18号|18号邦布)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "4412号",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_4412号.md",
+      "order": 702,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:4412号|邦布4412号)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "艾米莉安",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_艾米莉安.md",
+      "order": 703,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:艾米莉安|Amillion)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "巴特勒",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_巴特勒.md",
+      "order": 704,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:巴特勒|Butler)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "鲨牙布",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_鲨牙布.md",
+      "order": 705,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:鲨牙布|Sharkboo)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "阿全",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_阿全.md",
+      "order": 706,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:阿全|Safety)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "阿崔巡查",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_阿崔巡查.md",
+      "order": 707,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:阿崔巡查|Officer Cui)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "罗宾",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_罗宾.md",
+      "order": 708,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:罗宾|Robin)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "骑士布",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_骑士布.md",
+      "order": 709,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:骑士布|Knightboo)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "企鹅布",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_企鹅布.md",
+      "order": 710,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:企鹅布|Penguinboo)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "纸袋布",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_纸袋布.md",
+      "order": 711,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:纸袋布|Bagboo)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "纸壳布",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_纸壳布.md",
+      "order": 712,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:纸壳布|Paperboo)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "共鸣布",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_共鸣布.md",
+      "order": 713,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:共鸣布|Resonaboo)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "阿饭",
+      "provenance": "official_game_or_story_npc",
+      "path": "worldbook/characters/bangboo/official/BOO-000_阿饭.md",
+      "order": 714,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:阿饭)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "橘团布",
+      "provenance": "user_requested_original_oc",
+      "path": "worldbook/characters/bangboo/original/BOO-000_橘团布.md",
+      "order": 715,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:橘团布)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "奶泡布",
+      "provenance": "user_requested_original_oc",
+      "path": "worldbook/characters/bangboo/original/BOO-000_奶泡布.md",
+      "order": 716,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:奶泡布)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "补丁布",
+      "provenance": "user_requested_original_oc",
+      "path": "worldbook/characters/bangboo/original/BOO-000_补丁布.md",
+      "order": 717,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:补丁布)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    },
+    {
+      "name": "星邮布",
+      "provenance": "user_requested_original_oc",
+      "path": "worldbook/characters/bangboo/original/BOO-000_星邮布.md",
+      "order": 718,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:星邮布)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ]
+    }
+  ],
+  "legacy": {
+    "name": "缄枢",
+    "path": "worldbook/characters/major/CHAR-064_缄枢.md",
+    "role": "existing_character_modified",
+    "do_not_duplicate": true,
+    "exclude_from_assembly": [
+      "worldbook/abilities/ABILITY-064_缄枢·能力.md"
+    ]
+  },
+  "boundaries": [
+    "do_not_change_BLUE_05",
+    "do_not_change_82_character_other_than_064",
+    "no_new_abilities",
+    "no_time_line_changes",
+    "not_android_tested",
+    "originals_can_be_revised"
+  ]
+}
