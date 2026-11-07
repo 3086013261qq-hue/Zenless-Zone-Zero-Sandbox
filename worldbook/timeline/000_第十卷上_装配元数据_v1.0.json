@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 10,
+  "part": "上",
+  "comment": "时间线:第十卷（上）·深渊中的微光",
+  "body_file": "worldbook/timeline/TIMELINE-010-上_深渊中的微光.md",
+  "source_chapters": [
+    {
+      "title": "将临未抵的深渊",
+      "kind": "主线",
+      "full_id": 866152,
+      "lite_id": 875565,
+      "source_event_slots": 5,
+      "source_explicit_blocks": 5,
+      "event_range": "A-E"
+    },
+    {
+      "title": "新黄金魔神战士",
+      "kind": "日常",
+      "full_id": 405936,
+      "lite_id": 21500,
+      "source_event_slots": 5,
+      "source_explicit_blocks": 5,
+      "event_range": "F-J"
+    },
+    {
+      "title": "「嗯呢」棋侠传",
+      "kind": "日常",
+      "full_id": 637574,
+      "lite_id": 347221,
+      "source_event_slots": 4,
+      "source_explicit_blocks": 4,
+      "event_range": "K-N"
+    },
+    {
+      "title": "流光札记",
+      "kind": "日常",
+      "full_id": 720478,
+      "lite_id": 514776,
+      "source_event_slots": 4,
+      "source_explicit_blocks": 4,
+      "event_range": "O-R"
+    },
+    {
+      "title": "兔子小姐百分百",
+      "kind": "日常",
+      "full_id": 328265,
+      "lite_id": 604952,
+      "source_event_slots": 4,
+      "source_explicit_blocks": 4,
+      "event_range": "S-V"
+    },
+    {
+      "title": "拟境序列对决",
+      "kind": "日常",
+      "full_id": 799132,
+      "lite_id": 843814,
+      "source_event_slots": 3,
+      "source_explicit_blocks": 3,
+      "event_range": "W-Y"
+    }
+  ],
+  "date_basis": "2081-02-03 to 2081-04-11, fictional internal-card chronology not official game event dates",
+  "sandbox_start": "2081-04-12",
+  "previous_part": "worldbook/timeline/TIMELINE-009-下_良夜与梦.md",
+  "next_part": "worldbook/timeline/TIMELINE-010-下_深渊中的微光.md",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 470,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Activate manually only when its narrative part is reached. Each half of volume 10 has a separate worldbook entry; only volume 1 upper is on initially. No auto-advance script.",
+  "stage_gates": [
+    {
+      "part": "上",
+      "event": "D",
+      "date": "2081-02-06",
+      "character": "叶瞬光",
+      "unlock": "青溟剑白发独角第二形态首次全面解放，用于驱逐始主",
+      "constraint": "此后承受记忆与生命反噬，不得将第二形态无代价常驻"
+    },
+    {
+      "part": "上",
+      "event": "E",
+      "date": "2081-02-10",
+      "character": "叶瞬光",
+      "unlock": "正式表现青溟剑记忆损耗，开启写日记留存记忆",
+      "constraint": "尚未成为正式虚狩"
+    }
+  ],
+  "static_qa": "qa/046_第十卷上下册_全栈来源时序与人物阶段静态QA_v1.0.md",
+  "script_deps": [],
+  "android_sillytavern_real_device": "NOT_RUN"
+}
