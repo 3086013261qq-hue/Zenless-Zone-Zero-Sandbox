@@ -1,0 +1,105 @@
+{
+  "version": "location-blue-skeleton-v1.0",
+  "date": "2026-11-07",
+  "base_commit": "272e95f0bfa8335f83b032040d5dfee365ce5169",
+  "supersedes": "docs/007_地点模块一条总蓝灯_分层方案_v1.0.md only for blue count; retains the location GREEN template and time/secret rules",
+  "stage": "location_blue_layer_completed_green_not_started",
+  "policy": {
+    "module": "locations",
+    "class": "location_blue",
+    "enabled": true,
+    "constant": true,
+    "selective": false,
+    "use_regex": false,
+    "keys": [],
+    "position": "before_char",
+    "extensions": {
+      "position": 0,
+      "exclude_recursion": true,
+      "prevent_recursion": true
+    },
+    "final_insertion_order": "defer until global CCV3 collision check",
+    "authorial_boundary": "all 9 WORLD BLUE frozen; no NPC/quests/revealed secrets/access unlock as location BLUE"
+  },
+  "entries": [
+    {
+      "id": "LOCATION-BLUE-00",
+      "title": "新艾利都与周边地理骨架",
+      "scope": "城与各大地域的位置和关系",
+      "path": "worldbook/locations/blue/LOCATION-BLUE-00_新艾利都与周边地理骨架.md",
+      "enabled": true,
+      "constant": true,
+      "selective": false,
+      "keys": []
+    },
+    {
+      "id": "LOCATION-BLUE-01",
+      "title": "新艾利都市区与滨海片区",
+      "scope": "城市各主要生活分区",
+      "path": "worldbook/locations/blue/LOCATION-BLUE-01_新艾利都市区与滨海片区.md",
+      "enabled": true,
+      "constant": true,
+      "selective": false,
+      "keys": []
+    },
+    {
+      "id": "LOCATION-BLUE-02",
+      "title": "外环与资源聚居地",
+      "scope": "外环聚落、交通、油气资源地貌",
+      "path": "worldbook/locations/blue/LOCATION-BLUE-02_外环与资源聚居地.md",
+      "enabled": true,
+      "constant": true,
+      "selective": false,
+      "keys": []
+    },
+    {
+      "id": "LOCATION-BLUE-03",
+      "title": "卫非地半岛与莱姆尼安周边",
+      "scope": "沿海山地、澄辉坪及邻近空洞地理",
+      "path": "worldbook/locations/blue/LOCATION-BLUE-03_卫非地半岛与莱姆尼安周边.md",
+      "enabled": true,
+      "constant": true,
+      "selective": false,
+      "keys": []
+    },
+    {
+      "id": "LOCATION-BLUE-04",
+      "title": "罗斯凯利法空域特区",
+      "scope": "罗斯凯利法城市、空域和管制区空间骨架",
+      "path": "worldbook/locations/blue/LOCATION-BLUE-04_罗斯凯利法空域特区.md",
+      "enabled": true,
+      "constant": true,
+      "selective": false,
+      "keys": []
+    }
+  ],
+  "follow_up": "location GREEN entries only after source card 71 loc classification; loc:巨洞 is a movie, not a physical place; shops/duplicates should be merged when appropriate",
+  "sources": [
+    {
+      "kind": "source_card",
+      "title": "绝区零_原卡无损提取_ccv3.json",
+      "count": "71 loc entries; 1 obvious movie misclassified as loc",
+      "availability": "user file library; not copied to repo"
+    },
+    {
+      "kind": "official",
+      "url": "https://wiki.hoyolab.com/pc/zzz/aggregate/21?lang=en-us",
+      "note": "district catalog"
+    },
+    {
+      "kind": "official",
+      "url": "https://zenless.hoyoverse.com/zh-cn/news/164779?catchSpider=1",
+      "note": "罗斯凯利法是独立于新艾利都市区的空域机密特区"
+    },
+    {
+      "kind": "official",
+      "url": "https://zzz.mihoyo.com/news/166026",
+      "note": "3.2 罗斯凯利法新增城区与管制区"
+    },
+    {
+      "kind": "official",
+      "url": "https://zenless.hoyoverse.com/zh-cn/news/166963",
+      "note": "3.3 新增罗斯凯利法管制区"
+    }
+  ]
+}
