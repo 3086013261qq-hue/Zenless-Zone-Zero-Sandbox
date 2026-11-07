@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 11,
+  "part": "下",
+  "comment": "时间线:第十一卷（下）·旧梦与新·艾利都日落",
+  "body_file": "worldbook/timeline/TIMELINE-011-下_旧梦与新艾利都日落.md",
+  "source_chapters": [
+    {
+      "title": "新·艾利都日落时 下",
+      "kind": "主线",
+      "full_id": 390363,
+      "lite_id": 295224,
+      "source_event_slots": 7,
+      "event_indices": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ]
+    }
+  ],
+  "date_basis": "2082-02-27 through 2082-03-06; constructed card-internal chronology, NOT official game dates",
+  "sandbox_start": "2082-03-07",
+  "previous_part": "worldbook/timeline/TIMELINE-011-中_旧梦与新艾利都日落.md",
+  "next_part": "worldbook/timeline/TIMELINE-012-上_某个梦游者的自白.md",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 474,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Each upper/middle/lower is a separate stand-alone worldbook entry. Activate manually in story order, and deactivate previous chapter; only volume 1 upper is enabled at card start, no MVU or automatic date script.",
+  "stage_gates": [
+    {
+      "part": "下",
+      "event": "B",
+      "date": "2082-03-01",
+      "subject": "比利·奇德",
+      "state_id": "STATE-005",
+      "trigger": "凯撒交付百年星徽甲胄，比利实际获准、穿戴并调试",
+      "constraint": "只有甲胄实际装备、可用和维护时才启用，狡兔屋的比利本体身份不变"
+    },
+    {
+      "part": "下",
+      "event": "F",
+      "date": "2082-03-06",
+      "subject": "铃",
+      "trigger": "外界古遗迹与旧都印记共鸣引发佩洛伊斯唯一宿主铃的焚昼异化，蕾米埃尔以最后一次虚狩救回",
+      "constraint": "哲绝非宿主；不可把焚昼当可随时无代价开启的战斗装备"
+    },
+    {
+      "part": "下",
+      "event": "G",
+      "date": "2082-03-06",
+      "subject": "蕾米埃尔·丹",
+      "trigger": "完成最后的告别，亲口留下罗斯凯利法线索并随日落消散",
+      "constraint": "不视作仍然存活的普通NPC；罗斯凯利法后续必须等第14卷展开"
+    }
+  ],
+  "static_qa": "qa/047_第十一卷上中下_来源单线与状态时序静态QA_v1.0.md",
+  "script_deps": [],
+  "android_sillytavern_real_device": "NOT_RUN"
+}
