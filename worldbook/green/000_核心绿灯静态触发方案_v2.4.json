@@ -356,7 +356,8 @@
           "调查员培训",
           "空洞调查许可",
           "空洞调查协会",
-          "H.I.A."
+          "H.I.A.",
+          "HIA"
         ],
         "secondary_keys": [],
         "enabled": true,
@@ -652,7 +653,8 @@
           "新艾利都公共安全",
           "刑侦特勤组",
           "治安局",
-          "N.E.P.S."
+          "N.E.P.S.",
+          "NEPS"
         ],
         "secondary_keys": [],
         "enabled": true,
@@ -2050,7 +2052,11 @@
       ]
     },
     "audit": "qa/058_绝区零_组织绿灯42条_新增触发与安全QA_v1.0.md",
-    "text_characters_recount": "15 metadata-only length corrections to standardize existing and new entries"
+    "text_characters_recount": "15 metadata-only length corrections to standardize existing and new entries",
+    "plain_acronym_aliases": {
+      "GREEN-07-01": "NEPS",
+      "GREEN-04-03": "HIA"
+    }
   },
   "blue_08_expansion": {
     "completed": true,
