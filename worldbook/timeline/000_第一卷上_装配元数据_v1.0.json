@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "status": "BODY_COMPLETE_STATIC_QA_PASS",
   "volume": 1,
   "part": "上",
@@ -17,8 +17,8 @@
       "lite_id": 307081
     }
   ],
-  "date_basis": "2077-04-01 to 2077-04-04: internal card chronology only, not official / not inherited initial variable date",
-  "sandbox_start": "2077-04-05",
+  "date_basis": "2077-04-01 to 2077-04-14, internal-card chronology only (not official)",
+  "sandbox_start": "2077-04-15",
   "keys": [],
   "secondary_keys": [],
   "enabled": true,
@@ -35,8 +35,9 @@
   "load_policy": "Only first standalone timeline part is enabled by default; manually switch to next part when story advances",
   "script_deps": [],
   "other_parts_written": 1,
-  "static_qa": "qa/035_第一卷上_全栈时间线来源与状态静态QA_v1.0.md",
+  "static_qa": "qa/037_第一卷_时间空档优化与全栈格式核验_v1.1.md",
   "android_sillytavern_real_device": "NOT_RUN",
   "next_part": "worldbook/timeline/TIMELINE-001-下_法厄同启程.md",
-  "paired_volume_status": "VOLUME_01_UPPER_AND_LOWER_COMPLETE"
+  "paired_volume_status": "VOLUME_01_UPPER_AND_LOWER_COMPLETE",
+  "chronology_revision": "Non-urgent scenes staggered; original D1 neighbor scene moved to H1 post-rescue and L1 training moved to P1 post-rescue; same-day urgent rescue beats stay contiguous"
 }
