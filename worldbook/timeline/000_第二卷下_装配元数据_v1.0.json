@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 2,
+  "part": "下",
+  "comment": "时间线:第二卷（下）·新艾利都的暗流",
+  "body_file": "worldbook/timeline/TIMELINE-002-下_新艾利都的暗流.md",
+  "source_chapters": [
+    {
+      "name": "危楼夜寻踪",
+      "kind": "主线",
+      "full_id": 328246,
+      "lite_id": 162567,
+      "source_scenes": 6,
+      "event_range": "A-F"
+    },
+    {
+      "name": "代理人秘闻：直到您彻底遗忘",
+      "kind": "支线",
+      "full_id": 552655,
+      "lite_id": 36679,
+      "source_scenes": 4,
+      "event_range": "G-I, I1"
+    },
+    {
+      "name": "代理人秘闻「失踪邦口」",
+      "kind": "支线",
+      "full_id": 716710,
+      "lite_id": 527919,
+      "source_scenes": 6,
+      "event_range": "J-M, M1"
+    },
+    {
+      "name": "代理人秘闻「而英雄总是归于幕后」",
+      "kind": "支线",
+      "full_id": 551508,
+      "lite_id": 674986,
+      "source_scenes": 5,
+      "event_range": "N-P, P1"
+    },
+    {
+      "name": "沙罗黄金周：从淘金美梦到假日保卫战",
+      "kind": "支线",
+      "full_id": 3758,
+      "lite_id": 744905,
+      "source_scenes": 8,
+      "event_range": "Q-T, R1"
+    },
+    {
+      "name": "第一幕，第一镜！",
+      "kind": "日常",
+      "full_id": 802065,
+      "lite_id": 488771,
+      "source_scenes": 4,
+      "event_range": "U-W, W1"
+    }
+  ],
+  "date_basis": "2077-07-31 to 2077-09-19, card-internal fictional anchors only; not canon publication dates",
+  "previous_part": "worldbook/timeline/TIMELINE-002-上_新艾利都的暗流.md",
+  "next_part": "worldbook/timeline/TIMELINE-003-上_卧底与外环风云.md",
+  "sandbox_start": "2077-09-20",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 457,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Manual chapter/part switch; at card start only volume 1 upper is enabled. This part remains disabled until reached; never enable both halves as one block.",
+  "script_deps": [],
+  "static_qa": "qa/038_第二卷上下册_全栈来源时间与状态静态QA_v1.0.md",
+  "android_sillytavern_real_device": "NOT_RUN"
+}
