@@ -1,0 +1,587 @@
+{
+  "version": "source-loc-audit-v1.0",
+  "date": "2026-11-07",
+  "source_file": "绝区零_原卡无损提取_ccv3.json",
+  "source_book_total": 707,
+  "source_loc_count": 71,
+  "green_count": 64,
+  "green_source_ids_count": 68,
+  "fully_routed": true,
+  "merged_and_excluded": [
+    {
+      "id": 965944,
+      "title": "巨洞",
+      "decision": "EXCLUDE_NOT_PLACE",
+      "target": "media_future_if_requested",
+      "reason": "原卡loc误分类；此条是电影，不是地理位置"
+    },
+    {
+      "id": 690044,
+      "title": "外环",
+      "decision": "MERGE_INTO_ALREADY_COMPLETED_BLUE",
+      "target": "LOCATION-BLUE-02",
+      "reason": "区域常驻骨架已承载；具体野火镇、老油田等保留独立GREEN"
+    },
+    {
+      "id": 828201,
+      "title": "卫非地半岛",
+      "decision": "MERGE_INTO_ALREADY_COMPLETED_BLUE",
+      "target": "LOCATION-BLUE-03",
+      "reason": "大区常驻蓝灯已概述；澄辉坪、莱姆尼安等独立落地"
+    },
+    {
+      "id": 169690,
+      "title": "海神雕像",
+      "decision": "MERGE_INTO_LOCATION_GREEN",
+      "target": "LOCATION-GREEN-004",
+      "reason": "港口内部单点雕像，无须另开整篇；许愿只是城市传闻"
+    },
+    {
+      "id": 508317,
+      "title": "桶之贤者",
+      "decision": "CORRECT_MISCLASSIFICATION_AND_MERGE_LANDMARK",
+      "target": "LOCATION-GREEN-002",
+      "reason": "原卡将垃圾桶关联角色/地标写成酒吧；不虚构酒馆"
+    },
+    {
+      "id": 102114,
+      "title": "酣然蓝调",
+      "decision": "MERGE_INTO_STREET_LOCATION",
+      "target": "LOCATION-GREEN-064",
+      "reason": "贝克福德街商铺，合并同一路段"
+    },
+    {
+      "id": 122684,
+      "title": "布司康",
+      "decision": "MERGE_INTO_STREET_LOCATION",
+      "target": "LOCATION-GREEN-064",
+      "reason": "贝克福德街商铺，合并同一路段"
+    },
+    {
+      "id": 457669,
+      "title": "吼吼饼铺",
+      "decision": "MERGE_INTO_STREET_LOCATION",
+      "target": "LOCATION-GREEN-064",
+      "reason": "贝克福德街商铺，合并同一路段"
+    }
+  ],
+  "entries": [
+    {
+      "source_ids": [
+        701664
+      ],
+      "target": "LOCATION-GREEN-001",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-001_六分街.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        629902,
+        508317
+      ],
+      "target": "LOCATION-GREEN-002",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-002_光映广场.md",
+      "decision": "MERGED_SOURCE_TO_ONE_PLACE"
+    },
+    {
+      "source_ids": [
+        631427
+      ],
+      "target": "LOCATION-GREEN-003",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-003_芭莱大厦前.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        447313,
+        169690
+      ],
+      "target": "LOCATION-GREEN-004",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-004_厄匹斯港.md",
+      "decision": "MERGED_SOURCE_TO_ONE_PLACE"
+    },
+    {
+      "source_ids": [
+        180788
+      ],
+      "target": "LOCATION-GREEN-005",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-005_星环.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        972308
+      ],
+      "target": "LOCATION-GREEN-006",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-006_热望角.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        147390
+      ],
+      "target": "LOCATION-GREEN-007",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-007_回响斗技场.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        155384
+      ],
+      "target": "LOCATION-GREEN-008",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-008_布兰特街工地.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        793736
+      ],
+      "target": "LOCATION-GREEN-009",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-009_黑雁工地旧址.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        286566
+      ],
+      "target": "LOCATION-GREEN-010",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-010_Random Play录像店.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        684651
+      ],
+      "target": "LOCATION-GREEN-011",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-011_404 ERROR Livehouse.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        131117
+      ],
+      "target": "LOCATION-GREEN-012",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-012_141便利店.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        84826
+      ],
+      "target": "LOCATION-GREEN-013",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-013_金手指电玩店.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        916631
+      ],
+      "target": "LOCATION-GREEN-014",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-014_COFF CAFE.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        819832
+      ],
+      "target": "LOCATION-GREEN-015",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-015_瀑汤谷.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        649466
+      ],
+      "target": "LOCATION-GREEN-016",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-016_盒子银河玩具店.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        157094
+      ],
+      "target": "LOCATION-GREEN-017",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-017_吟游唱针.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        723902
+      ],
+      "target": "LOCATION-GREEN-018",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-018_涡轮改装店.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        718349
+      ],
+      "target": "LOCATION-GREEN-019",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-019_城市报刊亭.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        393260
+      ],
+      "target": "LOCATION-GREEN-020",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-020_引力影院.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        420611
+      ],
+      "target": "LOCATION-GREEN-021",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-021_HIA俱乐部.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        389550
+      ],
+      "target": "LOCATION-GREEN-022",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-022_比弗森美容沙龙.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        906432
+      ],
+      "target": "LOCATION-GREEN-023",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-023_露珠园艺店.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        167335
+      ],
+      "target": "LOCATION-GREEN-024",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-024_笃逸理疗工作室.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        836073
+      ],
+      "target": "LOCATION-GREEN-025",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-025_理查醇奶.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        450595
+      ],
+      "target": "LOCATION-GREEN-026",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-026_煮釜.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        519064
+      ],
+      "target": "LOCATION-GREEN-027",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-027_三Z工作室.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        722135
+      ],
+      "target": "LOCATION-GREEN-028",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-028_白波医院.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        516251
+      ],
+      "target": "LOCATION-GREEN-029",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-029_鲁斯理工学院.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        335103
+      ],
+      "target": "LOCATION-GREEN-030",
+      "path": "worldbook/locations/green/city/LOCATION-GREEN-030_墨提斯综合学校.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        93010
+      ],
+      "target": "LOCATION-GREEN-031",
+      "path": "worldbook/locations/green/hollow/LOCATION-GREEN-031_死路空洞.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        559289
+      ],
+      "target": "LOCATION-GREEN-032",
+      "path": "worldbook/locations/green/hollow/LOCATION-GREEN-032_克里特空洞.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        764051
+      ],
+      "target": "LOCATION-GREEN-033",
+      "path": "worldbook/locations/green/hollow/LOCATION-GREEN-033_零号空洞.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        290314
+      ],
+      "target": "LOCATION-GREEN-034",
+      "path": "worldbook/locations/green/hollow/LOCATION-GREEN-034_大裂谷.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        536434
+      ],
+      "target": "LOCATION-GREEN-035",
+      "path": "worldbook/locations/green/hollow/LOCATION-GREEN-035_斯科特前哨.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        966307
+      ],
+      "target": "LOCATION-GREEN-036",
+      "path": "worldbook/locations/green/hollow/LOCATION-GREEN-036_白星院.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        323506
+      ],
+      "target": "LOCATION-GREEN-037",
+      "path": "worldbook/locations/green/coast/LOCATION-GREEN-037_幻海奇境.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        116301
+      ],
+      "target": "LOCATION-GREEN-038",
+      "path": "worldbook/locations/green/coast/LOCATION-GREEN-038_幻海水族馆.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        163163
+      ],
+      "target": "LOCATION-GREEN-039",
+      "path": "worldbook/locations/green/outer/LOCATION-GREEN-039_野火镇.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        798280
+      ],
+      "target": "LOCATION-GREEN-040",
+      "path": "worldbook/locations/green/outer/LOCATION-GREEN-040_余烬竞技场.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        340484
+      ],
+      "target": "LOCATION-GREEN-041",
+      "path": "worldbook/locations/green/outer/LOCATION-GREEN-041_老油田与灰烬湖.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        865621
+      ],
+      "target": "LOCATION-GREEN-042",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-042_澄辉坪.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        454949
+      ],
+      "target": "LOCATION-GREEN-043",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-043_云岿山.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        144022
+      ],
+      "target": "LOCATION-GREEN-044",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-044_随便观.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        470846
+      ],
+      "target": "LOCATION-GREEN-045",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-045_释诡斋.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        296782
+      ],
+      "target": "LOCATION-GREEN-046",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-046_好物铺.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        42684
+      ],
+      "target": "LOCATION-GREEN-047",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-047_金刚钻.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        136434
+      ],
+      "target": "LOCATION-GREEN-048",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-048_平心堂.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        641253
+      ],
+      "target": "LOCATION-GREEN-049",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-049_德丰大押.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        567035
+      ],
+      "target": "LOCATION-GREEN-050",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-050_饮茶仙.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        682973
+      ],
+      "target": "LOCATION-GREEN-051",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-051_茸毛宠物店.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        554300
+      ],
+      "target": "LOCATION-GREEN-052",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-052_BooBox.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        395338
+      ],
+      "target": "LOCATION-GREEN-053",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-053_泅珑围.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        663969
+      ],
+      "target": "LOCATION-GREEN-054",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-054_莱姆尼安空洞.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        302384
+      ],
+      "target": "LOCATION-GREEN-055",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-055_航天城废墟.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        628880
+      ],
+      "target": "LOCATION-GREEN-056",
+      "path": "worldbook/locations/green/waifei/LOCATION-GREEN-056_青溟秘境.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        785317
+      ],
+      "target": "LOCATION-GREEN-057",
+      "path": "worldbook/locations/green/roscaill/LOCATION-GREEN-057_空域总控塔.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        900902
+      ],
+      "target": "LOCATION-GREEN-058",
+      "path": "worldbook/locations/green/roscaill/LOCATION-GREEN-058_算枢广场.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        410086
+      ],
+      "target": "LOCATION-GREEN-059",
+      "path": "worldbook/locations/green/roscaill/LOCATION-GREEN-059_奥蕾莉亚学院.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        322303
+      ],
+      "target": "LOCATION-GREEN-060",
+      "path": "worldbook/locations/green/roscaill/LOCATION-GREEN-060_琥珀馆.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        187114
+      ],
+      "target": "LOCATION-GREEN-061",
+      "path": "worldbook/locations/green/roscaill/LOCATION-GREEN-061_艾玫尔中央公园.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        139909
+      ],
+      "target": "LOCATION-GREEN-062",
+      "path": "worldbook/locations/green/roscaill/LOCATION-GREEN-062_片刻闲.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        186732
+      ],
+      "target": "LOCATION-GREEN-063",
+      "path": "worldbook/locations/green/roscaill/LOCATION-GREEN-063_Charge邦布充电站.md",
+      "decision": "REFINED_INDEPENDENT_PLACE"
+    },
+    {
+      "source_ids": [
+        102114,
+        122684,
+        457669
+      ],
+      "target": "LOCATION-GREEN-064",
+      "path": "worldbook/locations/green/roscaill/LOCATION-GREEN-064_贝克福德街餐饮带.md",
+      "decision": "MERGED_SOURCE_TO_ONE_PLACE"
+    }
+  ],
+  "notes": "原卡不能冒充逐条官方地图核验；非地理电影、失实地点信息不入地点GREEN。"
+}
