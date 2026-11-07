@@ -1,6 +1,6 @@
 {
-  "version": "1.0",
-  "status": "BODY_COMPLETE_STATIC_QA_PASS_OFFICIAL_SOURCE_DETAIL_PARTIAL",
+  "version": "1.1",
+  "status": "BODY_REVISED_GAME_TEXT_CROSSCHECK_STATIC_QA_PASS",
   "volume": 14,
   "part": "上",
   "comment": "时间线:第十四卷（上）·罗斯凯利法新章（正式3.2主线她与她的隐秘往事）",
@@ -63,10 +63,38 @@
       "subject": "林德薇恩",
       "fact": "向法厄同披露三位挽昼业核源于最初挽昼分割",
       "boundary": "初代挽昼完整经历直到下H梦境才讲述"
+    },
+    {
+      "part": "上",
+      "event": "A",
+      "subject": "哲与希希芙",
+      "fact": "留下琥珀馆看护菲欧妮，铃才与林德薇恩出发",
+      "boundary": "不能将哲同时安排在维尔乌姆前线"
+    },
+    {
+      "part": "上",
+      "event": "C",
+      "subject": "狡兔屋",
+      "fact": "妮可、安比及同伴被关押后获救，安比身体不适",
+      "boundary": "不得写成从未入狱"
+    },
+    {
+      "part": "上",
+      "event": "D",
+      "subject": "洛克茜",
+      "fact": "查到卡利内斯的异常行为后被泄露奇点卷走",
+      "boundary": "铃当时不能已知全部幕后情节"
+    },
+    {
+      "part": "上",
+      "event": "F",
+      "subject": "菲欧妮",
+      "fact": "从主岛坠到维尔乌姆，身份尚未向铃公开",
+      "boundary": "真实黑枝身份与哲被拘在下册A才由菲欧妮及Fairy说明"
     }
   ],
   "source_manifest": "worldbook/timeline/000_第十四卷_官方3_2与3_3剧情来源事件映射_v1.0.json",
-  "source_verification": "OFFICIAL_VERSION_AND_AREAS_VERIFIED__STORY_EVENT_DETAILS_NEED_FULL_IN_GAME_COMPARISON",
+  "source_verification": "OFFICIAL_RELEASE_VERIFIED__PUBLISHED_GAME_DIALOGUE_AND_ARCHIVE_CROSSCHECKED__DIRECT_IN_GAME_PLAYBACK_NOT_RUN",
   "continuity_warnings": [
     {
       "id": "REM-11-14",
@@ -85,7 +113,12 @@
       "status": "OPEN"
     }
   ],
-  "static_qa": "qa/050_第十四卷上下册_官方版本核验与全栈时间线静态QA_v1.0.md",
+  "static_qa": "qa/051_第十四卷官方剧情逐幕交叉核验与正式返工_v1.1.md",
   "script_deps": [],
-  "android_sillytavern_real_device": "NOT_RUN"
+  "android_sillytavern_real_device": "NOT_RUN",
+  "official_game_replay": "NOT_RUN",
+  "source_note": "Direct released-game text crosscheck through non-official community transcript; not first-party official full script or personal game client run. Dates are internal RP chronology.",
+  "event_count": 7,
+  "story_event_count": 6,
+  "sandbox_event": "G"
 }
