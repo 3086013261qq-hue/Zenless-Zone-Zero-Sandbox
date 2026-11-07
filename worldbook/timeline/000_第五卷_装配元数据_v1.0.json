@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "status": "BODY_COMPLETE_STATIC_QA_PENDING",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
   "volume": 5,
   "part": "独卷",
   "comment": "时间线:第五卷·金翅雀与闪耀的此刻",
@@ -107,5 +107,8 @@
   "load_policy": "Manual switch after completing volume 4 lower; only volume 1 upper enabled initially, this independent volume remains disabled by default.",
   "script_deps": [],
   "static_qa": "qa/041_第五卷_金翅雀与闪耀的此刻_来源编年与状态静态QA_v1.0.md",
-  "android_sillytavern_real_device": "NOT_RUN"
+  "android_sillytavern_real_device": "NOT_RUN",
+  "static_qa_completed": true,
+  "event_count": 57,
+  "original_source_scenes": 56
 }
