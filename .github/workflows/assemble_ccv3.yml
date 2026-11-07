@@ -4,7 +4,7 @@ on:
     branches: [main]
     paths:
       - 'assembly/**'
-      - 'scripts/**'
+      - 'scripts/build_fullcard.py'
       - '.github/workflows/assemble_ccv3.yml'
   workflow_dispatch:
 permissions:
@@ -12,17 +12,20 @@ permissions:
 jobs:
   assemble:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Verify environment
-        run: |
-          python --version
-          mkdir -p assembly/dist
-          printf 'workflow available\n' > assembly/dist/smoke.txt
-      - name: Upload initial QA output
+      - name: Build full CCV3 and worldbook
+        run: python scripts/build_fullcard.py
+      - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: zenless-assembly-smoke
-          path: assembly/dist/smoke.txt
+          name: zenless-ccv3-fullstack-v1.0.0
+          path: |
+            assembly/card/dist/*.json
+            assembly/worldbook/dist/*.json
+            assembly/qa/*.json
+            assembly/qa/*.md
+          if-no-files-found: error
+          retention-days: 90
