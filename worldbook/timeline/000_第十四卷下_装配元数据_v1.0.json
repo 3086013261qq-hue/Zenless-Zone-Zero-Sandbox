@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "status": "BODY_REVISED_GAME_TEXT_CROSSCHECK_STATIC_QA_PASS",
   "volume": 14,
   "part": "下",
@@ -117,7 +117,7 @@
   "continuity_warnings": [
     {
       "id": "REM-11-14",
-      "status": "OPEN"
+      "status": "RESOLVED_AFTER_2_8_3_1_CROSSCHECK"
     },
     {
       "id": "TRI-13-14",
@@ -129,7 +129,7 @@
     },
     {
       "id": "TOU-13",
-      "status": "OPEN"
+      "status": "RESOLVED_AFTER_2_8_3_1_CROSSCHECK"
     }
   ],
   "static_qa": "qa/051_第十四卷官方剧情逐幕交叉核验与正式返工_v1.1.md",
@@ -139,5 +139,6 @@
   "source_note": "Direct released-game text crosscheck through non-official community transcript; not first-party official full script or personal game client run. Dates are internal RP chronology.",
   "event_count": 10,
   "story_event_count": 9,
-  "sandbox_event": "J"
+  "sandbox_event": "J",
+  "canon_qa": "qa/053_绝区零_原著待审事件_正式纠错与跨卷复核_v1.0.md"
 }
