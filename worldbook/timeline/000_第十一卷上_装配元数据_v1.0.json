@@ -1,0 +1,120 @@
+{
+  "version": "1.0",
+  "status": "BODY_COMPLETE_STATIC_QA_PASS",
+  "volume": 11,
+  "part": "上",
+  "comment": "时间线:第十一卷（上）·旧梦与新·艾利都日落",
+  "body_file": "worldbook/timeline/TIMELINE-011-上_旧梦与新艾利都日落.md",
+  "source_chapters": [
+    {
+      "title": "旧梦的安可曲",
+      "kind": "主线",
+      "full_id": 949051,
+      "lite_id": 925007,
+      "source_event_slots": 6,
+      "event_indices": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "H"
+      ]
+    },
+    {
+      "title": "妄想协鸣于此刻",
+      "kind": "支线",
+      "full_id": 31700,
+      "lite_id": 423490,
+      "source_event_slots": 4,
+      "event_indices": [
+        "M",
+        "N",
+        "O",
+        "P"
+      ]
+    },
+    {
+      "title": "「福」至沓来",
+      "kind": "日常",
+      "full_id": 984821,
+      "lite_id": 156419,
+      "source_event_slots": 3,
+      "event_indices": [
+        "F",
+        "G",
+        "I"
+      ]
+    },
+    {
+      "title": "满分集卡专家",
+      "kind": "日常",
+      "full_id": 965738,
+      "lite_id": 322230,
+      "source_event_slots": 3,
+      "event_indices": [
+        "Q",
+        "R",
+        "S"
+      ]
+    },
+    {
+      "title": "咔嚓！虚境大作战",
+      "kind": "日常",
+      "full_id": 893374,
+      "lite_id": 558886,
+      "source_event_slots": 6,
+      "event_indices": [
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y"
+      ]
+    },
+    {
+      "title": "引力映叙时光",
+      "kind": "日常",
+      "full_id": 975593,
+      "lite_id": 913796,
+      "source_event_slots": 3,
+      "event_indices": [
+        "J",
+        "K",
+        "L"
+      ]
+    }
+  ],
+  "date_basis": "2081-12-19 through 2082-02-04; constructed card-internal chronology, NOT official game dates",
+  "sandbox_start": "2082-02-05",
+  "previous_part": "worldbook/timeline/TIMELINE-010-下_深渊中的微光.md",
+  "next_part": "worldbook/timeline/TIMELINE-011-中_旧梦与新艾利都日落.md",
+  "keys": [],
+  "secondary_keys": [],
+  "enabled": false,
+  "constant": true,
+  "selective": false,
+  "use_regex": false,
+  "insertion_order": 472,
+  "position": "before_char",
+  "extensions": {
+    "position": 0,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "load_policy": "Each upper/middle/lower is a separate stand-alone worldbook entry. Activate manually in story order, and deactivate previous chapter; only volume 1 upper is enabled at card start, no MVU or automatic date script.",
+  "stage_gates": [
+    {
+      "part": "上",
+      "event": "D",
+      "date": "2081-12-27",
+      "subject": "爱芮",
+      "trigger": "经Fairy和同伴的记忆协助挣脱Youkai的操控，得知最初许愿精灵是Fairy",
+      "constraint": "在此事件前不提前获知原始许愿精灵身份；网络攻击仍未结束"
+    }
+  ],
+  "static_qa": "qa/047_第十一卷上中下_来源单线与状态时序静态QA_v1.0.md",
+  "script_deps": [],
+  "android_sillytavern_real_device": "NOT_RUN"
+}
