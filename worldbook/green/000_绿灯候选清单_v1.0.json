@@ -1,0 +1,1930 @@
+{
+  "version": "1.0",
+  "date": "2026-11-07",
+  "phase": "GREEN_DIRECTORY_CANDIDATE_NOT_PRODUCTION",
+  "blue_baseline": "0b673eb8887fef253e2463122bcc3aabd707c9e1",
+  "blue_frozen": true,
+  "source_png": "zzz-4 (1).png",
+  "source_sha256": "3e8c450438fe7fdf4634043c46d113d546a1db82ba3afe66d82e02f174dc335d",
+  "green_candidates": [
+    {
+      "id": "GREEN-01-01",
+      "parent_blue": "BLUE-01",
+      "title": "旧文明的技术与文化遗存",
+      "source_ids": [
+        133356
+      ],
+      "proposed_literal_keys": [
+        "旧文明遗产",
+        "旧文明科技"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-01-02",
+      "parent_blue": "BLUE-01",
+      "title": "虚狩荣誉与历史制度",
+      "source_ids": [
+        161827
+      ],
+      "proposed_literal_keys": [
+        "虚狩",
+        "七虚狩"
+      ],
+      "priority": "P1",
+      "gate": "SOURCE_REVIEW",
+      "rule_note": "旧卡含游戏版本模板和部分未证实七虚狩名单；只整理制度与来源经过复核的人名",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-02-01",
+      "parent_blue": "BLUE-02",
+      "title": "伴生空洞与母体裂隙",
+      "source_ids": [
+        215863
+      ],
+      "proposed_literal_keys": [
+        "伴生空洞",
+        "母体空洞"
+      ],
+      "priority": "P1",
+      "gate": "SOURCE_REVIEW",
+      "rule_note": "母体消亡必然消除全部伴生空洞的绝对关系需要核验",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-02-02",
+      "parent_blue": "BLUE-02",
+      "title": "泄露奇点与单向空间裂隙",
+      "source_ids": [
+        142987
+      ],
+      "proposed_literal_keys": [
+        "泄露奇点"
+      ],
+      "priority": "P2",
+      "gate": "TIMELINE_GATE",
+      "rule_note": "原卡含佩洛伊斯解除奇点的剧情能力，须先按铃寄宿主线解锁，能力部分归能力层",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-02-03",
+      "parent_blue": "BLUE-02",
+      "title": "辉耀现象与以太干扰探针",
+      "source_ids": [
+        641068,
+        41245
+      ],
+      "proposed_literal_keys": [
+        "辉耀现象",
+        "以太干扰探针"
+      ],
+      "priority": "P2",
+      "gate": "TIMELINE_GATE",
+      "rule_note": "特定后期事件技术，不提前让所有人会用",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-03-01",
+      "parent_blue": "BLUE-03",
+      "title": "以太适性检测与耐受差异",
+      "source_ids": [
+        56536
+      ],
+      "proposed_literal_keys": [
+        "以太适性检测",
+        "适性测试"
+      ],
+      "priority": "P0",
+      "gate": "SOURCE_REVIEW",
+      "rule_note": "原卡0–100及50分门槛不得当官方统一量表",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-03-02",
+      "parent_blue": "BLUE-03",
+      "title": "腐蚀进程与侵蚀体",
+      "source_ids": [
+        173199,
+        582897
+      ],
+      "proposed_literal_keys": [
+        "侵蚀体",
+        "以太腐蚀症状"
+      ],
+      "priority": "P0",
+      "gate": "OPEN",
+      "rule_note": "避免普通接触即秒变以骸",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-03-03",
+      "parent_blue": "BLUE-03",
+      "title": "以骸生态与异变类别",
+      "source_ids": [
+        582897
+      ],
+      "proposed_literal_keys": [
+        "以骸生态",
+        "以骸分类"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "以骸、侵蚀体和牲鬼来源不同；具体敌人归mob独立层",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-03-04",
+      "parent_blue": "BLUE-03",
+      "title": "以太适性退化综合症",
+      "source_ids": [
+        72
+      ],
+      "proposed_literal_keys": [
+        "以太适性退化综合症"
+      ],
+      "priority": "P2",
+      "gate": "SOURCE_REVIEW",
+      "rule_note": "原卡特定最长寿命与治疗断言待核，可能属于特定剧情疾病",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-03-05",
+      "parent_blue": "BLUE-03",
+      "title": "认知腐蚀综合症",
+      "source_ids": [
+        740063
+      ],
+      "proposed_literal_keys": [
+        "认知腐蚀综合症",
+        "CCS综合症"
+      ],
+      "priority": "P2",
+      "gate": "SOURCE_REVIEW",
+      "rule_note": "避免和普通腐蚀、适性退化重复",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-03-06",
+      "parent_blue": "BLUE-03",
+      "title": "秽息与精神侵蚀",
+      "source_ids": [
+        243976
+      ],
+      "proposed_literal_keys": [
+        "秽息",
+        "莱姆尼安秽息"
+      ],
+      "priority": "P1",
+      "gate": "TIMELINE_GATE",
+      "rule_note": "莱姆尼安后期特有；觉感术属能力；环境地理归地点",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-04-01",
+      "parent_blue": "BLUE-04",
+      "title": "绳网委托与中间人",
+      "source_ids": [
+        319126
+      ],
+      "proposed_literal_keys": [
+        "绳网委托",
+        "绳网中间人"
+      ],
+      "priority": "P0",
+      "gate": "OPEN",
+      "rule_note": "不要把委托人、中间人、代理人、绳匠合为一人",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-04-02",
+      "parent_blue": "BLUE-04",
+      "title": "萝卜制作与罗塞塔数据",
+      "source_ids": [
+        290820,
+        688475
+      ],
+      "proposed_literal_keys": [
+        "空洞萝卜",
+        "罗塞塔数据"
+      ],
+      "priority": "P0",
+      "gate": "OPEN",
+      "rule_note": "「萝卜」泛词与蔬菜可能撞词，先不用单独关键词",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-04-03",
+      "parent_blue": "BLUE-04",
+      "title": "空洞调查员许可与调查流程",
+      "source_ids": [
+        961723,
+        163717
+      ],
+      "proposed_literal_keys": [
+        "空洞调查员",
+        "调查员许可"
+      ],
+      "priority": "P1",
+      "gate": "SOURCE_REVIEW",
+      "rule_note": "HIA不隶属HAND；避免重复GREEN-07-02组织介绍",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-04-04",
+      "parent_blue": "BLUE-04",
+      "title": "代理人与盗洞客的入洞协作",
+      "source_ids": [
+        163717,
+        319126
+      ],
+      "proposed_literal_keys": [
+        "盗洞客委托",
+        "代理人入洞"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "不是所有代理人都违法，也不是所有绳匠亲自进洞",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-05-01",
+      "parent_blue": "BLUE-05",
+      "title": "邦布任务类型与日常服务",
+      "source_ids": [
+        429491
+      ],
+      "proposed_literal_keys": [
+        "邦布工作",
+        "邦布救援"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "不作邦布全体公民身份推断",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-05-02",
+      "parent_blue": "BLUE-05",
+      "title": "邦布语言翻译及专用网络",
+      "source_ids": [
+        429491,
+        772490
+      ],
+      "proposed_literal_keys": [
+        "邦布网络",
+        "邦布语翻译"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "伊埃斯与HDD专属控制归BLUE-09",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-05-03",
+      "parent_blue": "BLUE-05",
+      "title": "禁果测试与构装公民资格",
+      "source_ids": [
+        887385
+      ],
+      "proposed_literal_keys": [
+        "禁果测试",
+        "机械公民资格"
+      ],
+      "priority": "P0",
+      "gate": "SOURCE_REVIEW",
+      "rule_note": "普通邦布不自动取得公民资格；核验特殊例外",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-05-04",
+      "parent_blue": "BLUE-05",
+      "title": "智能构装与逻辑核心",
+      "source_ids": [
+        65506
+      ],
+      "proposed_literal_keys": [
+        "智能构装体",
+        "逻辑核心"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "机械外形和独立意识不能混同",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-06-01",
+      "parent_blue": "BLUE-06",
+      "title": "希人的形态谱系",
+      "source_ids": [
+        321617
+      ],
+      "proposed_literal_keys": [
+        "希人种族",
+        "希人形态"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "不将全部希人写成兽耳少女",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-06-02",
+      "parent_blue": "BLUE-06",
+      "title": "猫形希人的物种差异",
+      "source_ids": [
+        500325
+      ],
+      "proposed_literal_keys": [
+        "猫形希人",
+        "猫系希人"
+      ],
+      "priority": "P2",
+      "gate": "SOURCE_REVIEW",
+      "rule_note": "具体食物与行为限制不泛化到所有猫形希人",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-06-03",
+      "parent_blue": "BLUE-06",
+      "title": "大型兽形希人的体态",
+      "source_ids": [
+        819654,
+        742645,
+        254064
+      ],
+      "proposed_literal_keys": [
+        "熊形希人",
+        "狼形希人",
+        "虎形希人"
+      ],
+      "priority": "P2",
+      "gate": "OPEN",
+      "rule_note": "不同物种的体型与习性逐条检查，不据名字自动引入动物全部习性",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-06-04",
+      "parent_blue": "BLUE-06",
+      "title": "鬼人的社会身份与历史",
+      "source_ids": [
+        724029
+      ],
+      "proposed_literal_keys": [
+        "鬼人族",
+        "鬼人历史"
+      ],
+      "priority": "P1",
+      "gate": "TIMELINE_GATE",
+      "rule_note": "原卡对鬼人公民权及月城柳历史表述待官方核验，注意剧透",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-06-05",
+      "parent_blue": "BLUE-06",
+      "title": "城市节庆与邦布民俗",
+      "source_ids": [
+        36122
+      ],
+      "proposed_literal_keys": [
+        "镀金胡萝卜日",
+        "邦布选美大赛"
+      ],
+      "priority": "P2",
+      "gate": "SOURCE_REVIEW",
+      "rule_note": "节日真伪与时段核对；不与邦布种族规则重叠",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-06-06",
+      "parent_blue": "BLUE-06",
+      "title": "居民即时通讯与新闻传媒",
+      "source_ids": [
+        672636,
+        833115,
+        912276
+      ],
+      "proposed_literal_keys": [
+        "敲敲通讯",
+        "利都通讯",
+        "新闻报"
+      ],
+      "priority": "P2",
+      "gate": "OPEN",
+      "rule_note": "通讯服务与具体媒体机构分别标注来源；弱候选可合并或删除",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-06-07",
+      "parent_blue": "BLUE-06",
+      "title": "空洞题材的VR竞技娱乐",
+      "source_ids": [
+        600322
+      ],
+      "proposed_literal_keys": [
+        "空洞骑士VR",
+        "空洞骑士"
+      ],
+      "priority": "P2",
+      "gate": "OPEN",
+      "rule_note": "具体游戏活动剧情 id 92434 归时间线，不把游戏UI等级当世界规则",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-01",
+      "parent_blue": "BLUE-07",
+      "title": "新艾利都公共安全与刑侦体系",
+      "source_ids": [
+        558920,
+        578925
+      ],
+      "proposed_literal_keys": [
+        "新艾利都公共安全",
+        "刑侦特勤组"
+      ],
+      "priority": "P0",
+      "gate": "SOURCE_REVIEW",
+      "rule_note": "源卡558920错写HAND从属HIA；必须采用BLUE-07的正确归属",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-02",
+      "parent_blue": "BLUE-07",
+      "title": "空洞调查协会组织结构",
+      "source_ids": [
+        961723
+      ],
+      "proposed_literal_keys": [
+        "空洞调查协会",
+        "H.I.A."
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "与GREEN-04-03流程内容去重",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-03",
+      "parent_blue": "BLUE-07",
+      "title": "HAND与对空六课组织职能",
+      "source_ids": [
+        95033
+      ],
+      "proposed_literal_keys": [
+        "对空六课",
+        "H.A.N.D."
+      ],
+      "priority": "P0",
+      "gate": "OPEN",
+      "rule_note": "HAND非HIA下属",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-04",
+      "parent_blue": "BLUE-07",
+      "title": "新艾利都防卫军与军制",
+      "source_ids": [
+        639159
+      ],
+      "proposed_literal_keys": [
+        "新艾利都防卫军",
+        "防卫军部队"
+      ],
+      "priority": "P1",
+      "gate": "TIMELINE_GATE",
+      "rule_note": "具体军中叛乱与高层历史为剧情阶段事实",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-05",
+      "parent_blue": "BLUE-07",
+      "title": "典范财团联合会TOPS",
+      "source_ids": [
+        931536
+      ],
+      "proposed_literal_keys": [
+        "典范财团联合会",
+        "TOPS财团"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "不把财团当政府；企业名录择要",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-06",
+      "parent_blue": "BLUE-07",
+      "title": "狡兔屋与民间委托",
+      "source_ids": [
+        73253
+      ],
+      "proposed_literal_keys": [
+        "狡兔屋",
+        "温柔之家"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "具体成员性格归人物层",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-07",
+      "parent_blue": "BLUE-07",
+      "title": "维多利亚家政业务与组织",
+      "source_ids": [
+        741079
+      ],
+      "proposed_literal_keys": [
+        "维多利亚家政"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "雇佣事务所不等于治安机构",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-08",
+      "parent_blue": "BLUE-07",
+      "title": "白祇重工与工程承包",
+      "source_ids": [
+        908496
+      ],
+      "proposed_literal_keys": [
+        "白祇重工"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "具体机具归道具，企业经营归BLUE-08",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-09",
+      "parent_blue": "BLUE-07",
+      "title": "卡吕冬之子与外环车队",
+      "source_ids": [
+        443367
+      ],
+      "proposed_literal_keys": [
+        "卡吕冬之子"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "外环地点等后续地点模块",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-10",
+      "parent_blue": "BLUE-07",
+      "title": "奥波勒斯小队与军方特殊任务",
+      "source_ids": [
+        359266
+      ],
+      "proposed_literal_keys": [
+        "奥波勒斯小队"
+      ],
+      "priority": "P2",
+      "gate": "SOURCE_REVIEW",
+      "rule_note": "军方编制与角色经历不在组织绿灯大量展开",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-11",
+      "parent_blue": "BLUE-07",
+      "title": "反舌鸟的怪盗行动原则",
+      "source_ids": [
+        303752
+      ],
+      "proposed_literal_keys": [
+        "反舌鸟",
+        "怪盗反舌鸟"
+      ],
+      "priority": "P1",
+      "gate": "TIMELINE_GATE",
+      "rule_note": "成员身份和真实动机不可提前泄露",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-12",
+      "parent_blue": "BLUE-07",
+      "title": "妄想天使与都市艺人团体",
+      "source_ids": [
+        17434
+      ],
+      "proposed_literal_keys": [
+        "妄想天使"
+      ],
+      "priority": "P2",
+      "gate": "OPEN",
+      "rule_note": "歌手歌词不可公开复制整段",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-13",
+      "parent_blue": "BLUE-07",
+      "title": "怪啖屋与异常事件调查",
+      "source_ids": [
+        765609
+      ],
+      "proposed_literal_keys": [
+        "怪啖屋"
+      ],
+      "priority": "P2",
+      "gate": "TIMELINE_GATE",
+      "rule_note": "后期组织及成员经历按剧情分卷",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-14",
+      "parent_blue": "BLUE-07",
+      "title": "称颂会组织与司教制度",
+      "source_ids": [
+        764065,
+        446647
+      ],
+      "proposed_literal_keys": [
+        "称颂会",
+        "称颂会司教"
+      ],
+      "priority": "P1",
+      "gate": "TIMELINE_GATE",
+      "rule_note": "始主、历代司教、牲鬼等秘密必须按原著阶段启用",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-15",
+      "parent_blue": "BLUE-07",
+      "title": "坎卜斯黑枝的制度与行动",
+      "source_ids": [
+        62679
+      ],
+      "proposed_literal_keys": [
+        "坎卜斯黑枝"
+      ],
+      "priority": "P2",
+      "gate": "TIMELINE_GATE",
+      "rule_note": "组织性质与牵涉人物的隐藏信息不可先开",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-16",
+      "parent_blue": "BLUE-07",
+      "title": "天琴座的组织与行动",
+      "source_ids": [
+        781656
+      ],
+      "proposed_literal_keys": [
+        "天琴座"
+      ],
+      "priority": "P2",
+      "gate": "TIMELINE_GATE",
+      "rule_note": "晚期章节组织，避免早期全员知晓",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-07-17",
+      "parent_blue": "BLUE-07",
+      "title": "机车联盟与外环车帮秩序",
+      "source_ids": [
+        896903
+      ],
+      "proposed_literal_keys": [
+        "机车联盟",
+        "车联盟"
+      ],
+      "priority": "P2",
+      "gate": "OPEN",
+      "rule_note": "与卡吕冬之子绿灯区分车帮联盟和具体车队",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-08-01",
+      "parent_blue": "BLUE-08",
+      "title": "蚀驭柱网络与城市供能",
+      "source_ids": [
+        598810
+      ],
+      "proposed_literal_keys": [
+        "蚀驭",
+        "蚀驭柱"
+      ],
+      "priority": "P0",
+      "gate": "SOURCE_REVIEW",
+      "rule_note": "源卡管网细节需核验，不把未经处理的高活性以太直接接民用终端",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-08-02",
+      "parent_blue": "BLUE-08",
+      "title": "辉瓷矿业与耐以太材料",
+      "source_ids": [
+        77986,
+        210276
+      ],
+      "proposed_literal_keys": [
+        "辉瓷",
+        "瓷光矿"
+      ],
+      "priority": "P1",
+      "gate": "TIMELINE_GATE",
+      "rule_note": "卫非地半岛与矿权纠纷属于后期；地图归地点，角色装备归道具",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-08-03",
+      "parent_blue": "BLUE-08",
+      "title": "音擎的基本工作原理",
+      "source_ids": [
+        471975
+      ],
+      "proposed_literal_keys": [
+        "音擎",
+        "波引擎"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "具体音擎名称与角色专武进道具",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-08-04",
+      "parent_blue": "BLUE-08",
+      "title": "驱动盘与音频媒介",
+      "source_ids": [
+        345509
+      ],
+      "proposed_literal_keys": [
+        "驱动盘"
+      ],
+      "priority": "P1",
+      "gate": "OPEN",
+      "rule_note": "避免把普通歌曲直接等同超自然战斗增幅",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-08-05",
+      "parent_blue": "BLUE-08",
+      "title": "丁尼、雇佣报酬与日常交易",
+      "source_ids": [
+        735752,
+        319126
+      ],
+      "proposed_literal_keys": [
+        "丁尼交易",
+        "丁尼报酬"
+      ],
+      "priority": "P2",
+      "gate": "OPEN",
+      "rule_note": "不采用原卡1丁尼≈1人民币的非官设汇率",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-09-01",
+      "parent_blue": "BLUE-09",
+      "title": "H.D.D.与伊埃斯的远程领航",
+      "source_ids": [
+        538706,
+        299532,
+        157231
+      ],
+      "proposed_literal_keys": [
+        "H.D.D.",
+        "空洞深潜系统"
+      ],
+      "priority": "P0",
+      "gate": "OPEN",
+      "rule_note": "只能法厄同专属，兄妹共同使用；Fairy剧情细节另在人物能力层",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "id": "GREEN-09-02",
+      "parent_blue": "BLUE-09",
+      "title": "赫利俄斯机关与旧都关联",
+      "source_ids": [
+        825389,
+        299532
+      ],
+      "proposed_literal_keys": [
+        "赫利俄斯机关",
+        "卡洛丝失踪"
+      ],
+      "priority": "P1",
+      "gate": "TIMELINE_GATE",
+      "rule_note": "公共历史与兄妹私密线索分离，揭露前不能给普通NPC全知情报",
+      "write_status": "DIRECTORY_ONLY",
+      "source_review": "ORIGINAL_CARD_WITH_CANON_CHECK",
+      "recommended_engine": {
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    }
+  ],
+  "groups": [
+    {
+      "blue": "BLUE-01",
+      "count": 2,
+      "high_priority": 0,
+      "timeline_gate": 0
+    },
+    {
+      "blue": "BLUE-02",
+      "count": 3,
+      "high_priority": 0,
+      "timeline_gate": 2
+    },
+    {
+      "blue": "BLUE-03",
+      "count": 6,
+      "high_priority": 2,
+      "timeline_gate": 1
+    },
+    {
+      "blue": "BLUE-04",
+      "count": 4,
+      "high_priority": 2,
+      "timeline_gate": 0
+    },
+    {
+      "blue": "BLUE-05",
+      "count": 4,
+      "high_priority": 1,
+      "timeline_gate": 0
+    },
+    {
+      "blue": "BLUE-06",
+      "count": 7,
+      "high_priority": 0,
+      "timeline_gate": 1
+    },
+    {
+      "blue": "BLUE-07",
+      "count": 17,
+      "high_priority": 2,
+      "timeline_gate": 6
+    },
+    {
+      "blue": "BLUE-08",
+      "count": 5,
+      "high_priority": 1,
+      "timeline_gate": 1
+    },
+    {
+      "blue": "BLUE-09",
+      "count": 2,
+      "high_priority": 1,
+      "timeline_gate": 1
+    }
+  ],
+  "original_lore_73_audit": [
+    {
+      "id": 72,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-03-04"
+      ]
+    },
+    {
+      "id": 109500,
+      "decision": "ENTERTAINMENT_NO_LYRICS",
+      "greens": []
+    },
+    {
+      "id": 163717,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-04-03",
+        "GREEN-04-04"
+      ]
+    },
+    {
+      "id": 266953,
+      "decision": "SOURCE_REVIEW_HOLD",
+      "greens": []
+    },
+    {
+      "id": 41245,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-02-03"
+      ]
+    },
+    {
+      "id": 56536,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-03-01"
+      ]
+    },
+    {
+      "id": 582897,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-03-02",
+        "GREEN-03-03"
+      ]
+    },
+    {
+      "id": 215863,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-02-01"
+      ]
+    },
+    {
+      "id": 627161,
+      "decision": "ITEM_ABILITY_OR_ENEMY",
+      "greens": []
+    },
+    {
+      "id": 331238,
+      "decision": "TIMELINE_OR_CHARACTER",
+      "greens": []
+    },
+    {
+      "id": 841360,
+      "decision": "ENTERTAINMENT_NO_LYRICS",
+      "greens": []
+    },
+    {
+      "id": 446647,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-14"
+      ]
+    },
+    {
+      "id": 659918,
+      "decision": "UNVERIFIED_FANTASY_RACE",
+      "greens": []
+    },
+    {
+      "id": 651135,
+      "decision": "ENTERTAINMENT_NO_LYRICS",
+      "greens": []
+    },
+    {
+      "id": 255299,
+      "decision": "ENTERTAINMENT_NO_LYRICS",
+      "greens": []
+    },
+    {
+      "id": 577115,
+      "decision": "TIMELINE_OR_CHARACTER",
+      "greens": []
+    },
+    {
+      "id": 945134,
+      "decision": "TIMELINE_OR_CHARACTER",
+      "greens": []
+    },
+    {
+      "id": 717926,
+      "decision": "ITEM_ABILITY_OR_ENEMY",
+      "greens": []
+    },
+    {
+      "id": 187170,
+      "decision": "TIMELINE_OR_CHARACTER",
+      "greens": []
+    },
+    {
+      "id": 321617,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-06-01"
+      ]
+    },
+    {
+      "id": 411700,
+      "decision": "ITEM_ABILITY_OR_ENEMY",
+      "greens": []
+    },
+    {
+      "id": 119825,
+      "decision": "UNVERIFIED_FANTASY_RACE",
+      "greens": []
+    },
+    {
+      "id": 92434,
+      "decision": "TIMELINE_OR_CHARACTER",
+      "greens": []
+    },
+    {
+      "id": 672636,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-06-06"
+      ]
+    },
+    {
+      "id": 558920,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-01"
+      ]
+    },
+    {
+      "id": 133356,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-01-01"
+      ]
+    },
+    {
+      "id": 736767,
+      "decision": "TIMELINE_OR_CHARACTER",
+      "greens": []
+    },
+    {
+      "id": 65506,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-05-04"
+      ]
+    },
+    {
+      "id": 126395,
+      "decision": "TIMELINE_OR_CHARACTER",
+      "greens": []
+    },
+    {
+      "id": 586905,
+      "decision": "ENTERTAINMENT_NO_LYRICS",
+      "greens": []
+    },
+    {
+      "id": 73752,
+      "decision": "TIMELINE_OR_CHARACTER",
+      "greens": []
+    },
+    {
+      "id": 142987,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-02-02"
+      ]
+    },
+    {
+      "id": 913563,
+      "decision": "ENTERTAINMENT_NO_LYRICS",
+      "greens": []
+    },
+    {
+      "id": 703065,
+      "decision": "TIMELINE_OR_CHARACTER",
+      "greens": []
+    },
+    {
+      "id": 847288,
+      "decision": "TIMELINE_OR_CHARACTER",
+      "greens": []
+    },
+    {
+      "id": 819654,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-06-03"
+      ]
+    },
+    {
+      "id": 609626,
+      "decision": "ENTERTAINMENT_NO_LYRICS",
+      "greens": []
+    },
+    {
+      "id": 962933,
+      "decision": "ENTERTAINMENT_NO_LYRICS",
+      "greens": []
+    },
+    {
+      "id": 236161,
+      "decision": "ITEM_ABILITY_OR_ENEMY",
+      "greens": []
+    },
+    {
+      "id": 448269,
+      "decision": "ITEM_CULTURE_OR_MISC",
+      "greens": []
+    },
+    {
+      "id": 742645,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-06-03"
+      ]
+    },
+    {
+      "id": 500325,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-06-02"
+      ]
+    },
+    {
+      "id": 887385,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-05-03"
+      ]
+    },
+    {
+      "id": 75008,
+      "decision": "ITEM_ABILITY_OR_ENEMY",
+      "greens": []
+    },
+    {
+      "id": 243976,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-03-06"
+      ]
+    },
+    {
+      "id": 538706,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-09-01"
+      ]
+    },
+    {
+      "id": 600322,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-06-07"
+      ]
+    },
+    {
+      "id": 865681,
+      "decision": "UNVERIFIED_FANTASY_RACE",
+      "greens": []
+    },
+    {
+      "id": 688475,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-04-02"
+      ]
+    },
+    {
+      "id": 173199,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-03-02"
+      ]
+    },
+    {
+      "id": 251574,
+      "decision": "TIMELINE_OR_CHARACTER",
+      "greens": []
+    },
+    {
+      "id": 5360,
+      "decision": "ENTERTAINMENT_NO_LYRICS",
+      "greens": []
+    },
+    {
+      "id": 290820,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-04-02"
+      ]
+    },
+    {
+      "id": 254064,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-06-03"
+      ]
+    },
+    {
+      "id": 161827,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-01-02"
+      ]
+    },
+    {
+      "id": 598810,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-08-01"
+      ]
+    },
+    {
+      "id": 315700,
+      "decision": "ITEM_ABILITY_OR_ENEMY",
+      "greens": []
+    },
+    {
+      "id": 740063,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-03-05"
+      ]
+    },
+    {
+      "id": 705279,
+      "decision": "ITEM_ABILITY_OR_ENEMY",
+      "greens": []
+    },
+    {
+      "id": 77986,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-08-02"
+      ]
+    },
+    {
+      "id": 641068,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-02-03"
+      ]
+    },
+    {
+      "id": 429491,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-05-01",
+        "GREEN-05-02"
+      ]
+    },
+    {
+      "id": 772490,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-05-02"
+      ]
+    },
+    {
+      "id": 571962,
+      "decision": "ENTERTAINMENT_NO_LYRICS",
+      "greens": []
+    },
+    {
+      "id": 36122,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-06-05"
+      ]
+    },
+    {
+      "id": 662763,
+      "decision": "ENTERTAINMENT_NO_LYRICS",
+      "greens": []
+    },
+    {
+      "id": 429377,
+      "decision": "ITEM_ABILITY_OR_ENEMY",
+      "greens": []
+    },
+    {
+      "id": 86272,
+      "decision": "ITEM_ABILITY_OR_ENEMY",
+      "greens": []
+    },
+    {
+      "id": 471975,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-08-03"
+      ]
+    },
+    {
+      "id": 345509,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-08-04"
+      ]
+    },
+    {
+      "id": 724029,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-06-04"
+      ]
+    },
+    {
+      "id": 977329,
+      "decision": "ITEM_CULTURE_OR_MISC",
+      "greens": []
+    },
+    {
+      "id": 285732,
+      "decision": "ITEM_CULTURE_OR_MISC",
+      "greens": []
+    }
+  ],
+  "original_fac_29_audit": [
+    {
+      "id": 888364,
+      "decision": "FACTION_LONG_TAIL_HOLD",
+      "greens": []
+    },
+    {
+      "id": 275404,
+      "decision": "FACTION_LONG_TAIL_HOLD",
+      "greens": []
+    },
+    {
+      "id": 931536,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-05"
+      ]
+    },
+    {
+      "id": 578925,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-01"
+      ]
+    },
+    {
+      "id": 833115,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-06-06"
+      ]
+    },
+    {
+      "id": 443367,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-09"
+      ]
+    },
+    {
+      "id": 303752,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-11"
+      ]
+    },
+    {
+      "id": 62679,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-15"
+      ]
+    },
+    {
+      "id": 781656,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-16"
+      ]
+    },
+    {
+      "id": 359266,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-10"
+      ]
+    },
+    {
+      "id": 17434,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-12"
+      ]
+    },
+    {
+      "id": 95033,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-03"
+      ]
+    },
+    {
+      "id": 765609,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-13"
+      ]
+    },
+    {
+      "id": 833217,
+      "decision": "FACTION_LONG_TAIL_HOLD",
+      "greens": []
+    },
+    {
+      "id": 639159,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-04"
+      ]
+    },
+    {
+      "id": 912276,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-06-06"
+      ]
+    },
+    {
+      "id": 896903,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-17"
+      ]
+    },
+    {
+      "id": 73253,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-06"
+      ]
+    },
+    {
+      "id": 114293,
+      "decision": "FACTION_LONG_TAIL_HOLD",
+      "greens": []
+    },
+    {
+      "id": 204539,
+      "decision": "FACTION_LONG_TAIL_HOLD",
+      "greens": []
+    },
+    {
+      "id": 908496,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-08"
+      ]
+    },
+    {
+      "id": 764065,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-14"
+      ]
+    },
+    {
+      "id": 961723,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-04-03",
+        "GREEN-07-02"
+      ]
+    },
+    {
+      "id": 793233,
+      "decision": "FACTION_LONG_TAIL_HOLD",
+      "greens": []
+    },
+    {
+      "id": 741079,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-07-07"
+      ]
+    },
+    {
+      "id": 825389,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-09-02"
+      ]
+    },
+    {
+      "id": 210276,
+      "decision": "GREEN_CANDIDATE",
+      "greens": [
+        "GREEN-08-02"
+      ]
+    },
+    {
+      "id": 213355,
+      "decision": "FACTION_LONG_TAIL_HOLD",
+      "greens": []
+    },
+    {
+      "id": 168859,
+      "decision": "FACTION_LONG_TAIL_HOLD",
+      "greens": []
+    }
+  ],
+  "optional_note": "原卡18条 optional（含7个原创地下势力、7个地点和4个辅助/停用条目）整体默认隔离；不自动加入GREEN，后续据来源与用户偏好独立审批。",
+  "hard_rules": {
+    "all_green_is_static": true,
+    "default_green_constant": false,
+    "default_use_regex": false,
+    "dual_anti_recursion": true,
+    "no_single_character_trigger": true,
+    "no_old_mvu_scripts_nsfw": true,
+    "all_source_material_requires_manual_canon_check": true,
+    "location_total_blue": "LOCATION-BLUE-00 only, later",
+    "belle_host_only": true,
+    "wise_non_host": true
+  },
+  "counts": {
+    "green": 50,
+    "lore": 73,
+    "fac": 29,
+    "lore_mapped": 35,
+    "lore_deferred": 38,
+    "fac_mapped": 21,
+    "fac_deferred": 8,
+    "priority_p0": 9,
+    "story_gated": 12,
+    "needs_source_review": 12
+  }
+}
