@@ -1,0 +1,548 @@
+{
+  "version": "1.1",
+  "date": "2026-11-07",
+  "status": "PRIORITY_SCOPED_AND_FANON_FILTERED",
+  "baseline_head": "eb1a460e2475c106a6bc44bfa256224dc0d8dc8c",
+  "blue_frozen": true,
+  "initial_candidates": 50,
+  "reviewed_critical_candidates": 21,
+  "postponed_count": 29,
+  "summary": {
+    "CORE_DRAFTED": 8,
+    "STORY_GATE_DISABLED": 10,
+    "HOLD_CANON_RECHECK": 1,
+    "EXCLUDED_UNVERIFIED": 1,
+    "EXCLUDED_FROM_GREEN": 1
+  },
+  "scope": [
+    {
+      "id": "GREEN-02-02",
+      "title": "泄露奇点与单向空间裂隙",
+      "parent_blue": "BLUE-02",
+      "source_ids": [
+        142987
+      ],
+      "original_priority": "P2",
+      "original_gate": "TIMELINE_GATE",
+      "status": "STORY_GATE_DISABLED",
+      "decision": "第三季第一章出现泄露奇点及对应能力后；特定佩洛伊斯技能归铃的能力层",
+      "keys_proposed_only": [
+        "泄露奇点"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": null
+    },
+    {
+      "id": "GREEN-02-03",
+      "title": "辉耀现象与以太干扰探针",
+      "parent_blue": "BLUE-02",
+      "source_ids": [
+        641068,
+        41245
+      ],
+      "original_priority": "P2",
+      "original_gate": "TIMELINE_GATE",
+      "status": "HOLD_CANON_RECHECK",
+      "decision": "辉耀现象与以太干扰探针具体技术尚需官方剧情核对，暂不成文。",
+      "keys_proposed_only": [
+        "辉耀现象",
+        "以太干扰探针"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": null
+    },
+    {
+      "id": "GREEN-03-01",
+      "title": "以太适性检测与耐受差异",
+      "parent_blue": "BLUE-03",
+      "source_ids": [
+        56536
+      ],
+      "original_priority": "P0",
+      "original_gate": "SOURCE_REVIEW",
+      "status": "CORE_DRAFTED",
+      "decision": "原卡根机制精简成静态内生正文，未装卡",
+      "keys_proposed_only": [
+        "以太适性检测",
+        "适性测试"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": "worldbook/green/core/GREEN-03-01_以太适性检测与耐受差异.md"
+    },
+    {
+      "id": "GREEN-03-02",
+      "title": "腐蚀进程与侵蚀体",
+      "parent_blue": "BLUE-03",
+      "source_ids": [
+        173199,
+        582897
+      ],
+      "original_priority": "P0",
+      "original_gate": "OPEN",
+      "status": "CORE_DRAFTED",
+      "decision": "原卡根机制精简成静态内生正文，未装卡",
+      "keys_proposed_only": [
+        "侵蚀体",
+        "以太腐蚀症状"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": "worldbook/green/core/GREEN-03-02_腐蚀进程与侵蚀体.md"
+    },
+    {
+      "id": "GREEN-03-06",
+      "title": "秽息与精神侵蚀",
+      "parent_blue": "BLUE-03",
+      "source_ids": [
+        243976
+      ],
+      "original_priority": "P1",
+      "original_gate": "TIMELINE_GATE",
+      "status": "STORY_GATE_DISABLED",
+      "decision": "第二季莱姆尼安/卫非地秽息环境实际接触后；觉感术归人物能力层",
+      "keys_proposed_only": [
+        "秽息",
+        "莱姆尼安秽息"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": null
+    },
+    {
+      "id": "GREEN-04-01",
+      "title": "绳网委托与中间人",
+      "parent_blue": "BLUE-04",
+      "source_ids": [
+        319126
+      ],
+      "original_priority": "P0",
+      "original_gate": "OPEN",
+      "status": "CORE_DRAFTED",
+      "decision": "原卡根机制精简成静态内生正文，未装卡",
+      "keys_proposed_only": [
+        "绳网委托",
+        "绳网中间人"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": "worldbook/green/core/GREEN-04-01_绳网委托与中间人.md"
+    },
+    {
+      "id": "GREEN-04-02",
+      "title": "萝卜制作与罗塞塔数据",
+      "parent_blue": "BLUE-04",
+      "source_ids": [
+        290820,
+        688475
+      ],
+      "original_priority": "P0",
+      "original_gate": "OPEN",
+      "status": "CORE_DRAFTED",
+      "decision": "原卡根机制精简成静态内生正文，未装卡",
+      "keys_proposed_only": [
+        "空洞萝卜",
+        "罗塞塔数据"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": "worldbook/green/core/GREEN-04-02_萝卜制作与罗塞塔数据.md"
+    },
+    {
+      "id": "GREEN-05-03",
+      "title": "禁果测试与构装公民资格",
+      "parent_blue": "BLUE-05",
+      "source_ids": [
+        887385
+      ],
+      "original_priority": "P0",
+      "original_gate": "SOURCE_REVIEW",
+      "status": "CORE_DRAFTED",
+      "decision": "原卡根机制精简成静态内生正文，未装卡",
+      "keys_proposed_only": [
+        "禁果测试",
+        "机械公民资格"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": "worldbook/green/core/GREEN-05-03_禁果测试与构装公民资格.md"
+    },
+    {
+      "id": "GREEN-06-04",
+      "title": "鬼人的社会身份与历史",
+      "parent_blue": "BLUE-06",
+      "source_ids": [
+        724029
+      ],
+      "original_priority": "P1",
+      "original_gate": "TIMELINE_GATE",
+      "status": "EXCLUDED_FROM_GREEN",
+      "decision": "原卡鬼人统一无公民权和鬼人族战的叙述未经核实；真实角色经历改在人物/能力/时间线核对。",
+      "keys_proposed_only": [
+        "鬼人族",
+        "鬼人历史"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": null
+    },
+    {
+      "id": "GREEN-07-01",
+      "title": "新艾利都公共安全与刑侦体系",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        558920,
+        578925
+      ],
+      "original_priority": "P0",
+      "original_gate": "SOURCE_REVIEW",
+      "status": "CORE_DRAFTED",
+      "decision": "原卡根机制精简成静态内生正文，未装卡",
+      "keys_proposed_only": [
+        "新艾利都公共安全",
+        "刑侦特勤组"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": "worldbook/green/core/GREEN-07-01_新艾利都公共安全与刑侦体系.md"
+    },
+    {
+      "id": "GREEN-07-03",
+      "title": "HAND与对空六课组织职能",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        95033
+      ],
+      "original_priority": "P0",
+      "original_gate": "OPEN",
+      "status": "CORE_DRAFTED",
+      "decision": "原卡根机制精简成静态内生正文，未装卡",
+      "keys_proposed_only": [
+        "对空六课",
+        "H.A.N.D."
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": "worldbook/green/core/GREEN-07-03_HAND与对空六课组织职能.md"
+    },
+    {
+      "id": "GREEN-07-04",
+      "title": "新艾利都防卫军与军制",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        639159
+      ],
+      "original_priority": "P1",
+      "original_gate": "TIMELINE_GATE",
+      "status": "STORY_GATE_DISABLED",
+      "decision": "防卫军旧都军史、叛乱或内部秘密被具体事件揭示后；一般军制可公开",
+      "keys_proposed_only": [
+        "新艾利都防卫军",
+        "防卫军部队"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": null
+    },
+    {
+      "id": "GREEN-07-11",
+      "title": "反舌鸟的怪盗行动原则",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        303752
+      ],
+      "original_priority": "P1",
+      "original_gate": "TIMELINE_GATE",
+      "status": "STORY_GATE_DISABLED",
+      "decision": "反舌鸟正式登场及其身份逐步公开后；成员旧怨归人物与时间线",
+      "keys_proposed_only": [
+        "反舌鸟",
+        "怪盗反舌鸟"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": null
+    },
+    {
+      "id": "GREEN-07-13",
+      "title": "怪啖屋与异常事件调查",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        765609
+      ],
+      "original_priority": "P2",
+      "original_gate": "TIMELINE_GATE",
+      "status": "STORY_GATE_DISABLED",
+      "decision": "怪啖屋及相关活动第一次进入对应剧情后；个人经历归人物",
+      "keys_proposed_only": [
+        "怪啖屋"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": null
+    },
+    {
+      "id": "GREEN-07-14",
+      "title": "称颂会组织与司教制度",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        764065,
+        446647
+      ],
+      "original_priority": "P1",
+      "original_gate": "TIMELINE_GATE",
+      "status": "STORY_GATE_DISABLED",
+      "decision": "称颂会与司教相关真相逐节点揭晓后；绝不提前暴露司教真实身份",
+      "keys_proposed_only": [
+        "称颂会",
+        "称颂会司教"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": null
+    },
+    {
+      "id": "GREEN-07-15",
+      "title": "坎卜斯黑枝的制度与行动",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        62679
+      ],
+      "original_priority": "P2",
+      "original_gate": "TIMELINE_GATE",
+      "status": "STORY_GATE_DISABLED",
+      "decision": "坎卜斯黑枝进入对应主线后；保留官方阵营，排除原卡未经证实规章和幕后内幕",
+      "keys_proposed_only": [
+        "坎卜斯黑枝"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": null
+    },
+    {
+      "id": "GREEN-07-16",
+      "title": "天琴座的组织与行动",
+      "parent_blue": "BLUE-07",
+      "source_ids": [
+        781656
+      ],
+      "original_priority": "P2",
+      "original_gate": "TIMELINE_GATE",
+      "status": "STORY_GATE_DISABLED",
+      "decision": "天琴座正式进入剧情后；艺人个人情感和往事不塞组织条目",
+      "keys_proposed_only": [
+        "天琴座"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": null
+    },
+    {
+      "id": "GREEN-08-01",
+      "title": "蚀驭柱网络与城市供能",
+      "parent_blue": "BLUE-08",
+      "source_ids": [
+        598810
+      ],
+      "original_priority": "P0",
+      "original_gate": "SOURCE_REVIEW",
+      "status": "EXCLUDED_UNVERIFIED",
+      "decision": "原卡蚀驭柱网络的供能管线与清剿机制无法充分官方核实；只保留BLUE-08基本能源规律。",
+      "keys_proposed_only": [
+        "蚀驭",
+        "蚀驭柱"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": null
+    },
+    {
+      "id": "GREEN-08-02",
+      "title": "辉瓷矿业与耐以太材料",
+      "parent_blue": "BLUE-08",
+      "source_ids": [
+        77986,
+        210276
+      ],
+      "original_priority": "P1",
+      "original_gate": "TIMELINE_GATE",
+      "status": "STORY_GATE_DISABLED",
+      "decision": "第二季卫非地辉瓷矿业剧情展开后；具体矿区地点和装备材料另编",
+      "keys_proposed_only": [
+        "辉瓷",
+        "瓷光矿"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": null
+    },
+    {
+      "id": "GREEN-09-01",
+      "title": "H.D.D.与伊埃斯的远程领航",
+      "parent_blue": "BLUE-09",
+      "source_ids": [
+        538706,
+        299532,
+        157231
+      ],
+      "original_priority": "P0",
+      "original_gate": "OPEN",
+      "status": "CORE_DRAFTED",
+      "decision": "原卡根机制精简成静态内生正文，未装卡",
+      "keys_proposed_only": [
+        "H.D.D.",
+        "空洞深潜系统"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": "worldbook/green/core/GREEN-09-01_H.D.D.与伊埃斯的远程领航.md"
+    },
+    {
+      "id": "GREEN-09-02",
+      "title": "赫利俄斯机关与旧都关联",
+      "parent_blue": "BLUE-09",
+      "source_ids": [
+        825389,
+        299532
+      ],
+      "original_priority": "P1",
+      "original_gate": "TIMELINE_GATE",
+      "status": "STORY_GATE_DISABLED",
+      "decision": "兄妹赫利俄斯旧事逐步获得调查证据后；公众不能直接得知导师秘密",
+      "keys_proposed_only": [
+        "赫利俄斯机关",
+        "卡洛丝失踪"
+      ],
+      "enabled": false,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "exclude_recursion": true,
+      "prevent_recursion": true,
+      "body_path": null
+    }
+  ],
+  "postponed_ids": [
+    "GREEN-01-01",
+    "GREEN-01-02",
+    "GREEN-02-01",
+    "GREEN-03-03",
+    "GREEN-03-04",
+    "GREEN-03-05",
+    "GREEN-04-03",
+    "GREEN-04-04",
+    "GREEN-05-01",
+    "GREEN-05-02",
+    "GREEN-05-04",
+    "GREEN-06-01",
+    "GREEN-06-02",
+    "GREEN-06-03",
+    "GREEN-06-05",
+    "GREEN-06-06",
+    "GREEN-06-07",
+    "GREEN-07-02",
+    "GREEN-07-05",
+    "GREEN-07-06",
+    "GREEN-07-07",
+    "GREEN-07-08",
+    "GREEN-07-09",
+    "GREEN-07-10",
+    "GREEN-07-12",
+    "GREEN-07-17",
+    "GREEN-08-03",
+    "GREEN-08-04",
+    "GREEN-08-05"
+  ],
+  "requirements": {
+    "no_mvu": true,
+    "no_user_scripts": true,
+    "no_original_fanon": true,
+    "characters_abilities_deferred": true,
+    "story_gate_default_disabled": true,
+    "manual_static_volume_gate_required": true,
+    "dual_anti_recursion": true,
+    "actual_engine_test": "NOT_RUN"
+  }
+}
