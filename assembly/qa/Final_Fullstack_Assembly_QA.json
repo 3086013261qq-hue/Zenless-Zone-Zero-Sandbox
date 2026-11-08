@@ -1,0 +1,36 @@
+{
+  "status": "STATIC_ASSEMBLY_PASS_ANDROID_NOT_TESTED",
+  "baseline_repo_head": "a9780dfa08af05265c59c86ff58e1294a946a63e",
+  "template": "咩咩制卡·全栈_v1.0.0.zip / fullcard.md / combat-cot.md / status-bar.md / opening.md / easter-egg.md / mother 2.0.0",
+  "protected_frozen_entries": 395,
+  "protected_content_byte_for_byte": true,
+  "entry_count": 418,
+  "section_markers": 14,
+  "enabled_timelines": [
+    "时间线:第一卷（上）·法厄同启程"
+  ],
+  "timeline_parts": 29,
+  "status_at_depth_0": true,
+  "battle_six_steps": true,
+  "open_topic_pool_constant": true,
+  "memory_storage_disabled": true,
+  "double_recursion_enabled_for_triggered": true,
+  "body_stat_categories": {
+    "main_characters": 82,
+    "abilities": 81,
+    "bangboo": 59,
+    "core_green_including_states": 140,
+    "locations": 71
+  },
+  "png_crc_pass": true,
+  "png_chara_ccv3_equal": true,
+  "png_embedded_lorebook_equal": true,
+  "png_cover": "neutral generated placeholder; original cover not in public repo",
+  "sillytavern_android_real_device": "NOT_TESTED",
+  "json_sha256": "6b2ee58a41e6d4ab3f6bcd7f6d546acb3b0b0e8b447f657ad4cabadbf416d0b5",
+  "png_sha256": "a6e73387b1be1e4fb45694025f9657c37c34430c43671eb4f2b15a7ecc50a419",
+  "outputs": [
+    "assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.json",
+    "assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.png"
+  ]
+}
