@@ -17,7 +17,7 @@
       "name": "亚莎",
       "kind": "常驻店铺人物",
       "path": "worldbook/characters/shopkeepers/SHOP-001_亚莎.md",
-      "order": 283,
+      "order": 197,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:亚莎|亚莎姐|Asha)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -31,14 +31,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 283,
+      "final_section": "【其他角色】"
     },
     {
       "num": "002",
       "name": "苏茜",
       "kind": "常驻店铺人物",
       "path": "worldbook/characters/shopkeepers/SHOP-002_苏茜.md",
-      "order": 284,
+      "order": 195,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:苏茜|Susie)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -52,14 +54,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 284,
+      "final_section": "【其他角色】"
     },
     {
       "num": "003",
       "name": "埃珐",
       "kind": "常驻店铺人物",
       "path": "worldbook/characters/shopkeepers/SHOP-003_埃珐.md",
-      "order": 285,
+      "order": 192,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:埃珐|Elfy)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -73,14 +77,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 285,
+      "final_section": "【其他角色】"
     },
     {
       "num": "004",
       "name": "恩佐",
       "kind": "常驻店铺人物",
       "path": "worldbook/characters/shopkeepers/SHOP-004_恩佐.md",
-      "order": 286,
+      "order": 190,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:恩佐|Enzo)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -94,14 +100,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 286,
+      "final_section": "【其他角色】"
     },
     {
       "num": "005",
       "name": "乔普师傅",
       "kind": "常驻店铺人物",
       "path": "worldbook/characters/shopkeepers/SHOP-005_乔普师傅.md",
-      "order": 287,
+      "order": 187,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:乔普师傅|General Chop)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -115,14 +123,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 287,
+      "final_section": "【其他角色】"
     },
     {
       "num": "006",
       "name": "乔普小子",
       "kind": "常驻店铺人物",
       "path": "worldbook/characters/shopkeepers/SHOP-006_乔普小子.md",
-      "order": 288,
+      "order": 185,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:乔普小子|小乔普|Chop Junior)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -136,14 +146,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 288,
+      "final_section": "【其他角色】"
     },
     {
       "num": "007",
       "name": "汀曼大师",
       "kind": "智能构装体",
       "path": "worldbook/characters/shopkeepers/SHOP-007_汀曼大师.md",
-      "order": 289,
+      "order": 182,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:汀曼大师|Tin Master)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -157,14 +169,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 289,
+      "final_section": "【其他角色】"
     },
     {
       "num": "008",
       "name": "嗷呜",
       "kind": "犬",
       "path": "worldbook/characters/shopkeepers/SHOP-008_嗷呜.md",
-      "order": 290,
+      "order": 180,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:嗷呜|Howl)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -178,14 +192,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 290,
+      "final_section": "【其他角色】"
     },
     {
       "num": "009",
       "name": "伊芙",
       "kind": "常驻店铺人物",
       "path": "worldbook/characters/shopkeepers/SHOP-009_伊芙.md",
-      "order": 291,
+      "order": 177,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:伊芙(?!琳)|伊芙婆婆)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -199,14 +215,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 291,
+      "final_section": "【其他角色】"
     },
     {
       "num": "010",
       "name": "早蒹",
       "kind": "浣熊希人",
       "path": "worldbook/characters/shopkeepers/SHOP-010_早蒹.md",
-      "order": 292,
+      "order": 175,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:早蒹)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -220,14 +238,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 292,
+      "final_section": "【其他角色】"
     },
     {
       "num": "011",
       "name": "奥琪蒂亚",
       "kind": "常驻店铺人物",
       "path": "worldbook/characters/shopkeepers/SHOP-011_奥琪蒂亚.md",
-      "order": 293,
+      "order": 172,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:奥琪蒂亚)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -241,14 +261,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 293,
+      "final_section": "【其他角色】"
     },
     {
       "num": "012",
       "name": "黎宝荣",
       "kind": "常驻店铺人物",
       "path": "worldbook/characters/shopkeepers/SHOP-012_黎宝荣.md",
-      "order": 294,
+      "order": 170,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:黎宝荣|宝荣叔)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -262,14 +284,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 294,
+      "final_section": "【其他角色】"
     },
     {
       "num": "013",
       "name": "卡斯珀",
       "kind": "常驻店铺人物",
       "path": "worldbook/characters/shopkeepers/SHOP-013_卡斯珀.md",
-      "order": 295,
+      "order": 167,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:卡斯珀|卡斯帕|Casper)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -283,14 +307,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 295,
+      "final_section": "【其他角色】"
     },
     {
       "num": "014",
       "name": "阿格妮丝",
       "kind": "常驻店铺人物",
       "path": "worldbook/characters/shopkeepers/SHOP-014_阿格妮丝.md",
-      "order": 296,
+      "order": 165,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:阿格妮丝|Agnes)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -304,14 +330,16 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 296,
+      "final_section": "【其他角色】"
     },
     {
       "num": "015",
       "name": "乙",
       "kind": "智能构装体",
       "path": "worldbook/characters/shopkeepers/SHOP-015_乙.md",
-      "order": 297,
+      "order": 162,
       "keys": [
         "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:设计师乙|三Z工作室的乙|乙设计师)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
@@ -325,8 +353,11 @@
         "position": 1,
         "exclude_recursion": true,
         "prevent_recursion": true
-      }
+      },
+      "legacy_order": 297,
+      "final_section": "【其他角色】"
     }
   ],
-  "source_note": "体征、罩杯及缺少官方描述的服装属于沙盒成文补足，不是游戏官宣精确数值；店主、店员、普通犬与构装体不按战斗代理人造能力。单字角色乙只允许带身份称呼触发。"
+  "source_note": "体征、罩杯及缺少官方描述的服装属于沙盒成文补足，不是游戏官宣精确数值；店主、店员、普通犬与构装体不按战斗代理人造能力。单字角色乙只允许带身份称呼触发。",
+  "assembly_note": "Canonical formal card uses descending order with existing 70 historical order overlaps; 15 NEW shopkeeper entries use previously free 197..162 values in 【其他角色】. Legacy Python builder v1.0.0 uses legacy_order 283..297 and is not the canonical final mother-template."
 }
