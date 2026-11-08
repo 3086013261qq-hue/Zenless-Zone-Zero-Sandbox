@@ -20,7 +20,7 @@ fingerprints={}
 counts=Counter()
 checks=[]
 forbidden=("getvar(","<%","StatusPlaceHolderImpl","[mvu_update]","NSFW Helper","NSFW Char Stage","<script","javascript:","mvu_zod.js","MagVarUpdate/artifact")
-allowed=("worldbook/blue/BLUE-","worldbook/green/blue","worldbook/green/core/GREEN-","worldbook/characters/major/CHAR-","worldbook/characters/shopkeepers/SHOP-","worldbook/characters/bangboo/official/BOO-","worldbook/characters/bangboo/original/BOO-","worldbook/abilities/ABILITY-","worldbook/abilities/states/STATE-","worldbook/timeline/TIMELINE-","worldbook/locations/blue/LOCATION-BLUE-","worldbook/locations/green/")
+allowed=("worldbook/blue/BLUE-","worldbook/green/blue","worldbook/green/core/GREEN-","worldbook/characters/major/CHAR-","worldbook/characters/shopkeepers/SHOP-","worldbook/characters/ethereals/ETH-","worldbook/characters/bangboo/official/BOO-","worldbook/characters/bangboo/original/BOO-","worldbook/abilities/ABILITY-","worldbook/abilities/states/STATE-","worldbook/timeline/TIMELINE-","worldbook/locations/blue/LOCATION-BLUE-","worldbook/locations/green/")
 def need(label,ok,detail=""):
     checks.append([label,bool(ok),detail])
     if not ok: raise AssertionError(label+": "+str(detail))
@@ -84,6 +84,16 @@ for i,x in enumerate(bangboo):
     need("bangboo keys scoped "+name,all("<story_scene>" in k for k in x["keys"]))
     add("邦布角色:"+name,read(x["path"],"<"+name+"character>","</"+name+"character>"),
         101+i,"bangboo_character",keys=x["keys"],regex=True,source=x["path"])
+# Named high-risk ethereals and notorious boss forms: creature CHAR entries, not abilities.
+ether=meta("worldbook/characters/ethereals/000_具名高危以骸角色装配元数据_v1.0.json")["entries"]
+need("ten named ethereals",len(ether)==10)
+for i,x in enumerate(ether):
+    name=x["name"];src=x["path"]
+    need("ethereal scene-only "+name,all("<story_scene>" in k for k in x["keys"]))
+    need("ethereal double guard "+name,x["extensions"]["exclude_recursion"] and x["extensions"]["prevent_recursion"])
+    need("ethereal no ability "+name,x["no_independent_ability"])
+    add("具名以骸:"+name,read(src,"<"+name+"character>","</"+name+"character>"),160+i,
+        "ethereal_character",keys=x["keys"],regex=True,source=src)
 marker("NPC_Characters",False,199,"after_char")
 
 # C: 82 distinct named characters, including the Bangboo Jian Shu.
@@ -105,9 +115,9 @@ for i,p in enumerate(cs):
     src=p.relative_to(ROOT).as_posix()
     add("角色:"+name,read(src,"<"+name+"character>","</"+name+"character>"),
         201+i,"main_character",keys=triggers[n],regex=True,source=src)
-# 15 named storefront NPCs: separate from frozen CHAR-001..082, no ABILITY documents.
-shop_npcs=meta("worldbook/characters/shopkeepers/000_店铺NPC人物装配元数据_v1.0.json")["entries"]
-need("15 standalone shop NPCs",len(shop_npcs)==15)
+# 16 named storefront NPCs: separate from frozen CHAR-001..082, no ABILITY documents.
+shop_npcs=meta("worldbook/characters/shopkeepers/000_店铺NPC人物装配元数据_v1.1.json")["entries"]
+need("16 standalone shop NPCs",len(shop_npcs)==16)
 for i,x in enumerate(shop_npcs):
     src=x["path"];nm=x["name"]
     need("shop no ability "+nm,x["no_ability"])
@@ -203,7 +213,7 @@ for i,title in enumerate(["清空局部变量（无脚本预留）","记忆槽:�
     add(title,"",552+i,"disabled_infrastructure",active=False,pos="before_char")
 marker("Memory_Context",False,559,"before_char")
 
-expected={"world_blue":9,"location_blue":5,"regular_green":54,"main_character":82,"shopkeeper_npc":15,
+expected={"world_blue":9,"location_blue":5,"regular_green":54,"main_character":82,"shopkeeper_npc":16,"ethereal_character":10,
           "character_ability":81,"special_state":5,"bangboo_character":59,
           "location_green":71,"timeline":29,"section_marker":14,"narrative_output":1,
           "battle_reasoning":1,"open_topic_pool":1,"memory_continuity":1,
