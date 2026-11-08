@@ -1886,7 +1886,7 @@
       "content_tag": "地点:艾玫尔中央公园",
       "comment": "地点:艾玫尔中央公园",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 128,
+      "text_characters": 281,
       "build": {
         "keys": [
           "艾玫尔中央公园"
@@ -1916,7 +1916,7 @@
       "content_tag": "地点:片刻闲",
       "comment": "地点:片刻闲",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 133,
+      "text_characters": 271,
       "build": {
         "keys": [
           "片刻闲",
@@ -1947,7 +1947,7 @@
       "content_tag": "地点:Charge邦布充电站",
       "comment": "地点:Charge邦布充电站",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 138,
+      "text_characters": 281,
       "build": {
         "keys": [
           "Charge充电站",
@@ -1980,7 +1980,7 @@
       "content_tag": "地点:贝克福德街餐饮带",
       "comment": "地点:贝克福德街餐饮带",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 139,
+      "text_characters": 286,
       "build": {
         "keys": [
           "贝克福德街",
@@ -2011,7 +2011,7 @@
       "content_tag": "地点:布亚斯特城区",
       "comment": "地点:布亚斯特城区",
       "source_scope": "OFFICIAL_UPDATE_NEW_LOCATION__INTERIOR_DETAILS_CAUTION",
-      "text_characters": 166,
+      "text_characters": 319,
       "official_source": {
         "version": "3.0",
         "announcement": "https://zenless.hoyoverse.com/zh-cn/news/164779"
@@ -2044,7 +2044,7 @@
       "content_tag": "地点:齿轮街",
       "comment": "地点:齿轮街",
       "source_scope": "OFFICIAL_UPDATE_NEW_LOCATION__INTERIOR_DETAILS_CAUTION",
-      "text_characters": 171,
+      "text_characters": 313,
       "official_source": {
         "version": "3.1",
         "announcement": "https://zzz.mihoyo.com/news/165415"
@@ -2077,7 +2077,7 @@
       "content_tag": "地点:维尔乌姆城区",
       "comment": "地点:维尔乌姆城区",
       "source_scope": "OFFICIAL_UPDATE_NEW_LOCATION__INTERIOR_DETAILS_CAUTION",
-      "text_characters": 173,
+      "text_characters": 321,
       "official_source": {
         "version": "3.2",
         "announcement": "https://zzz.mihoyo.com/news/166026"
@@ -2110,7 +2110,7 @@
       "content_tag": "地点:辉金研究所",
       "comment": "地点:辉金研究所",
       "source_scope": "OFFICIAL_UPDATE_NEW_LOCATION__INTERIOR_DETAILS_CAUTION",
-      "text_characters": 183,
+      "text_characters": 340,
       "official_source": {
         "version": "3.2",
         "announcement": "https://zzz.mihoyo.com/news/166026"
@@ -2142,7 +2142,7 @@
       "content_tag": "地点:隐礁中转站",
       "comment": "地点:隐礁中转站",
       "source_scope": "OFFICIAL_UPDATE_NEW_LOCATION__INTERIOR_DETAILS_CAUTION",
-      "text_characters": 167,
+      "text_characters": 301,
       "official_source": {
         "version": "3.2",
         "announcement": "https://zzz.mihoyo.com/news/166026"
@@ -2174,7 +2174,7 @@
       "content_tag": "地点:宁息屿",
       "comment": "地点:宁息屿",
       "source_scope": "OFFICIAL_UPDATE_NEW_LOCATION__INTERIOR_DETAILS_CAUTION",
-      "text_characters": 178,
+      "text_characters": 328,
       "official_source": {
         "version": "3.3",
         "announcement": "https://zenless.hoyoverse.com/zh-cn/news/166963"
@@ -2206,7 +2206,7 @@
       "content_tag": "地点:对空六课办公室",
       "comment": "地点:对空六课办公室",
       "source_scope": "OFFICIAL_UPDATE_NEW_LOCATION__INTERIOR_DETAILS_CAUTION",
-      "text_characters": 200,
+      "text_characters": 355,
       "official_source": {
         "version": "1.4",
         "announcement": "https://www.gamersky.com/handbook/202412/1860804.shtml"
