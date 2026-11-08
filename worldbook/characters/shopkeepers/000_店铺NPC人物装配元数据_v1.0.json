@@ -1,0 +1,332 @@
+{
+  "version": "1.0",
+  "created": "2026-11-08",
+  "scope": "15 storefront NPCs; independent characters, no ability files; not part of frozen 82",
+  "defaults": {
+    "enabled": true,
+    "constant": false,
+    "position": "after_char",
+    "selective": true,
+    "use_regex": true,
+    "exclude_recursion": true,
+    "prevent_recursion": true
+  },
+  "entries": [
+    {
+      "num": "001",
+      "name": "亚莎",
+      "kind": "常驻店铺人物",
+      "path": "worldbook/characters/shopkeepers/SHOP-001_亚莎.md",
+      "order": 283,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:亚莎|亚莎姐|Asha)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_card_location_plus_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "002",
+      "name": "苏茜",
+      "kind": "常驻店铺人物",
+      "path": "worldbook/characters/shopkeepers/SHOP-002_苏茜.md",
+      "order": 284,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:苏茜|Susie)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_card_location_plus_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "003",
+      "name": "埃珐",
+      "kind": "常驻店铺人物",
+      "path": "worldbook/characters/shopkeepers/SHOP-003_埃珐.md",
+      "order": 285,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:埃珐|Elfy)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_card_location_plus_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "004",
+      "name": "恩佐",
+      "kind": "常驻店铺人物",
+      "path": "worldbook/characters/shopkeepers/SHOP-004_恩佐.md",
+      "order": 286,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:恩佐|Enzo)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_card_location_plus_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "005",
+      "name": "乔普师傅",
+      "kind": "常驻店铺人物",
+      "path": "worldbook/characters/shopkeepers/SHOP-005_乔普师傅.md",
+      "order": 287,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:乔普师傅|General Chop)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_card_location_plus_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "006",
+      "name": "乔普小子",
+      "kind": "常驻店铺人物",
+      "path": "worldbook/characters/shopkeepers/SHOP-006_乔普小子.md",
+      "order": 288,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:乔普小子|小乔普|Chop Junior)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_card_location_plus_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "007",
+      "name": "汀曼大师",
+      "kind": "智能构装体",
+      "path": "worldbook/characters/shopkeepers/SHOP-007_汀曼大师.md",
+      "order": 289,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:汀曼大师|Tin Master)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_card_location_plus_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "008",
+      "name": "嗷呜",
+      "kind": "犬",
+      "path": "worldbook/characters/shopkeepers/SHOP-008_嗷呜.md",
+      "order": 290,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:嗷呜|Howl)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_card_location_plus_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "009",
+      "name": "伊芙",
+      "kind": "常驻店铺人物",
+      "path": "worldbook/characters/shopkeepers/SHOP-009_伊芙.md",
+      "order": 291,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:伊芙(?!琳)|伊芙婆婆)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_or_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "010",
+      "name": "早蒹",
+      "kind": "浣熊希人",
+      "path": "worldbook/characters/shopkeepers/SHOP-010_早蒹.md",
+      "order": 292,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:早蒹)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_or_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "011",
+      "name": "奥琪蒂亚",
+      "kind": "常驻店铺人物",
+      "path": "worldbook/characters/shopkeepers/SHOP-011_奥琪蒂亚.md",
+      "order": 293,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:奥琪蒂亚)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_card_location_only__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "012",
+      "name": "黎宝荣",
+      "kind": "常驻店铺人物",
+      "path": "worldbook/characters/shopkeepers/SHOP-012_黎宝荣.md",
+      "order": 294,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:黎宝荣|宝荣叔)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_or_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "013",
+      "name": "卡斯珀",
+      "kind": "常驻店铺人物",
+      "path": "worldbook/characters/shopkeepers/SHOP-013_卡斯珀.md",
+      "order": 295,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:卡斯珀|卡斯帕|Casper)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_or_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "014",
+      "name": "阿格妮丝",
+      "kind": "常驻店铺人物",
+      "path": "worldbook/characters/shopkeepers/SHOP-014_阿格妮丝.md",
+      "order": 296,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:阿格妮丝|Agnes)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_or_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    },
+    {
+      "num": "015",
+      "name": "乙",
+      "kind": "智能构装体",
+      "path": "worldbook/characters/shopkeepers/SHOP-015_乙.md",
+      "order": 297,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:设计师乙|三Z工作室的乙|乙设计师)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "provenance": "original_or_public_NPC_sources__visual_creative_completion",
+      "no_ability": true,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      }
+    }
+  ],
+  "source_note": "体征、罩杯及缺少官方描述的服装属于沙盒成文补足，不是游戏官宣精确数值；店主、店员、普通犬与构装体不按战斗代理人造能力。单字角色乙只允许带身份称呼触发。"
+}
