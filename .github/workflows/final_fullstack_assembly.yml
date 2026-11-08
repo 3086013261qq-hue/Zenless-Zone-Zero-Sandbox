@@ -1,0 +1,37 @@
+name: Zenless Fullstack Final Assembly
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/repair_fullstack_final.py'
+      - '.github/workflows/final_fullstack_assembly.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble without changing frozen source files
+        run: python scripts/repair_fullstack_final.py
+      - name: Publish single official final JSON and PNG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f             assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.json             assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.png             assembly/worldbook/dist/Zenless_Zone_Zero_Fullstack_Lorebook.json             assembly/qa/Final_Fullstack_Assembly_QA.json
+          if ! git diff --cached --quiet; then
+            git commit -m "build: publish fullstack mother-template repair and static QA [skip ci]"
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zenless-fullstack-final
+          path: |
+            assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.json
+            assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.png
+            assembly/worldbook/dist/Zenless_Zone_Zero_Fullstack_Lorebook.json
+            assembly/qa/Final_Fullstack_Assembly_QA.json
+          if-no-files-found: error
+          retention-days: 90
