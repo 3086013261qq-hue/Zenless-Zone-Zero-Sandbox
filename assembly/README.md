@@ -1,5 +1,7 @@
 # Character Card V3 最终装配（待开始）
 
+> **2026-11-08 最新装配进度（覆盖下文433条历史记录）：**正式母版 `assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.json` 目前为 **444条**（先前433条＋原卡NPC可可1条＋具名以骸/恶名首领10条），之前433条正文与配置保持不变，独立ABILITY仍81条。唯一现行店铺NPC母表升级为 `worldbook/characters/shopkeepers/000_店铺NPC人物装配元数据_v1.1.json`（16篇）；新增具名怪物母表 `worldbook/characters/ethereals/000_具名高危以骸角色装配元数据_v1.0.json`（10篇）。旧PNG仍未同步，Android/SillyTavern未实测，详见 `qa/2026-11-08_可可与具名高危以骸角色补录_正式装卡QA_v1.0.md`。旧构建脚本可读新源稿，但其输出仍为历史v1.0.0布局，严禁覆盖本母版。
+
 > **2026-11-08 最新正式说明（覆盖下文早期历史状态）：**母版 `assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.json` 已同步76篇地点的内世界文本检查成果（24篇修改）及15篇独立店铺NPC，角色书现有 **433条**。原82人物、59邦布、81有效能力及29篇时间线保持不变；新店主/店员不加能力条目。**PNG尚未重新嵌入新版JSON，Android/SillyTavern未验收。** 历史构建器 `scripts/build_fullcard.py` 生成的旧v1.0.0版式不得覆盖当前正式母版。详细QA见 `qa/2026-11-08_地点内世界清理与十五位店铺NPC角色补录_静态QA_v1.0.md`。
 
 
