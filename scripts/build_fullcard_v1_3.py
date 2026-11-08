@@ -297,7 +297,7 @@ card={"spec":"chara_card_v3","spec_version":"3.0","data":data,
       "scenario":scenario,"first_mes":greeting,"mes_example":"",
       "creatorcomment":data["creator_notes"],"avatar":"none",
       "talkativeness":0.5,"fav":False,"tags":data["tags"]}
-need("primary world binding",data["extensions"]["world"]==book["name"] and len(book["entries"])==418)
+need("primary world binding",data["extensions"]["world"]==book["name"] and len(book["entries"])==417)
 need("no runtime extensions",not any(k in data["extensions"] for k in ("tavern_helper","regex_scripts","mvu")))
 need("one timeline enabled",sum(x["enabled"] for x in rows if x["comment"].startswith("时间线:"))==1)
 ordered_tl=[x["comment"] for x in rows if x["comment"].startswith("时间线:")]
