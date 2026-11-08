@@ -1,10 +1,10 @@
 {
-  "status": "STATIC_ASSEMBLY_PASS_ANDROID_NOT_TESTED",
-  "baseline_repo_head": "7de1498a02cd4a46525d1ce28b47d1d9009b2851",
+  "status": "STATIC_CCV3_SOURCE_PASS_PNG_STALE_ANDROID_NOT_TESTED",
+  "baseline_repo_head": "a6aff921985fddf7e6731fa16a25ba6644899695",
   "template": "咩咩制卡·全栈_v1.0.0.zip / fullcard.md / combat-cot.md / status-bar.md / opening.md / easter-egg.md / mother 2.0.0",
   "protected_frozen_entries": 395,
-  "protected_content_byte_for_byte": true,
-  "entry_count": 418,
+  "protected_content_byte_for_byte": false,
+  "entry_count": 433,
   "section_markers": 14,
   "enabled_timelines": [
     "时间线:第一卷（上）·法厄同启程"
@@ -22,17 +22,41 @@
     "abilities": 81,
     "bangboo": 59,
     "core_green_including_states": 140,
-    "locations": 71
+    "locations": 71,
+    "shopkeeper_npc": 15
   },
-  "png_crc_pass": true,
-  "png_chara_ccv3_equal": true,
-  "png_embedded_lorebook_equal": true,
+  "png_crc_pass": null,
+  "png_chara_ccv3_equal": false,
+  "png_embedded_lorebook_equal": false,
   "png_cover": "neutral generated placeholder; original cover not in public repo",
   "sillytavern_android_real_device": "NOT_TESTED",
-  "json_sha256": "2257b6bf02235b8951a29096ba3cf3ed90908ebc04f04b905f5fb354421eacf7",
-  "png_sha256": "88adb24f8fba2af1f4f32b2f876b8c1ea1f4d2e4ecf9fa11b9baeb170bb77d37",
+  "json_sha256": null,
+  "png_sha256": null,
   "outputs": [
-    "assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.json",
-    "assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.png"
-  ]
+    "assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.json (CURRENT, 433 entries)",
+    "assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.png (STALE, REPACK_REQUIRED)"
+  ],
+  "qa_updated_on": "2026-11-08",
+  "protected_content_explanation": "历史冻结的395业务条目中仅针对先前用户授权的13篇角色外观与本轮24篇地点内世界措辞修订；不重造82主人物/59邦布/81能力及29时间线。",
+  "location_in_world_scan": {
+    "total_location_entries": 76,
+    "location_source_files_revised": 24,
+    "external_card_terms_remaining": 0,
+    "editorial_write_as_terms_remaining": 0
+  },
+  "shopkeeper_npc": {
+    "entries": 15,
+    "ability_entries_added": 0,
+    "enabled": 15,
+    "scene_scoped": 15,
+    "double_recursion_protected": 15,
+    "final_section": "其他角色"
+  },
+  "final_order_duplicate_count_historical": 70,
+  "final_order_duplicates_added": 0,
+  "png_sync_status": "STALE_PRE_SHOP_NPC_AND_LOCATION_PATCH",
+  "json_sha256_previous_version": "2257b6bf02235b8951a29096ba3cf3ed90908ebc04f04b905f5fb354421eacf7",
+  "json_hash_note": "JSON已重写并回读、但尚未生成本轮标准SHA256校验报告；历史JSON哈希已移入previous字段。",
+  "png_sha256_previous_version": "88adb24f8fba2af1f4f32b2f876b8c1ea1f4d2e4ecf9fa11b9baeb170bb77d37",
+  "legacy_build_warning": "scripts/build_fullcard.py builds historic v1.0.0 layout; do not overwrite the canonical mother-template JSON with it."
 }
