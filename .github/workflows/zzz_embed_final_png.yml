@@ -1,0 +1,114 @@
+name: Build final Zenless Zone Zero character PNG
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/zzz_embed_final_png.yml"
+      - "b41b872a960df7b18c82b57c895de84c.jpg"
+      - "assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  embed-card:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Prepare image tooling
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Embed exact canonical CCV3 JSON in chosen cover
+        shell: bash
+        run: |
+          python - <<'PY'
+          import base64
+          import copy
+          import hashlib
+          import json
+          import struct
+          import zlib
+          from pathlib import Path
+          from PIL import Image, ImageOps, PngImagePlugin
+
+          src = Path("assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.json")
+          cover = Path("b41b872a960df7b18c82b57c895de84c.jpg")
+          dest = Path("assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.png")
+
+          assert src.is_file(), f"Missing formal JSON: {src}"
+          assert cover.is_file(), f"Missing uploaded artwork: {cover}"
+          raw = src.read_bytes()
+          card = json.loads(raw.decode("utf-8-sig"))
+          assert card["spec"] == "chara_card_v3"
+          assert str(card["spec_version"]) == "3.0"
+          book = card["data"]["character_book"]
+          entries = book["entries"]
+          assert len(entries) == 444, f"Refusing to pack outdated card: {len(entries)} entries"
+          assert len([e for e in entries if e.get("comment", "").startswith("分区")]) == 14
+          assert len([e for e in entries if e.get("comment", "").startswith("时间线:")]) == 29
+          assert len([e for e in entries if e.get("comment", "").startswith("时间线:") and e.get("enabled")]) == 1
+          assert "叶瞬光" in raw.decode("utf-8"), "Expected latest character fixes missing"
+
+          v2 = copy.deepcopy(card)
+          v2["spec"] = "chara_card_v2"
+          v2["spec_version"] = "2.0"
+          compact_v2 = json.dumps(v2, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+          pnginfo = PngImagePlugin.PngInfo()
+          pnginfo.add_text("chara", base64.b64encode(compact_v2).decode("ascii"))
+          pnginfo.add_text("ccv3", base64.b64encode(raw).decode("ascii"))
+
+          with Image.open(cover) as source:
+              image = ImageOps.exif_transpose(source)
+              image = image.convert("RGB")
+              image.save(dest, format="PNG", pnginfo=pnginfo, optimize=True)
+
+          with Image.open(dest) as packed:
+              assert packed.format == "PNG"
+              unpacked = base64.b64decode(packed.info["ccv3"], validate=True)
+              unpacked_v2 = base64.b64decode(packed.info["chara"], validate=True)
+              assert unpacked == raw, "V3 JSON bytes changed during embedding"
+              assert json.loads(unpacked_v2)["data"]["character_book"]["entries"] == entries
+              assert len(json.loads(unpacked)["data"]["character_book"]["entries"]) == 444
+              packed.verify()
+
+          stream = dest.read_bytes()
+          assert stream[:8] == b"\x89PNG\r\n\x1a\n"
+          pos, chunks = 8, []
+          while pos < len(stream):
+              n = struct.unpack(">I", stream[pos:pos+4])[0]
+              kind = stream[pos+4:pos+8]
+              body = stream[pos+8:pos+8+n]
+              crc = struct.unpack(">I", stream[pos+8+n:pos+12+n])[0]
+              assert zlib.crc32(kind + body) & 0xffffffff == crc, f"PNG CRC failure: {kind!r}"
+              if kind == b"tEXt":
+                  chunks.append(body.split(b"\x00", 1)[0].decode("latin-1"))
+              pos += n + 12
+              if kind == b"IEND":
+                  break
+          assert "ccv3" in chunks and "chara" in chunks
+          assert pos == len(stream), "Unexpected bytes after IEND"
+          print("PASS: image and 444-entry character_book embedded; no source JSON changed")
+          print("JSON SHA256:", hashlib.sha256(raw).hexdigest())
+          print("PNG SHA256:", hashlib.sha256(stream).hexdigest())
+          print("Output:", str(dest), len(stream), "bytes")
+          PY
+
+      - name: Commit only the finished PNG
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.png
+          if git diff --cached --quiet; then
+            echo "Identical final PNG is already committed."
+            exit 0
+          fi
+          git commit -m "build: embed latest 444-entry CCV3 into chosen cover PNG"
+          git push origin HEAD:main
