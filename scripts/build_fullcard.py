@@ -113,8 +113,8 @@ for i,x in enumerate(shop_npcs):
     need("shop no ability "+nm,x["no_ability"])
     need("shop actor scene scoped "+nm,x["keys"] and all("<story_scene>" in k for k in x["keys"]))
     need("shop double recursion "+nm,x["extensions"]["exclude_recursion"] and x["extensions"]["prevent_recursion"])
-    need("shop unique order "+nm,x["order"]==283+i)
-    add("店铺角色:"+nm,read(src,"<"+nm+"character>","</"+nm+"character>"),x["order"],
+    need("shop unique order "+nm,x["legacy_order"]==283+i)
+    add("店铺角色:"+nm,read(src,"<"+nm+"character>","</"+nm+"character>"),x["legacy_order"],
         "shopkeeper_npc",keys=x["keys"],regex=True,source=src)
 marker("Main_Characters",False,299,"after_char")
 
