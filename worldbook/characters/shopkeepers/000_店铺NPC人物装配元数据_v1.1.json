@@ -364,7 +364,7 @@
       "path": "worldbook/characters/shopkeepers/SHOP-016_可可.md",
       "order": 160,
       "keys": [
-        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:可可(?!粉|豆|味|奶|酱|色)|Coco)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:可可(?!粉|豆|味|奶|酱|色|爱)|Coco)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
       ],
       "provenance": "original_npc_891206_with_nonofficial_body_weight_approximation",
       "no_ability": true,
