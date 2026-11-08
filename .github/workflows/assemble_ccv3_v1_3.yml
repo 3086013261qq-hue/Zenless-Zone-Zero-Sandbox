@@ -1,0 +1,38 @@
+name: Assemble Zenless CCV3 v1.3
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_fullcard_v1_3.py'
+      - '.github/workflows/assemble_ccv3_v1_3.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build verified fullstack CCV3
+        run: python scripts/build_fullcard_v1_3.py
+      - name: Upload validated outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: zenless-ccv3-fullstack-v1.3.0
+          path: |
+            assembly/card/dist/*v1.3.0.json
+            assembly/worldbook/dist/*v1.3.0.json
+            assembly/qa/*v1.3.0.json
+            assembly/qa/*v1.3.0.md
+          if-no-files-found: error
+          retention-days: 90
+      - name: Publish validated outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f assembly/card/dist/*v1.3.0.json assembly/worldbook/dist/*v1.3.0.json assembly/qa/*v1.3.0.json assembly/qa/*v1.3.0.md
+          if ! git diff --cached --quiet; then
+            git commit -m "build: publish corrected memory and chronological timelines v1.3 [skip ci]"
+            git push origin HEAD:main
+          fi
