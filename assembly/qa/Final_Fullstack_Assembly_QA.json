@@ -55,7 +55,7 @@
   },
   "final_order_duplicate_count_historical": 70,
   "final_order_duplicates_added": 0,
-  "png_sync_status": "STALE_PRE_COCO_AND_ETHEREAL_PATCH",
+  "png_sync_status": "STALE_PRE_THIREN_APPEARANCE_REFINEMENT",
   "json_sha256_previous_version": "2257b6bf02235b8951a29096ba3cf3ed90908ebc04f04b905f5fb354421eacf7",
   "json_hash_note": "JSON已重写并回读、但尚未生成本轮标准SHA256校验报告；历史JSON哈希已移入previous字段。",
   "png_sha256_previous_version": "88adb24f8fba2af1f4f32b2f876b8c1ea1f4d2e4ecf9fa11b9baeb170bb77d37",
@@ -79,5 +79,28 @@
     "prior_433_entries_unchanged_except_id_display_index": true,
     "added_order_conflicts": 0,
     "first_433_baseline_commit": "a56b5f1e32cee7fa624efba4d1e1fe7069306306"
+  },
+  "thiren_appearance_followup": {
+    "date": "2026-11-08",
+    "major_characters_scanned": 82,
+    "shopkeepers_scanned": 16,
+    "source_character_details_synced": 9,
+    "names": [
+      "叶瞬光",
+      "猫宫又奈",
+      "冯·莱卡恩",
+      "艾莲·乔",
+      "简·杜",
+      "狛野真斗",
+      "波可娜·费雷尼",
+      "希格莉德·德拉叙尔",
+      "早蒹"
+    ],
+    "previous_canonical_json_outdated_during_network_disconnect": true,
+    "source_and_compiled_content_exact_match": 9,
+    "psychological_model_and_dialogue_preserved": true,
+    "previous_broad_generic_ear_tail_flags_after_patch": "NO_UNRESOLVED_GENERIC_OMISSIONS_IN_98_SCANNED; ordinary false-positive mentions remain for Seth and human Yuzuha",
+    "taxonomy_inconsistency_to_review": "Early Good Goods location says 小熊猫希人 for 早蒹; standalone NPC and online classification say 浣熊希人. Not silently merged or modified.",
+    "source_QA": "qa/2026-11-08_希人耳尾外貌细节全人物层抽检与正式卡同步QA_v1.0.md"
   }
 }
