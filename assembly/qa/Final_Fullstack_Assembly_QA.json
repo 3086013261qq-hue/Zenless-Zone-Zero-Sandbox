@@ -4,7 +4,7 @@
   "template": "咩咩制卡·全栈_v1.0.0.zip / fullcard.md / combat-cot.md / status-bar.md / opening.md / easter-egg.md / mother 2.0.0",
   "protected_frozen_entries": 395,
   "protected_content_byte_for_byte": false,
-  "entry_count": 433,
+  "entry_count": 444,
   "section_markers": 14,
   "enabled_timelines": [
     "时间线:第一卷（上）·法厄同启程"
@@ -23,7 +23,8 @@
     "bangboo": 59,
     "core_green_including_states": 140,
     "locations": 71,
-    "shopkeeper_npc": 15
+    "shopkeeper_npc": 16,
+    "named_ethereals": 10
   },
   "png_crc_pass": null,
   "png_chara_ccv3_equal": false,
@@ -33,7 +34,7 @@
   "json_sha256": null,
   "png_sha256": null,
   "outputs": [
-    "assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.json (CURRENT, 433 entries)",
+    "assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.json (CURRENT, 444 entries)",
     "assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.png (STALE, REPACK_REQUIRED)"
   ],
   "qa_updated_on": "2026-11-08",
@@ -45,18 +46,38 @@
     "editorial_write_as_terms_remaining": 0
   },
   "shopkeeper_npc": {
-    "entries": 15,
+    "entries": 16,
     "ability_entries_added": 0,
-    "enabled": 15,
-    "scene_scoped": 15,
-    "double_recursion_protected": 15,
+    "enabled": 16,
+    "scene_scoped": 16,
+    "double_recursion_protected": 16,
     "final_section": "其他角色"
   },
   "final_order_duplicate_count_historical": 70,
   "final_order_duplicates_added": 0,
-  "png_sync_status": "STALE_PRE_SHOP_NPC_AND_LOCATION_PATCH",
+  "png_sync_status": "STALE_PRE_COCO_AND_ETHEREAL_PATCH",
   "json_sha256_previous_version": "2257b6bf02235b8951a29096ba3cf3ed90908ebc04f04b905f5fb354421eacf7",
   "json_hash_note": "JSON已重写并回读、但尚未生成本轮标准SHA256校验报告；历史JSON哈希已移入previous字段。",
   "png_sha256_previous_version": "88adb24f8fba2af1f4f32b2f876b8c1ea1f4d2e4ecf9fa11b9baeb170bb77d37",
-  "legacy_build_warning": "scripts/build_fullcard.py builds historic v1.0.0 layout; do not overwrite the canonical mother-template JSON with it."
+  "legacy_build_warning": "scripts/build_fullcard.py now includes all sixteen shop NPCs and ten named ethereals in legacy v1.0.0 layout; do not replace canonical mother-template JSON with its output.",
+  "named_ethereals": {
+    "entries": 10,
+    "source_original_mob": 9,
+    "source_original_story_only": 1,
+    "standalone_abilities_added": 0,
+    "scene_scoped": 10,
+    "double_recursion_protected": 10,
+    "transformation_name_only": [
+      "霸主侵蚀体·庞培",
+      "牲鬼·布林格"
+    ],
+    "classification_note": "named high-risk ethereals include non-Notorious-Hunt forms; do not label all as weekly bosses"
+  },
+  "new_entries_from_latest_user_turn": {
+    "coco_npc": 1,
+    "named_ethereals": 10,
+    "prior_433_entries_unchanged_except_id_display_index": true,
+    "added_order_conflicts": 0,
+    "first_433_baseline_commit": "a56b5f1e32cee7fa624efba4d1e1fe7069306306"
+  }
 }
