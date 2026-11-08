@@ -1161,7 +1161,7 @@
       "content_tag": "地点:幻海奇境",
       "comment": "地点:幻海奇境",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 130,
+      "text_characters": 256,
       "build": {
         "keys": [
           "幻海奇境"
@@ -1191,7 +1191,7 @@
       "content_tag": "地点:幻海水族馆",
       "comment": "地点:幻海水族馆",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 122,
+      "text_characters": 257,
       "build": {
         "keys": [
           "幻海水族馆"
@@ -1221,7 +1221,7 @@
       "content_tag": "地点:野火镇",
       "comment": "地点:野火镇",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 221,
+      "text_characters": 407,
       "build": {
         "keys": [
           "野火镇",
@@ -1252,7 +1252,7 @@
       "content_tag": "地点:余烬竞技场",
       "comment": "地点:余烬竞技场",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 128,
+      "text_characters": 260,
       "build": {
         "keys": [
           "余烬竞技场"
@@ -1282,7 +1282,7 @@
       "content_tag": "地点:老油田与灰烬湖",
       "comment": "地点:老油田与灰烬湖",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 131,
+      "text_characters": 280,
       "build": {
         "keys": [
           "灰烬湖",
@@ -1313,7 +1313,7 @@
       "content_tag": "地点:澄辉坪",
       "comment": "地点:澄辉坪",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 202,
+      "text_characters": 375,
       "build": {
         "keys": [
           "澄辉坪"
@@ -1343,7 +1343,7 @@
       "content_tag": "地点:云岿山",
       "comment": "地点:云岿山",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 192,
+      "text_characters": 342,
       "build": {
         "keys": [
           "云岿山",
@@ -1374,7 +1374,7 @@
       "content_tag": "地点:随便观",
       "comment": "地点:随便观",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 127,
+      "text_characters": 275,
       "build": {
         "keys": [
           "随便观"
@@ -1404,7 +1404,7 @@
       "content_tag": "地点:释诡斋",
       "comment": "地点:释诡斋",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 134,
+      "text_characters": 291,
       "build": {
         "keys": [
           "释诡斋"
@@ -1434,7 +1434,7 @@
       "content_tag": "地点:好物铺",
       "comment": "地点:好物铺",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 123,
+      "text_characters": 261,
       "build": {
         "keys": [
           "好物铺"
@@ -1464,7 +1464,7 @@
       "content_tag": "地点:金刚钻",
       "comment": "地点:金刚钻",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 131,
+      "text_characters": 272,
       "build": {
         "keys": [
           "金刚钻"
@@ -1494,7 +1494,7 @@
       "content_tag": "地点:平心堂",
       "comment": "地点:平心堂",
       "source_scope": "USER_ORIGINAL_CARD_REFINED__OFFICIAL_DETAILS_PARTIALLY_CHECKED",
-      "text_characters": 131,
+      "text_characters": 268,
       "build": {
         "keys": [
           "平心堂"
