@@ -1,6 +1,6 @@
 {
   "status": "STATIC_ASSEMBLY_PASS_ANDROID_NOT_TESTED",
-  "baseline_repo_head": "a9780dfa08af05265c59c86ff58e1294a946a63e",
+  "baseline_repo_head": "7de1498a02cd4a46525d1ce28b47d1d9009b2851",
   "template": "咩咩制卡·全栈_v1.0.0.zip / fullcard.md / combat-cot.md / status-bar.md / opening.md / easter-egg.md / mother 2.0.0",
   "protected_frozen_entries": 395,
   "protected_content_byte_for_byte": true,
@@ -12,6 +12,8 @@
   "timeline_parts": 29,
   "status_at_depth_0": true,
   "battle_six_steps": true,
+  "zenless_agent_level_read_only": true,
+  "w_engine_and_drive_discs_in_status": true,
   "open_topic_pool_constant": true,
   "memory_storage_disabled": true,
   "double_recursion_enabled_for_triggered": true,
@@ -27,8 +29,8 @@
   "png_embedded_lorebook_equal": true,
   "png_cover": "neutral generated placeholder; original cover not in public repo",
   "sillytavern_android_real_device": "NOT_TESTED",
-  "json_sha256": "6b2ee58a41e6d4ab3f6bcd7f6d546acb3b0b0e8b447f657ad4cabadbf416d0b5",
-  "png_sha256": "a6e73387b1be1e4fb45694025f9657c37c34430c43671eb4f2b15a7ecc50a419",
+  "json_sha256": "2257b6bf02235b8951a29096ba3cf3ed90908ebc04f04b905f5fb354421eacf7",
+  "png_sha256": "88adb24f8fba2af1f4f32b2f876b8c1ea1f4d2e4ecf9fa11b9baeb170bb77d37",
   "outputs": [
     "assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.json",
     "assembly/card/dist/Zenless_Zone_Zero_Fullstack_Final.png"
