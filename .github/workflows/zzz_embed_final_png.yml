@@ -51,7 +51,7 @@ jobs:
           book = card["data"]["character_book"]
           entries = book["entries"]
           assert len(entries) == 444, f"Refusing to pack outdated card: {len(entries)} entries"
-          assert len([e for e in entries if e.get("comment", "").startswith("分区")]) == 14
+          assert len([e for e in entries if e.get("comment", "").startswith("【") and (":起始" in e.get("comment", "") or ":结尾" in e.get("comment", ""))]) == 14
           assert len([e for e in entries if e.get("comment", "").startswith("时间线:")]) == 29
           assert len([e for e in entries if e.get("comment", "").startswith("时间线:") and e.get("enabled")]) == 1
           assert "叶瞬光" in raw.decode("utf-8"), "Expected latest character fixes missing"
