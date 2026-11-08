@@ -213,7 +213,7 @@ expected={"world_blue":9,"location_blue":5,"regular_green":54,"main_character":8
           "disabled_infrastructure":4}
 need("all group counts",all(counts[k]==v for k,v in expected.items()),dict(counts))
 need("all unique insertion orders",len(set(x["insertion_order"] for x in rows))==len(rows))
-need("exactly 14 marker rows",sum(x["comment"].startswith("【") and (":起始" in x["comment"] or "：起始" in x["comment"] or "：结尾" in x["comment"]) for x in rows)==14)
+need("exactly 14 marker rows",sum(x["comment"].startswith("【") and (":起始" in x["comment"] or "：起始" in x["comment"] or ":结尾" in x["comment"] or "：结尾" in x["comment"]) for x in rows)==14)
 for tag in ["Locations","NPC_Characters","Main_Characters","Core_Settings","Core_Rules","Output_Rules","Memory_Context"]:
     st=next(x for x in rows if x["comment"]=="【"+SECTION_NAMES[tag]+(":起始】" if tag=="Memory_Context" else "：起始】"))
     end=next(x for x in rows if x["comment"]=="【"+SECTION_NAMES[tag]+(":结尾】" if tag=="Memory_Context" else "：结尾】"))
