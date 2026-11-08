@@ -1,0 +1,257 @@
+{
+  "version": "1.0",
+  "created": "2026-11-08",
+  "scope": "10 named high-risk ethereals and notable boss forms, nine original mob sources plus one named in original story",
+  "role": "distinct creature character entries; no dedicated ABILITY; no replacement of world blue GREEN locations or timeline",
+  "entries": [
+    {
+      "num": "001",
+      "name": "死路屠夫",
+      "classification": "恶名狩猎首领",
+      "original_mob_source_id": 682190,
+      "original_story_source_ids": [],
+      "path": "worldbook/characters/ethereals/ETH-001_死路屠夫.md",
+      "order": 157,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:死路屠夫)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "no_independent_ability": true,
+      "final_section": "【其他角色】",
+      "phase_trigger": "SCENE_NAME_ONLY"
+    },
+    {
+      "num": "002",
+      "name": "未知复合侵蚀体",
+      "classification": "恶名狩猎首领",
+      "original_mob_source_id": 637039,
+      "original_story_source_ids": [],
+      "path": "worldbook/characters/ethereals/ETH-002_未知复合侵蚀体.md",
+      "order": 155,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:未知复合侵蚀体)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "no_independent_ability": true,
+      "final_section": "【其他角色】",
+      "phase_trigger": "SCENE_NAME_ONLY"
+    },
+    {
+      "num": "003",
+      "name": "冥宁芙·双子",
+      "classification": "恶名狩猎双体首领",
+      "original_mob_source_id": 933722,
+      "original_story_source_ids": [],
+      "path": "worldbook/characters/ethereals/ETH-003_冥宁芙·双子.md",
+      "order": 152,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:冥宁芙·双子|冥宁芙．双子|冥宁芙·灰纱|冥宁芙·黑纱|灰纱冥宁芙|黑纱冥宁芙)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "no_independent_ability": true,
+      "final_section": "【其他角色】",
+      "phase_trigger": "SCENE_NAME_ONLY"
+    },
+    {
+      "num": "004",
+      "name": "尼尼微",
+      "classification": "共生以骸群／首领",
+      "original_mob_source_id": 971220,
+      "original_story_source_ids": [],
+      "path": "worldbook/characters/ethereals/ETH-004_尼尼微.md",
+      "order": 150,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:尼尼微)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "no_independent_ability": true,
+      "final_section": "【其他角色】",
+      "phase_trigger": "SCENE_NAME_ONLY"
+    },
+    {
+      "num": "005",
+      "name": "霸主侵蚀体·庞培",
+      "classification": "恶名狩猎首领／后期异化",
+      "original_mob_source_id": 809669,
+      "original_story_source_ids": [],
+      "path": "worldbook/characters/ethereals/ETH-005_霸主侵蚀体·庞培.md",
+      "order": 147,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:霸主侵蚀体·庞培|霸主侵蚀体・庞培|霸主侵蚀体庞培)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "no_independent_ability": true,
+      "final_section": "【其他角色】",
+      "phase_trigger": "SCENE_NAME_ONLY"
+    },
+    {
+      "num": "006",
+      "name": "牲鬼·布林格",
+      "classification": "恶名狩猎首领／后期异化",
+      "original_mob_source_id": 144141,
+      "original_story_source_ids": [],
+      "path": "worldbook/characters/ethereals/ETH-006_牲鬼·布林格.md",
+      "order": 145,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:牲鬼·布林格|牲鬼布林格|牲鬼・布林格)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "no_independent_ability": true,
+      "final_section": "【其他角色】",
+      "phase_trigger": "EXPLICIT_ALTERED_FORM_NAME_ONLY"
+    },
+    {
+      "num": "007",
+      "name": "基塔布鲁",
+      "classification": "特异型高危以骸",
+      "original_mob_source_id": 133236,
+      "original_story_source_ids": [],
+      "path": "worldbook/characters/ethereals/ETH-007_基塔布鲁.md",
+      "order": 142,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:基塔布鲁)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "no_independent_ability": true,
+      "final_section": "【其他角色】",
+      "phase_trigger": "EXPLICIT_ALTERED_FORM_NAME_ONLY"
+    },
+    {
+      "num": "008",
+      "name": "巴什穆",
+      "classification": "特异型巨型高危以骸",
+      "original_mob_source_id": 180697,
+      "original_story_source_ids": [],
+      "path": "worldbook/characters/ethereals/ETH-008_巴什穆.md",
+      "order": 140,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:巴什穆)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "no_independent_ability": true,
+      "final_section": "【其他角色】",
+      "phase_trigger": "SCENE_NAME_ONLY"
+    },
+    {
+      "num": "009",
+      "name": "帕里库斯",
+      "classification": "双体特殊以骸",
+      "original_mob_source_id": 947376,
+      "original_story_source_ids": [],
+      "path": "worldbook/characters/ethereals/ETH-009_帕里库斯.md",
+      "order": 137,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:帕里库斯)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "no_independent_ability": true,
+      "final_section": "【其他角色】",
+      "phase_trigger": "SCENE_NAME_ONLY"
+    },
+    {
+      "num": "010",
+      "name": "杰佩托",
+      "classification": "恶名狩猎首领／原卡剧情源",
+      "original_mob_source_id": null,
+      "original_story_source_ids": [
+        308211
+      ],
+      "path": "worldbook/characters/ethereals/ETH-010_杰佩托.md",
+      "order": 135,
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": true,
+      "keys": [
+        "/<story_scene>(?:(?!<\\/story_scene>)[\\s\\S])*?(?:杰佩托)(?:(?!<\\/story_scene>)[\\s\\S])*?<\\/story_scene>/"
+      ],
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": true,
+        "prevent_recursion": true
+      },
+      "no_independent_ability": true,
+      "final_section": "【其他角色】",
+      "phase_trigger": "SCENE_NAME_ONLY"
+    }
+  ],
+  "guardrails": [
+    "No blanket '恶名' qualification for special ethereals not present in Notorious Hunt",
+    "Do not trigger altered Bringer or Pompey forms from the base human name",
+    "Do not turn sentient/not sentient monster structures into ordinary female human anatomy",
+    "No chronological spoiler forced into earlier scenes; triggering is by explicit mention within story_scene only",
+    "No creature added twice as a separate shape/version character"
+  ]
+}
