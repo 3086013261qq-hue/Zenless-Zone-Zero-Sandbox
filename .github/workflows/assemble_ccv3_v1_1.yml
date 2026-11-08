@@ -7,7 +7,7 @@ on:
       - '.github/workflows/assemble_ccv3_v1_1.yml'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   assemble:
     runs-on: ubuntu-latest
@@ -27,3 +27,12 @@ jobs:
             assembly/qa/*v1.1.0.md
           if-no-files-found: error
           retention-days: 90
+      - name: Publish verified build files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f assembly/card/dist/*v1.1.0.json assembly/worldbook/dist/*v1.1.0.json assembly/qa/*v1.1.0.json assembly/qa/*v1.1.0.md
+          if ! git diff --cached --quiet; then
+            git commit -m "build: publish corrected fullstack CCV3 v1.1.0 [skip ci]"
+            git push origin HEAD:main
+          fi
